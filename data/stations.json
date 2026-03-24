@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "country": "Portugal",
+    "fuel": "GPL Auto",
+    "generatedAt": "2026-03-24",
+    "note": "Dataset inicial de demonstração. Substituir por dataset completo gerado a partir do pipeline glpautogas.info + DGEG."
+  },
+  "stations": [
+    {
+      "name": "AUCHAN Paço de Arcos",
+      "brand": "AUCHAN",
+      "address": "Estrada Paço de Arcos Lote 2, 2770-129 Paço de Arcos",
+      "city": "Oeiras",
+      "district": "Lisboa",
+      "lat": 38.70494,
+      "lon": -9.293772,
+      "price": 0.809,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-04 09:45"
+    },
+    {
+      "name": "AUCHAN Sintra",
+      "brand": "AUCHAN",
+      "address": "Rua Francisco Lyon de Castro, 2710-116 São Pedro",
+      "city": "Sintra",
+      "district": "Lisboa",
+      "lat": 38.778625,
+      "lon": -9.345505,
+      "price": 0.809,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-04 09:50"
+    },
+    {
+      "name": "INTERMEMARTINS - SUPERMERCADOS, LDA",
+      "brand": "INTERMARCHÉ",
+      "address": "Av. Capitães de Abril nº 103, 2725-093 Tapada das Mercês - Algueirão",
+      "city": "Sintra",
+      "district": "Lisboa",
+      "lat": 38.802612,
+      "lon": -9.336308,
+      "price": 0.809,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-06 07:00"
+    },
+    {
+      "name": "COPREL",
+      "brand": "GALP",
+      "address": "Rua Francisco Augusto Leite, 4A da Perra, 2640-410 Mafra",
+      "city": "Mafra",
+      "district": "Lisboa",
+      "lat": 38.9516,
+      "lon": -9.33227,
+      "price": 0.818,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-02 11:55"
+    },
+    {
+      "name": "OZ ENERGIA - PAÇO DE ARCOS",
+      "brand": "OZ Energia",
+      "address": "Rua Calvet Magalhães, 145, 2770-228 Paço de Arcos",
+      "city": "Oeiras",
+      "district": "Lisboa",
+      "lat": 38.710672,
+      "lon": -9.2892,
+      "price": 0.819,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-01 23:50"
+    },
+    {
+      "name": "Posto de Abastecimento - Intermarché de Famões",
+      "brand": "INTERMARCHÉ",
+      "address": "Urb. Quinta do Segulim, Lote EA-01, 1675-351 Famões",
+      "city": "Odivelas",
+      "district": "Lisboa",
+      "lat": 38.792127,
+      "lon": -9.214949,
+      "price": 0.819,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-02 10:00"
+    },
+    {
+      "name": "JETBASE - Produtos BP",
+      "brand": "BP",
+      "address": "R. Central, 204, 2430-018 Garcia",
+      "city": "Marinha Grande",
+      "district": "Leiria",
+      "lat": 39.79048,
+      "lon": -8.92521,
+      "price": 0.828,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-02 13:20"
+    },
+    {
+      "name": "AB Fonseca - Produtos BP",
+      "brand": "BP",
+      "address": "Estrada dos Pinheiros, 550, 2415-566 Covinhas - Marrazes",
+      "city": "Leiria",
+      "district": "Leiria",
+      "lat": 39.76685,
+      "lon": -8.79344,
+      "price": 0.828,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-02 13:20"
+    },
+    {
+      "name": "PAGPL OZ ENERGIA - PRIOR VELHO",
+      "brand": "OZ Energia",
+      "address": "Rua José Fonseca Carvalho, 5, 2685-869 Prior Velho",
+      "city": "Loures",
+      "district": "Lisboa",
+      "lat": 38.788727,
+      "lon": -9.126718,
+      "price": 0.829,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-01 23:50"
+    },
+    {
+      "name": "OZ ENERGIA - MASSAMÁ",
+      "brand": "OZ Energia",
+      "address": "Rua Sebastião e Silva, LT E2, Massamá, 2745-838 Queluz",
+      "city": "Sintra",
+      "district": "Lisboa",
+      "lat": 38.750595,
+      "lon": -9.275189,
+      "price": 0.829,
+      "priceSource": "DGEG (PesquisarPostos)",
+      "lastUpdated": "2026-03-01 23:50"
+    }
+  ]
+}
