@@ -1,391 +1,448 @@
 
-const regionByDistrict = {
-  'Aveiro': 'Centro', 'Beja': 'Alentejo', 'Braga': 'Norte', 'Bragança': 'Norte',
-  'Castelo Branco': 'Centro', 'Coimbra': 'Centro', 'Évora': 'Alentejo', 'Faro': 'Algarve',
-  'Guarda': 'Centro', 'Leiria': 'Centro', 'Lisboa': 'Lisboa e Vale do Tejo', 'Portalegre': 'Alentejo',
-  'Porto': 'Norte', 'Santarém': 'Lisboa e Vale do Tejo', 'Setúbal': 'Lisboa e Vale do Tejo',
-  'Viana do Castelo': 'Norte', 'Vila Real': 'Norte', 'Viseu': 'Centro', 'Açores': 'Açores', 'Madeira': 'Madeira'
+const MAP_DEFAULT = { lat: 39.5, lon: -8.0, zoom: 7 };
+const LISBON_DEFAULT = { lat: 38.7223, lon: -9.1393, zoom: 11 };
+
+const ZONE_BY_DISTRICT = {
+  "Viana do Castelo": "norte",
+  "Braga": "norte",
+  "Porto": "norte",
+  "Vila Real": "norte",
+  "Bragança": "norte",
+  "Aveiro": "centro",
+  "Viseu": "centro",
+  "Guarda": "centro",
+  "Coimbra": "centro",
+  "Castelo Branco": "centro",
+  "Leiria": "centro",
+  "Lisboa": "lisboa-vt",
+  "Santarém": "lisboa-vt",
+  "Setúbal": "lisboa-vt",
+  "Portalegre": "alentejo",
+  "Évora": "alentejo",
+  "Beja": "alentejo",
+  "Faro": "algarve"
 };
-
-const map = L.map('map', { zoomControl: true }).setView([39.6, -8.0], 7);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
-
-const stationIcon = L.divIcon({
-  html: '<div style="width:18px;height:18px;border-radius:50%;background:#ff6a00;border:3px solid rgba(255,255,255,.85);box-shadow:0 0 0 4px rgba(255,106,0,.18)"></div>',
-  className: '',
-  iconSize: [18, 18],
-  iconAnchor: [9, 9]
-});
-
-const userIcon = L.divIcon({
-  html: '<div style="width:16px;height:16px;border-radius:50%;background:#7dd3fc;border:3px solid rgba(255,255,255,.95);box-shadow:0 0 0 4px rgba(125,211,252,.18)"></div>',
-  className: '',
-  iconSize: [16, 16],
-  iconAnchor: [8, 8]
-});
 
 const state = {
-  stations: [],
-  filtered: [],
+  data: null,
+  allStations: [],
+  filteredStations: [],
   markers: [],
-  userLocation: null,
-  userMarker: null,
-  searchMarker: null,
-  lastReferenceLabel: ''
+  userLatLng: null,
+  searchCenter: null,
+  searchLabel: "A localizar…"
 };
 
-const els = {
-  locationInput: document.getElementById('locationInput'),
-  radius: document.getElementById('radiusSelect'),
-  zone: document.getElementById('zoneSelect'),
-  district: document.getElementById('districtSelect'),
-  brand: document.getElementById('brandSelect'),
-  sort: document.getElementById('sortSelect'),
-  nearestList: document.getElementById('nearestList'),
-  resultsList: document.getElementById('resultsList'),
-  visibleCount: document.getElementById('visibleCount'),
-  avgPrice: document.getElementById('avgPrice'),
-  minPrice: document.getElementById('minPrice'),
-  lastUpdated: document.getElementById('lastUpdated'),
-  listContext: document.getElementById('listContext'),
-  useLocationBtn: document.getElementById('useLocationBtn'),
-  searchPlaceBtn: document.getElementById('searchPlaceBtn'),
-  resetBtn: document.getElementById('resetBtn'),
-  cheapestBtn: document.getElementById('cheapestBtn')
-};
+const map = L.map("map", { zoomControl: true }).setView([MAP_DEFAULT.lat, MAP_DEFAULT.lon], MAP_DEFAULT.zoom);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+  attribution: "&copy; OpenStreetMap & CARTO",
+  subdomains: "abcd",
+  maxZoom: 19
+}).addTo(map);
 
-init();
+const stationLayer = L.layerGroup().addTo(map);
+let userMarker = null;
+let searchCircle = null;
+
+const el = {
+  generatedAt: document.getElementById("generatedAt"),
+  sourceLabel: document.getElementById("sourceLabel"),
+  locationSearch: document.getElementById("locationSearch"),
+  searchBtn: document.getElementById("searchBtn"),
+  clearBtn: document.getElementById("clearBtn"),
+  refreshLocationBtn: document.getElementById("refreshLocationBtn"),
+  zoneSelect: document.getElementById("zoneSelect"),
+  districtSelect: document.getElementById("districtSelect"),
+  brandSelect: document.getElementById("brandSelect"),
+  radiusSelect: document.getElementById("radiusSelect"),
+  sortSelect: document.getElementById("sortSelect"),
+  visibleCount: document.getElementById("visibleCount"),
+  cheapestCard: document.getElementById("cheapestCard"),
+  searchCenterLabel: document.getElementById("searchCenterLabel"),
+  results: document.getElementById("results"),
+  cheapestBtn: document.getElementById("cheapestBtn")
+};
 
 async function init() {
-  const response = await fetch('./data/stations.json');
-  const data = await response.json();
-  state.stations = data.stations.map(normalizeStation);
-  populateSelectors();
+  await loadStations();
+  populateSelects();
   bindEvents();
-  applyFilters();
+  await tryAutoLocate();
+  applyFiltersAndRender();
 }
 
-function normalizeStation(station) {
-  const district = station.district || '';
+async function loadStations() {
+  const response = await fetch("data/stations.json", { cache: "no-store" });
+  const data = await response.json();
+  state.data = data;
+  state.allStations = Array.isArray(data.stations) ? data.stations.map(normalizeStation) : [];
+  el.generatedAt.textContent = formatGeneratedAt(data.generatedAt);
+  el.sourceLabel.textContent = data.sourceLabel || "glpautogas + myLPG";
+}
+
+function normalizeStation(station, idx) {
+  const lat = Number(station.lat);
+  const lon = Number(station.lon);
+  const district = station.district || guessDistrictFromLocality(station.locality || station.city || "");
   return {
-    ...station,
-    brand: station.brand || 'Sem marca',
-    zone: station.zone || regionByDistrict[district] || 'Outros',
-    price: typeof station.price === 'number' ? station.price : null,
-    distanceKm: null
+    id: station.id || `st-${idx}-${(station.name || "").replace(/\W+/g, "-").toLowerCase()}`,
+    name: station.name || "Posto GPL",
+    brand: station.brand || "Sem marca",
+    address: station.address || "",
+    locality: station.locality || station.city || station.municipality || "",
+    municipality: station.municipality || station.city || "",
+    district,
+    zone: station.zone || ZONE_BY_DISTRICT[district] || "all",
+    lat,
+    lon,
+    price: station.price ? Number(station.price) : null,
+    priceDate: station.priceDate || station.lastUpdated || "",
+    source: station.source || "",
+    sourceUrl: station.sourceUrl || "",
+    updatedAt: station.updatedAt || station.priceDate || "",
+    wazeLabel: station.name || "Posto GPL"
   };
 }
 
-function populateSelectors() {
-  const districts = [...new Set(state.stations.map(s => s.district).filter(Boolean))].sort(localeSort);
-  const brands = [...new Set(state.stations.map(s => s.brand).filter(Boolean))].sort(localeSort);
-
-  for (const district of districts) {
-    const option = document.createElement('option');
-    option.value = district;
-    option.textContent = district;
-    els.district.appendChild(option);
-  }
-
-  for (const brand of brands) {
-    const option = document.createElement('option');
-    option.value = brand;
-    option.textContent = brand;
-    els.brand.appendChild(option);
-  }
-}
-
 function bindEvents() {
-  ['change', 'input'].forEach(eventName => {
-    els.zone.addEventListener(eventName, applyFilters);
-    els.district.addEventListener(eventName, applyFilters);
-    els.brand.addEventListener(eventName, applyFilters);
-    els.radius.addEventListener(eventName, applyFilters);
-    els.sort.addEventListener(eventName, applyFilters);
+  el.searchBtn.addEventListener("click", handleSearch);
+  el.clearBtn.addEventListener("click", clearSearchAndFilters);
+  el.refreshLocationBtn.addEventListener("click", tryAutoLocate);
+  el.cheapestBtn.addEventListener("click", zoomToCheapest);
+  ["zoneSelect", "districtSelect", "brandSelect", "radiusSelect", "sortSelect"].forEach(id => {
+    el[id].addEventListener("change", applyFiltersAndRender);
   });
-
-  els.useLocationBtn.addEventListener('click', useMyLocation);
-  els.searchPlaceBtn.addEventListener('click', searchLocation);
-  els.locationInput.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') searchLocation();
+  el.locationSearch.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") handleSearch();
   });
-  els.resetBtn.addEventListener('click', resetFilters);
-  els.cheapestBtn.addEventListener('click', showCheapestInRadius);
 }
 
-function useMyLocation() {
+function populateSelects() {
+  const districts = uniqueSorted(state.allStations.map(s => s.district).filter(Boolean));
+  const brands = uniqueSorted(state.allStations.map(s => s.brand).filter(Boolean));
+
+  el.districtSelect.innerHTML = '<option value="all">Todos</option>' + districts.map(d => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join("");
+  el.brandSelect.innerHTML = '<option value="all">Todas</option>' + brands.map(b => `<option value="${escapeHtml(b)}">${escapeHtml(b)}</option>`).join("");
+}
+
+async function tryAutoLocate() {
   if (!navigator.geolocation) {
-    alert('O navegador não suporta geolocalização.');
+    setSearchCenter(LISBON_DEFAULT.lat, LISBON_DEFAULT.lon, "Lisboa (fallback)");
     return;
   }
 
-  navigator.geolocation.getCurrentPosition(
-    (position) => {
+  return new Promise((resolve) => {
+    navigator.geolocation.getCurrentPosition((position) => {
       const lat = position.coords.latitude;
       const lon = position.coords.longitude;
-      setReferencePoint(lat, lon, 'A tua localização');
-    },
-    () => {
-      alert('Não foi possível obter a tua localização.');
-    },
-    { enableHighAccuracy: true, timeout: 12000 }
-  );
+      state.userLatLng = { lat, lon };
+      setUserMarker(lat, lon);
+      setSearchCenter(lat, lon, "A tua localização");
+      map.setView([lat, lon], 11);
+      resolve();
+    }, () => {
+      setSearchCenter(LISBON_DEFAULT.lat, LISBON_DEFAULT.lon, "Lisboa (fallback)");
+      map.setView([LISBON_DEFAULT.lat, LISBON_DEFAULT.lon], LISBON_DEFAULT.zoom);
+      resolve();
+    }, { enableHighAccuracy: true, timeout: 7000, maximumAge: 120000 });
+  });
 }
 
-async function searchLocation() {
-  const query = els.locationInput.value.trim();
+async function handleSearch() {
+  const query = el.locationSearch.value.trim();
   if (!query) {
-    alert('Indica uma localidade ou localização.');
+    applyFiltersAndRender();
     return;
   }
+  const found = await geocode(query);
+  if (found) {
+    setSearchCenter(found.lat, found.lon, found.label);
+    map.setView([found.lat, found.lon], 11);
+  }
+  applyFiltersAndRender();
+}
 
-  try {
-    const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=pt&q=${encodeURIComponent(query)}`;
-    const response = await fetch(url, {
-      headers: { 'Accept': 'application/json' }
-    });
-    const data = await response.json();
-    if (!data.length) {
-      alert('Não encontrei essa localização.');
-      return;
+function clearSearchAndFilters() {
+  el.locationSearch.value = "";
+  el.zoneSelect.value = "all";
+  el.districtSelect.value = "all";
+  el.brandSelect.value = "all";
+  el.radiusSelect.value = "50";
+  el.sortSelect.value = "distance";
+
+  if (state.userLatLng) {
+    setSearchCenter(state.userLatLng.lat, state.userLatLng.lon, "A tua localização");
+    map.setView([state.userLatLng.lat, state.userLatLng.lon], 11);
+  } else {
+    setSearchCenter(LISBON_DEFAULT.lat, LISBON_DEFAULT.lon, "Lisboa (fallback)");
+    map.setView([LISBON_DEFAULT.lat, LISBON_DEFAULT.lon], LISBON_DEFAULT.zoom);
+  }
+  applyFiltersAndRender();
+}
+
+function setSearchCenter(lat, lon, label) {
+  state.searchCenter = { lat, lon };
+  state.searchLabel = label;
+  el.searchCenterLabel.textContent = label;
+  updateRadiusCircle();
+}
+
+function setUserMarker(lat, lon) {
+  if (userMarker) stationLayer.removeLayer(userMarker);
+  userMarker = L.circleMarker([lat, lon], {
+    radius: 8,
+    color: "#7aa789",
+    weight: 2,
+    fillColor: "#7aa789",
+    fillOpacity: 0.95
+  }).bindPopup("A tua localização");
+  stationLayer.addLayer(userMarker);
+}
+
+function updateRadiusCircle() {
+  if (!state.searchCenter) return;
+  const radiusKm = Number(el.radiusSelect.value || 50);
+  if (searchCircle) stationLayer.removeLayer(searchCircle);
+  if (radiusKm >= 9999) return;
+  searchCircle = L.circle([state.searchCenter.lat, state.searchCenter.lon], {
+    radius: radiusKm * 1000,
+    color: "rgba(199,121,97,0.55)",
+    fillColor: "rgba(199,121,97,0.10)",
+    fillOpacity: 0.15,
+    weight: 1.5
+  });
+  stationLayer.addLayer(searchCircle);
+}
+
+function applyFiltersAndRender() {
+  if (!state.searchCenter) {
+    setSearchCenter(LISBON_DEFAULT.lat, LISBON_DEFAULT.lon, "Lisboa (fallback)");
+  }
+
+  const radiusKm = Number(el.radiusSelect.value || 50);
+  const zone = el.zoneSelect.value;
+  const district = el.districtSelect.value;
+  const brand = el.brandSelect.value;
+  const sort = el.sortSelect.value;
+
+  let rows = state.allStations
+    .filter(s => isFinite(s.lat) && isFinite(s.lon))
+    .map(s => ({
+      ...s,
+      distanceKm: haversineKm(state.searchCenter.lat, state.searchCenter.lon, s.lat, s.lon)
+    }))
+    .filter(s => zone === "all" || s.zone === zone)
+    .filter(s => district === "all" || s.district === district)
+    .filter(s => brand === "all" || s.brand === brand)
+    .filter(s => radiusKm >= 9999 || s.distanceKm <= radiusKm);
+
+  rows = sortStations(rows, sort);
+  state.filteredStations = rows;
+
+  renderMap(rows);
+  renderResults(rows.slice(0, 10));
+  renderStats(rows);
+}
+
+function sortStations(rows, sort) {
+  const copy = [...rows];
+  copy.sort((a, b) => {
+    if (sort === "price") {
+      return compareNullable(a.price, b.price) || a.distanceKm - b.distanceKm;
     }
-
-    const place = data[0];
-    setReferencePoint(Number(place.lat), Number(place.lon), place.display_name);
-  } catch (error) {
-    console.error(error);
-    alert('Não foi possível pesquisar a localização neste momento.');
-  }
+    if (sort === "updated") {
+      return compareDateDesc(a.updatedAt, b.updatedAt) || a.distanceKm - b.distanceKm;
+    }
+    if (sort === "name") {
+      return String(a.name).localeCompare(String(b.name), "pt");
+    }
+    return a.distanceKm - b.distanceKm;
+  });
+  return copy;
 }
 
-function setReferencePoint(lat, lon, label) {
-  state.userLocation = { lat, lon };
-  state.lastReferenceLabel = label;
-  if (state.userMarker) map.removeLayer(state.userMarker);
-  if (state.searchMarker) map.removeLayer(state.searchMarker);
-
-  state.userMarker = L.marker([lat, lon], { icon: userIcon }).addTo(map);
-  state.userMarker.bindPopup(`<div class="popup-card"><strong>Referência</strong><div>${escapeHtml(label)}</div></div>`);
-  map.setView([lat, lon], 11);
-  applyFilters();
-}
-
-function resetFilters() {
-  els.locationInput.value = '';
-  els.radius.value = '50';
-  els.zone.value = 'all';
-  els.district.value = 'all';
-  els.brand.value = 'all';
-  els.sort.value = 'distance';
-  state.userLocation = null;
-  state.lastReferenceLabel = '';
-  if (state.userMarker) {
-    map.removeLayer(state.userMarker);
-    state.userMarker = null;
-  }
-  applyFilters();
-  map.setView([39.6, -8.0], 7);
-}
-
-function applyFilters() {
-  const zone = els.zone.value;
-  const district = els.district.value;
-  const brand = els.brand.value;
-  const radiusKm = Number(els.radius.value);
-  const sortMode = els.sort.value;
-
-  const filtered = state.stations
-    .map(station => {
-      const distanceKm = state.userLocation
-        ? haversineKm(state.userLocation.lat, state.userLocation.lon, station.lat, station.lon)
-        : null;
-      return { ...station, distanceKm };
-    })
-    .filter(station => zone === 'all' || station.zone === zone)
-    .filter(station => district === 'all' || station.district === district)
-    .filter(station => brand === 'all' || station.brand === brand)
-    .filter(station => !state.userLocation || radiusKm === 0 || station.distanceKm <= radiusKm);
-
-  filtered.sort((a, b) => {
-    if (sortMode === 'priceAsc') return compareNullableNumbers(a.price, b.price, 1);
-    if (sortMode === 'priceDesc') return compareNullableNumbers(a.price, b.price, -1);
-    if (sortMode === 'name') return localeSort(a.name, b.name);
-    return compareNullableNumbers(a.distanceKm, b.distanceKm, 1);
+function renderMap(rows) {
+  stationLayer.eachLayer(layer => {
+    if (layer !== userMarker && layer !== searchCircle) {
+      stationLayer.removeLayer(layer);
+    }
   });
 
-  state.filtered = filtered;
-  renderMap();
-  renderLists();
-  renderStats();
-}
-
-function showCheapestInRadius() {
-  const candidates = state.filtered.filter(item => item.price !== null);
-  if (!candidates.length) {
-    alert('Não existem postos com preço dentro dos filtros atuais.');
-    return;
-  }
-  const cheapest = [...candidates].sort((a, b) => a.price - b.price)[0];
-  map.setView([cheapest.lat, cheapest.lon], 13);
-  const marker = state.markers.find(item => item.station.name === cheapest.name && item.station.address === cheapest.address);
-  if (marker) marker.marker.openPopup();
-}
-
-function renderMap() {
-  state.markers.forEach(entry => map.removeLayer(entry.marker));
-  state.markers = [];
+  if (userMarker) stationLayer.addLayer(userMarker);
+  if (searchCircle) stationLayer.addLayer(searchCircle);
 
   const bounds = [];
-  for (const station of state.filtered) {
-    const marker = L.marker([station.lat, station.lon], { icon: stationIcon }).addTo(map);
-    marker.bindPopup(buildPopupHtml(station));
-    marker.on('click', () => highlightStationCard(station));
-    state.markers.push({ station, marker });
-    bounds.push([station.lat, station.lon]);
-  }
-
-  if (!state.userLocation && bounds.length) {
-    const groupBounds = L.latLngBounds(bounds);
-    map.fitBounds(groupBounds.pad(0.18));
-  }
-}
-
-function renderLists() {
-  const nearest = state.userLocation
-    ? [...state.filtered]
-        .filter(item => item.distanceKm !== null)
-        .sort((a, b) => a.distanceKm - b.distanceKm)
-        .slice(0, 10)
-    : state.filtered.slice(0, 10);
-
-  els.nearestList.innerHTML = nearest.length
-    ? nearest.map(station => buildStationCard(station, true)).join('')
-    : `<div class="empty-state">Sem resultados para os filtros atuais.</div>`;
-
-  els.resultsList.innerHTML = state.filtered.length
-    ? state.filtered.slice(0, 50).map(station => buildStationCard(station, false)).join('')
-    : `<div class="empty-state">Sem postos para mostrar.</div>`;
-
-  bindCardActions();
-
-  const radiusText = Number(els.radius.value) === 0 ? 'sem limite de raio' : `até ${els.radius.value} km`;
-  if (state.userLocation) {
-    els.listContext.textContent = `${nearest.length} mais próximas a partir de ${state.lastReferenceLabel || 'referência atual'} • ${radiusText}`;
-  } else {
-    els.listContext.textContent = `Filtra por zona, distrito ou marca. Para top 10 real, usa localização ou pesquisa uma localidade.`;
-  }
-}
-
-function renderStats() {
-  els.visibleCount.textContent = String(state.filtered.length);
-
-  const priced = state.filtered.filter(item => item.price !== null);
-  const avg = priced.length ? priced.reduce((sum, item) => sum + item.price, 0) / priced.length : null;
-  const min = priced.length ? Math.min(...priced.map(item => item.price)) : null;
-  const latest = state.filtered
-    .map(item => item.lastUpdated)
-    .filter(Boolean)
-    .sort()
-    .at(-1);
-
-  els.avgPrice.textContent = avg !== null ? `${avg.toFixed(3)} €/L` : '—';
-  els.minPrice.textContent = min !== null ? `${min.toFixed(3)} €/L` : '—';
-  els.lastUpdated.textContent = latest || '—';
-}
-
-function buildStationCard(station, withDistance) {
-  const distance = station.distanceKm !== null ? `${station.distanceKm.toFixed(1)} km` : '—';
-  const price = station.price !== null ? `${station.price.toFixed(3)} €/L` : 'N/D';
-  const encodedDestination = `${station.lat},${station.lon}`;
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodedDestination}`;
-
-  return `
-    <article class="station-card" data-lat="${station.lat}" data-lon="${station.lon}" data-name="${escapeHtml(station.name)}">
-      <h3>${escapeHtml(station.name)}</h3>
-      <div class="station-meta">
-        <span>${escapeHtml(station.brand)}</span>
-        <span class="station-price">${price}</span>
-        ${withDistance ? `<span>${distance}</span>` : ''}
-      </div>
-      <div class="station-note">${escapeHtml(station.address)} • ${escapeHtml(station.city)}${station.district ? ` • ${escapeHtml(station.district)}` : ''}</div>
-      <div class="station-note">Fonte preço: ${escapeHtml(station.priceSource || 'N/D')} • Atualização: ${escapeHtml(station.lastUpdated || 'N/D')}</div>
-      <div class="station-actions">
-        <a href="${googleMapsUrl}" target="_blank" rel="noreferrer">Abrir no Google Maps</a>
-        <a href="#" class="focus-map-link" data-lat="${station.lat}" data-lon="${station.lon}" data-name="${escapeHtml(station.name)}">Ver no mapa</a>
-      </div>
-    </article>
-  `;
-}
-
-function buildPopupHtml(station) {
-  const price = station.price !== null ? `${station.price.toFixed(3)} €/L` : 'N/D';
-  const distance = station.distanceKm !== null ? `${station.distanceKm.toFixed(1)} km` : '—';
-  return `
-    <div class="popup-card">
-      <strong>${escapeHtml(station.name)}</strong>
-      <div>${escapeHtml(station.brand)} • ${price}</div>
-      <div>${escapeHtml(station.city)}${station.district ? ` • ${escapeHtml(station.district)}` : ''}</div>
-      <div>${escapeHtml(station.address)}</div>
-      <div>Distância: ${distance}</div>
-    </div>
-  `;
-}
-
-function bindCardActions() {
-  document.querySelectorAll('.focus-map-link').forEach(link => {
-    link.addEventListener('click', (event) => {
-      event.preventDefault();
-      const lat = Number(link.dataset.lat);
-      const lon = Number(link.dataset.lon);
-      const name = link.dataset.name;
-      map.setView([lat, lon], 14);
-      const match = state.markers.find(item => item.station.lat === lat && item.station.lon === lon);
-      if (match) match.marker.openPopup();
-    });
+  rows.slice(0, 150).forEach((s) => {
+    const marker = L.circleMarker([s.lat, s.lon], {
+      radius: 7,
+      color: "#c77961",
+      weight: 1.5,
+      fillColor: "#d4907a",
+      fillOpacity: 0.95
+    }).bindPopup(popupHtml(s));
+    stationLayer.addLayer(marker);
+    bounds.push([s.lat, s.lon]);
   });
+
+  if (state.searchCenter) bounds.push([state.searchCenter.lat, state.searchCenter.lon]);
+  if (bounds.length > 1) {
+    map.fitBounds(bounds, { padding: [30, 30], maxZoom: 12 });
+  }
 }
 
-function highlightStationCard(station) {
-  const cards = document.querySelectorAll('.station-card');
-  cards.forEach(card => card.style.borderColor = 'rgba(255,255,255,0.1)');
-  const match = [...cards].find(card => card.dataset.lat == station.lat && card.dataset.lon == station.lon);
-  if (match) {
-    match.style.borderColor = 'rgba(255,176,103,0.75)';
-    match.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+function renderResults(rows) {
+  if (!rows.length) {
+    el.results.innerHTML = '<div class="empty-state">Não encontrei postos com estes filtros. Ajusta o raio, zona ou procura outra localidade.</div>';
+    return;
+  }
+
+  el.results.innerHTML = rows.map((s, idx) => {
+    const wazeUrl = buildWazeUrl(s.lat, s.lon, s.wazeLabel);
+    const googleUrl = buildGoogleMapsUrl(s.lat, s.lon);
+    const priceLabel = s.price != null ? `${s.price.toFixed(3)} €/L` : "Sem preço";
+    const updatedLabel = s.updatedAt ? formatDate(s.updatedAt) : "Sem data";
+    const recentClass = isRecent(s.updatedAt) ? "meta-badge" : "meta-badge";
+    const sourceLabel = [s.source, s.sourceUrl ? `<a href="${s.sourceUrl}" target="_blank" rel="noreferrer">fonte</a>` : ""].filter(Boolean).join(" · ");
+
+    return `
+      <article class="station-card">
+        <div class="station-head">
+          <div>
+            <h3 class="station-title">${idx + 1}. ${escapeHtml(s.name)}</h3>
+            <p class="station-subtitle">${escapeHtml(s.brand)} · ${escapeHtml([s.address, s.locality || s.municipality, s.district].filter(Boolean).join(" • "))}</p>
+          </div>
+          <div class="price-badge">${priceLabel}</div>
+        </div>
+
+        <div class="meta-badges">
+          <span class="meta-badge">${s.distanceKm.toFixed(1)} km</span>
+          <span class="${recentClass}">Atualizado: ${updatedLabel}</span>
+          ${s.source ? `<span class="meta-badge">${escapeHtml(sourceLabel)}</span>` : ""}
+        </div>
+
+        <div class="station-actions">
+          <a class="action-link primary" href="${wazeUrl}" target="_blank" rel="noreferrer">Abrir rota no Waze</a>
+          <a class="action-link" href="${googleUrl}" target="_blank" rel="noreferrer">Abrir no Google Maps</a>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderStats(rows) {
+  el.visibleCount.textContent = rows.length.toString();
+  const cheapest = rows.filter(r => r.price != null).sort((a, b) => a.price - b.price || a.distanceKm - b.distanceKm)[0];
+  if (cheapest) {
+    el.cheapestCard.textContent = `${cheapest.price.toFixed(3)} €/L · ${cheapest.name}`;
+  } else {
+    el.cheapestCard.textContent = "Sem preço disponível";
+  }
+}
+
+function zoomToCheapest() {
+  const cheapest = state.filteredStations.filter(r => r.price != null).sort((a, b) => a.price - b.price || a.distanceKm - b.distanceKm)[0];
+  if (!cheapest) return;
+  map.setView([cheapest.lat, cheapest.lon], 13);
+}
+
+function popupHtml(s) {
+  const wazeUrl = buildWazeUrl(s.lat, s.lon, s.wazeLabel);
+  return `
+    <strong>${escapeHtml(s.name)}</strong><br>
+    ${escapeHtml(s.brand)}<br>
+    ${s.price != null ? `${s.price.toFixed(3)} €/L` : "Sem preço"}<br>
+    <a href="${wazeUrl}" target="_blank" rel="noreferrer">Rota no Waze</a>
+  `;
+}
+
+function buildWazeUrl(lat, lon, name) {
+  const ll = `${lat},${lon}`;
+  return `https://www.waze.com/ul?ll=${encodeURIComponent(ll)}&navigate=yes&zoom=16`;
+}
+
+function buildGoogleMapsUrl(lat, lon) {
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(lat + "," + lon)}`;
+}
+
+async function geocode(query) {
+  try {
+    const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=pt&q=${encodeURIComponent(query)}`;
+    const res = await fetch(url, { headers: { "Accept": "application/json" }});
+    const rows = await res.json();
+    if (!rows.length) return null;
+    return {
+      lat: Number(rows[0].lat),
+      lon: Number(rows[0].lon),
+      label: rows[0].display_name.split(",").slice(0, 3).join(", ")
+    };
+  } catch {
+    return null;
   }
 }
 
 function haversineKm(lat1, lon1, lat2, lon2) {
-  const toRad = (value) => value * Math.PI / 180;
-  const earthRadiusKm = 6371;
+  const toRad = d => (d * Math.PI) / 180;
+  const R = 6371;
   const dLat = toRad(lat2 - lat1);
   const dLon = toRad(lon2 - lon1);
-
   const a = Math.sin(dLat / 2) ** 2 +
             Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
             Math.sin(dLon / 2) ** 2;
-
-  return 2 * earthRadiusKm * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return 2 * R * Math.asin(Math.sqrt(a));
 }
 
-function compareNullableNumbers(a, b, direction = 1) {
-  if (a === null && b === null) return 0;
-  if (a === null) return 1;
-  if (b === null) return -1;
-  return direction * (a - b);
+function compareNullable(a, b) {
+  if (a == null && b == null) return 0;
+  if (a == null) return 1;
+  if (b == null) return -1;
+  return a - b;
 }
 
-function localeSort(a, b) {
-  return String(a).localeCompare(String(b), 'pt');
+function compareDateDesc(a, b) {
+  const aa = Date.parse(a || "") || 0;
+  const bb = Date.parse(b || "") || 0;
+  return bb - aa;
+}
+
+function isRecent(dateText) {
+  const stamp = Date.parse(dateText || "");
+  if (!stamp) return false;
+  const diffDays = (Date.now() - stamp) / 86400000;
+  return diffDays <= 7;
+}
+
+function formatGeneratedAt(dateText) {
+  if (!dateText) return "—";
+  const d = new Date(dateText);
+  if (Number.isNaN(d.getTime())) return dateText;
+  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function formatDate(dateText) {
+  const d = new Date(dateText);
+  if (Number.isNaN(d.getTime())) return dateText;
+  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`;
+}
+
+function pad(v) {
+  return String(v).padStart(2, "0");
+}
+
+function uniqueSorted(values) {
+  return [...new Set(values)].sort((a, b) => String(a).localeCompare(String(b), "pt"));
+}
+
+function guessDistrictFromLocality(locality) {
+  return "";
 }
 
 function escapeHtml(value) {
-  return String(value)
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#039;');
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
+
+init();

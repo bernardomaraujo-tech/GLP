@@ -1,141 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SEM PLANO — GPL Portugal</title>
-  <meta name="description" content="Mapa de postos GPL em Portugal com preços, postos mais próximos e pesquisa por localização." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEM PLANO • GPL Portugal</title>
+  <meta name="theme-color" content="#f6efe6" />
+  <meta name="description" content="Postos GPL em Portugal com mapa, postos mais próximos, pesquisa por localidade, raio e ligação direta ao Waze." />
   <link rel="preconnect" href="https://unpkg.com" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="app-shell">
-    <header class="hero glass">
-      <div class="hero-copy">
-        <div class="eyebrow">SEM PLANO</div>
-        <h1>GPL Portugal</h1>
-        <p class="muted">Postos perto de ti, preços de referência e pesquisa por localidade com raio configurável.</p>
+    <header class="topbar">
+      <div class="brand">
+        <img src="assets/SemPlanoJustRide.png" alt="SEM PLANO" class="brand-logo" />
+        <div class="brand-copy">
+          <div class="eyebrow">SEM PLANO</div>
+          <h1>GPL Portugal</h1>
+          <p>Postos perto de ti, preços de referência e acesso direto à rota no Waze.</p>
+        </div>
       </div>
-      <div class="hero-actions">
-        <button id="useLocationBtn" class="btn btn-primary">Usar a minha localização</button>
-        <button id="searchPlaceBtn" class="btn">Procurar localização</button>
-        <button id="resetBtn" class="btn">Limpar</button>
+      <div class="pill-group">
+        <div class="pill"><span class="pill-label">Atualização</span><strong id="generatedAt">—</strong></div>
+        <div class="pill"><span class="pill-label">Fonte</span><strong id="sourceLabel">glpautogas + myLPG</strong></div>
       </div>
     </header>
 
-    <section class="controls glass">
-      <div class="control-group search-group">
-        <label for="locationInput">Localização / localidade</label>
-        <input id="locationInput" type="text" placeholder="Ex.: Cascais, Viseu, Santa Comba Dão" />
-      </div>
-
-      <div class="control-group">
-        <label for="radiusSelect">Raio</label>
-        <select id="radiusSelect">
-          <option value="10">10 km</option>
-          <option value="25">25 km</option>
-          <option value="50" selected>50 km</option>
-          <option value="75">75 km</option>
-          <option value="100">100 km</option>
-          <option value="0">Sem raio</option>
-        </select>
-      </div>
-
-      <div class="control-group">
-        <label for="zoneSelect">Zona do país</label>
-        <select id="zoneSelect">
-          <option value="all">Todo o país</option>
-          <option value="Norte">Norte</option>
-          <option value="Centro">Centro</option>
-          <option value="Lisboa e Vale do Tejo">Lisboa e Vale do Tejo</option>
-          <option value="Alentejo">Alentejo</option>
-          <option value="Algarve">Algarve</option>
-          <option value="Açores">Açores</option>
-          <option value="Madeira">Madeira</option>
-        </select>
-      </div>
-
-      <div class="control-group">
-        <label for="districtSelect">Distrito</label>
-        <select id="districtSelect">
-          <option value="all">Todos</option>
-        </select>
-      </div>
-
-      <div class="control-group">
-        <label for="brandSelect">Marca</label>
-        <select id="brandSelect">
-          <option value="all">Todas</option>
-        </select>
-      </div>
-
-      <div class="control-group">
-        <label for="sortSelect">Ordenar</label>
-        <select id="sortSelect">
-          <option value="distance">Distância</option>
-          <option value="priceAsc">Preço mais baixo</option>
-          <option value="priceDesc">Preço mais alto</option>
-          <option value="name">Nome</option>
-        </select>
-      </div>
-    </section>
-
-    <section class="stats">
-      <article class="stat glass">
-        <span class="stat-label">Postos visíveis</span>
-        <strong id="visibleCount">0</strong>
-      </article>
-      <article class="stat glass">
-        <span class="stat-label">Preço médio</span>
-        <strong id="avgPrice">—</strong>
-      </article>
-      <article class="stat glass">
-        <span class="stat-label">Mais barato</span>
-        <strong id="minPrice">—</strong>
-      </article>
-      <article class="stat glass">
-        <span class="stat-label">Atualização</span>
-        <strong id="lastUpdated">—</strong>
-      </article>
-    </section>
-
-    <section class="main-grid">
-      <aside class="sidebar glass">
-        <div class="sidebar-header">
-          <div>
-            <h2>Resultados</h2>
-            <p id="listContext" class="muted">À espera de localização ou pesquisa.</p>
-          </div>
-          <button id="cheapestBtn" class="btn btn-small">Mais barato no raio</button>
+    <main class="layout">
+      <section class="panel filters-panel">
+        <div class="section-title-row">
+          <h2>Pesquisa</h2>
+          <button id="refreshLocationBtn" class="btn btn-soft" type="button">Atualizar localização</button>
         </div>
 
-        <div class="section-block">
-          <div class="section-title">Top 10 mais próximas</div>
-          <div id="nearestList" class="station-list"></div>
+        <div class="search-row">
+          <input id="locationSearch" type="text" placeholder="Pesquisar localidade, cidade ou morada" autocomplete="off" />
+          <button id="searchBtn" class="btn btn-primary" type="button">Procurar localização</button>
+          <button id="clearBtn" class="btn btn-soft" type="button">Limpar</button>
         </div>
 
-        <div class="section-block">
-          <div class="section-title">Todos os resultados</div>
-          <div id="resultsList" class="station-list compact"></div>
-        </div>
-      </aside>
+        <div class="filter-grid">
+          <label>
+            <span>Zona</span>
+            <select id="zoneSelect">
+              <option value="all">Todas</option>
+              <option value="norte">Norte</option>
+              <option value="centro">Centro</option>
+              <option value="lisboa-vt">Lisboa e Vale do Tejo</option>
+              <option value="alentejo">Alentejo</option>
+              <option value="algarve">Algarve</option>
+            </select>
+          </label>
 
-      <section class="map-panel glass">
-        <div id="map"></div>
-        <div class="map-legend glass">
-          <div><span class="dot brand"></span> Posto GPL</div>
-          <div><span class="dot user"></span> A tua referência</div>
+          <label>
+            <span>Distrito</span>
+            <select id="districtSelect">
+              <option value="all">Todos</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Marca</span>
+            <select id="brandSelect">
+              <option value="all">Todas</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Raio</span>
+            <select id="radiusSelect">
+              <option value="10">10 km</option>
+              <option value="25">25 km</option>
+              <option value="50" selected>50 km</option>
+              <option value="75">75 km</option>
+              <option value="100">100 km</option>
+              <option value="150">150 km</option>
+              <option value="9999">Sem limite</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Ordenar</span>
+            <select id="sortSelect">
+              <option value="distance">Distância</option>
+              <option value="price">Preço</option>
+              <option value="updated">Atualização</option>
+              <option value="name">Nome</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card">
+            <span class="stat-label">Postos visíveis</span>
+            <strong id="visibleCount">0</strong>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Mais barato no raio</span>
+            <strong id="cheapestCard">—</strong>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Centro da pesquisa</span>
+            <strong id="searchCenterLabel">A localizar…</strong>
+          </article>
         </div>
       </section>
-    </section>
 
-    <footer class="footer">
-      <p>App estática para GitHub Pages. Fonte de preços/localização preparada para integração com dataset consolidado. Atribuição do mapa: OpenStreetMap.</p>
-    </footer>
+      <section class="panel map-panel">
+        <div class="section-title-row">
+          <h2>Mapa</h2>
+          <div class="map-legend">
+            <span><i class="dot dot-user"></i>Tu</span>
+            <span><i class="dot dot-station"></i>Posto GPL</span>
+          </div>
+        </div>
+        <div id="map" aria-label="Mapa dos postos GPL"></div>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="section-title-row">
+          <h2>10 mais próximos</h2>
+          <button id="cheapestBtn" class="btn btn-soft" type="button">Mais barato no raio</button>
+        </div>
+        <div id="results" class="results-list"></div>
+      </section>
+    </main>
   </div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="app.js"></script>
 </body>
 </html>
