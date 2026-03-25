@@ -21,13 +21,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run dataset builder
+      - name: Install dependencies
+        run: pip install requests pandas lxml beautifulsoup4 html5lib
+
+      - name: Build dataset
         run: python scripts/build_dataset.py
 
-      - name: Commit new dataset
+      - name: Commit dataset and cache
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/stations.json
-          git commit -m "Auto update dataset" || echo "No changes"
+          git add data/stations.json data/geocode_cache.json
+          git commit -m "Auto update GPL dataset" || echo "No changes"
           git push
