@@ -412,6 +412,7 @@ def main() -> None:
             "stations": [item.to_dict() for item in stations],
         }
     except Exception as exc:
+        save_json(GEOCODE_CACHE_FILE, geocode_cache)
         payload = {
             "generatedAt": datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M"),
             "sourceSummary": f"Fallback local devido a erro no pipeline: {exc}",
