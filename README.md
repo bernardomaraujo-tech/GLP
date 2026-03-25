@@ -1,1 +1,0 @@
-GPL Portugal App - SEM PLANO
