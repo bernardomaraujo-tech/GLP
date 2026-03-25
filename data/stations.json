@@ -1,1 +1,74 @@
-
+{
+  "generatedAt": "2026-03-25 10:30",
+  "sourceSummary": "Fonte: dataset local inicial — substituir automaticamente pelo workflow",
+  "stations": [
+    {
+      "id": "repsol-estoril",
+      "name": "Repsol Estoril",
+      "brand": "REPSOL",
+      "district": "Lisboa",
+      "municipality": "Cascais",
+      "locality": "Estoril",
+      "address": "Estoril",
+      "postalCode": "2765-000",
+      "lat": 38.705,
+      "lon": -9.397,
+      "price": 0.89,
+      "updated": "2026-03-25",
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
+    },
+    {
+      "id": "galp-cascais",
+      "name": "Galp Cascais",
+      "brand": "GALP",
+      "district": "Lisboa",
+      "municipality": "Cascais",
+      "locality": "Cascais",
+      "address": "Cascais",
+      "postalCode": "2750-000",
+      "lat": 38.697,
+      "lon": -9.421,
+      "price": 0.91,
+      "updated": "2026-03-25",
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
+    },
+    {
+      "id": "auchan-cascais",
+      "name": "AUCHAN CASCAIS",
+      "brand": "AUCHAN",
+      "district": "Lisboa",
+      "municipality": "Cascais",
+      "locality": "Cascais",
+      "address": "Av. Sintra nº 1617",
+      "postalCode": "2755-318",
+      "lat": 38.7306,
+      "lon": -9.4322,
+      "price": 0.869,
+      "updated": "2026-03-25",
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
+    },
+    {
+      "id": "bp-padre-cruz",
+      "name": "BP AV. PADRE CRUZ",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Lisboa",
+      "locality": "Lisboa",
+      "address": "Av. Padre Cruz",
+      "postalCode": "1600-000",
+      "lat": 38.7762,
+      "lon": -9.1604,
+      "price": 0.929,
+      "updated": "2026-03-25",
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
+    }
+  ]
+}
