@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-03-25 10:30",
-  "sourceSummary": "Fonte: dataset local inicial — substituir automaticamente pelo workflow",
+  "generatedAt": "2026-03-25 12:01",
+  "sourceSummary": "Fallback local devido a erro no pipeline: HTTPSConnectionPool(host='www.glpautogas.info', port=443): Max retries exceeded with url: /data/lpg-stations-list-portugal.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
+  "stats": {
+    "totalStations": 4,
+    "withCoordinates": 4,
+    "withPrice": 4,
+    "geocodedThisRun": 0
+  },
   "stations": [
     {
       "id": "repsol-estoril",
@@ -15,43 +21,9 @@
       "lon": -9.397,
       "price": 0.89,
       "updated": "2026-03-25",
-      "source": "sample",
-      "sourcePrice": "sample",
-      "sourceLocation": "sample"
-    },
-    {
-      "id": "galp-cascais",
-      "name": "Galp Cascais",
-      "brand": "GALP",
-      "district": "Lisboa",
-      "municipality": "Cascais",
-      "locality": "Cascais",
-      "address": "Cascais",
-      "postalCode": "2750-000",
-      "lat": 38.697,
-      "lon": -9.421,
-      "price": 0.91,
-      "updated": "2026-03-25",
-      "source": "sample",
-      "sourcePrice": "sample",
-      "sourceLocation": "sample"
-    },
-    {
-      "id": "auchan-cascais",
-      "name": "AUCHAN CASCAIS",
-      "brand": "AUCHAN",
-      "district": "Lisboa",
-      "municipality": "Cascais",
-      "locality": "Cascais",
-      "address": "Av. Sintra nº 1617",
-      "postalCode": "2755-318",
-      "lat": 38.7306,
-      "lon": -9.4322,
-      "price": 0.869,
-      "updated": "2026-03-25",
-      "source": "sample",
-      "sourcePrice": "sample",
-      "sourceLocation": "sample"
+      "source": "fallback",
+      "sourcePrice": "fallback",
+      "sourceLocation": "fallback"
     },
     {
       "id": "bp-padre-cruz",
@@ -66,9 +38,43 @@
       "lon": -9.1604,
       "price": 0.929,
       "updated": "2026-03-25",
-      "source": "sample",
-      "sourcePrice": "sample",
-      "sourceLocation": "sample"
+      "source": "fallback",
+      "sourcePrice": "fallback",
+      "sourceLocation": "fallback"
+    },
+    {
+      "id": "galp-porto",
+      "name": "Galp Porto",
+      "brand": "GALP",
+      "district": "Porto",
+      "municipality": "Porto",
+      "locality": "Porto",
+      "address": "Porto",
+      "postalCode": "4000-000",
+      "lat": 41.1579,
+      "lon": -8.6291,
+      "price": 0.899,
+      "updated": "2026-03-25",
+      "source": "fallback",
+      "sourcePrice": "fallback",
+      "sourceLocation": "fallback"
+    },
+    {
+      "id": "repsol-faro",
+      "name": "Repsol Faro",
+      "brand": "REPSOL",
+      "district": "Faro",
+      "municipality": "Faro",
+      "locality": "Faro",
+      "address": "Faro",
+      "postalCode": "8000-000",
+      "lat": 37.0194,
+      "lon": -7.9304,
+      "price": 0.905,
+      "updated": "2026-03-25",
+      "source": "fallback",
+      "sourcePrice": "fallback",
+      "sourceLocation": "fallback"
     }
   ]
 }
