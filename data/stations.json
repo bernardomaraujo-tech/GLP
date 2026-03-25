@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-25 12:01",
-  "sourceSummary": "Fallback local devido a erro no pipeline: HTTPSConnectionPool(host='www.glpautogas.info', port=443): Max retries exceeded with url: /data/lpg-stations-list-portugal.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
+  "generatedAt": "2026-03-25 12:13",
+  "sourceSummary": "Fallback local devido a erro no pipeline: Não foi possível encontrar a tabela de preços.",
   "stats": {
     "totalStations": 4,
     "withCoordinates": 4,
