@@ -62,27 +62,33 @@ def select_gpl_auto(page):
 
 
 def click_search(page):
-    # 1) tentar submit direto do form
+    # 1) tentar botão com texto exato mais provável
     try:
-        page.locator("form").first.evaluate("form => form.submit()")
+        page.get_by_role("button", name="Procurar").click(timeout=3000)
         return True
     except Exception:
         pass
 
-    # 2) tentar clicar em botão submit genérico
+    # 2) tentar input submit / button submit
     try:
         page.locator("button[type=submit], input[type=submit]").first.click(timeout=3000)
         return True
     except Exception:
         pass
 
-    # 3) fallback por texto (última tentativa)
-    for label in ["Procurar", "Pesquisar", "Search"]:
-        try:
-            page.get_by_role("button", name=label).click(timeout=2000)
-            return True
-        except Exception:
-            pass
+    # 3) tentar por texto visível
+    try:
+        page.get_by_text("Procurar", exact=False).click(timeout=3000)
+        return True
+    except Exception:
+        pass
+
+    # 4) fallback: submeter o primeiro form
+    try:
+        page.locator("form").first.evaluate("form => form.submit()")
+        return True
+    except Exception:
+        pass
 
     return False
 
