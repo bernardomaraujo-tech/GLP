@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests pandas lxml beautifulsoup4 html5lib
+        run: pip install requests pandas lxml beautifulsoup4 html5lib certifi
 
       - name: Build dataset
         run: python scripts/build_dataset.py
