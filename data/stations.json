@@ -1,15 +1,14 @@
 {
-  "generatedAt": "2026-03-25 12:13",
-  "sourceSummary": "Fallback local devido a erro no pipeline: Não foi possível encontrar a tabela de preços.",
+  "generatedAt": "2026-03-25 12:30",
+  "sourceSummary": "Dataset inicial de exemplo — será substituído pelo workflow",
   "stats": {
-    "totalStations": 4,
-    "withCoordinates": 4,
-    "withPrice": 4,
-    "geocodedThisRun": 0
+    "totalStations": 5,
+    "withCoordinates": 5,
+    "withPrice": 5
   },
   "stations": [
     {
-      "id": "repsol-estoril",
+      "id": "repsol-estoril-cascais",
       "name": "Repsol Estoril",
       "brand": "REPSOL",
       "district": "Lisboa",
@@ -21,12 +20,12 @@
       "lon": -9.397,
       "price": 0.89,
       "updated": "2026-03-25",
-      "source": "fallback",
-      "sourcePrice": "fallback",
-      "sourceLocation": "fallback"
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
     },
     {
-      "id": "bp-padre-cruz",
+      "id": "bp-av-padre-cruz-lisboa",
       "name": "BP AV. PADRE CRUZ",
       "brand": "BP",
       "district": "Lisboa",
@@ -38,12 +37,12 @@
       "lon": -9.1604,
       "price": 0.929,
       "updated": "2026-03-25",
-      "source": "fallback",
-      "sourcePrice": "fallback",
-      "sourceLocation": "fallback"
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
     },
     {
-      "id": "galp-porto",
+      "id": "galp-porto-porto",
       "name": "Galp Porto",
       "brand": "GALP",
       "district": "Porto",
@@ -55,12 +54,12 @@
       "lon": -8.6291,
       "price": 0.899,
       "updated": "2026-03-25",
-      "source": "fallback",
-      "sourcePrice": "fallback",
-      "sourceLocation": "fallback"
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
     },
     {
-      "id": "repsol-faro",
+      "id": "repsol-faro-faro",
       "name": "Repsol Faro",
       "brand": "REPSOL",
       "district": "Faro",
@@ -72,9 +71,26 @@
       "lon": -7.9304,
       "price": 0.905,
       "updated": "2026-03-25",
-      "source": "fallback",
-      "sourcePrice": "fallback",
-      "sourceLocation": "fallback"
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
+    },
+    {
+      "id": "galp-braga-braga",
+      "name": "Galp Braga",
+      "brand": "GALP",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "Braga",
+      "address": "Braga",
+      "postalCode": "4700-000",
+      "lat": 41.5454,
+      "lon": -8.4265,
+      "price": 0.914,
+      "updated": "2026-03-25",
+      "source": "sample",
+      "sourcePrice": "sample",
+      "sourceLocation": "sample"
     }
   ]
 }
