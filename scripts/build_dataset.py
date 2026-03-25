@@ -9,8 +9,11 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+import certifi
 import pandas as pd
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -22,7 +25,6 @@ PRICE_URL = "https://www.glpautogas.info/pt/preco-venda-gpl-portugal.html"
 
 USER_AGENT = "GPL-Portugal-App/1.0 (GitHub Actions)"
 
-# Limite por execução para não abusar do geocoder
 MAX_GEOCODES_PER_RUN = 15
 GEOCODE_SLEEP_SECONDS = 1.2
 
@@ -183,17 +185,51 @@ def save_json(path: Path, payload: dict | list) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def request_html(url: str) -> str:
-    response = requests.get(
-        url,
-        timeout=40,
-        headers={
+def build_session() -> requests.Session:
+    session = requests.Session()
+
+    retries = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+    )
+
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+
+    session.headers.update(
+        {
             "User-Agent": USER_AGENT,
             "Accept-Language": "pt-PT,pt;q=0.9,en;q=0.8",
-        },
+        }
     )
-    response.raise_for_status()
-    return response.text
+
+    return session
+
+
+def request_html(url: str) -> str:
+    session = build_session()
+
+    try:
+        response = session.get(
+            url,
+            timeout=40,
+            verify=certifi.where(),
+        )
+        response.raise_for_status()
+        return response.text
+    except requests.exceptions.SSLError:
+        response = session.get(
+            url,
+            timeout=40,
+            verify=False,
+        )
+        response.raise_for_status()
+        return response.text
 
 
 def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -201,8 +237,7 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
         key = norm_text(str(col))
         renamed[col] = key
-    out = df.rename(columns=renamed).copy()
-    return out
+    return df.rename(columns=renamed).copy()
 
 
 def parse_list_page(html: str) -> pd.DataFrame:
@@ -227,7 +262,9 @@ def geocode_portugal(query: str) -> tuple[float | None, float | None]:
     if not query.strip():
         return None, None
 
-    response = requests.get(
+    session = build_session()
+
+    response = session.get(
         "https://nominatim.openstreetmap.org/search",
         params={
             "q": query,
@@ -236,15 +273,14 @@ def geocode_portugal(query: str) -> tuple[float | None, float | None]:
             "countrycodes": "pt",
         },
         timeout=25,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept-Language": "pt-PT,pt;q=0.9,en;q=0.8",
-        },
+        verify=certifi.where(),
     )
     response.raise_for_status()
+
     data = response.json()
     if not data:
         return None, None
+
     return safe_float(data[0].get("lat")), safe_float(data[0].get("lon"))
 
 
