@@ -1,1 +1,23 @@
-
+{
+  "generatedAt": "2026-03-25 10:30",
+  "stations": [
+    {
+      "name": "Repsol Estoril",
+      "lat": 38.705,
+      "lon": -9.397,
+      "price": 0.89,
+      "municipality": "Cascais",
+      "locality": "Estoril",
+      "address": "Estoril"
+    },
+    {
+      "name": "Galp Cascais",
+      "lat": 38.697,
+      "lon": -9.421,
+      "price": 0.91,
+      "municipality": "Cascais",
+      "locality": "Cascais",
+      "address": "Cascais"
+    }
+  ]
+}
