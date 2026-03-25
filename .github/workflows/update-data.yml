@@ -1,0 +1,33 @@
+name: Update GPL dataset
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run dataset builder
+        run: python scripts/build_dataset.py
+
+      - name: Commit new dataset
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/stations.json
+          git commit -m "Auto update dataset" || echo "No changes"
+          git push
