@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPL Portugal — SEM PLANO</title>
+  <meta name="description" content="Postos GPL em Portugal com preços, distância, pesquisa por localidade e acesso direto ao Waze." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="./style.css?v=2" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="brand">
+        <img src="./logo.png" alt="SEM PLANO" class="brand-logo" />
+        <div>
+          <div class="eyebrow">SEM PLANO</div>
+          <h1>GPL Portugal</h1>
+          <p>Postos perto de ti, preços por posto e planeamento simples por localidade e raio.</p>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <button id="btnUseLocation" class="btn btn-primary">Usar a minha localização</button>
+        <button id="btnClearTop" class="btn btn-secondary">Limpar</button>
+      </div>
+    </header>
+
+    <section class="controls card">
+      <div class="control control-search">
+        <label for="searchInput">Localização / Localidade</label>
+        <div class="search-inline">
+          <input id="searchInput" type="text" placeholder="Ex.: Cascais, Viseu, Santa Comba Dão" />
+          <button id="btnSearch" class="btn btn-primary">Procurar localização</button>
+          <button id="btnClear" class="btn btn-secondary">Limpar</button>
+        </div>
+      </div>
+
+      <div class="grid-filters">
+        <div class="control">
+          <label for="radiusSelect">Raio</label>
+          <select id="radiusSelect">
+            <option value="10">10 km</option>
+            <option value="25">25 km</option>
+            <option value="50" selected>50 km</option>
+            <option value="75">75 km</option>
+            <option value="100">100 km</option>
+            <option value="150">150 km</option>
+            <option value="9999">Todo o país</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="zoneSelect">Zona do país</label>
+          <select id="zoneSelect">
+            <option value="">Todo o país</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="districtSelect">Distrito</label>
+          <select id="districtSelect">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="brandSelect">Marca</label>
+          <select id="brandSelect">
+            <option value="">Todas</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="sortSelect">Ordenar</label>
+          <select id="sortSelect">
+            <option value="distance">Distância</option>
+            <option value="price">Preço</option>
+            <option value="updated">Atualização</option>
+            <option value="name">Nome</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <article class="stat card">
+        <span class="stat-label">Postos visíveis</span>
+        <strong id="statCount">0</strong>
+      </article>
+      <article class="stat card">
+        <span class="stat-label">Preço médio</span>
+        <strong id="statAvgPrice">—</strong>
+      </article>
+      <article class="stat card">
+        <span class="stat-label">Mais barato</span>
+        <strong id="statCheapest">—</strong>
+      </article>
+      <article class="stat card">
+        <span class="stat-label">Atualização</span>
+        <strong id="statUpdated">—</strong>
+      </article>
+    </section>
+
+    <section class="main-grid">
+      <aside class="results-panel card">
+        <div class="results-header">
+          <div>
+            <h2>Resultados</h2>
+            <p id="resultsSubtitle">À espera de localização ou pesquisa.</p>
+          </div>
+          <button id="btnCheapest" class="btn btn-ghost">Mais barato no raio</button>
+        </div>
+
+        <div class="section-title">TOP 10 MAIS PRÓXIMAS</div>
+        <div id="topResults" class="results-list"></div>
+
+        <div class="section-title">TODOS OS RESULTADOS</div>
+        <div id="allResults" class="results-list"></div>
+      </aside>
+
+      <section class="map-panel card">
+        <div id="map"></div>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <span>Última atualização do dataset: <strong id="datasetUpdated">—</strong></span>
+      <span id="datasetSource">Fonte: —</span>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./app.js?v=2"></script>
+</body>
+</html>
