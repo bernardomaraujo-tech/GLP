@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import os
 from pathlib import Path
 from typing import Iterable
 
@@ -32,13 +31,81 @@ def first_visible(page, selectors: Iterable[str], timeout_ms: int = 8000):
     raise RuntimeError(f"Nenhum seletor encontrado: {list(selectors)} | último erro: {last_error}")
 
 
+def safe_click(locator, timeout_ms: int = 10000, force: bool = False) -> None:
+    locator.wait_for(state="visible", timeout=timeout_ms)
+    locator.scroll_into_view_if_needed(timeout=timeout_ms)
+    locator.click(timeout=timeout_ms, force=force)
+
+
+def wait_modal_to_clear(page, timeout_ms: int = 8000) -> None:
+    modal_selectors = [
+        ".ck-modal",
+        ".modal.show",
+        ".modal-backdrop",
+        ".swal2-container",
+        ".sweet-alert",
+        "[role='dialog']",
+    ]
+
+    for selector in modal_selectors:
+        try:
+            locator = page.locator(selector).first
+            if locator.count() > 0 and locator.is_visible():
+                try:
+                    close_candidates = [
+                        f"{selector} button:has-text('Fechar')",
+                        f"{selector} button:has-text('OK')",
+                        f"{selector} button:has-text('Aceitar')",
+                        f"{selector} button:has-text('Continuar')",
+                        f"{selector} .close",
+                        f"{selector} [aria-label='Close']",
+                        f"{selector} button",
+                    ]
+                    for close_selector in close_candidates:
+                        btn = page.locator(close_selector).first
+                        if btn.count() > 0 and btn.is_visible():
+                            try:
+                                safe_click(btn, timeout_ms=2000)
+                                page.wait_for_timeout(800)
+                                break
+                            except Exception:
+                                pass
+                except Exception:
+                    pass
+
+                try:
+                    locator.wait_for(state="hidden", timeout=timeout_ms)
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+
 def click_first(page, selectors: Iterable[str], timeout_ms: int = 8000) -> None:
+    wait_modal_to_clear(page, timeout_ms=3000)
+
     locator = first_visible(page, selectors, timeout_ms)
-    locator.click()
+
+    try:
+        safe_click(locator, timeout_ms=timeout_ms)
+        return
+    except Exception:
+        pass
+
+    page.wait_for_timeout(1000)
+    wait_modal_to_clear(page, timeout_ms=5000)
+
+    try:
+        safe_click(locator, timeout_ms=timeout_ms)
+        return
+    except Exception:
+        pass
+
+    # Último fallback
+    safe_click(locator, timeout_ms=timeout_ms, force=True)
 
 
 def select_fuel(page) -> None:
-    # Tenta primeiro um <select> tradicional.
     select_candidates = [
         "select",
         "select[name*='combust']",
@@ -52,10 +119,9 @@ def select_fuel(page) -> None:
             locator.wait_for(state="visible", timeout=4000)
             locator.select_option(label=FUEL_LABEL)
             return
-        except Exception:  # noqa: BLE001
+        except Exception:
             pass
 
-    # Fallback para componentes customizados.
     click_first(
         page,
         [
@@ -65,6 +131,7 @@ def select_fuel(page) -> None:
             "[id*='combust']",
         ],
     )
+
     option = page.get_by_text(FUEL_LABEL, exact=True)
     option.wait_for(state="visible", timeout=5000)
     option.click()
@@ -83,11 +150,15 @@ def fetch_csv() -> Path:
 
         try:
             page.goto(TARGET_URL, wait_until="domcontentloaded", timeout=90000)
-            page.wait_for_load_state("networkidle", timeout=20000)
+            page.wait_for_load_state("networkidle", timeout=30000)
+            page.screenshot(path=str(DEBUG_DIR / "01-home.png"), full_page=True)
+
+            wait_modal_to_clear(page, timeout_ms=5000)
 
             select_fuel(page)
+            page.screenshot(path=str(DEBUG_DIR / "02-fuel-selected.png"), full_page=True)
 
-            # Alguns fluxos têm um botão OK antes de procurar.
+            # Alguns fluxos têm botão OK antes do Procurar
             try:
                 click_first(
                     page,
@@ -99,8 +170,11 @@ def fetch_csv() -> Path:
                     ],
                     timeout_ms=4000,
                 )
-            except Exception:  # noqa: BLE001
+                page.wait_for_timeout(1000)
+            except Exception:
                 pass
+
+            wait_modal_to_clear(page, timeout_ms=5000)
 
             click_first(
                 page,
@@ -114,10 +188,14 @@ def fetch_csv() -> Path:
                     "text=Procurar",
                     "text=Pesquisar",
                 ],
-                timeout_ms=10000,
+                timeout_ms=15000,
             )
 
-            # Em alguns casos existe um link intermédio 'clique aqui' para abrir a tabela.
+            page.wait_for_timeout(2000)
+            page.screenshot(path=str(DEBUG_DIR / "03-after-search.png"), full_page=True)
+            wait_modal_to_clear(page, timeout_ms=5000)
+
+            # Em alguns fluxos existe um link intermédio "clique aqui"
             try:
                 click_first(
                     page,
@@ -127,9 +205,11 @@ def fetch_csv() -> Path:
                         "text=clique aqui",
                         "text=Clique aqui",
                     ],
-                    timeout_ms=5000,
+                    timeout_ms=8000,
                 )
-            except Exception:  # noqa: BLE001
+                page.wait_for_timeout(1500)
+                page.screenshot(path=str(DEBUG_DIR / "04-after-click-here.png"), full_page=True)
+            except Exception:
                 pass
 
             export_selectors = [
@@ -142,8 +222,13 @@ def fetch_csv() -> Path:
             ]
 
             export_button = first_visible(page, export_selectors, timeout_ms=60000)
+
             with page.expect_download(timeout=60000) as download_info:
-                export_button.click()
+                try:
+                    safe_click(export_button, timeout_ms=10000)
+                except Exception:
+                    wait_modal_to_clear(page, timeout_ms=5000)
+                    safe_click(export_button, timeout_ms=10000, force=True)
 
             download = download_info.value
             download.save_as(str(OUTPUT_FILE))
@@ -159,11 +244,11 @@ def fetch_csv() -> Path:
             raise RuntimeError(
                 "Timeout durante a navegação no portal DGEG. Foi criada uma screenshot em debug/timeout-error.png"
             ) from exc
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             page.screenshot(path=str(DEBUG_DIR / "generic-error.png"), full_page=True)
             raise RuntimeError(
                 "Falha na recolha do CSV. Foi criada uma screenshot em debug/generic-error.png. "
-                "É provável que tenhas de ajustar 1 ou 2 seletores ao HTML atual do site."
+                "É provável que seja necessário ajustar os seletores ao HTML atual do site."
             ) from exc
         finally:
             context.close()
