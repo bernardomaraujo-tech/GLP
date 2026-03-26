@@ -17,11 +17,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Show repository structure
+        run: |
+          echo "Root:"
+          ls -la
+          echo ""
+          echo ".github/workflows:"
+          ls -la .github/workflows || true
+          echo ""
+          echo "scripts:"
+          ls -la scripts || true
+          echo ""
+          echo "data:"
+          ls -la data || true
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
+          cache-dependency-path: requirements.txt
 
       - name: Show environment info
         run: |
@@ -31,7 +46,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r GPL/requirements.txt
+          pip install -r requirements.txt
 
       - name: Install Playwright browsers
         run: |
@@ -40,23 +55,23 @@ jobs:
 
       - name: Create folders
         run: |
-          mkdir -p GPL/debug
-          mkdir -p GPL/data
+          mkdir -p debug
+          mkdir -p data
 
       - name: Run script
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          python GPL/scripts/fetch_dgeg.py
+          python scripts/fetch_dgeg.py
 
       - name: Debug listing
         if: always()
         run: |
           echo "Data:"
-          ls -la GPL/data || true
+          ls -la data || true
           echo ""
           echo "Debug:"
-          ls -la GPL/debug || true
+          ls -la debug || true
 
       - name: Upload debug artifacts
         if: failure()
@@ -64,7 +79,7 @@ jobs:
         with:
           name: debug-artifacts
           path: |
-            GPL/debug/**
+            debug/**
           if-no-files-found: ignore
 
       - name: Commit changes
@@ -72,8 +87,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add GPL/data/ || true
-          git add GPL/debug/ || true
+          git add data/ || true
+          git add debug/ || true
 
           if git diff --cached --quiet; then
             echo "Sem alterações"
