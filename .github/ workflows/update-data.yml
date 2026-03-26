@@ -24,13 +24,16 @@ jobs:
           pip install playwright
 
       - name: Install Playwright browsers
-        run: playwright install --with-deps
+        run: |
+          playwright install --with-deps
 
       - name: Fetch CSV
-        run: python scripts/fetch_dgeg.py
+        run: |
+          python scripts/fetch_dgeg.py
 
       - name: Build dataset
-        run: python scripts/build_dataset.py
+        run: |
+          python scripts/build_dataset.py
 
       - name: Commit changes
         run: |
