@@ -1,9 +1,9 @@
 name: Update GPL Data
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 8 */2 * *'
-  workflow_dispatch:
 
 jobs:
   update:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
@@ -24,16 +24,13 @@ jobs:
           pip install playwright
 
       - name: Install Playwright browsers
-        run: |
-          playwright install --with-deps
+        run: playwright install --with-deps
 
       - name: Fetch CSV
-        run: |
-          python scripts/fetch_dgeg.py
+        run: python scripts/fetch_dgeg.py
 
       - name: Build dataset
-        run: |
-          python scripts/build_dataset.py
+        run: python scripts/build_dataset.py
 
       - name: Commit changes
         run: |
