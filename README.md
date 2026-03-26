@@ -1,116 +1,88 @@
-# GPL Portugal — projeto pronto para GitHub Pages
+# GPL Portugal — versão com atualização automática via browser
 
-Este projeto já está preparado para:
+Este projeto fica preparado para:
 
-- publicar uma página estática no GitHub Pages
-- ler os postos GPL Auto a partir de `data/Postos.csv`
-- gerar automaticamente `data/stations.json`
-- mostrar mapa, filtros, 10 postos mais próximos, preço, Google Maps e Waze
+- publicar a app no GitHub Pages
+- abrir o portal da DGEG com Playwright
+- selecionar **GPL Auto**
+- correr a pesquisa
+- exportar o CSV
+- substituir `data/Postos.csv`
+- regenerar `data/stations.json`
+- fazer commit automático no GitHub
 
-## Estrutura
+## Ficheiros novos / alterados
+
+Substitui ou adiciona estes ficheiros no teu repositório:
 
 ```text
 .
-├── .github/workflows/deploy.yml
-├── app.js
-├── data/
-│   ├── Postos.csv
-│   └── stations.json
-├── index.html
-├── logo.svg
+├── .github/
+│   └── workflows/
+│       └── update-data.yml
 ├── requirements.txt
-├── scripts/build_dataset.py
-└── style.css
+├── scripts/
+│   ├── build_dataset.py
+│   └── fetch_dgeg.py
+└── README.md
 ```
 
-## O que tens de fazer no GitHub
+## O que tens de manter igual
 
-### 1. Criar repositório
-Cria um repositório novo no GitHub, por exemplo:
-`gpl-portugal`
+Mantém sem alterações, salvo se quiseres mexer na app:
 
-### 2. Fazer upload de todos os ficheiros
-Faz upload de **todo o conteúdo desta pasta** para a raiz do repositório.
+- `index.html`
+- `app.js`
+- `style.css`
+- `logo.svg`
+- `logo.png`
+- `scripts/build_dataset.py`
 
-### 3. Ativar GitHub Pages
-No repositório:
-- **Settings**
-- **Pages**
-- em **Source**, escolhe **GitHub Actions**
-
-### 4. Fazer o primeiro commit na branch `main`
-Assim que o código estiver no GitHub:
-- o workflow vai correr
-- `data/stations.json` vai ser regenerado
-- a página vai ser publicada automaticamente
-
-## Como atualizar os dados depois
-
-Tens duas formas simples.
-
-### Opção A — mais simples
-Substituis o ficheiro:
-`data/Postos.csv`
-
-Depois fazes commit/push.
-
-O GitHub Actions:
-- volta a gerar `data/stations.json`
-- atualiza a página
-
-### Opção B — localmente
-Se quiseres gerar o JSON no teu computador antes de fazer push:
+## Instalação local
 
 ```bash
 pip install -r requirements.txt
+python -m playwright install chromium
+python scripts/fetch_dgeg.py
 python scripts/build_dataset.py
 ```
 
-## Formato esperado do CSV
+## Agendamento atual
 
-O script espera estas colunas:
+O workflow está configurado para correr:
 
-- `Nome`
-- `TipoPosto`
-- `Municipio`
-- `Preco`
-- `Marca`
-- `Combustivel`
-- `DataAtualizacao`
-- `Distrito`
-- `Morada`
-- `Localidade`
-- `CodPostal`
-- `Latitude`
-- `Longitude`
+- **de 2 em 2 dias**
+- às **08:00 UTC**
 
-Separador:
-- `;`
+Em Portugal continental, isto pode equivaler a:
 
-## O que este projeto já faz
+- 08:00 no inverno
+- 09:00 no verão
 
-- filtra apenas linhas com `GPL`
-- deduplica postos por chave estável
-- normaliza marcas mais comuns
-- cria `stations.json`
-- mostra:
-  - total de postos
-  - postos com coordenadas
-  - postos com preço
-  - melhor preço
-- permite:
-  - filtro por raio
-  - filtro por zona
-  - filtro por distrito
-  - filtro por marca
-  - pesquisa por texto
-  - geolocalização do utilizador
-  - abrir navegação no Waze ou Google Maps
+Se quiseres outra hora, altera o cron em:
 
-## Nota importante
-Neste pacote **não incluí scraping automático do portal DGEG**.
-A versão que te estou a dar fica **mais estável e mais simples de manter**:
+```yaml
+.github/workflows/update-data.yml
+```
 
-- a página funciona logo
-- o workflow funciona logo
-- basta atualizares o CSV quando quiseres
+## Notas importantes
+
+### 1. O script usa browser real
+Foi feito com **Playwright + Chromium**.
+
+### 2. Pode ser necessário afinar seletores
+Como o portal da DGEG pode mudar HTML, o script `scripts/fetch_dgeg.py` já tenta vários seletores e textos, mas pode precisar de ajuste fino no futuro.
+
+### 3. Debug automático
+Se falhar, o script grava screenshots em:
+
+```text
+debug/
+```
+
+## Fluxo completo
+
+1. GitHub Actions arranca no horário definido
+2. `scripts/fetch_dgeg.py` abre o site e descarrega o CSV
+3. `scripts/build_dataset.py` regenera o JSON
+4. GitHub faz commit apenas se houver alterações
