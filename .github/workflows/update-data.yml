@@ -1,0 +1,44 @@
+name: Update GPL Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 */2 * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install playwright
+
+      - name: Install Playwright browsers
+        run: |
+          playwright install --with-deps
+
+      - name: Fetch CSV
+        run: |
+          python scripts/fetch_dgeg.py
+
+      - name: Build dataset
+        run: |
+          python scripts/build_dataset.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/
+          git commit -m "update data" || echo "no changes"
+          git push
