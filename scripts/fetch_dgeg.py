@@ -236,71 +236,39 @@ def fetch_csv() -> Path:
             wait_results_ready(page)
             save_debug_page(page, "05-results-ready")
 
-            export_selectors = [
-                "a:has-text('Exportar para CSV')",
-                "button:has-text('Exportar para CSV')",
-                "input[value='Exportar para CSV']",
-                "a[href*='csv']",
-                "a[href*='CSV']",
-                "button[data-original-title*='Export']",
-                "button[title*='Export']",
-                ".buttons-csv",
-                ".dt-button.buttons-csv",
-                "a:has-text('Exportar')",
-                "button:has-text('Exportar')",
-                "input[value='Exportar']",
-            ]
+            # 🔍 Procurar link direto para CSV
+            csv_link = None
 
-            export_button = None
-            for selector in export_selectors:
-                locator = page.locator(selector).first
-                try:
-                    locator.wait_for(state="attached", timeout=5000)
-                    if locator.is_visible():
-                        export_button = locator
-                        break
-                except Exception:
-                    pass
+            links = page.locator("a")
+            for i in range(links.count()):
+                href = links.nth(i).get_attribute("href")
+                if href and "csv" in href.lower():
+                    csv_link = href
+                    break
 
-            if export_button is None:
-                save_debug_page(page, "06-export-not-found")
+            if not csv_link:
+                save_debug_page(page, "06-no-csv-link")
                 raise RuntimeError(
-                    "Não foi encontrado nenhum botão/link visível de exportação. "
-                    "Foram guardados debug/06-export-not-found.png e .html."
+                    "Não foi encontrado link CSV na página. Ver debug/06-no-csv-link.html"
                 )
 
-            with page.expect_download(timeout=60000) as download_info:
-                try:
-                    safe_click(export_button, timeout_ms=10000)
-                except Exception:
-                    wait_modal_to_clear(page, timeout_ms=5000)
-                    safe_click(export_button, timeout_ms=10000, force=True)
+            print(f"CSV link encontrado: {csv_link}")
 
-            download = download_info.value
-            download.save_as(str(OUTPUT_FILE))
+            # 📥 Fazer download direto (mais robusto que clicar)
+            import requests
 
-            if not OUTPUT_FILE.exists() or OUTPUT_FILE.stat().st_size < 200:
-                raise RuntimeError("O CSV foi descarregado mas parece inválido ou vazio.")
+            if not csv_link.startswith("http"):
+                csv_link = TARGET_URL.rstrip("/") + "/" + csv_link.lstrip("/")
 
-            print(f"CSV atualizado com sucesso: {OUTPUT_FILE}")
+            response = requests.get(csv_link)
+
+            if response.status_code != 200:
+                raise RuntimeError(f"Falha ao descarregar CSV: HTTP {response.status_code}")
+
+            OUTPUT_FILE.write_bytes(response.content)
+
+            if OUTPUT_FILE.stat().st_size < 200:
+                raise RuntimeError("CSV descarregado mas vazio ou inválido")
+
+            print(f"CSV guardado com sucesso: {OUTPUT_FILE}")
             return OUTPUT_FILE
-
-        except PlaywrightTimeoutError as exc:
-            save_debug_page(page, "timeout-error")
-            raise RuntimeError(
-                "Timeout durante a navegação no portal DGEG. "
-                "Foram criados debug/timeout-error.png e debug/timeout-error.html"
-            ) from exc
-        except Exception as exc:
-            save_debug_page(page, "generic-error")
-            raise RuntimeError(
-                "Falha na recolha do CSV. Foram criados debug/generic-error.png e debug/generic-error.html. "
-                "É provável que seja necessário ajustar os seletores ao HTML atual do site."
-            ) from exc
-        finally:
-            context.close()
-            browser.close()
-
-
-if __name__ == "__main__":
-    fetch_csv()
