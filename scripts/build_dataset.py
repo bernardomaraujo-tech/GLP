@@ -26,8 +26,10 @@ def read_csv_fallback(path: Path) -> pd.DataFrame:
     attempts = [
         {"sep": ";", "encoding": "utf-8"},
         {"sep": ",", "encoding": "utf-8"},
+        {"sep": "\t", "encoding": "utf-8"},
         {"sep": ";", "encoding": "latin1"},
         {"sep": ",", "encoding": "latin1"},
+        {"sep": "\t", "encoding": "latin1"},
     ]
 
     errors = []
@@ -47,6 +49,7 @@ def read_csv_fallback(path: Path) -> pd.DataFrame:
                 f"e encoding='{attempt['encoding']}'"
             )
             print(f"Linhas após limpeza: {len(df)}")
+            print(f"Nº colunas: {len(df.columns)}")
 
             if df.empty:
                 raise RuntimeError("CSV lido mas sem linhas.")
