@@ -2,7 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Iterable
+from urllib.parse import urljoin
 
+import requests
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
@@ -28,7 +30,9 @@ def first_visible(page, selectors: Iterable[str], timeout_ms: int = 8000):
             return locator
         except Exception as exc:  # noqa: BLE001
             last_error = exc
-    raise RuntimeError(f"Nenhum seletor encontrado: {list(selectors)} | último erro: {last_error}")
+    raise RuntimeError(
+        f"Nenhum seletor encontrado: {list(selectors)} | último erro: {last_error}"
+    )
 
 
 def safe_click(locator, timeout_ms: int = 10000, force: bool = False) -> None:
@@ -160,6 +164,58 @@ def save_debug_page(page, name: str) -> None:
     (DEBUG_DIR / f"{name}.html").write_text(page.content(), encoding="utf-8")
 
 
+def extract_csv_link(page) -> str | None:
+    links = page.locator("a")
+    count = links.count()
+
+    for i in range(count):
+        try:
+            href = links.nth(i).get_attribute("href")
+            text = (links.nth(i).inner_text(timeout=1000) or "").strip().lower()
+
+            if href and "csv" in href.lower():
+                return href
+
+            if href and ("export" in href.lower() or "download" in href.lower()):
+                return href
+
+            if "csv" in text or "exportar" in text:
+                if href:
+                    return href
+        except Exception:
+            continue
+
+    return None
+
+
+def download_csv(csv_link: str, cookies: list[dict]) -> Path:
+    final_url = urljoin(TARGET_URL, csv_link)
+
+    session = requests.Session()
+    for cookie in cookies:
+        if "name" in cookie and "value" in cookie:
+            session.cookies.set(cookie["name"], cookie["value"])
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/123.0.0.0 Safari/537.36"
+        ),
+        "Referer": TARGET_URL,
+    }
+
+    response = session.get(final_url, headers=headers, timeout=60)
+    response.raise_for_status()
+
+    OUTPUT_FILE.write_bytes(response.content)
+
+    if not OUTPUT_FILE.exists() or OUTPUT_FILE.stat().st_size < 200:
+        raise RuntimeError("CSV descarregado mas vazio ou inválido.")
+
+    return OUTPUT_FILE
+
+
 def fetch_csv() -> Path:
     ensure_dirs()
 
@@ -236,39 +292,40 @@ def fetch_csv() -> Path:
             wait_results_ready(page)
             save_debug_page(page, "05-results-ready")
 
-            # 🔍 Procurar link direto para CSV
-            csv_link = None
-
-            links = page.locator("a")
-            for i in range(links.count()):
-                href = links.nth(i).get_attribute("href")
-                if href and "csv" in href.lower():
-                    csv_link = href
-                    break
+            csv_link = extract_csv_link(page)
 
             if not csv_link:
                 save_debug_page(page, "06-no-csv-link")
                 raise RuntimeError(
-                    "Não foi encontrado link CSV na página. Ver debug/06-no-csv-link.html"
+                    "Não foi encontrado link CSV na página. "
+                    "Ver debug/06-no-csv-link.html e .png"
                 )
 
             print(f"CSV link encontrado: {csv_link}")
 
-            # 📥 Fazer download direto (mais robusto que clicar)
-            import requests
+            cookies = context.cookies()
+            downloaded_file = download_csv(csv_link, cookies)
 
-            if not csv_link.startswith("http"):
-                csv_link = TARGET_URL.rstrip("/") + "/" + csv_link.lstrip("/")
+            print(f"CSV guardado com sucesso: {downloaded_file}")
+            return downloaded_file
 
-            response = requests.get(csv_link)
+        except PlaywrightTimeoutError as exc:
+            save_debug_page(page, "timeout-error")
+            raise RuntimeError(
+                "Timeout durante a navegação no portal DGEG. "
+                "Foram criados debug/timeout-error.png e debug/timeout-error.html"
+            ) from exc
+        except Exception as exc:
+            save_debug_page(page, "generic-error")
+            raise RuntimeError(
+                "Falha na recolha do CSV. Foram criados debug/generic-error.png "
+                "e debug/generic-error.html. É provável que seja necessário "
+                "ajustar os seletores ao HTML atual do site."
+            ) from exc
+        finally:
+            context.close()
+            browser.close()
 
-            if response.status_code != 200:
-                raise RuntimeError(f"Falha ao descarregar CSV: HTTP {response.status_code}")
 
-            OUTPUT_FILE.write_bytes(response.content)
-
-            if OUTPUT_FILE.stat().st_size < 200:
-                raise RuntimeError("CSV descarregado mas vazio ou inválido")
-
-            print(f"CSV guardado com sucesso: {OUTPUT_FILE}")
-            return OUTPUT_FILE
+if __name__ == "__main__":
+    fetch_csv()
