@@ -93,7 +93,7 @@ function clearMarkers() {
 }
 
 function updateStats(meta, stations) {
-  els.updateDate.textContent = formatDate(meta.generatedAt);
+  els.updateDate.textContent = formatDate(meta.dataUpdatedAt || meta.generatedAt);
   els.sourceSummary.textContent = meta.sourceSummary || '-';
   els.statTotal.textContent = meta.stats?.totalStations ?? stations.length ?? '—';
   els.statCoords.textContent = meta.stats?.withCoordinates ?? stations.filter(isValidStation).length ?? '—';
