@@ -21,6 +21,11 @@ def ensure_dirs() -> None:
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def save_debug_page(page, name: str) -> None:
+    page.screenshot(path=str(DEBUG_DIR / f"{name}.png"), full_page=True)
+    (DEBUG_DIR / f"{name}.html").write_text(page.content(), encoding="utf-8")
+
+
 def first_visible(page, selectors: Iterable[str], timeout_ms: int = 8000):
     last_error = None
     for selector in selectors:
@@ -147,21 +152,17 @@ def wait_results_ready(page) -> None:
         ".dataTables_wrapper",
         "a[href*='csv']",
         "a[href*='CSV']",
+        "#download",
     ]
 
     for selector in candidates:
         try:
-            page.locator(selector).first.wait_for(state="visible", timeout=15000)
+            page.locator(selector).first.wait_for(state="attached", timeout=15000)
             return
         except Exception:
             pass
 
     page.wait_for_timeout(3000)
-
-
-def save_debug_page(page, name: str) -> None:
-    page.screenshot(path=str(DEBUG_DIR / f"{name}.png"), full_page=True)
-    (DEBUG_DIR / f"{name}.html").write_text(page.content(), encoding="utf-8")
 
 
 def extract_csv_link(page) -> str | None:
@@ -231,6 +232,64 @@ def download_csv(csv_link: str, cookies: list[dict]) -> Path:
         raise RuntimeError("CSV descarregado mas vazio ou inválido.")
 
     return OUTPUT_FILE
+
+
+def try_download_from_locator(page, locator) -> bool:
+    try:
+        with page.expect_download(timeout=15000) as download_info:
+            try:
+                locator.click(timeout=3000, force=True)
+            except Exception:
+                try:
+                    locator.dispatch_event("click")
+                except Exception:
+                    locator.evaluate("(el) => el.click()")
+        download = download_info.value
+        download.save_as(str(OUTPUT_FILE))
+        return OUTPUT_FILE.exists() and OUTPUT_FILE.stat().st_size >= 200
+    except Exception:
+        return False
+
+
+def try_download_by_selectors(page, selectors: list[str]) -> bool:
+    for selector in selectors:
+        locator = page.locator(selector).first
+        try:
+            locator.wait_for(state="attached", timeout=5000)
+        except Exception:
+            continue
+
+        if try_download_from_locator(page, locator):
+            print(f"CSV guardado com sucesso por seletor: {selector}")
+            return True
+
+    return False
+
+
+def try_download_by_javascript(page) -> bool:
+    js_candidates = [
+        "() => { const el = document.querySelector('#download'); if (el) { el.click(); return true; } return false; }",
+        "() => { const el = document.querySelector('[id*=download]'); if (el) { el.click(); return true; } return false; }",
+        "() => { const el = document.querySelector('[class*=download]'); if (el) { el.click(); return true; } return false; }",
+        "() => { const el = Array.from(document.querySelectorAll('a,button')).find(e => (e.innerText || '').toLowerCase().includes('exportar')); if (el) { el.click(); return true; } return false; }",
+        "() => { const el = Array.from(document.querySelectorAll('a,button')).find(e => (e.innerText || '').toLowerCase().includes('csv')); if (el) { el.click(); return true; } return false; }",
+    ]
+
+    for js in js_candidates:
+        try:
+            with page.expect_download(timeout=15000) as download_info:
+                triggered = page.evaluate(js)
+                if not triggered:
+                    continue
+            download = download_info.value
+            download.save_as(str(OUTPUT_FILE))
+            if OUTPUT_FILE.exists() and OUTPUT_FILE.stat().st_size >= 200:
+                print("CSV guardado com sucesso por javascript.")
+                return True
+        except Exception:
+            continue
+
+    return False
 
 
 def fetch_csv() -> Path:
@@ -321,43 +380,34 @@ def fetch_csv() -> Path:
             print("Não foi encontrado link CSV direto. Vou tentar download por clique.")
 
             download_selectors = [
+                "#download",
+                "a#download",
+                "button#download",
+                "[id*='download']",
+                "[class*='download']",
                 "a:has-text('Exportar para CSV')",
                 "button:has-text('Exportar para CSV')",
                 "a:has-text('Exportar')",
                 "button:has-text('Exportar')",
+                "a:has-text('CSV')",
+                "button:has-text('CSV')",
                 "text=Exportar para CSV",
                 "text=Exportar",
-                "#download",
+                "text=CSV",
             ]
 
-            download_target = None
-            for selector in download_selectors:
-                locator = page.locator(selector).first
-                try:
-                    locator.wait_for(state="visible", timeout=5000)
-                    download_target = locator
-                    break
-                except Exception:
-                    pass
+            if try_download_by_selectors(page, download_selectors):
+                return OUTPUT_FILE
 
-            if download_target is None:
-                save_debug_page(page, "06-no-download-target")
-                raise RuntimeError(
-                    "Não foi encontrado link direto nem botão de download/exportação. "
-                    "Ver debug/06-no-download-target.html e .png"
-                )
+            print("Falhou por seletores. Vou tentar por javascript.")
+            if try_download_by_javascript(page):
+                return OUTPUT_FILE
 
-            with page.expect_download(timeout=60000) as download_info:
-                safe_click(download_target, timeout_ms=10000, force=True)
-
-            download = download_info.value
-            download.save_as(str(OUTPUT_FILE))
-
-            if not OUTPUT_FILE.exists() or OUTPUT_FILE.stat().st_size < 200:
-                raise RuntimeError("O ficheiro descarregado parece inválido ou vazio.")
-
-            print(f"CSV guardado com sucesso por clique: {OUTPUT_FILE}")
-            return OUTPUT_FILE
+            save_debug_page(page, "06-no-download-target")
+            raise RuntimeError(
+                "Não foi encontrado link direto nem botão de download/exportação. "
+                "Ver debug/06-no-download-target.html e .png"
+            )
 
         except PlaywrightTimeoutError as exc:
             save_debug_page(page, "timeout-error")
