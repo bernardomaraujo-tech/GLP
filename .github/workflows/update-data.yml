@@ -58,11 +58,12 @@ jobs:
           mkdir -p debug
           mkdir -p data
 
-      - name: Run script
+      - name: Run scripts
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          python scripts/fetch_dgeg.py
+          python GPL/scripts/fetch_dgeg.py
+          python GPL/scripts/build_dataset.py
 
       - name: Debug listing
         if: always()
