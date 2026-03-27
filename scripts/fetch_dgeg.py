@@ -173,15 +173,26 @@ def extract_csv_link(page) -> str | None:
             href = links.nth(i).get_attribute("href")
             text = (links.nth(i).inner_text(timeout=1000) or "").strip().lower()
 
-            if href and "csv" in href.lower():
+            if not href:
+                continue
+
+            href_clean = href.strip().lower()
+
+            if href_clean in {"#", "#download"}:
+                continue
+
+            if href_clean.startswith("javascript:"):
+                continue
+
+            if "csv" in href_clean:
                 return href
 
-            if href and ("export" in href.lower() or "download" in href.lower()):
+            if "export" in href_clean or "download" in href_clean:
                 return href
 
-            if "csv" in text or "exportar" in text:
-                if href:
-                    return href
+            if ("csv" in text or "exportar" in text) and href_clean not in {"#", "#download"}:
+                return href
+
         except Exception:
             continue
 
@@ -207,6 +218,12 @@ def download_csv(csv_link: str, cookies: list[dict]) -> Path:
 
     response = session.get(final_url, headers=headers, timeout=60)
     response.raise_for_status()
+
+    content_type = (response.headers.get("Content-Type") or "").lower()
+    if "html" in content_type:
+        raise RuntimeError(
+            f"O link devolveu HTML em vez de CSV. Content-Type recebido: {content_type}"
+        )
 
     OUTPUT_FILE.write_bytes(response.content)
 
@@ -294,20 +311,53 @@ def fetch_csv() -> Path:
 
             csv_link = extract_csv_link(page)
 
-            if not csv_link:
-                save_debug_page(page, "06-no-csv-link")
+            if csv_link:
+                print(f"CSV link encontrado: {csv_link}")
+                cookies = context.cookies()
+                downloaded_file = download_csv(csv_link, cookies)
+                print(f"CSV guardado com sucesso por link direto: {downloaded_file}")
+                return downloaded_file
+
+            print("Não foi encontrado link CSV direto. Vou tentar download por clique.")
+
+            download_selectors = [
+                "a:has-text('Exportar para CSV')",
+                "button:has-text('Exportar para CSV')",
+                "a:has-text('Exportar')",
+                "button:has-text('Exportar')",
+                "text=Exportar para CSV",
+                "text=Exportar",
+                "#download",
+            ]
+
+            download_target = None
+            for selector in download_selectors:
+                locator = page.locator(selector).first
+                try:
+                    locator.wait_for(state="visible", timeout=5000)
+                    download_target = locator
+                    break
+                except Exception:
+                    pass
+
+            if download_target is None:
+                save_debug_page(page, "06-no-download-target")
                 raise RuntimeError(
-                    "Não foi encontrado link CSV na página. "
-                    "Ver debug/06-no-csv-link.html e .png"
+                    "Não foi encontrado link direto nem botão de download/exportação. "
+                    "Ver debug/06-no-download-target.html e .png"
                 )
 
-            print(f"CSV link encontrado: {csv_link}")
+            with page.expect_download(timeout=60000) as download_info:
+                safe_click(download_target, timeout_ms=10000, force=True)
 
-            cookies = context.cookies()
-            downloaded_file = download_csv(csv_link, cookies)
+            download = download_info.value
+            download.save_as(str(OUTPUT_FILE))
 
-            print(f"CSV guardado com sucesso: {downloaded_file}")
-            return downloaded_file
+            if not OUTPUT_FILE.exists() or OUTPUT_FILE.stat().st_size < 200:
+                raise RuntimeError("O ficheiro descarregado parece inválido ou vazio.")
+
+            print(f"CSV guardado com sucesso por clique: {OUTPUT_FILE}")
+            return OUTPUT_FILE
 
         except PlaywrightTimeoutError as exc:
             save_debug_page(page, "timeout-error")
