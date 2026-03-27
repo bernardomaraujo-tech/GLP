@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-27T12:55:45.676884+00:00",
+  "generatedAt": "2026-03-27T18:47:57.051909+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-03-27T11:55:00+00:00",
+  "dataUpdatedAt": "2026-03-27T18:35:00+00:00",
   "stats": {
     "totalStations": 429,
     "withCoordinates": 429,
@@ -734,7 +734,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.896,
-      "updatedAt": "2026-03-25T00:00:00+00:00",
+      "updatedAt": "2026-03-27T18:35:00+00:00",
       "lat": 39.303,
       "lon": -8.68559,
       "sourceKey": "CEPSA|cepsa povoa santarem|en 3 - km 46|2000-531|santarem"
@@ -4049,7 +4049,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-03-26T18:35:00+00:00",
+      "updatedAt": "2026-03-27T18:30:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -4780,7 +4780,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-03-26T16:10:00+00:00",
+      "updatedAt": "2026-03-27T14:30:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "GENÉRICO|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -4797,7 +4797,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-03-26T16:15:00+00:00",
+      "updatedAt": "2026-03-27T14:35:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "GENÉRICO|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -6854,7 +6854,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.069,
-      "updatedAt": "2026-03-26T16:05:00+00:00",
+      "updatedAt": "2026-03-27T14:25:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"

@@ -260,7 +260,6 @@
 "CEPSA - A3 Barcelos (POR/VAL)";"Auto-estrada";"Barcelos";"0,956 €";"CEPSA";"GPL Auto";"2026-03-25 00:00";"Braga";"A3 AUTO EST. PORTO/VALENÇA, SUB LANÇO BRAGA/EN201, (APARTADO 600, CP 4751)";"Alheira";"4750-058";41.603848;-8.550144
 "CEPSA - A3 Barcelos (VAL/POR)";"Auto-estrada";"Barcelos";"0,956 €";"CEPSA";"GPL Auto";"2026-03-25 00:00";"Braga";"A3 AUTO EST. PORTO/VALENÇA, SUB LANÇO BRAGA/EN201, (APARTADO 600, CP 4751)";"Alheira";"4750-058";41.60596;-8.550696
 "A33 LANÇADA (MOITA/MONTIJO)";"Auto-estrada";"Montijo";"0,956 €";"MOEVE";"GPL Auto";"2026-03-25 00:00";"Setúbal";"A33 - km 30,4";"Sarilhos Grandes";"2870-521";38.66354;-8.956911
-"Cepsa Povoa Santarém";"Outro";"Santarém";"0,896 €";"CEPSA";"GPL Auto";"2026-03-25 00:00";"Santarém";"EN 3 - Km 46";"Póvoa de Santarém";"2000-531";39.303;-8.68559
 "CEPSA PENELA";"Outro";"Penela";"0,926 €";"CEPSA";"GPL Auto";"2026-03-25 00:00";"Coimbra";"Zona Industrial de Penela";"Zona Industrial";"3230-347";40.01569;-8.370878
 "troviEnergy";"Outro";"Macedo de Cavaleiros";"0,956 €";"MOEVE";"GPL Auto";"2026-03-25 00:00";"Bragança";"Zona Industrial, rotunda M15/IP2 (A4)";"Macedo de Cavaleiros";"5340-296";41.57081;-6.99394
 "MOEVE Viana do Castelo - Cardielos";"Outro";"Viana do Castelo";"0,946 €";"MOEVE";"GPL Auto";"2026-03-25 00:05";"Viana do Castelo";"EN 202, Km 7550 - Lugar do Porto";"Cardielos";"4925-347";41.71166;-8.742154
@@ -306,10 +305,6 @@
 "BP VANDOMA";"Outro";"Paredes";"1,059 €";"BP";"GPL Auto";"2026-03-26 12:15";"Porto";"Rua Central de Vandoma nº 50";"Vandoma";"4585-769";41.190692;-8.398271
 "A6  ESTREMOZ (ELV/LIS)";"Auto-estrada";"Estremoz";"0,956 €";"CEPSA";"GPL Auto";"2026-03-26 12:30";"Évora";"A6, SUBLANÇO ÉVORA, KM 23, APARTADO 247";"Estremoz";"7100-108";38.8008;-7.660409
 "BP - Meinedo";"Outro";"Lousada";"1,029 €";"BP";"GPL Auto";"2026-03-26 12:45";"Porto";"Av. Magneto, 980";"Meinedo";"4620-350";41.24876;-8.25595
-"BP- S. Bartolomeu de Messines Área Sul/Norte 1100";"Outro";"Silves";"1,069 €";"BP";"GPL Auto";"2026-03-26 16:05";"Faro";"IC1 I.P.1c Lanço Messines-Guia Km4";"Barrocal";"8375-014";37.2299;-8.264495
-"CEPSA ÓRFÃOS -  I (Poente)";"Outro";"Braga";"0,994 €";"Genérico";"GPL Auto";"2026-03-26 16:10";"Braga";"Av. Cónego Jorge Peixoto Coutinho- variante 14";"Braga";"4700-000";41.543404;-8.440024
-"Ilídio Mota - Palmeira 2";"Outro";"Braga";"0,994 €";"Genérico";"GPL Auto";"2026-03-26 16:15";"Braga";"Avenida Cávado 268";"Palmeira";"4700-690";41.59746;-8.428921
-"REPSOL Famalicao Sul";"Outro";"Vila Nova de Famalicão";"0,974 €";"REPSOL";"GPL Auto";"2026-03-26 18:35";"Braga";"Av D Afonso Henriques EN 14 km 24500 LE";"Vila Nova de Famalicão";"4760-281";41.38188;-8.53853
 "Galp- SOUSA & MARQUÊZ  (Horta das Figueiras- Évora)";"Outro";"Évora";"0,959 €";"GALP";"GPL Auto";"2026-03-26 21:15";"Évora";"Variante Ao Parque Industrial";"Évora";"7005-872";38.553825;-7.917911
 "E.S. COVA FAIAS B";"Outro";"Leiria";"0,964 €";"REPSOL";"GPL Auto";"2026-03-27 00:00";"Leiria";"EN 1 (IC2)";"Cova das Faias";"2420-354";39.767417;-8.775519
 "E.S. ALBERGARIA";"Outro";"Marinha Grande";"0,964 €";"REPSOL";"GPL Auto";"2026-03-27 00:00";"Leiria";"EN 242  Km 8,5 (Av Nª Srª Nazaré)";"Albergaria";"2430-011";39.7454;-8.89058
@@ -429,3 +424,8 @@
 "CEPSA  Pinheiro da Bemposta";"Outro";"Oliveira de Azeméis";"0,899 €";"CEPSA";"GPL Auto";"2026-03-27 10:55";"Aveiro";"Rua de São Paio, 564";"Bemposta";"3720-463";40.7847;-8.491492
 "A6 ESTREMOZ  (LIS/ELV)";"Auto-estrada";"Estremoz";"0,956 €";"CEPSA";"GPL Auto";"2026-03-27 11:30";"Évora";"A6, SUBLANÇO ÉVORA, KM 23, APARTADO 247";"Estremoz";"7100-108";38.79915;-7.660607
 "CEPSA Carregal do Sal";"Outro";"Carregal do Sal";"0,956 €";"CEPSA";"GPL Auto";"2026-03-27 11:55";"Viseu";"Arruamento Urbano a Sul da Vila s/nCarregal do Sal";"Carregal do Sal";"3430-154";40.4311;-7.99496
+"BP- S. Bartolomeu de Messines Área Sul/Norte 1100";"Outro";"Silves";"1,069 €";"BP";"GPL Auto";"2026-03-27 14:25";"Faro";"IC1 I.P.1c Lanço Messines-Guia Km4";"Barrocal";"8375-014";37.2299;-8.264495
+"CEPSA ÓRFÃOS -  I (Poente)";"Outro";"Braga";"0,994 €";"Genérico";"GPL Auto";"2026-03-27 14:30";"Braga";"Av. Cónego Jorge Peixoto Coutinho- variante 14";"Braga";"4700-000";41.543404;-8.440024
+"Ilídio Mota - Palmeira 2";"Outro";"Braga";"0,994 €";"Genérico";"GPL Auto";"2026-03-27 14:35";"Braga";"Avenida Cávado 268";"Palmeira";"4700-690";41.59746;-8.428921
+"REPSOL Famalicao Sul";"Outro";"Vila Nova de Famalicão";"0,974 €";"REPSOL";"GPL Auto";"2026-03-27 18:30";"Braga";"Av D Afonso Henriques EN 14 km 24500 LE";"Vila Nova de Famalicão";"4760-281";41.38188;-8.53853
+"Cepsa Povoa Santarém";"Outro";"Santarém";"0,896 €";"CEPSA";"GPL Auto";"2026-03-27 18:35";"Santarém";"EN 3 - Km 46";"Póvoa de Santarém";"2000-531";39.303;-8.68559
