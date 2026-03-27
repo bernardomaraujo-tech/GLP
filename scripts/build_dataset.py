@@ -24,21 +24,29 @@ def clean_col(col: str) -> str:
 
 def read_csv_fallback(path: Path) -> pd.DataFrame:
     attempts = [
-        {"sep": ";", "encoding": "utf-8", "engine": "python"},
-        {"sep": ",", "encoding": "utf-8", "engine": "python"},
-        {"sep": ";", "encoding": "latin1", "engine": "python"},
-        {"sep": ",", "encoding": "latin1", "engine": "python"},
+        {"sep": ";", "encoding": "utf-8"},
+        {"sep": ",", "encoding": "utf-8"},
+        {"sep": ";", "encoding": "latin1"},
+        {"sep": ",", "encoding": "latin1"},
     ]
 
     errors = []
 
     for attempt in attempts:
         try:
-            df = pd.read_csv(path, **attempt)
+            df = pd.read_csv(
+                path,
+                sep=attempt["sep"],
+                encoding=attempt["encoding"],
+                engine="python",
+                on_bad_lines="skip",
+            )
+
             print(
                 f"CSV lido com sucesso usando sep='{attempt['sep']}' "
                 f"e encoding='{attempt['encoding']}'"
             )
+            print(f"Linhas após limpeza: {len(df)}")
 
             if df.empty:
                 raise RuntimeError("CSV lido mas sem linhas.")
@@ -48,6 +56,7 @@ def read_csv_fallback(path: Path) -> pd.DataFrame:
                     f"CSV lido mas parece mal delimitado. Número de colunas: {len(df.columns)}"
                 )
 
+            print(df.head())
             return df
 
         except Exception as exc:  # noqa: BLE001
@@ -170,7 +179,9 @@ def resolve_column(df: pd.DataFrame, candidates: list[str], label: str) -> str:
     for candidate in candidates:
         if candidate in df.columns:
             return candidate
-    raise RuntimeError(f"Não foi encontrada nenhuma coluna para '{label}'. Candidatas: {candidates}")
+    raise RuntimeError(
+        f"Não foi encontrada nenhuma coluna para '{label}'. Candidatas: {candidates}"
+    )
 
 
 def main():
