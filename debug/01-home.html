@@ -1,0 +1,536 @@
+<!DOCTYPE html><html lang="pt"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GXE3NPJVR6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GXE3NPJVR6');
+    </script>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DGEG</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/assets/img/favicon.png" rel="icon">
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link href="/assets/css/table.css" rel="stylesheet">
+    <link href="/assets/vendor/multiSelect/css/multiSelect.css" rel="stylesheet">
+    
+
+
+<style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+	font-weight: bold;
+	padding: 8px 15px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	white-space: nowrap;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+	color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+	color: #468847;
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+	color: #3A87AD;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+	color: #C09853;
+	background-color: #FCF8E3;
+	border-color: #FBEED5;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style><style type="text/css" id="core-notify">.notifyjs-corner {
+	position: fixed;
+	margin: 5px;
+	z-index: 1050;
+}
+
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+	position: relative;
+	display: block;
+	height: inherit;
+	width: inherit;
+	margin: 3px;
+}
+
+.notifyjs-wrapper {
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	height: 0;
+	width: 0;
+}
+
+.notifyjs-container {
+	display: none;
+	z-index: 1;
+	position: absolute;
+}
+
+.notifyjs-hidable {
+	cursor: pointer;
+}
+
+[data-notify-text],[data-notify-html] {
+	position: relative;
+}
+
+.notifyjs-arrow {
+	position: absolute;
+	z-index: 2;
+	width: 0;
+	height: 0;
+}</style></head>
+<body><div class="ck-modal"><div class="ck-window"><div class="ck-content"><span>Política de cookies</span><hr><p><b> Arquivos de cookie são usados ​​para analisar o tráfego do site  pelo Google Analytics. </b> <br> <br> As informações sobre sua navegação e uso do site são transmitidas  e será analisado <b> anonimamente </b> para melhorar os serviços.</p><button class="accordion">Lista de cookies</button><div class="panel"><ul> <li> <b> _ga </b>: Usado para distinguir utilizadores (expira após 2 anos) </li> <li> <b> _gid </b>: Usado para distinguir utilizadores (expira após 24 horas ) </li> <li> <b> _gat </b>: usado para limitar a taxa de solicitação (expira após 1 minuto) </li> </ul></div><p>Seu consentimento é mantido por <b> 10 </b> dias. Você pode redefinir o seu consentimento excluindo o cookie <b> cookiekit </b> dos dados do seu navegador.</p></div> <div class="ck-choise"><a class="btn-refuse" href="#">Não obrigado!</a><a class="btn-accept" href="#">Aceitar</a></div> </div> </div><style>.ck-modal{display:flex;align-items:center;justify-content:center;position:fixed;width:100%;height:100%;top:0;left:0;background-color:rgba(0,0,0,.7);z-index:999;overflow-y:auto;}.ck-window{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;position:absolute;border-radius:5px;background-color:#f7f7f7;box-shadow:3px 3px 10px rgba(0,0,0,.3);}.ck-content{padding:15px;color:#3c3c3c;}.ck-content .logo{width:100%;text-align:left;}.ck-content .logo img{width:;margin:0;}.ck-content span{font-weight:500;}.ck-content b{font-weight:600;}.ck-content ul{margin:0;padding:0 25px 10px;}.ck-content p, .ck-content li{font-weight:300;margin:1em 0 1.2em!important;}.ck-content hr{height:1px;margin:15px 0;border:0;border-top:1px solid #b3b3b3;}.ck-content .accordion{background-color:#e2e2e2;color:#444;font-size:1.2em;font-weight:600;cursor:pointer;padding:10px;width:100%;text-align:left;border:none;outline:none;transition:background-color 0.4s ease-in-out;}.ck-content .accordion:after{content:'\002B';color:#777;font-weight:bold;float:right;margin-left:5px;}.ck-content .accordion.active:after{content:'\002D'}.ck-content .accordion.active, .ck-content .accordion:hover{background-color:#d7d7d7;}.ck-content .panel{height:0;padding:0 5px;background-color:transparent;border:1px solid #d7d7d7;visibility:hidden;}.ck-choise{display:flex;align-items:stretch;justify-content:center;}.ck-choise .btn-refuse, .ck-choise .btn-accept{display:block;width:50%;font-size:1.1em;font-weight:bold;text-transform:uppercase;text-decoration:none;padding:10px 5px;text-align:center;transition:background-color .5s ease;}.ck-choise .btn-refuse{color:#fff;background-color:#0f0b73;border-radius:0 0 0 3px;}.ck-choise .btn-refuse:hover, .ck-choise .btn-refuse:focus{color:#fff;background-color:#0f0b73;text-decoration:none;}.ck-choise .btn-accept{color:#fff;background-color:#3a34e6;border-radius:0 0 3px 0;}.ck-choise .btn-accept:hover, .ck-choise .btn-accept:focus{color:#fff;background-color:#3a34e6;text-decoration:none;}@media (max-width: 576px) { .ck-modal .ck-window{width:90%;}.ck-content p, .ck-content li{font-size:1em;}.ck-content span{font-size:1.5em;}.ck-content .logo{display:none;} }@media (min-width: 576px) { .ck-modal .ck-window{width:70%;}.ck-content p, .ck-content li{font-size:1.1em;}.ck-content span{font-size:1.6em;}.ck-content .logo{display:block;} }@media (min-width: 769px) { .ck-modal .ck-window{width:50%;}.ck-content p, .ck-content li{font-size:1.2em;}.ck-content span{font-size:1.7em;} }</style>
+    <!-- ======= Header ======= -->
+    
+
+<header id="header" class="fixed-top">
+    <div class="tamanhoNav">
+        <div class="row col-md-12 just_navbar alt_items_nav">
+            <div class="row col-md-12 text-center imagens_nav">
+                <div class="col-md-3 preco_logo row">
+                    <a href="/"><img src="/assets/img/Logo_Preco.gif" alt="" class="img-fluid"></a>
+                    <div class="hide_menu">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-white justify-right" style="justify-content: right;">
+                            <button class="navbar-toggler hidden-lg-up pull-left" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link navMenuEspaco items_navbar nav_select" href="/">Início</a></li>
+
+                                                <li class="nav-item">
+                                                    <a class="nav-link navMenuEspaco items_navbar " href="/apresentacao/">Apresentação</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link navMenuEspaco items_navbar " href="/dicas/">Dicas</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link navMenuEspaco items_navbar " href="/estatistica/preco-medio-diario/">Estatística</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link navMenuEspaco items_navbar " href="/registo/">Registo</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link navMenuEspaco items_navbar " href="/area-reservada/">Área Reservada</a>
+                                                </li>
+                                </ul>
+                            </div>
+                        </nav><!-- .nav-menu -->
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/img/Bombas.jpg" alt="" class="img-fluid image_section">
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.dgeg.gov.pt/"><img src="/assets/img/dgeg.jpg" alt="" class="img-fluid image_section logo_dgeg"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.portugal.gov.pt/pt/gc22/area-de-governo/ambiente-e-acao-climatica"><img src="/assets/img/Logo_RepPT.png" alt="" class="img-fluid image_section"></a>
+                </div>
+            </div>
+            <div class="row col-md-12 row_nav hide_menu2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white justify-right">
+                    <button class="navbar-toggler hidden-lg-up pull-left" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link navMenuEspaco items_navbar nav_select" href="/">Início</a></li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link navMenuEspaco items_navbar " href="/apresentacao/">Apresentação</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link navMenuEspaco items_navbar " href="/dicas/">Dicas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link navMenuEspaco items_navbar " href="/estatistica/preco-medio-diario/">Estatística</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link navMenuEspaco items_navbar " href="/registo/">Registo</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link navMenuEspaco items_navbar " href="/area-reservada/">Área Reservada</a>
+                                        </li>
+                        </ul>
+                    </div>
+                </nav><!-- .nav-menu -->
+            </div>
+        </div>
+    </div>
+</header><!-- End Header -->
+
+    <main id="main">
+        <div class="engloba">
+            
+
+<div id="pesquisa" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="container_resultado_pesquisa">
+                <div>
+                    <label class="lable-title">Resultados</label>
+                    <button type="button" class="close margem_top_10 float-right" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="progress bar">
+                    <div class="progress-bar bar-gray"></div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="float-right link_csv">
+                        <a href="#download" onclick="ExportarDadosPostos(null);"><strong><i class="icofont-file-spreadsheet"></i> Exportar para CSV</strong></a>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <input type="hidden" id="hdPagina" value="1" style="">
+                    <table id="tblPesquisa" class="table">
+                        <thead class="tabelaPesquisa">
+                            <tr>
+                                <th scope="col" class="tabela-mais">#</th>
+                                <th scope="col" class="tabela-nome">Nome do Posto</th>
+                                <th scope="col" class="tabela-tipo diminui_tabela">Tipo de Posto</th>
+                                <th scope="col" class="tabela-municipio diminui_tabela">Distrito</th>
+                                <th scope="col" class="tabela-municipio diminui_tabela">Município</th>
+                                <th scope="col" class="tabela-preco diminui_tabela">Preço</th>
+                                <th scope="col" class="tabela-marca diminui_tabela">Marca</th>
+                                <th scope="col" class="tabela-combustivel diminui_tabela">Combustível</th>
+                                <th scope="col" class="tabela-atualizado diminui_tabela">Atualizado</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="col-md-12 text-center divVerMais">
+                    <button id="verMais" class="btn_guardar mg_bot_2 d-none" title="Ver Mais" onclick="AdicionarTabela();">Ver Mais +</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="avisos" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-am" role="document">
+        <div class="modal-content modal-content-homeavisos ">
+            <div class="col-md-12">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+        <input type="hidden" id="hdModalAviso" name="hdModalAviso" value="false" style="">
+
+<div id="mapa_modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body" id="mapa_mobile" style="height: 700px">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div id="pesquisa">
+        <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+            <div>
+                <label class="lable-title">Pesquisa</label>
+            </div>
+            <div class="progress bar">
+                <div class="progress-bar bar-gray"></div>
+            </div>
+            <div class="row about-container">
+                <div class="col-lg-12 content order-lg-1 order-2">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="label-formularios" style="width:100%">Combustivel:*</label>
+                        <div class="SumoSelect sumo_cboTipoCombustivel" tabindex="0" role="button" aria-expanded="false"><select class="selectBox form-control SumoUnder" style="-webkit-appearance: none;" id="cboTipoCombustivel" name="cboTipoCombustivel" onclick="$('#divCombObrig').removeClass('d-block').addClass('d-none');" multiple="" data-max="2" tabindex="-1"><option value="2115">Biodiesel B15</option><option value="1143">GNC (gás natural comprimido) - €/kg</option><option value="1141">GNC (gás natural comprimido) - €/m3</option><option value="1142">GNL (gás natural liquefeito) - €/kg</option><option value="1120">GPL Auto</option><option value="3400">Gasolina 98</option><option value="3210">Gasolina de mistura (motores a 2 tempos)</option><option value="3205">Gasolina especial 95</option><option value="3405">Gasolina especial 98</option><option value="3201">Gasolina simples 95</option><option value="2150">Gasóleo colorido</option><option value="2155">Gasóleo de aquecimento</option><option value="2105">Gasóleo especial</option><option value="2101">Gasóleo simples</option></select><p class="CaptionCont SelectBox selectBox form-control" style="-webkit-appearance: none;" title="  Selecione"><span class="placeholder">  Selecione</span><label><i></i></label></p><div class="optWrapper okCancelInMulti multiple"><ul class="options"><li class="opt"><span><i></i></span><label>GPL Auto</label></li><li class="opt"><span><i></i></span><label>GNL (gás natural liquefeito) - €/kg</label></li><li class="opt"><span><i></i></span><label>GNC (gás natural comprimido) - €/m3</label></li><li class="opt"><span><i></i></span><label>GNC (gás natural comprimido) - €/kg</label></li><li class="opt"><span><i></i></span><label>Gasolina simples 95</label></li><li class="opt"><span><i></i></span><label>Gasolina especial 98</label></li><li class="opt"><span><i></i></span><label>Gasolina especial 95</label></li><li class="opt"><span><i></i></span><label>Gasolina de mistura (motores a 2 tempos)</label></li><li class="opt"><span><i></i></span><label>Gasolina 98</label></li><li class="opt"><span><i></i></span><label>Gasóleo simples</label></li><li class="opt"><span><i></i></span><label>Gasóleo especial</label></li><li class="opt"><span><i></i></span><label>Gasóleo de aquecimento</label></li><li class="opt"><span><i></i></span><label>Gasóleo colorido</label></li><li class="opt"><span><i></i></span><label>Biodiesel B15</label></li></ul><div class="MultiControls"><p tabindex="0" class="btnOk">OK</p><p tabindex="0" class="btnCancel">Cancelar</p></div></div></div>
+                        <div id="divCombObrig" class="d-none" style="color:red;">Por favor selecione os combustíveis a pesquisar</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-formularios">Marca:</label>
+                        <select name="cboMarca" id="cboMarca" class="form-control"><option value="">Selecione</option><option value="1">AGIP</option><option value="2">ALVES BANDEIRA</option><option value="3">ANIBAL ANTUNES BANDEIRA</option><option value="4">ATLANTIC OIL</option><option value="5">AUCHAN</option><option value="75">AUCHAN</option><option value="6">AUTO JULIO</option><option value="7">AVIA</option><option value="8">AZORIA</option><option value="9">BEQ</option><option value="10">BOMBAGÁS</option><option value="11">BP</option><option value="12">BXPRESS</option><option value="13">CARLOS BALTAZAR</option><option value="14">CARRASQUINHO &amp; FILHOS</option><option value="15">CEPSA</option><option value="73">CHAMAGÁS</option><option value="16">CIDADE N'ALDEIA</option><option value="17">CIPOL</option><option value="18">CONTINENTE</option><option value="19">CREIXOAUTO</option><option value="20">DOUROGAS NATURAL</option><option value="21">DPC</option><option value="22">DPP</option><option value="23">ECOBRENT</option><option value="24">ECOMARCHÉ</option><option value="76">EFICE ENERGY</option><option value="25">ESSO</option><option value="26">ETC</option><option value="67">FG COMBUSTÍVEIS</option><option value="27">FREITAS</option><option value="28">FUELTEJO</option><option value="34">G-ENERGY</option><option value="29">GALP</option><option value="30">GAPOR</option><option value="31">GASOLAR</option><option value="32">GASPE</option><option value="33">GASPROCAR</option><option value="35">Genérico</option><option value="36">GOTA</option><option value="37">ILÍDIO MOTA</option><option value="38">INTERMARCHÉ</option><option value="39">JUMBO</option><option value="40">LECLERC</option><option value="41">LUBRIDÃO</option><option value="42">LUSIADAGÁS</option><option value="72">MOEVE</option><option value="78">NOVA</option><option value="43">OFIMAQ</option><option value="44">OLEOFAT</option><option value="45">OZ Energia</option><option value="46">PETRIN</option><option value="47">PETRO BASTO</option><option value="48">PETROALVA</option><option value="49">PETROIBÉRICA</option><option value="71">PETROPRIX </option><option value="50">PETROVARIANTE</option><option value="51">PETROVAZ</option><option value="52">PINGO DOCE</option><option value="74">PLENERGY</option><option value="53">PRIO</option><option value="70">PRONTO</option><option value="54">Q8</option><option value="77">RAPEL</option><option value="55">RECHEIO</option><option value="56">REDE ENERGIA</option><option value="57">REDIL</option><option value="58">REPSOL</option><option value="59">SCAM</option><option value="60">SHELL</option><option value="61">SOPOR</option><option value="62">TFUEL</option><option value="63">TRANSFORPEL</option><option value="64">TRAVESSO</option><option value="65">TUACAR</option><option value="68">VALCARCE</option><option value="69">VIA</option><option value="66">VIBAGÁS</option><option value="79">VMF Energia</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-formularios">Tipo de Posto:</label>
+                        <select name="cboTipoPosto" id="cboTipoPosto" class="form-control"><option value="">Selecione</option><option value="2">Área comercial (Hipermercados)</option><option value="1">Auto-estrada</option><option value="3">Outro</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-formularios">Distrito:</label>
+                        <select name="cboDistrito" id="cboDistrito" class="form-control"><option value="">Selecione</option><option value="1">Aveiro</option><option value="2">Beja</option><option value="3">Braga</option><option value="4">Bragança</option><option value="5">Castelo Branco</option><option value="6">Coimbra</option><option value="7">Évora</option><option value="8">Faro</option><option value="9">Guarda</option><option value="10">Leiria</option><option value="11">Lisboa</option><option value="12">Portalegre</option><option value="13">Porto</option><option value="14">Santarém</option><option value="15">Setúbal</option><option value="16">Viana do Castelo</option><option value="17">Vila Real</option><option value="18">Viseu</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="label-formularios">Município:</label>
+                        <div class="SumoSelect sumo_cboMunicipio" tabindex="0" role="button" aria-expanded="false"><select class="selectBox form-control SumoUnder" style="-webkit-appearance: none;" id="cboMunicipio" name="cboMunicipio" multiple="" data-max="2" tabindex="-1"><option value="199">Abrantes</option><option value="120">Aguiar da Beira</option><option value="90">Alandroal</option><option value="2">Albergaria-a-Velha</option><option value="104">Albufeira</option><option value="200">Alcanena</option><option value="134">Alcobaça</option><option value="221">Alcochete</option><option value="105">Alcoutim</option><option value="220">Alcácer do Sal</option><option value="150">Alenquer</option><option value="50">Alfândega da Fé</option><option value="245">Alijó</option><option value="106">Aljezur</option><option value="20">Aljustrel</option><option value="222">Almada</option><option value="121">Almeida</option><option value="201">Almeirim</option><option value="21">Almodôvar</option><option value="202">Alpiarça</option><option value="166">Alter do Chão</option><option value="135">Alvaiázere</option><option value="22">Alvito</option><option value="151">Amadora</option><option value="181">Amarante</option><option value="34">Amares</option><option value="3">Anadia</option><option value="136">Ansião</option><option value="233">Arcos de Valdevez</option><option value="73">Arganil</option><option value="259">Armamar</option><option value="4">Arouca</option><option value="91">Arraiolos</option><option value="167">Arronches</option><option value="152">Arruda dos Vinhos</option><option value="5">Aveiro</option><option value="168">Avis</option><option value="153">Azambuja</option><option value="182">Baião</option><option value="35">Barcelos</option><option value="23">Barrancos</option><option value="223">Barreiro</option><option value="137">Batalha</option><option value="24">Beja</option><option value="62">Belmonte</option><option value="203">Benavente</option><option value="138">Bombarral</option><option value="92">Borba</option><option value="246">Boticas</option><option value="36">Braga</option><option value="51">Bragança</option><option value="37">Cabeceiras de Basto</option><option value="154">Cadaval</option><option value="139">Caldas da Rainha</option><option value="234">Caminha</option><option value="169">Campo Maior</option><option value="74">Cantanhede</option><option value="52">Carrazeda de Ansiães</option><option value="260">Carregal do Sal</option><option value="204">Cartaxo</option><option value="155">Cascais</option><option value="140">Castanheira de Pêra</option><option value="63">Castelo Branco</option><option value="6">Castelo de Paiva</option><option value="170">Castelo de Vide</option><option value="261">Castro Daire</option><option value="107">Castro Marim</option><option value="25">Castro Verde</option><option value="122">Celorico da Beira</option><option value="38">Celorico de Basto</option><option value="205">Chamusca</option><option value="247">Chaves</option><option value="262">Cinfães</option><option value="75">Coimbra</option><option value="76">Condeixa-a-Nova</option><option value="206">Constância</option><option value="207">Coruche</option><option value="64">Covilhã</option><option value="171">Crato</option><option value="26">Cuba</option><option value="172">Elvas</option><option value="208">Entroncamento</option><option value="7">Espinho</option><option value="39">Esposende</option><option value="8">Estarreja</option><option value="93">Estremoz</option><option value="40">Fafe</option><option value="108">Faro</option><option value="183">Felgueiras</option><option value="27">Ferreira do Alentejo</option><option value="209">Ferreira do Zêzere</option><option value="77">Figueira da Foz</option><option value="123">Figueira de Castelo Rodrigo</option><option value="141">Figueiró dos Vinhos</option><option value="124">Fornos de Algodres</option><option value="53">Freixo de Espada à Cinta</option><option value="173">Fronteira</option><option value="65">Fundão</option><option value="174">Gavião</option><option value="210">Golegã</option><option value="184">Gondomar</option><option value="125">Gouveia</option><option value="224">Grândola</option><option value="126">Guarda</option><option value="42">Guimares</option><option value="41">Guimarães</option><option value="78">Góis</option><option value="66">Idanha-a-Nova</option><option value="109">Lagoa</option><option value="110">Lagos</option><option value="263">Lamego</option><option value="142">Leiria</option><option value="156">Lisboa</option><option value="111">Loulé</option><option value="157">Loures</option><option value="158">Lourinhã</option><option value="185">Lousada</option><option value="79">Lousã</option><option value="54">Macedo de Cavaleiros</option><option value="159">Mafra</option><option value="186">Maia</option><option value="264">Mangualde</option><option value="127">Manteigas</option><option value="187">Marco de Canaveses</option><option value="143">Marinha Grande</option><option value="175">Marvão</option><option value="188">Matosinhos</option><option value="211">Mação</option><option value="10">Mealhada</option><option value="128">Meda</option><option value="236">Melgao</option><option value="235">Melgaço</option><option value="248">Mesão Frio</option><option value="80">Mira</option><option value="81">Miranda do Corvo</option><option value="55">Miranda do Douro</option><option value="56">Mirandela</option><option value="57">Mogadouro</option><option value="265">Moimenta da Beira</option><option value="225">Moita</option><option value="112">Monchique</option><option value="249">Mondim de Basto</option><option value="176">Monforte</option><option value="250">Montalegre</option><option value="95">Montemor-o-Novo</option><option value="82">Montemor-o-Velho</option><option value="226">Montijo</option><option value="237">Monção</option><option value="96">Mora</option><option value="266">Mortágua</option><option value="29">Moura</option><option value="97">Mourão</option><option value="11">Murtosa</option><option value="251">Murça</option><option value="28">Mértola</option><option value="144">Nazaré</option><option value="267">Nelas</option><option value="177">Nisa</option><option value="30">Odemira</option><option value="160">Odivelas</option><option value="161">Oeiras</option><option value="67">Oleiros</option><option value="113">Olhão</option><option value="12">Oliveira de Azeméis</option><option value="268">Oliveira de Frades</option><option value="13">Oliveira do Bairro</option><option value="83">Oliveira do Hospital</option><option value="31">Ourique</option><option value="212">Ourém</option><option value="14">Ovar</option><option value="227">Palmela</option><option value="84">Pampilhosa da Serra</option><option value="190">Paredes</option><option value="238">Paredes de Coura</option><option value="189">Paços de Ferreira</option><option value="146">Pedrógão Grande</option><option value="85">Penacova</option><option value="191">Penafiel</option><option value="269">Penalva do Castelo</option><option value="68">Penamacor</option><option value="270">Penedono</option><option value="86">Penela</option><option value="147">Peniche</option><option value="252">Peso da Régua</option><option value="129">Pinhel</option><option value="148">Pombal</option><option value="239">Ponte da Barca</option><option value="240">Ponte de Lima</option><option value="178">Ponte de Sor</option><option value="179">Portalegre</option><option value="98">Portel</option><option value="114">Portimão</option><option value="192">Porto</option><option value="149">Porto de Mós</option><option value="69">Proença-a-Nova</option><option value="43">Póvoa de Lanhoso</option><option value="193">Póvoa de Varzim</option><option value="99">Redondo</option><option value="100">Reguengos de Monsaraz</option><option value="271">Resende</option><option value="253">Ribeira de Pena</option><option value="213">Rio Maior</option><option value="254">Sabrosa</option><option value="130">Sabugal</option><option value="214">Salvaterra de Magos</option><option value="272">Santa Comba Dão</option><option value="15">Santa Maria da Feira</option><option value="255">Santa Marta de Penaguião</option><option value="215">Santarém</option><option value="228">Santiago do Cacém</option><option value="194">Santo Tirso</option><option value="216">Sardoal</option><option value="131">Seia</option><option value="229">Seixal</option><option value="276">Sernancelhe</option><option value="32">Serpa</option><option value="70">Sertã</option><option value="230">Sesimbra</option><option value="231">Setúbal</option><option value="17">Sever do Vouga</option><option value="116">Silves</option><option value="232">Sines</option><option value="162">Sintra</option><option value="163">Sobral de Monte Agraço</option><option value="87">Soure</option><option value="180">Sousel</option><option value="275">Sátão</option><option value="115">São Brás de Alportel</option><option value="16">São João da Madeira</option><option value="273">São João da Pesqueira</option><option value="274">São Pedro do Sul</option><option value="277">Tabuaço</option><option value="278">Tarouca</option><option value="117">Tavira</option><option value="44">Terras de Bouro</option><option value="217">Tomar</option><option value="279">Tondela</option><option value="58">Torre de Moncorvo</option><option value="218">Torres Novas</option><option value="164">Torres Vedras</option><option value="132">Trancoso</option><option value="195">Trofa</option><option value="88">Tábua</option><option value="18">Vagos</option><option value="19">Vale de Cambra</option><option value="241">Valença</option><option value="196">Valongo</option><option value="256">Valpaços</option><option value="101">Vendas Novas</option><option value="102">Viana do Alentejo</option><option value="242">Viana do Castelo</option><option value="33">Vidigueira</option><option value="45">Vieira do Minho</option><option value="59">Vila Flor</option><option value="165">Vila Franca de Xira</option><option value="219">Vila Nova da Barquinha</option><option value="243">Vila Nova de Cerveira</option><option value="46">Vila Nova de Famalicão</option><option value="133">Vila Nova de Foz Côa</option><option value="198">Vila Nova de Gaia</option><option value="280">Vila Nova de Paiva</option><option value="89">Vila Nova de Poiares</option><option value="257">Vila Pouca de Aguiar</option><option value="258">Vila Real</option><option value="119">Vila Real de Santo António</option><option value="72">Vila Velha de Ródão</option><option value="48">Vila Verde</option><option value="103">Vila Viçosa</option><option value="71">Vila de Rei</option><option value="118">Vila do Bispo</option><option value="197">Vila do Conde</option><option value="60">Vimioso</option><option value="61">Vinhais</option><option value="281">Viseu</option><option value="49">Vizela</option><option value="282">Vouzela</option><option value="1">Águeda</option><option value="94">Évora</option><option value="9">Ílhavo</option><option value="145">Óbidos</option></select><p class="CaptionCont SelectBox selectBox form-control" style="-webkit-appearance: none;" title="  Selecione"><span class="placeholder">  Selecione</span><label><i></i></label></p><div class="optWrapper okCancelInMulti multiple"><ul class="options"><li class="opt"><span><i></i></span><label>Abrantes</label></li><li class="opt"><span><i></i></span><label>Águeda</label></li><li class="opt"><span><i></i></span><label>Aguiar da Beira</label></li><li class="opt"><span><i></i></span><label>Alandroal</label></li><li class="opt"><span><i></i></span><label>Albergaria-a-Velha</label></li><li class="opt"><span><i></i></span><label>Albufeira</label></li><li class="opt"><span><i></i></span><label>Alcácer do Sal</label></li><li class="opt"><span><i></i></span><label>Alcanena</label></li><li class="opt"><span><i></i></span><label>Alcobaça</label></li><li class="opt"><span><i></i></span><label>Alcochete</label></li><li class="opt"><span><i></i></span><label>Alcoutim</label></li><li class="opt"><span><i></i></span><label>Alenquer</label></li><li class="opt"><span><i></i></span><label>Alfândega da Fé</label></li><li class="opt"><span><i></i></span><label>Alijó</label></li><li class="opt"><span><i></i></span><label>Aljezur</label></li><li class="opt"><span><i></i></span><label>Aljustrel</label></li><li class="opt"><span><i></i></span><label>Almada</label></li><li class="opt"><span><i></i></span><label>Almeida</label></li><li class="opt"><span><i></i></span><label>Almeirim</label></li><li class="opt"><span><i></i></span><label>Almodôvar</label></li><li class="opt"><span><i></i></span><label>Alpiarça</label></li><li class="opt"><span><i></i></span><label>Alter do Chão</label></li><li class="opt"><span><i></i></span><label>Alvaiázere</label></li><li class="opt"><span><i></i></span><label>Alvito</label></li><li class="opt"><span><i></i></span><label>Amadora</label></li><li class="opt"><span><i></i></span><label>Amarante</label></li><li class="opt"><span><i></i></span><label>Amares</label></li><li class="opt"><span><i></i></span><label>Anadia</label></li><li class="opt"><span><i></i></span><label>Ansião</label></li><li class="opt"><span><i></i></span><label>Arcos de Valdevez</label></li><li class="opt"><span><i></i></span><label>Arganil</label></li><li class="opt"><span><i></i></span><label>Armamar</label></li><li class="opt"><span><i></i></span><label>Arouca</label></li><li class="opt"><span><i></i></span><label>Arraiolos</label></li><li class="opt"><span><i></i></span><label>Arronches</label></li><li class="opt"><span><i></i></span><label>Arruda dos Vinhos</label></li><li class="opt"><span><i></i></span><label>Aveiro</label></li><li class="opt"><span><i></i></span><label>Avis</label></li><li class="opt"><span><i></i></span><label>Azambuja</label></li><li class="opt"><span><i></i></span><label>Baião</label></li><li class="opt"><span><i></i></span><label>Barcelos</label></li><li class="opt"><span><i></i></span><label>Barrancos</label></li><li class="opt"><span><i></i></span><label>Barreiro</label></li><li class="opt"><span><i></i></span><label>Batalha</label></li><li class="opt"><span><i></i></span><label>Beja</label></li><li class="opt"><span><i></i></span><label>Belmonte</label></li><li class="opt"><span><i></i></span><label>Benavente</label></li><li class="opt"><span><i></i></span><label>Bombarral</label></li><li class="opt"><span><i></i></span><label>Borba</label></li><li class="opt"><span><i></i></span><label>Boticas</label></li><li class="opt"><span><i></i></span><label>Braga</label></li><li class="opt"><span><i></i></span><label>Bragança</label></li><li class="opt"><span><i></i></span><label>Cabeceiras de Basto</label></li><li class="opt"><span><i></i></span><label>Cadaval</label></li><li class="opt"><span><i></i></span><label>Caldas da Rainha</label></li><li class="opt"><span><i></i></span><label>Caminha</label></li><li class="opt"><span><i></i></span><label>Campo Maior</label></li><li class="opt"><span><i></i></span><label>Cantanhede</label></li><li class="opt"><span><i></i></span><label>Carrazeda de Ansiães</label></li><li class="opt"><span><i></i></span><label>Carregal do Sal</label></li><li class="opt"><span><i></i></span><label>Cartaxo</label></li><li class="opt"><span><i></i></span><label>Cascais</label></li><li class="opt"><span><i></i></span><label>Castanheira de Pêra</label></li><li class="opt"><span><i></i></span><label>Castelo Branco</label></li><li class="opt"><span><i></i></span><label>Castelo de Paiva</label></li><li class="opt"><span><i></i></span><label>Castelo de Vide</label></li><li class="opt"><span><i></i></span><label>Castro Daire</label></li><li class="opt"><span><i></i></span><label>Castro Marim</label></li><li class="opt"><span><i></i></span><label>Castro Verde</label></li><li class="opt"><span><i></i></span><label>Celorico da Beira</label></li><li class="opt"><span><i></i></span><label>Celorico de Basto</label></li><li class="opt"><span><i></i></span><label>Chamusca</label></li><li class="opt"><span><i></i></span><label>Chaves</label></li><li class="opt"><span><i></i></span><label>Cinfães</label></li><li class="opt"><span><i></i></span><label>Coimbra</label></li><li class="opt"><span><i></i></span><label>Condeixa-a-Nova</label></li><li class="opt"><span><i></i></span><label>Constância</label></li><li class="opt"><span><i></i></span><label>Coruche</label></li><li class="opt"><span><i></i></span><label>Covilhã</label></li><li class="opt"><span><i></i></span><label>Crato</label></li><li class="opt"><span><i></i></span><label>Cuba</label></li><li class="opt"><span><i></i></span><label>Elvas</label></li><li class="opt"><span><i></i></span><label>Entroncamento</label></li><li class="opt"><span><i></i></span><label>Espinho</label></li><li class="opt"><span><i></i></span><label>Esposende</label></li><li class="opt"><span><i></i></span><label>Estarreja</label></li><li class="opt"><span><i></i></span><label>Estremoz</label></li><li class="opt"><span><i></i></span><label>Évora</label></li><li class="opt"><span><i></i></span><label>Fafe</label></li><li class="opt"><span><i></i></span><label>Faro</label></li><li class="opt"><span><i></i></span><label>Felgueiras</label></li><li class="opt"><span><i></i></span><label>Ferreira do Alentejo</label></li><li class="opt"><span><i></i></span><label>Ferreira do Zêzere</label></li><li class="opt"><span><i></i></span><label>Figueira da Foz</label></li><li class="opt"><span><i></i></span><label>Figueira de Castelo Rodrigo</label></li><li class="opt"><span><i></i></span><label>Figueiró dos Vinhos</label></li><li class="opt"><span><i></i></span><label>Fornos de Algodres</label></li><li class="opt"><span><i></i></span><label>Freixo de Espada à Cinta</label></li><li class="opt"><span><i></i></span><label>Fronteira</label></li><li class="opt"><span><i></i></span><label>Fundão</label></li><li class="opt"><span><i></i></span><label>Gavião</label></li><li class="opt"><span><i></i></span><label>Góis</label></li><li class="opt"><span><i></i></span><label>Golegã</label></li><li class="opt"><span><i></i></span><label>Gondomar</label></li><li class="opt"><span><i></i></span><label>Gouveia</label></li><li class="opt"><span><i></i></span><label>Grândola</label></li><li class="opt"><span><i></i></span><label>Guarda</label></li><li class="opt"><span><i></i></span><label>Guimarães</label></li><li class="opt"><span><i></i></span><label>Guimares</label></li><li class="opt"><span><i></i></span><label>Idanha-a-Nova</label></li><li class="opt"><span><i></i></span><label>Ílhavo</label></li><li class="opt"><span><i></i></span><label>Lagoa</label></li><li class="opt"><span><i></i></span><label>Lagos</label></li><li class="opt"><span><i></i></span><label>Lamego</label></li><li class="opt"><span><i></i></span><label>Leiria</label></li><li class="opt"><span><i></i></span><label>Lisboa</label></li><li class="opt"><span><i></i></span><label>Loulé</label></li><li class="opt"><span><i></i></span><label>Loures</label></li><li class="opt"><span><i></i></span><label>Lourinhã</label></li><li class="opt"><span><i></i></span><label>Lousã</label></li><li class="opt"><span><i></i></span><label>Lousada</label></li><li class="opt"><span><i></i></span><label>Mação</label></li><li class="opt"><span><i></i></span><label>Macedo de Cavaleiros</label></li><li class="opt"><span><i></i></span><label>Mafra</label></li><li class="opt"><span><i></i></span><label>Maia</label></li><li class="opt"><span><i></i></span><label>Mangualde</label></li><li class="opt"><span><i></i></span><label>Manteigas</label></li><li class="opt"><span><i></i></span><label>Marco de Canaveses</label></li><li class="opt"><span><i></i></span><label>Marinha Grande</label></li><li class="opt"><span><i></i></span><label>Marvão</label></li><li class="opt"><span><i></i></span><label>Matosinhos</label></li><li class="opt"><span><i></i></span><label>Mealhada</label></li><li class="opt"><span><i></i></span><label>Meda</label></li><li class="opt"><span><i></i></span><label>Melgaço</label></li><li class="opt"><span><i></i></span><label>Melgao</label></li><li class="opt"><span><i></i></span><label>Mértola</label></li><li class="opt"><span><i></i></span><label>Mesão Frio</label></li><li class="opt"><span><i></i></span><label>Mira</label></li><li class="opt"><span><i></i></span><label>Miranda do Corvo</label></li><li class="opt"><span><i></i></span><label>Miranda do Douro</label></li><li class="opt"><span><i></i></span><label>Mirandela</label></li><li class="opt"><span><i></i></span><label>Mogadouro</label></li><li class="opt"><span><i></i></span><label>Moimenta da Beira</label></li><li class="opt"><span><i></i></span><label>Moita</label></li><li class="opt"><span><i></i></span><label>Monção</label></li><li class="opt"><span><i></i></span><label>Monchique</label></li><li class="opt"><span><i></i></span><label>Mondim de Basto</label></li><li class="opt"><span><i></i></span><label>Monforte</label></li><li class="opt"><span><i></i></span><label>Montalegre</label></li><li class="opt"><span><i></i></span><label>Montemor-o-Novo</label></li><li class="opt"><span><i></i></span><label>Montemor-o-Velho</label></li><li class="opt"><span><i></i></span><label>Montijo</label></li><li class="opt"><span><i></i></span><label>Mora</label></li><li class="opt"><span><i></i></span><label>Mortágua</label></li><li class="opt"><span><i></i></span><label>Moura</label></li><li class="opt"><span><i></i></span><label>Mourão</label></li><li class="opt"><span><i></i></span><label>Murça</label></li><li class="opt"><span><i></i></span><label>Murtosa</label></li><li class="opt"><span><i></i></span><label>Nazaré</label></li><li class="opt"><span><i></i></span><label>Nelas</label></li><li class="opt"><span><i></i></span><label>Nisa</label></li><li class="opt"><span><i></i></span><label>Óbidos</label></li><li class="opt"><span><i></i></span><label>Odemira</label></li><li class="opt"><span><i></i></span><label>Odivelas</label></li><li class="opt"><span><i></i></span><label>Oeiras</label></li><li class="opt"><span><i></i></span><label>Oleiros</label></li><li class="opt"><span><i></i></span><label>Olhão</label></li><li class="opt"><span><i></i></span><label>Oliveira de Azeméis</label></li><li class="opt"><span><i></i></span><label>Oliveira de Frades</label></li><li class="opt"><span><i></i></span><label>Oliveira do Bairro</label></li><li class="opt"><span><i></i></span><label>Oliveira do Hospital</label></li><li class="opt"><span><i></i></span><label>Ourém</label></li><li class="opt"><span><i></i></span><label>Ourique</label></li><li class="opt"><span><i></i></span><label>Ovar</label></li><li class="opt"><span><i></i></span><label>Paços de Ferreira</label></li><li class="opt"><span><i></i></span><label>Palmela</label></li><li class="opt"><span><i></i></span><label>Pampilhosa da Serra</label></li><li class="opt"><span><i></i></span><label>Paredes</label></li><li class="opt"><span><i></i></span><label>Paredes de Coura</label></li><li class="opt"><span><i></i></span><label>Pedrógão Grande</label></li><li class="opt"><span><i></i></span><label>Penacova</label></li><li class="opt"><span><i></i></span><label>Penafiel</label></li><li class="opt"><span><i></i></span><label>Penalva do Castelo</label></li><li class="opt"><span><i></i></span><label>Penamacor</label></li><li class="opt"><span><i></i></span><label>Penedono</label></li><li class="opt"><span><i></i></span><label>Penela</label></li><li class="opt"><span><i></i></span><label>Peniche</label></li><li class="opt"><span><i></i></span><label>Peso da Régua</label></li><li class="opt"><span><i></i></span><label>Pinhel</label></li><li class="opt"><span><i></i></span><label>Pombal</label></li><li class="opt"><span><i></i></span><label>Ponte da Barca</label></li><li class="opt"><span><i></i></span><label>Ponte de Lima</label></li><li class="opt"><span><i></i></span><label>Ponte de Sor</label></li><li class="opt"><span><i></i></span><label>Portalegre</label></li><li class="opt"><span><i></i></span><label>Portel</label></li><li class="opt"><span><i></i></span><label>Portimão</label></li><li class="opt"><span><i></i></span><label>Porto</label></li><li class="opt"><span><i></i></span><label>Porto de Mós</label></li><li class="opt"><span><i></i></span><label>Póvoa de Lanhoso</label></li><li class="opt"><span><i></i></span><label>Póvoa de Varzim</label></li><li class="opt"><span><i></i></span><label>Proença-a-Nova</label></li><li class="opt"><span><i></i></span><label>Redondo</label></li><li class="opt"><span><i></i></span><label>Reguengos de Monsaraz</label></li><li class="opt"><span><i></i></span><label>Resende</label></li><li class="opt"><span><i></i></span><label>Ribeira de Pena</label></li><li class="opt"><span><i></i></span><label>Rio Maior</label></li><li class="opt"><span><i></i></span><label>Sabrosa</label></li><li class="opt"><span><i></i></span><label>Sabugal</label></li><li class="opt"><span><i></i></span><label>Salvaterra de Magos</label></li><li class="opt"><span><i></i></span><label>Santa Comba Dão</label></li><li class="opt"><span><i></i></span><label>Santa Maria da Feira</label></li><li class="opt"><span><i></i></span><label>Santa Marta de Penaguião</label></li><li class="opt"><span><i></i></span><label>Santarém</label></li><li class="opt"><span><i></i></span><label>Santiago do Cacém</label></li><li class="opt"><span><i></i></span><label>Santo Tirso</label></li><li class="opt"><span><i></i></span><label>São Brás de Alportel</label></li><li class="opt"><span><i></i></span><label>São João da Madeira</label></li><li class="opt"><span><i></i></span><label>São João da Pesqueira</label></li><li class="opt"><span><i></i></span><label>São Pedro do Sul</label></li><li class="opt"><span><i></i></span><label>Sardoal</label></li><li class="opt"><span><i></i></span><label>Sátão</label></li><li class="opt"><span><i></i></span><label>Seia</label></li><li class="opt"><span><i></i></span><label>Seixal</label></li><li class="opt"><span><i></i></span><label>Sernancelhe</label></li><li class="opt"><span><i></i></span><label>Serpa</label></li><li class="opt"><span><i></i></span><label>Sertã</label></li><li class="opt"><span><i></i></span><label>Sesimbra</label></li><li class="opt"><span><i></i></span><label>Setúbal</label></li><li class="opt"><span><i></i></span><label>Sever do Vouga</label></li><li class="opt"><span><i></i></span><label>Silves</label></li><li class="opt"><span><i></i></span><label>Sines</label></li><li class="opt"><span><i></i></span><label>Sintra</label></li><li class="opt"><span><i></i></span><label>Sobral de Monte Agraço</label></li><li class="opt"><span><i></i></span><label>Soure</label></li><li class="opt"><span><i></i></span><label>Sousel</label></li><li class="opt"><span><i></i></span><label>Tábua</label></li><li class="opt"><span><i></i></span><label>Tabuaço</label></li><li class="opt"><span><i></i></span><label>Tarouca</label></li><li class="opt"><span><i></i></span><label>Tavira</label></li><li class="opt"><span><i></i></span><label>Terras de Bouro</label></li><li class="opt"><span><i></i></span><label>Tomar</label></li><li class="opt"><span><i></i></span><label>Tondela</label></li><li class="opt"><span><i></i></span><label>Torre de Moncorvo</label></li><li class="opt"><span><i></i></span><label>Torres Novas</label></li><li class="opt"><span><i></i></span><label>Torres Vedras</label></li><li class="opt"><span><i></i></span><label>Trancoso</label></li><li class="opt"><span><i></i></span><label>Trofa</label></li><li class="opt"><span><i></i></span><label>Vagos</label></li><li class="opt"><span><i></i></span><label>Vale de Cambra</label></li><li class="opt"><span><i></i></span><label>Valença</label></li><li class="opt"><span><i></i></span><label>Valongo</label></li><li class="opt"><span><i></i></span><label>Valpaços</label></li><li class="opt"><span><i></i></span><label>Vendas Novas</label></li><li class="opt"><span><i></i></span><label>Viana do Alentejo</label></li><li class="opt"><span><i></i></span><label>Viana do Castelo</label></li><li class="opt"><span><i></i></span><label>Vidigueira</label></li><li class="opt"><span><i></i></span><label>Vieira do Minho</label></li><li class="opt"><span><i></i></span><label>Vila de Rei</label></li><li class="opt"><span><i></i></span><label>Vila do Bispo</label></li><li class="opt"><span><i></i></span><label>Vila do Conde</label></li><li class="opt"><span><i></i></span><label>Vila Flor</label></li><li class="opt"><span><i></i></span><label>Vila Franca de Xira</label></li><li class="opt"><span><i></i></span><label>Vila Nova da Barquinha</label></li><li class="opt"><span><i></i></span><label>Vila Nova de Cerveira</label></li><li class="opt"><span><i></i></span><label>Vila Nova de Famalicão</label></li><li class="opt"><span><i></i></span><label>Vila Nova de Foz Côa</label></li><li class="opt"><span><i></i></span><label>Vila Nova de Gaia</label></li><li class="opt"><span><i></i></span><label>Vila Nova de Paiva</label></li><li class="opt"><span><i></i></span><label>Vila Nova de Poiares</label></li><li class="opt"><span><i></i></span><label>Vila Pouca de Aguiar</label></li><li class="opt"><span><i></i></span><label>Vila Real</label></li><li class="opt"><span><i></i></span><label>Vila Real de Santo António</label></li><li class="opt"><span><i></i></span><label>Vila Velha de Ródão</label></li><li class="opt"><span><i></i></span><label>Vila Verde</label></li><li class="opt"><span><i></i></span><label>Vila Viçosa</label></li><li class="opt"><span><i></i></span><label>Vimioso</label></li><li class="opt"><span><i></i></span><label>Vinhais</label></li><li class="opt"><span><i></i></span><label>Viseu</label></li><li class="opt"><span><i></i></span><label>Vizela</label></li><li class="opt"><span><i></i></span><label>Vouzela</label></li></ul><div class="MultiControls"><p tabindex="0" class="btnOk">OK</p><p tabindex="0" class="btnCancel">Cancelar</p></div></div></div>
+                    </div>
+                    <div>
+                        <label class="infoPesquisa">* Campos com Seleção Obrigatória</label>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6 margem_top_10">
+                                <button class="btn_pesquisar" type="submit" title="Procurar" onclick="PesquisarPostos();">Procurar</button>
+                            </div>
+                            <div class="col-md-6 margem_top_10">
+                                <button class="btn_pesquisar" title="Limpar" onclick="LimparDados();">Limpar</button>
+                            </div>
+                            <input type="hidden" id="hdIdsPostos" name="hdIdsPostos" value="66647,66638,66639,66721,66724,66533,66825,66826,67020,66629,66526,66607,66618,66643,66645,66689,66654,66717,66791,66776,66789,66790,66779,67363,66718,67325,64977,67288,67053,68284,67927,67207,65074,65494,65537,65721,65784,65321,65695,65302,65704,65679,65162,65121,65584,65517,65714,65311,65243,65299,65402,65422,65722,65423,65424,65425,65532,65437,65339,65693,65640,65340,65595,65188,65554,65598,65438,65510,65726,66090,65542,65589,65743,65702,65708,65757,65588,65717,65585,65620,65125,65183,65196,65642,65278,65440,68985,65802,66613,66566,66529,66612,66755,66785,66740,66832,66614,69069,69125,69088,66775,66692,66475,66783,66798,66589,66543,66500,66611,66488,66834,66626,66709,65954,70796,67766,67778,67765,71490,66602,66603,67051,67544,66919,66623,71491,65239,65417,66480,66803,66691,66733,66753,69063,69054,69053,69062,69061,65351,65354,65381,65730,65572,65007,65008,65426,65365,69110,69165,69060,69132,65251,65482,65169,65341,65367,65573,65483,65335,65336,65108,65602,65373,65579,65117,65485,65110,65741,65742,65275,65755,65847,67937,65443,65186,65509,69108,67708,67712,65889,66532,65459,66641,66702,66729,65842,65843,65895,66101,66522,66580,71501,71498,66275,66797,71703,65622,65260,67021,65216,70777,65323,65287,66057,65444,67140,65073,66173,67687,67732,67772,67713,67716,67788,67689,67703,65057,65446,65621,65524,65624,65623,65818,65817,72913,70072,65778,65343,65787,66984,65371,65170,65018,65601,65223,65790,64996,65558,65767,65719,65629,65106,65177,65691,65147,65398,65203,65104,65659,65476,65484,65474,65481,65667,65389,65660,65397,65661,65663,65664,65387,65525,65175,65064,65471,65603,65652,65645,65605,65473,65068,65314,65491,65376,65611,65078,65462,65677,65245,73390,65874,65948,68046,65636,65635,65076,69002,66462,71715,65975,66898,65277,65827,66039,65182,65628,66077,73576,66732,66035,65684,66348,70904,65026,65021,75517,65950,68060,75212,67774,65833,65395,76004,67423,65330,66422,66154,66071,66070,67049,67048,67073,66487,70499,67050,66762,65000,64999,65809,65016,65808,65498,65230,65231,65541,65289,65292,65315,65316,65348,65349,65614,65386,65707,65415,65416,65631,65644,67075,66730,66772,71964,69982,74897,65764,65675,65676,66099,76354,65566,65688,65201,65692,65220,65504,65773,65563,65564,76396,72680,77175,65355,77274,70672,70673,66574,71700,74173,65617,73372,70686,77747,67045,66545,77835,66722,77911,77821,65214,66596,70438,65846,72777,65543,65547,65548,65668,74359,65229,78200,65361,78207,66954,66597,78278,65284,70418,65724,65211,69908,78405,71054,65447,65627,65435,65226,65391,65739,65779,66793,70271,65370,65946,78559,65327,79517,79599,65099,65863,70516,70481,69185,65469,78756,66021,70195,66634,65918,68901,65017,65758,78005,79005,65545,66299,78668,65988,65265,79078,70150,74778,65225,71686,65521,65800,66066,76057,69749,67616,66648,66799,68493,66780,66802,65555,65394,67770,66698,65234,65716,65194,65318,65393,72621,71584,74875,68159,70869,66644,66058,69153,66616,67982,67977,66598,65885,67106,78734,78060,75942,69178,69159,69128,69107,66260,69111,69156,69051,78062,65520,70953,80419,69157,79651,69070,69116,69124,69184,69052,69067,69068,69121,69115,69130,69099,68892,69152,69056,69055,69190,69133,69065,69059,69082,69085,80559,74757,66588,66619,65607,65999,66483,66489,65071,65746,71794,68274,65828,65069,70021,66098,80925,66534,66948,81002,71990,67680,66836,66814,66708,66701,66697,66655,66631,66502,66461,66731,66757,66707,66700,66635,66683,66394,65172,81111,69387,67543,69501,80795,67233,67506,70225,66241,66251,66696,66406,72600,72081,66561,66272,70375,70529,70531,70413,66838,66839,67762,74554,66441,66443,66459,66476,66481,66482,66484,66486,66490,66492,66499,66519,66520,66521,65567,66537,71689,78206,67768,66953,76352,69100,66719,67983,66725,71147,67973,66594,67700,68305,81378,66920,68599,81564,73053,65540,67520,67499,66178,66155,66656,66591,66620,66637,66653,66706,66748,66771,66782,66822,65735,81712,65024,70202,65604,75118,66847,66850,67505,67557,67526,67511,65303,65310,67042,65528,68102,67740,74777,69350,78131,66403,65212,66503,66585,65608,71777,66494,67495,67516,82439,70928,67139,66801,67028,65519,65681,78770,65283,80402,67675,65518,65499,65296,67069,65559,65044,65077,65467,65400,65439,65269,65271,65582,80870,65669,65772,65280,65655,65257,65204,65205,65463,65583,65112,65276,65215,65458,65646,65273,65647,65472,65515,65651,74125,67254,68332,67245,65166,69855,68987,67331,66295,65062,65577,65535,65578,65285,65035,69866,65712,67796,67790,65282,65326,65493,66445,70857,66333,65501,70748,68866,67820,67826,67825,67827,68672,68660,68684,68655,75353,67828,68428,67823,68659,67829,71191,67821,66508,66568,68670,68533,68657,68667,68664,68666,68687,68671,68656,68676,68534,68677,68669,68685,70453,68682,70877,68680,79964,67250,79557,79564,79586,79587,68397,70022,79572,78132,77849,68654,80730,77172,68693,68870,67805,67842,67913,68663,68674,67822,68675,67276,79646,74841,72408,68103,67310,66198,83564,67803,65538,83781,83805,66548,66549,66556,67514,68586,66936,69105,69297,69104,66608,66609,66630,66633,66636,66649,66669,66670,66746,66685,66686,66716,69208,66810,66811,66813,65574,65849,66031,66572,66573,66575,66576,66579,66582,66583,66592,66600,66749,66756,66765,66766,71540,74942,66474,66472,66473,66599,66615,84359,69733,65978,68236,66972,73872,70667,68710,66565,66553,66417,84759,76690,70674,65060,84216,66617,84790,66794,66952,66546,65529,68287,66542,66544,66552,66495,66711,66735,66736,66739,66806,66809,66817,66819,66823,66828,67537,83930,66681,66727,66734,66738,66143,69916,66022,65157,66506,66507,66511,66514,66523,66562,66831,66843,65256,84185,67403,66816,66820,81370,70586,66491,66557,84384,66593,67507,73816,81396,66804,65428,67064,65427,70861,79461,77887,78596,79145,70728,81000,65242,80610,67515,69397,70119,67498,67535,67496,66818,66665,66982,68039,71082,69481,73552,66968,70187,70880,66226,66340,66339,66595,66792,67550,67542,67536,70541,79063,68779,67054,65771,66444,66712,84949,81766,67522,77169,69354,66352,84875,66903,67500,77912,67533,84808,68694,77814,80028,85061,85034,65255,69666,68897,69410,65411,69114,65552,68100,68371,70760,66052,65146,72039,66690,66723,65383,68084,66528,65325,73290,68168,68162,68175,68181,68597,67646,65301,66720,85575,69278,67811,65414,84181,66225,67465,67237,76859,85860,66525,69494,66399,65028,66745,73827,76167,68373,75004,69840,70428,67864,67870,67882,67888,80275,67569,65686,65687,65959,65248,67654,65932,65190,66323,74833,86173,73636,67228,67667,67625,65890,75148,70832,66571,65980,65979,86249,67546,68478,70134,72421,68338,86254,70136,66007,86187,65876,69399,65881,65882,66100,66095,66006,68888,65167,65875,76523,67649,76102,65460,69338,70799,86364,86245,65420,81566,69464,67274,69113,65123,86269,86148,86482,66086,65992,84635,77405,66800,66554,72587,68189,65522,78630,65122,80310,66002,86645,66013,66242,67031,66401,65965,65964,80260,81066,65906,70929,65738,66060,65880,86760,71677,65009,65010,65759,65760,86711,67295,65464,76388,70915,65156,68254,86962,86718,79060,68823,67057,86058,67735,71150,66442,69990,67584,65804,65503,69773,65377,65360,67429,65144,65972,87198,78651,87129,87136,86780,85363,66737,87345,66778,66119,69725,65633,87396,79614,67122,72406,66747,66752,70097,66760,71553,66754,66604,66621,66625,66661,66664,66666,66667,76235,66743,66751,66171,66527,66539,66538,66676,67154,67278,67171,71665,78640,65067,77675,75757,79109,75750,65478,66279,66278,66934,65657,65421,71492,69191,66400,66363,66314,65022,78622,65630,65949,67137,66567,87583,65945,76713,76447,76446,75180,74441,74435,66978,66091,65971,69613,87550,86856,67033,87586,87314,77098,65218,87768,87665,87619,65837,65836,69923,66072,65445,64971,66102,69357,77078,73870,76298,72370,69323,68944,80997,87786,78338,68907,68990,69740,80002,75011,70638,70636,80797,70637,79717,69774,66524,67568,67521,87694,67565,67560,67528,67555,86453,66531,77002,76993,87976,87398,87987,67360,80658,79153,67126,66547,74973,65892,86289,86290,66651,71953,66092,68804,66663,66662,88089,88005,66627,66628,66087,65896,66097,87393,66640,88058,74642,70732,76457,66316,77264,65526,67484,76540,86388,88293,80083,70721,65731,67922,85011,88739,66054,88674,69587,67621,86964,88218,85388,88200,65053,66821,66010,87353,65556,66699,86818,68406,65887,67945,70630,70629,66175,88424,66450,66451,67101,73123,72557,65512,69639,72136,74840,76165,67771,67844,75684,72536,78113,68286,75097,69627,71833,76133,69162,65005,70725,70712,73550,66065,70769,88631,67281,73223,67379,70183,66868,69364,67352,78410,67318,88734,65672,65432,65431,85895,65711,88802,80622,70999,65612,69826,74268,65915,65613,73706,88827,88872,84547,66728,88813,65879,79225,72692,76657,84367,66453,79603,65928,65929,88898,68422,79928,66397,71023,85800,77099,74835,80564,77779,89066,89041,70684,66313,65165,66209,65399,80710,77312,72418,89328,88899,66896,66967,66900,69011,71336,77257,65638,89117,65911,75720,88999,89113,68776,73077,68484,66239,66312,79639,66037,66089,68876,66088,68871,85892,67084,84281,89358,65775,70750,70905,65342,65385,65350,72981,77676,67334,89437,89418,67342,69904,65207,65322,65233,88270,65454,71507,66578,66577,67717,73912,68215,73032,78617,66114,72916,67212,69998,86940,66003,66004,71391,69090,66215,76162,72149,72148,70456,65852,89545,89553,71880,67806,66710,65947,69549,69529,65576,65575,69573,69538,69579,69752,66224,64985,67368,65653,89546,72954,65085,69089,67027,89665,89780,76980,89848,84138,66334,65994,69910,68348,66668,71997,65209,80070,66053,65536,69195,80373,77871,70065,69759,66030,65433,78224,65307,65850,72153,89926,66457,70714,78588,65293,89558,65304,67270,69762,65410,90000,89987,89981,89992,76589,77830,72250,85731,67473,67418,70277,68318,67895,89979,77220,65063,71668,69616,89840,67449,76462,71263,65103,66998,66872,66865,66863,70639,73901,66864,66870,66869,74440,74915,66873,75020,76006,76323,76524,76718,76870,77515,77631,77740,77807,77801,77771,66871,79596,79645,79803,80517,78388,78233,66996,72432,71933,68761,72630,65372,65206,65734,74279,88032,67869,67880,65452,65193,67085,67088,67089,67086,67750,69175,65450,83466,70018,77091,70108,85175,77095,66132,66912,88867,66962,68483,72852,74800,69228,87736,68647,65781,65782,67074,67080,66405,66404,65384,67046,65732,65599,65697,65698,65488,65489,65550,65013,65406,65407,65281,65378,65553,65120,65600,65236,65247,65803,67886,90242,67340,71661,71201,65831,65868,66005,69370,69768,66364,68350,74699,66726,77558,66381,69670,65862,65861,79629,69764,69918,67052,88401,69941,81117,80208,66233,65814,65812,65813,65811,65625,90335,90336,66867,80172,90325,66925,65551,65505,65689,65806,67345,65055,66290,74646,65056,65014,65004,65153,65152,65200,65184,65262,65319,65320,65352,65353,65308,65690,65065,65066,65368,65713,68064,67087,65727,65728,68644,65379,65380,65765,65766,65523,65591,65592,65154,65155,69288,66040,82158,65957,69557,67785,87319,67658,67563,87884,67541,73760,66849,71795,77822,66104,68224,90624,67942,66434,90739,90681,90478,90597,90539,72346,87507,71215,66931,69095,89107,90496,81593,69478,70960,66907,89157,67810,65991,66044,86721,86722,75519,69446,66951,66904,66393,66970,66080,66977,68934,66032,69131,66995,69180,66332,67745,68455,66356,66236,66848,69168,72356,68628,68949,70211,90449,89684,88939,83801,82019,65939,69747,68009,70509,69379,67091,85103,69466,70303,81307,90521,65235,69490,90233,87726,90701,66124,71804,78468,74261,67265,67262,80467,67261,67260,76024,73601,67391,74656,74503,76183,80016,81862,67259,73881,67380,89939,76106,67347,67263,77592,76976,69402,67422,67264,76913,86903,69541,90866,66941,84343,68408,70107,68250,80920,69222,69792,83310,66391,66470,80777,90618,90844,66009,70931,70423,78885,90817,84656,86179,88279,90873,65924,69767,67578,70868,88761,66206,65238,70492,90720,69196,67614,71092,91001,72681,69007,67413,91018,91015,91022,91017,89723,91028,74727,84944,84943,66062,91006,68786,66980,72519,67271,73250,71214,84864,67606,75137,65840,72057,71905,76902,87990,80739,71407,77647,89584,90884,91078,65922,66304,91105,79175,66446,66452,66458,66465,66467,66468,66497,66498,66501,86466,81499,66569,66570,66704,66777,66781,66784,69403,66135,66824,66829,66837,73621,81192,67450,91183,67663,66454,66448,66449,89569,86395,91178,65363,70055,80438,67098,66460,66795,66610,66642,91259,85771,70308,69213,90102,91324,68982,81745,66447,75943,65344,68605,91279,69326,65020,65019,76640,65866,69253,65199,71986,67545,76899,70745,65033,91326,65703,69129,89613,83296,91340,91424,74200,69381,87647,69412,90149,65163,91450,66469,85458,69137,65920,66319,66677,66678,91465,89666,66249,69212,65756,69753,66512,66513,72897,66558,66550,65720,66541,66540,66536,91280,67868,66551,69881,65982,69194,66256,67297,66064,65923,91838,76316,91719,79693,66770,65530,72792,65436,65909,67705,69637,68608,91656,65678,66764,65943,91694,66049,65040,65944,65191,65095,91692,66073,69024,65047,91808,91815,66331,69186,68609,70091,65161,91852,65792,66146,71046,71825,84823,69392,70239,65615,91950,91896,66679,91858,91936,65904,65905,65511,66624,79261,90541,71132,90101,92009,66371,66282,66285,66354,67283,91983,69081,70138,67256,66294,65164,92079,66067,91477,65390,70387,74989,79973,66079,92208,67471,73938,69259,92263,92410,66367,79824,65148,65838,66214,69819,80736,85148,66693,75398,67801,78599,82301,92197,92158,92049,67619,87979,65786,65848,70524,66866,66945,70739,81362,65224,72296,73235,66063,92253,69978,91842,65794,66787,66788,85756,65963,92245,92264,92322,66181,66373,66177,78162,66317,72844,83705,85762,86369,65124,66347,65820,89556,72687,66076,65953,65740,90141,74749,92343,88747,77997,85869,67307,65851,77494,92406,68560,65770,73796,68447,68133,65908,92426,80377,68998,65796,65829,66168,70122,65754,68908,75625,67314,68346,68820,70679,68221,65561,65337,65338,66515,91972,71114,71909,66291,66160,69603,73351,69606,69568,69605,85949,66234,77616,69279,65864,69359,66036,70533,92470,75848,84891,65825,92494,67843,65594,66392,70596,70485,66973,69320,92616,69583,71085,66296,70390,65185,66684,68430,72279,68918,70532,69183,81832,92510,65986,70643,69825,92666,83642,65560,69126,70073,68932,69135,65259,67525,65762,72342,66688,69120,71158,66650,66658,66659,66601,76935,65910,66108,68491,68571,68581,69952,71585,65990,66014,66212,66369,67582,67744,68024,69136,76141,68203,92636,69079,92642,69169,66372,65531,71099,71200,69527,67896,92662,71069,72974,65795,69398,69491,65441,69925,74168,74546,86495,69614,66223,66307,67364,68640,69160,67433,67721,66300,70523,65791,66509,66510,69127,66238,66351,66286,69119,69154,64998,65718,66254,70105,67894,78481,91875,92854,69424,69294,69660,67095,67059,68952,86906,67928,92711,70876,91668,70188,66205,71227,65872,67884,66244,65116,65641,92852,75228,83863,84017,84735,85718,86764,91615,91805,91826,66361,66301,68718,69248,69103,69258,72192,67071,79729,65570,90891,71526,68889,69548,81644,69261,67056,67040,67079,67078,67055,91296,67077,91553,69668,69761,92151,92154,92155,67668,77565,71699,70460,66293,66292,70270,71275,66905,81186,92926,68115,92927,66041,65993,68713,69018,92958,66944,74719,70758,92960,92961,92962,92963,92966,92968,92969,92970,92971,92972,92973,92974,92975,92976,92977,92979,92983,92984,92985,92986,92987,92988,92989,92991,92997,93007,93009,93013,93014,93015,93016,93017,93023,93024,93025,93028,93031,93032,93034,93035,93036,93037,93038,93040,93042,93043,93047,93048,93051,93053,93054,93055,93060,93061,93064,93065,93066,93067,93068,93069,93070,93073,93074,93075,93076,93077,93078,93080,93081,93082,93086,93089,93091,93093,93094,93098,93101,93103,93104,93105,93108,93109,93110,93111,93112,93113,93114,93115,93120,93121,93122,93123,93125,93126,93127,93128,93129,93131,93133,93134,93135,93137,93138,93140,93141,93142,93143,93144,93145,93148,93149,93151,93158,93159,93160,93161,93162,93163,93164,93165,93166,93167,93168,93171,93175,93177,93180,93181,93187,93191,93192,93194,93195,93196,93197,93198,93202,93204,93205,93207,93208,93209,93210,93211,93213,93214,93215,93218,93219,93220,93221,93222,93225,93227,93228,93229,93230,93231,93232,93233,93234,93235,93236,93237,93238,93241,93242,93243,93247,93251,93254,93255,93256,93257,93258,93259,93260,93261,93262,93264,93266,93267,93268,93269,93270,93272,93273,93274,93275,93277,93279,93280,93281,93282,93283,93284,93286,93287,93289,93290,93291,93292,93294,93295,93296,93298,93302,93303,93304,93306,93307,93309,93310,93311,93312,93313,93314,93316,93317,93318,93319,93323,93324,93325,93326,93327,93330,93332,93333,93334,93335,93338,93339,93344,93346,93348,93350,93352,93353,93354,93355,93357,93358,93359,93360,93361,93362,93363,93364,93366,93368,93369,93379,93380,93381,93382,93383,93384,93385,93386,93387,93388,93389,93390,93391,93392,93393,93394,93395,93396,93397,93398,93399,93400,93401,93403,93405,93406,93407,93408,93410,93411,93413,93414,93416,93419,93420,93421,93423,93425,93426,93427,93430,93431,93433,93434,93435,93437,93440,93442,93443,93444,93445,93446,93447,93448,93449,93450,93451,93452,93453,93454,93455,93456,93457,93458,93459,93460,93461,93462,93463,93464,93465,93466,93467,93468,93469,93470,93471,93472,93474,93475,93476,93477,93484,93485,93486,93487,93488,93490,93491,93495,93496,93497,93500,93501,93502,93503,93506,93507,93508,93509,93511,93512,93514,93515,93518,93519,93520,93521,93523,93524,93528,93529,93531,93534,93535,93536,93538,93547,93548,93549,93552,93553,93554,93555,93557,93559,93560,93561,93566,93567,93568,93569,93572,93573,93574,93575,93579,93581,93582,93583,93584,93586,93589,93590,93591,93592,93593,93594,93595,93597,93607,93610,93618,93654,93660,93666,93675,93676,93677,93696,93702,93706,93708,93715,93726,93728,93730,93737,93751,93752,93762,93767,93773,93789,93794,93795,93798,93802,93804,93805,93809,93811,93812,93814,93815,93816,93817,93818,93819,93823,93824,93828,93831,93833,93836,93838,93840,93844,93848,93854,93855,93860,93892,93893,93895,93904,94105,94117,94119,94136,94137,94138,94141,94179,94190,94191,94198,94200,94211,94252,94254,94255,94256,94261,94264,94272,94273,94274,94276,94277,94278,94281,94287,94288,94289,94290,94291,94301,94302,94304,94306,94309,94310,94311,94312,94313,94314,94316,94321,94324,94335,94339,94340,94346,94347,94348,94349,94358,94365,94367,94368,94369,94370,94371,94372,94373,94374,94384,94387,94388,94390,94400,94405,94406,94411,94412,94416,94418,94419,94422,94426,94427,94433,94434,94435,94436,94445,94446,94447,94448,94449,94450,94452,94453,94454,94455,94456,94457,94464,94465,94468,94472,94473,94474,94475,94478,94481,94483,94484,94485,94487,94488,94489,94491,94493,94496,94497,94498,94500,94502,94503,94505,94506,94507,94508,94509,94512,94513,94514,94515,94516,94517,94518,94519,94522,94523,94524,94525,94526,94527,94528,94529,94531,94532,94533,94534,94535,94536,94538,94540,94543,94560,94561,94562,94563,94564,94565,94566,94581,94582,94583,94585,94587,94588,94596,94606,94607,94608,94609,94610,94611,94612,94613,94614,94616,94617,94618,94619,94620,94621,94622,94623,94624,94625,94627,94629,94630,94631,94632,94634,94643,94646,94647,94648,94649,94650,94652,94653,94656,94658,94668,94669,94671,94672,94676,94681,94682,94683,94685,94686,94688,94690,94691,94692,94697,94701,94702,94703,94707,94708,94712,94715,94720,94723,94724,94725,94726,94729,94730,94739,94740,94743,94747,94748,94749,94750,94751,94752,94753,94754,94755,94759,94761,94762,94763,94765,94766,94767,94783,94790,94792,94802,94815,94819,94820,94821,94824,94831,94838,94855,94857" style="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" id="qtdResultado" name="qtdResultado" value="" style="">
+                        <div id="divResultado" class="alert alert-primary d-none col-md-12 text-center" role="alert">
+                        </div>
+                    </div>
+                    <div class="form-group div_mapa_btn">
+                        <input type="hidden" id="qtdResultado" name="qtdResultado" value="" style="">
+                        <button class="btn_pesquisar" onclick="MostrarModalMapa();">Ver resultados no mapa</button>
+                    </div>
+                </div>
+                <div class="col-md-8" style="min-width:450px" id="home_map">
+                    <iframe src="https://precoscombustiveis.dgeg.gov.pt/assets/vendor/esri/frame/frame.html?Version=1" class="div_mapa_home" width="100%" height="97%" name="MapaGeral" id="MapaGeral" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="false"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="economicos" class="">
+        <div class="row about-container">
+            <div class="col-lg-12 content order-lg-1 order-2">
+                <div class="section-title">
+                    <label class="lable-title">Os mais Económicos</label>
+                </div>
+                <div class="progress bar">
+                    <div class="progress-bar bar-gray"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margem_top_30">
+            <div class="col-lg-6 content order-lg-1 order-2" style="z-index:0">
+                <div class="list-group">
+                    <div class="list-group-item list-group-item-action active">
+                        <select name="cboTopEsquerdo" id="cboTopEsquerdo" onchange="AdicionarTop(this.value, 'topGasolina');" class="btn_economicos"><option value="2115">Biodiesel B15</option><option value="2150">Gasóleo colorido</option><option value="2155">Gasóleo de aquecimento</option><option value="2105">Gasóleo especial</option><option value="2101">Gasóleo simples</option><option value="3400">Gasolina 98</option><option value="3210">Gasolina de mistura (motores a 2 tempos)</option><option value="3205">Gasolina especial 95</option><option value="3405">Gasolina especial 98</option><option value="3201" selected="">Gasolina simples 95</option><option value="1143">GNC (gás natural comprimido) - €/kg</option><option value="1141">GNC (gás natural comprimido) - €/m3</option><option value="1142">GNL (gás natural liquefeito) - €/kg</option><option value="1120">GPL Auto</option></select>
+                    </div>
+                    <div id="topGasolina"><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(67360,modalTop, true, true);"><div class="row"><div class="col-lg-10">INTERMARCHE VILAR FORMOSO</div><div class="col-lg-2"><b>1,699 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(92991,modalTop, true, true);"><div class="row"><div class="col-lg-10">TFGEST - PENAFIEL</div><div class="col-lg-2"><b>1,719 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(93425,modalTop, true, true);"><div class="row"><div class="col-lg-10">Ribeira dos Amiais</div><div class="col-lg-2"><b>1,751 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(69478,modalTop, true, true);"><div class="row"><div class="col-lg-10">M.C. Rios</div><div class="col-lg-2"><b>1,769 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(66319,modalTop, true, true);"><div class="row"><div class="col-lg-10">Nova - Vagueira (Gafanha da Boa Hora)</div><div class="col-lg-2"><b>1,789 €/litro</b></div></div></button></div>
+                </div>
+            </div>
+            <div class="col-lg-6 content order-lg-1 order-2" style="z-index:0">
+                <div class="list-group-item list-group-item-action active">
+                    <select name="cboTopDireito" id="cboTopDireito" onchange="AdicionarTop(this.value, 'topGasoleo');" class="btn_economicos"><option value="2115">Biodiesel B15</option><option value="2150">Gasóleo colorido</option><option value="2155">Gasóleo de aquecimento</option><option value="2105">Gasóleo especial</option><option value="2101" selected="">Gasóleo simples</option><option value="3400">Gasolina 98</option><option value="3210">Gasolina de mistura (motores a 2 tempos)</option><option value="3205">Gasolina especial 95</option><option value="3405">Gasolina especial 98</option><option value="3201">Gasolina simples 95</option><option value="1143">GNC (gás natural comprimido) - €/kg</option><option value="1141">GNC (gás natural comprimido) - €/m3</option><option value="1142">GNL (gás natural liquefeito) - €/kg</option><option value="1120">GPL Auto</option></select>
+                </div>
+                <div id="topGasoleo"><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(67360,modalTop, true, true);"><div class="row"><div class="col-lg-10">INTERMARCHE VILAR FORMOSO</div><div class="col-lg-2"><b>1,779 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(69478,modalTop, true, true);"><div class="row"><div class="col-lg-10">M.C. Rios</div><div class="col-lg-2"><b>1,865 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(70586,modalTop, true, true);"><div class="row"><div class="col-lg-10">Intermarche de Vila Real de Santo Antonio</div><div class="col-lg-2"><b>1,889 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(94527,modalTop, true, true);"><div class="row"><div class="col-lg-10">PETROPRIX Estarreja</div><div class="col-lg-2"><b>1,889 €/litro</b></div></div></button><button type="button" class="list-group-item list-group-item-action letra-top" onclick="CarregarDetalhesPosto(89569,modalTop, true, true);"><div class="row"><div class="col-lg-10">Cooperativa Agrícola de Montemor-o-Velho CRL</div><div class="col-lg-2"><b>1,895 €/litro</b></div></div></button></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalTop" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    </div>
+</div>
+
+        </div>
+    </main>
+    <!-- ======= Footer ======= -->
+    
+<!-- Footer -->
+<footer id="footer" class="footer" style="z-index:0">
+    <div class="footer-top">
+        <div class="container_footer">
+            <div class="row">
+                <div class="col-lg-7 col-md-6">
+                    <div class="footer-info">
+                        <h3>Política de Privacidade e Segurança</h3>
+                        <p class="margem_top_10"></p><p>A actualização dos preços de combustíveis rodoviários disponível neste sítio é da responsabilidade dos titulares de licença de exploração dos postos de abastecimento de combustíveis.</p>
+<p>A informação disponível neste sítio é gratuita, podendo ser utilizada livremente. É proibida a sua utilização para fins comerciais.</p>
+<p>O conteúdo deste sítio é protegido pelos Direitos de Autor e Direitos Conexos e Direitos de Propriedade Industrial ao abrigo das leis portuguesas e da União Europeia e Convenções internacionais.</p><p></p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-info">
+                        <p></p><h3>Contactos</h3><p></p>
+                    </div>
+                    <div class="footer-info margem_top_10">
+                        <p></p><p>Direcção-Geral de Energia e Geologia</p><p></p>
+                    </div>
+                    <div class="info footer-info margem_top_10">
+                        <div class="row pd_lft_12 address">
+                            <p>
+                                <i class="icofont-google-map"></i>&nbsp;</p><p>Av. 5 de Outubro, n.º 208<br>1069-039 LISBOA</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 margem_top_30">
+                    <div class="phone footer-info">
+                        <p> <i class="icofont-phone"></i>&nbsp;(351) 217 922 738</p>
+                    </div>
+                    <div class="email footer-info margem_top_10">
+                        <p>
+                            <i class="icofont-envelope"></i>&nbsp;<a class="link_Red" href="mailto:estatistica@dgeg.gov.pt"> estatistica@dgeg.gov.pt</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row progress bar margem_top_10">
+                <div class="progress-bar bar-gray"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 text-sm-left">
+                    <p>
+                        Copyright 2021. All Rights Reserved. Powered by <a class="link_Red" href="http://www.dgeg.gov.pt/">DGEG</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 text-sm-right">
+                    <p>N.º visitas: <span class="span-ec2035">  <a id="count">20141587</a> </span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script type="text/javascript" src="/assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="/assets/js/home.js"></script>
+<script>
+    const countEl = document.getElementById('count');
+    countEl.innerHTML =$("#teste1").val();
+</script>
+
+
+
+    <!-- Vendor JS Files -->
+    
+    <script src="/assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/assets/vendor/cookie/jquery.cookiekit.js"></script>
+    <script src="/assets/vendor/cookie/jquery.consent.js"></script>
+    <script type="text/javascript" src="/assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="/assets/vendor/multiSelect/js/multiSelect.js"></script>
+    <script type="text/javascript" src="/assets/vendor/Notify/notify.min.js"></script>
+    <script>
+        var urlGlobal = 'https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb';
+        var urlPSA = 'https://localhost:44370/v1/';
+        var urlGetDadosPosto = urlGlobal + '/GetDadosPosto';
+        var urlPesquisarPostos = urlGlobal + '/PesquisarPostos';
+        var urlRelatorioPostos = urlGlobal + '/RelatorioPostos';
+        var urlListarDadosPostos = urlGlobal + '/ListarDadosPostos';
+        var urlListarTopPostos = urlGlobal + '/ListarTopPostos';
+        var urlPMD = urlGlobal + '/PMD';
+        var urlPMDGrafico = urlGlobal + '/PMDGrafico';
+        var urlNVisitas = urlGlobal + '/GetNVisitas';
+        var urlNVisitasGet = urlGlobal + '/SetNVisitas';
+
+        var UrlTiposCombustiveis = urlGlobal + '/GetTiposCombustiveis';
+        var UrlMarcas = urlGlobal + '/GetMarcas';
+        var UrlTiposPostos = urlGlobal + '/GetTiposPostos';
+        var UrlDistritos = urlGlobal + '/GetDistritos';
+        var UrlMunicipios = urlGlobal + '/GetMunicipios';
+        var UrlCalculaPrecoMedio = urlGlobal + '/CalculaPrecoMedio';
+
+        var urlValidation = 'https://precoscombustiveis.dgeg.gov.pt/' + 'area-reservada/validation/';
+
+        // UrlS Esri
+        var urlMapServer = 'https://services3.arcgis.com/L8wRKpelHTajqMnK/ArcGIS/rest/services/PostosAbastecimento/FeatureServer/0/q';
+        var urlDetalheMapa = urlGlobal + '/GetDadosPostoMapa?id=';
+        var urliFrameMapa = 'https://precoscombustiveis.dgeg.gov.pt/assets/vendor/esri/frame/frame.html?Version=1';
+
+        //PSA
+        var urlCustoComparativo = urlPSA + 'CustoComparativo/GetCustoComparativo';
+        var urlTabelaTopX = urlPSA + 'Simulador/GetTopX';
+        var urlMarcasPSA = urlPSA + 'Simulador/GetMarcas';
+        var urlTiposVeiculoPSA = urlPSA + 'Simulador/GetTiposVeiculo';
+        var urlTiposCombustivelPSA = urlPSA + 'Simulador/GetTiposCombustivel';
+        var urlModelosPSA = urlPSA + 'Simulador/GetModelos';
+        var urlVersaoPSA = urlPSA + 'Simulador/GetVersoes';
+        var urlListarVeiculos = urlPSA + 'Simulador/GetVeiculos';
+        var urlHistoricoPesquisa = urlPSA + 'Simulador/GuardaHistorico';
+    </script>
+
+    <script type="text/javascript" src="/assets/js/tableAR.js"></script>
+    <script type="text/javascript" src="/assets/js/validation.js"></script>
+    <script type="text/javascript" src="/assets/js/functions.js"></script>
+    <script type="text/javascript" src="/assets/vendor/esri/js/map.js"></script>
+    
+    <script>
+        function clickF() {
+            $("#cboTipoCombustivel").trigger("click");
+        };
+
+    </script>
+    <script>
+        var home = true;
+        if ($("#hdModalAviso").val() == "true") {
+            $("#avisos").modal('show');
+        }
+        //if (sessionStorage.isNewSession) {
+        //    const countEl = document.getElementById('count');
+        //    updateVisitas();
+
+            //function updateVisitCount() {
+            //    fetch('https://api.countapi.xyz/get/teste.com/270a4ec7-50cb-4784-9985-5f4cc0a894d8?amount=1')
+            //        .then(res => res.json())
+            //        .then(res => {
+
+            //            countEl.innerHTML = res.value.toLocaleString('de-DE');
+            //        })
+            //}
+       /* }*/
+    </script>
+
+
+
+    <input type="hidden" id="teste1" value="20141587" style="">
+
+
+<script>
+    getVisitas();
+    if (sessionStorage.getItem("session")) {
+    } else {
+        sessionStorage.setItem("session", "yes");
+        updateVisitas();
+    }
+</script>
+</body></html>
