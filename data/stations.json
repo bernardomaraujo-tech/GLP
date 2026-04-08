@@ -1,30 +1,13 @@
 {
-  "generatedAt": "2026-04-08T01:32:36.578163+00:00",
+  "generatedAt": "2026-04-08T07:11:32.461003+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-08T02:20:00+00:00",
+  "dataUpdatedAt": "2026-04-08T08:10:00+00:00",
   "stats": {
     "totalStations": 435,
     "withCoordinates": 435,
     "withPrice": 435
   },
   "stations": [
-    {
-      "id": "intermarche-intermemartins-supermercados-lda-sintra-2725-093",
-      "name": "INTERMEMARTINS - SUPERMERCADOS, LDA",
-      "brand": "INTERMARCHÉ",
-      "district": "Lisboa",
-      "municipality": "Sintra",
-      "locality": "Tapada das Mercês- Algueirão",
-      "address": "Av. Capitães de Abril nº 103",
-      "postalCode": "2725-093",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.829,
-      "updatedAt": "2026-04-06T07:45:00+00:00",
-      "lat": 38.802612,
-      "lon": -9.336308,
-      "sourceKey": "INTERMARCHÉ|intermemartins - supermercados, lda|av. capitaes de abril no 103|2725-093|sintra"
-    },
     {
       "id": "galp-marvimar-lda-1-loures-2695-691",
       "name": "MARVIMAR, LDA. (1)",
@@ -1675,6 +1658,23 @@
       "sourceKey": "GENÉRICO|jetbase - produtos bp|r. central, 204|2430-018|marinha grande"
     },
     {
+      "id": "intermarche-intermemartins-supermercados-lda-sintra-2725-093",
+      "name": "INTERMEMARTINS - SUPERMERCADOS, LDA",
+      "brand": "INTERMARCHÉ",
+      "district": "Lisboa",
+      "municipality": "Sintra",
+      "locality": "Tapada das Mercês- Algueirão",
+      "address": "Av. Capitães de Abril nº 103",
+      "postalCode": "2725-093",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-04-08T07:00:00+00:00",
+      "lat": 38.802612,
+      "lon": -9.336308,
+      "sourceKey": "INTERMARCHÉ|intermemartins - supermercados, lda|av. capitaes de abril no 103|2725-093|sintra"
+    },
+    {
       "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
       "name": "Intermarché Vialonga",
       "brand": "INTERMARCHÉ",
@@ -1975,7 +1975,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-04-07T02:30:00+00:00",
+      "updatedAt": "2026-04-08T02:45:00+00:00",
       "lat": 41.180435,
       "lon": -8.635366,
       "sourceKey": "PRIO|p12 - prio porto - estrada circunvalacao|estrada interior da circunvalacao n.o 10783 e 10853|4250-252|porto"
@@ -2332,7 +2332,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-07T02:30:00+00:00",
+      "updatedAt": "2026-04-08T02:50:00+00:00",
       "lat": 41.612976,
       "lon": -8.472045,
       "sourceKey": "PRIO|p14 - prio fuselha - prado|en 201 - lugar da fuzelha|4730-461|vila verde"
@@ -2536,7 +2536,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-07T02:45:00+00:00",
+      "updatedAt": "2026-04-08T03:00:00+00:00",
       "lat": 39.049244,
       "lon": -8.708553,
       "sourceKey": "PRIO|p50 - prio marinhais|estrada nacional 367, n.o 438|2125-121|salvaterra de magos"
@@ -3012,7 +3012,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.089,
-      "updatedAt": "2026-04-07T02:50:00+00:00",
+      "updatedAt": "2026-04-08T03:05:00+00:00",
       "lat": 41.262432,
       "lon": -8.062497,
       "sourceKey": "SHELL|p08 - shell amarante|lugar do ferro, no 593|4600-681|amarante"
@@ -3403,7 +3403,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-07T02:55:00+00:00",
+      "updatedAt": "2026-04-08T03:10:00+00:00",
       "lat": 38.858,
       "lon": -9.379323,
       "sourceKey": "SHELL|p35 - shell terrugem|en 247 ao km 66,38 - godigana|2705-869|sintra"
@@ -4814,7 +4814,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-07T08:15:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 38.755417,
       "lon": -9.183167,
       "sourceKey": "REPSOL|e.s. benfica estadio|av. eusebio da silva ferreira|1500-313|lisboa"
@@ -5188,7 +5188,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-07T08:05:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 41.180372,
       "lon": -8.568678,
       "sourceKey": "REPSOL|e.s. rio tinto ii|rua de rebordoes|4435-416|gondomar"
@@ -5341,7 +5341,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-07T08:15:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 39.477825,
       "lon": -8.623297,
       "sourceKey": "REPSOL|repsol torres novas no a1/a23|lugar da lameira grande, videla - fig da zibreira - z.i da zibreira|2350-838|torres novas"
@@ -5358,7 +5358,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-07T08:15:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 38.63780773,
       "lon": -9.19879675,
       "sourceKey": "REPSOL|a.s. almada a33|a 33 km 2,2|2820-194|almada"
@@ -7007,7 +7007,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-07T08:20:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 41.23311,
       "lon": -8.17954,
       "sourceKey": "REPSOL|e.s. penafiel a|a 4 km 47,5|4560-055|penafiel"
@@ -7024,7 +7024,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-07T08:20:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 41.23329,
       "lon": -8.17894,
       "sourceKey": "REPSOL|e.s. penafiel b|a 4 km 47|4560-055|penafiel"
@@ -7041,7 +7041,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-07T08:05:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 41.101135,
       "lon": -8.597706,
       "sourceKey": "REPSOL|a s gaia b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1 ao km 295 sul/norte|4430-129|vila nova de gaia"
@@ -7092,7 +7092,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-07T08:20:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 38.16753,
       "lon": -8.492921,
       "sourceKey": "REPSOL|area de servico de grandola a norte - sul|a2 km 111,0 sublanco grandola norte / grandola sul|7570-512|grandola"
@@ -7177,7 +7177,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.204,
-      "updatedAt": "2026-04-07T08:05:00+00:00",
+      "updatedAt": "2026-04-08T08:10:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
