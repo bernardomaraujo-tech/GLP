@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T13:06:33.350455+00:00",
+  "generatedAt": "2026-04-09T18:55:41.455086+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-09T13:00:00+00:00",
+  "dataUpdatedAt": "2026-04-09T19:00:00+00:00",
   "stats": {
     "totalStations": 432,
     "withCoordinates": 432,
@@ -326,7 +326,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-04-07T10:50:00+00:00",
+      "updatedAt": "2026-04-09T18:40:00+00:00",
       "lat": 39.68448,
       "lon": -8.96818,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis calcos martinganca|av. nossa sra. da nazare, en 242, km 21|2445-701|alcobaca"
@@ -343,7 +343,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-04-09T10:20:00+00:00",
+      "updatedAt": "2026-04-09T18:40:00+00:00",
       "lat": 39.750379,
       "lon": -8.904627,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis marinha grande|zona industrial da embra|2430-091|marinha grande"
@@ -1418,23 +1418,6 @@
       "lat": 41.23662,
       "lon": -8.667163,
       "sourceKey": "AUCHAN|auchan matosinhos|av. fernando tavora, no 1570|4470-558|maia"
-    },
-    {
-      "id": "generico-js-e-sf-penafiel-4560-800",
-      "name": "js e sf",
-      "brand": "GENÉRICO",
-      "district": "Porto",
-      "municipality": "Penafiel",
-      "locality": "São Mamede de Recezinhos",
-      "address": "Av. de São Mamede,1974",
-      "postalCode": "4560-800",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-04-08T17:00:00+00:00",
-      "lat": 41.2329,
-      "lon": -8.22747,
-      "sourceKey": "GENÉRICO|js e sf|av. de sao mamede,1974|4560-800|penafiel"
     },
     {
       "id": "auchan-auchan-santo-tirso-santo-tirso-4780-219",
@@ -3182,7 +3165,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.1,
-      "updatedAt": "2026-04-06T15:25:00+00:00",
+      "updatedAt": "2026-04-09T16:55:00+00:00",
       "lat": 39.46501,
       "lon": -8.5258,
       "sourceKey": "GENÉRICO|eulupepneus-unipessoal, lda|estrada nacional 3 - ponte nova ( junto ao torreshoping )|2350-466|torres novas"
@@ -3407,6 +3390,23 @@
       "lat": 41.194393,
       "lon": -8.297167,
       "sourceKey": "GALP|galp penafiel - tenente valadim|rua tenente valadim e.n 15 km 29,6 - tapadinha|4560-532|penafiel"
+    },
+    {
+      "id": "generico-js-e-sf-penafiel-4560-800",
+      "name": "js e sf",
+      "brand": "GENÉRICO",
+      "district": "Porto",
+      "municipality": "Penafiel",
+      "locality": "São Mamede de Recezinhos",
+      "address": "Av. de São Mamede,1974",
+      "postalCode": "4560-800",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.109,
+      "updatedAt": "2026-04-09T15:30:00+00:00",
+      "lat": 41.2329,
+      "lon": -8.22747,
+      "sourceKey": "GENÉRICO|js e sf|av. de sao mamede,1974|4560-800|penafiel"
     },
     {
       "id": "galp-galp-porto-francos-porto-4100-012",
@@ -4882,7 +4882,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.139,
-      "updatedAt": "2026-04-06T09:05:00+00:00",
+      "updatedAt": "2026-04-09T16:45:00+00:00",
       "lat": 41.24876,
       "lon": -8.25595,
       "sourceKey": "BP|bp - meinedo|av. magneto, 980|4620-350|lousada"
@@ -5630,7 +5630,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.154,
-      "updatedAt": "2026-04-07T17:15:00+00:00",
+      "updatedAt": "2026-04-09T19:00:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -5868,7 +5868,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-04-06T08:00:00+00:00",
+      "updatedAt": "2026-04-09T15:25:00+00:00",
       "lat": 40.73628,
       "lon": -8.37964,
       "sourceKey": "GENÉRICO|ferreira, silva e espirito lda|zona industrial dos padroes n.o 587|3740-295|sever do vouga"
@@ -6174,7 +6174,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-06T08:25:00+00:00",
+      "updatedAt": "2026-04-09T17:25:00+00:00",
       "lat": 37.14381,
       "lon": -8.54823,
       "sourceKey": "BP|bp portimao raminha|avenida sao lourenco da barrosa, lote 18 alto da raminha|8500-510|portimao"
