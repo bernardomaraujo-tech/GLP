@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-11T06:55:00.645254+00:00",
+  "generatedAt": "2026-04-11T12:40:32.174184+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-11T06:50:00+00:00",
+  "dataUpdatedAt": "2026-04-11T09:25:00+00:00",
   "stats": {
     "totalStations": 426,
     "withCoordinates": 426,
@@ -4848,7 +4848,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-08T18:20:00+00:00",
+      "updatedAt": "2026-04-11T09:25:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -6004,7 +6004,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.164,
-      "updatedAt": "2026-04-11T00:00:00+00:00",
+      "updatedAt": "2026-04-11T08:05:00+00:00",
       "lat": 41.165108,
       "lon": -8.628078,
       "sourceKey": "REPSOL|es constituicao - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rua da constituicao no 2570|4000-000|porto"
@@ -6922,7 +6922,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-10T08:15:00+00:00",
+      "updatedAt": "2026-04-11T08:05:00+00:00",
       "lat": 40.754807,
       "lon": -8.534985,
       "sourceKey": "REPSOL|as antua a - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1. ao km. 254 - antua|3850-909|estarreja"
@@ -7007,7 +7007,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-10T08:10:00+00:00",
+      "updatedAt": "2026-04-11T08:10:00+00:00",
       "lat": 41.101417,
       "lon": -8.599467,
       "sourceKey": "REPSOL|e.s. gaia a - a.s.|a 1 km 295|4400-000|vila nova de gaia"
@@ -7041,7 +7041,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-10T08:15:00+00:00",
+      "updatedAt": "2026-04-11T08:05:00+00:00",
       "lat": 38.16753,
       "lon": -8.492921,
       "sourceKey": "REPSOL|area de servico de grandola a norte - sul|a2 km 111,0 sublanco grandola norte / grandola sul|7570-512|grandola"
