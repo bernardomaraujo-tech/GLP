@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-15T07:29:27.277407+00:00",
+  "generatedAt": "2026-04-15T13:07:20.593330+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-15T08:25:00+00:00",
+  "dataUpdatedAt": "2026-04-15T13:50:00+00:00",
   "stats": {
-    "totalStations": 434,
-    "withCoordinates": 434,
-    "withPrice": 434
+    "totalStations": 435,
+    "withCoordinates": 435,
+    "withPrice": 435
   },
   "stations": [
     {
@@ -411,7 +411,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-04-13T09:50:00+00:00",
+      "updatedAt": "2026-04-15T09:30:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -1210,7 +1210,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.013,
-      "updatedAt": "2026-04-07T13:00:00+00:00",
+      "updatedAt": "2026-04-15T09:40:00+00:00",
       "lat": 40.50667,
       "lon": -8.536321,
       "sourceKey": "CEPSA|cepsa oliveira do bairro|est. vila verde|3770-305|oliveira do bairro"
@@ -2026,7 +2026,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-14T00:00:00+00:00",
+      "updatedAt": "2026-04-15T09:40:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "GENÉRICO|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -2043,7 +2043,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-14T00:00:00+00:00",
+      "updatedAt": "2026-04-15T09:45:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "GENÉRICO|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3250,7 +3250,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-13T11:10:00+00:00",
+      "updatedAt": "2026-04-15T09:20:00+00:00",
       "lat": 38.965427,
       "lon": -8.983408,
       "sourceKey": "GALP|galp vila franca xira|en 1 km 24,7|2600-000|vila franca de xira"
@@ -3369,7 +3369,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-14T09:05:00+00:00",
+      "updatedAt": "2026-04-15T09:00:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3596,23 +3596,6 @@
       "sourceKey": "BP|posto bp bela vista|av marechal antonio spinola|1950-380|lisboa"
     },
     {
-      "id": "bp-bp-vale-de-figueira-loures-2695-772",
-      "name": "BP - Vale de Figueira",
-      "brand": "BP",
-      "district": "Lisboa",
-      "municipality": "Loures",
-      "locality": "Vale de Figueira",
-      "address": "Rua Alfredo Vitorino Costa",
-      "postalCode": "2695-772",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.114,
-      "updatedAt": "2026-04-14T08:15:00+00:00",
-      "lat": 38.82893,
-      "lon": -9.10132,
-      "sourceKey": "BP|bp - vale de figueira|rua alfredo vitorino costa|2695-772|loures"
-    },
-    {
       "id": "galp-combustiveis-bairrada-lda-2-oliveira-do-bairro-3770-059",
       "name": "COMBUSTIVEIS BAIRRADA LDA(2)",
       "brand": "GALP",
@@ -3747,6 +3730,23 @@
       "lat": 39.38696,
       "lon": -9.15066,
       "sourceKey": "SHELL|a8 obidos ( lis / lei ) nascente|a8 sub-lanco gaeiras - apartado 93|2500-000|obidos"
+    },
+    {
+      "id": "bp-bp-vale-de-figueira-loures-2695-772",
+      "name": "BP - Vale de Figueira",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Loures",
+      "locality": "Vale de Figueira",
+      "address": "Rua Alfredo Vitorino Costa",
+      "postalCode": "2695-772",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.119,
+      "updatedAt": "2026-04-15T09:55:00+00:00",
+      "lat": 38.82893,
+      "lon": -9.10132,
+      "sourceKey": "BP|bp - vale de figueira|rua alfredo vitorino costa|2695-772|loures"
     },
     {
       "id": "galp-marvimar-lda-1-loures-2695-691",
@@ -4644,7 +4644,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-13T06:35:00+00:00",
+      "updatedAt": "2026-04-15T08:55:00+00:00",
       "lat": 40.46377,
       "lon": -7.753826,
       "sourceKey": "GALP|galp tourais (seia)|en 231|6270-581|seia"
@@ -4950,7 +4950,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-13T08:40:00+00:00",
+      "updatedAt": "2026-04-15T09:35:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -5256,7 +5256,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-13T00:00:00+00:00",
+      "updatedAt": "2026-04-15T13:50:00+00:00",
       "lat": 39.37976,
       "lon": -8.45504,
       "sourceKey": "REPSOL|e.s. ponte chamusca|ponte da chamusca|2140-000|chamusca"
@@ -5664,7 +5664,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.154,
-      "updatedAt": "2026-04-14T18:15:00+00:00",
+      "updatedAt": "2026-04-15T12:00:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -5902,7 +5902,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.154,
-      "updatedAt": "2026-04-14T08:15:00+00:00",
+      "updatedAt": "2026-04-15T11:50:00+00:00",
       "lat": 38.566531,
       "lon": -7.902219,
       "sourceKey": "REPSOL|e.s. chafariz d'el rei|en 18 (largo chafariz d'el rei)|7000-000|evora"
@@ -5940,6 +5940,23 @@
       "lat": 39.857197,
       "lon": -7.459347,
       "sourceKey": "REPSOL|e.s. lanco grande|en 233 ao km 104,750|6000-067|castelo branco"
+    },
+    {
+      "id": "galp-posto-de-abastecimento-nevegas-covilha-6200-544",
+      "name": "Posto de Abastecimento Nevegas",
+      "brand": "GALP",
+      "district": "Castelo Branco",
+      "municipality": "Covilhã",
+      "locality": "Covilhã",
+      "address": "Eixo Teixoso Canhoso Tortosendo (TCT)",
+      "postalCode": "6200-544",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.159,
+      "updatedAt": "2026-04-15T10:00:00+00:00",
+      "lat": 40.28293,
+      "lon": -7.49028,
+      "sourceKey": "GALP|posto de abastecimento nevegas|eixo teixoso canhoso tortosendo (tct)|6200-544|covilha"
     },
     {
       "id": "repsol-repsol-fundao-a-r-cidade-covilha-fundao-6230-346",
@@ -6242,7 +6259,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-14T00:00:00+00:00",
+      "updatedAt": "2026-04-15T09:40:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -7177,7 +7194,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.204,
-      "updatedAt": "2026-04-13T00:00:00+00:00",
+      "updatedAt": "2026-04-15T10:55:00+00:00",
       "lat": 40.364032,
       "lon": -8.453945,
       "sourceKey": "REPSOL|e.s. mealhada a|en 1 km 217,2|3050-000|mealhada"
@@ -7262,7 +7279,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.204,
-      "updatedAt": "2026-04-13T00:00:00+00:00",
+      "updatedAt": "2026-04-15T10:35:00+00:00",
       "lat": 39.64321,
       "lon": -8.68515,
       "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
