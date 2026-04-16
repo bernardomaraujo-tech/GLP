@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-16T07:23:55.312878+00:00",
+  "generatedAt": "2026-04-16T13:14:30.145982+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-16T08:20:00+00:00",
+  "dataUpdatedAt": "2026-04-16T11:20:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -2253,6 +2253,23 @@
       "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
     },
     {
+      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
+      "name": "PA Feitos -Barcelos",
+      "brand": "GENÉRICO",
+      "district": "Braga",
+      "municipality": "Barcelos",
+      "locality": "Feitos",
+      "address": "Rua da Estrada Nacional 103, km 12,100",
+      "postalCode": "4750-442",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.054,
+      "updatedAt": "2026-04-16T11:20:00+00:00",
+      "lat": 41.57053,
+      "lon": -8.685565,
+      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
+    },
+    {
       "id": "cepsa-cepsa-a3-barcelos-por-val-barcelos-4750-058",
       "name": "CEPSA - A3 Barcelos (POR/VAL)",
       "brand": "CEPSA",
@@ -3267,7 +3284,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-15T09:00:00+00:00",
+      "updatedAt": "2026-04-16T09:05:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3543,23 +3560,6 @@
       "lat": 38.02075,
       "lon": -7.87145,
       "sourceKey": "GALP|l. a. cameirinha , lda|rua de lisboa|7800-000|beja"
-    },
-    {
-      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
-      "name": "PA Feitos -Barcelos",
-      "brand": "GENÉRICO",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Feitos",
-      "address": "Rua da Estrada Nacional 103, km 12,100",
-      "postalCode": "4750-442",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.119,
-      "updatedAt": "2026-04-14T13:40:00+00:00",
-      "lat": 41.57053,
-      "lon": -8.685565,
-      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
     },
     {
       "id": "galp-lubriolhao-lda-loule-8135-107",
@@ -4848,7 +4848,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-15T09:35:00+00:00",
+      "updatedAt": "2026-04-16T08:25:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -4984,7 +4984,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-15T08:00:00+00:00",
+      "updatedAt": "2026-04-16T10:20:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
