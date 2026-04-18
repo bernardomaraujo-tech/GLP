@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-18T01:30:52.690208+00:00",
+  "generatedAt": "2026-04-18T07:01:18.970068+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-18T02:25:00+00:00",
+  "dataUpdatedAt": "2026-04-18T07:35:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -1618,7 +1618,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-04-17T02:35:00+00:00",
+      "updatedAt": "2026-04-18T02:40:00+00:00",
       "lat": 41.180435,
       "lon": -8.635366,
       "sourceKey": "PRIO|p12 - prio porto - estrada circunvalacao|estrada interior da circunvalacao n.o 10783 e 10853|4250-252|porto"
@@ -2026,7 +2026,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-17T02:35:00+00:00",
+      "updatedAt": "2026-04-18T02:40:00+00:00",
       "lat": 41.612976,
       "lon": -8.472045,
       "sourceKey": "PRIO|p14 - prio fuselha - prado|en 201 - lugar da fuzelha|4730-461|vila verde"
@@ -2196,7 +2196,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-17T02:50:00+00:00",
+      "updatedAt": "2026-04-18T02:55:00+00:00",
       "lat": 39.049244,
       "lon": -8.708553,
       "sourceKey": "PRIO|p50 - prio marinhais|estrada nacional 367, n.o 438|2125-121|salvaterra de magos"
@@ -2740,7 +2740,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.089,
-      "updatedAt": "2026-04-17T02:55:00+00:00",
+      "updatedAt": "2026-04-18T03:00:00+00:00",
       "lat": 41.262432,
       "lon": -8.062497,
       "sourceKey": "SHELL|p08 - shell amarante|lugar do ferro, no 593|4600-681|amarante"
@@ -3165,7 +3165,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-17T03:00:00+00:00",
+      "updatedAt": "2026-04-18T03:05:00+00:00",
       "lat": 38.858,
       "lon": -9.379323,
       "sourceKey": "SHELL|p35 - shell terrugem|en 247 ao km 66,38 - godigana|2705-869|sintra"
@@ -4372,7 +4372,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.129,
-      "updatedAt": "2026-04-13T06:25:00+00:00",
+      "updatedAt": "2026-04-18T07:35:00+00:00",
       "lat": 41.279994,
       "lon": -8.082825,
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
@@ -4712,7 +4712,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-13T21:35:00+00:00",
+      "updatedAt": "2026-04-18T02:45:00+00:00",
       "lat": 38.553825,
       "lon": -7.917911,
       "sourceKey": "GALP|galp- sousa & marquez (horta das figueiras- evora)|variante ao parque industrial|7005-872|evora"
@@ -5885,7 +5885,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-04-17T07:00:00+00:00",
+      "updatedAt": "2026-04-18T07:00:00+00:00",
       "lat": 40.73628,
       "lon": -8.37964,
       "sourceKey": "GENÉRICO|ferreira, silva e espirito lda|zona industrial dos padroes n.o 587|3740-295|sever do vouga"
