@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-18T12:44:11.211984+00:00",
+  "generatedAt": "2026-04-18T18:38:52.839312+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-18T12:25:00+00:00",
+  "dataUpdatedAt": "2026-04-18T16:05:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -4576,7 +4576,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-17T00:00:00+00:00",
+      "updatedAt": "2026-04-18T14:00:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -4882,7 +4882,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-17T00:00:00+00:00",
+      "updatedAt": "2026-04-18T16:05:00+00:00",
       "lat": 39.64325,
       "lon": -8.843011,
       "sourceKey": "REPSOL|e.s. s. jorge batalha a|ic2, no10, casal da amieira|2440-477|batalha"
