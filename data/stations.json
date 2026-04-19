@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-18T18:38:52.839312+00:00",
+  "generatedAt": "2026-04-19T01:56:11.368924+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-18T16:05:00+00:00",
+  "dataUpdatedAt": "2026-04-19T00:00:00+00:00",
   "stats": {
-    "totalStations": 428,
-    "withCoordinates": 428,
-    "withPrice": 428
+    "totalStations": 427,
+    "withCoordinates": 427,
+    "withPrice": 427
   },
   "stations": [
     {
@@ -1958,7 +1958,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "GENÉRICO|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1975,7 +1975,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "GENÉRICO|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3035,23 +3035,6 @@
       "sourceKey": "LECLERC|e. leclerc lamego|quinta dos prados de baixo - lugar da rina|5100-196|lamego"
     },
     {
-      "id": "generico-eulupepneus-unipessoal-lda-torres-novas-2350-466",
-      "name": "EULUPEPNEUS-UNIPESSOAL, LDA",
-      "brand": "GENÉRICO",
-      "district": "Santarém",
-      "municipality": "Torres Novas",
-      "locality": "Ponte Nova",
-      "address": "ESTRADA NACIONAL 3 - PONTE NOVA ( JUNTO AO TORRESHOPING )",
-      "postalCode": "2350-466",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.1,
-      "updatedAt": "2026-04-09T16:55:00+00:00",
-      "lat": 39.46501,
-      "lon": -8.5258,
-      "sourceKey": "GENÉRICO|eulupepneus-unipessoal, lda|estrada nacional 3 - ponte nova ( junto ao torreshoping )|2350-466|torres novas"
-    },
-    {
       "id": "galp-estacao-das-colinas-unipessoal-lda-cantanhede-3060-000",
       "name": "Estação das  Colinas, Unipessoal, Lda",
       "brand": "GALP",
@@ -3063,7 +3046,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.104,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 40.35054,
       "lon": -8.5794,
       "sourceKey": "GALP|estacao das colinas, unipessoal, lda|en 234 km 17,1|3060-000|cantanhede"
@@ -3080,7 +3063,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.104,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 40.167801,
       "lon": -8.456432,
       "sourceKey": "GALP|paralelo alternativo - comercio de combustiveis, lda|ic 2 km 183,4|3000-032|coimbra"
@@ -3930,7 +3913,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.124,
-      "updatedAt": "2026-04-17T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -6044,6 +6027,23 @@
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
     },
     {
+      "id": "repsol-repsol-seia-seia-6270-485",
+      "name": "REPSOL Seia",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Seia",
+      "locality": "Seia",
+      "address": "Avª Terras de Sena-Quintela-Seia",
+      "postalCode": "6270-485",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.164,
+      "updatedAt": "2026-04-19T00:00:00+00:00",
+      "lat": 40.4209,
+      "lon": -7.712581,
+      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
+    },
+    {
       "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
       "name": "ES  CONSTITUICAO - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -6293,7 +6293,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6361,7 +6361,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6378,7 +6378,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-18T00:00:00+00:00",
+      "updatedAt": "2026-04-19T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -7181,23 +7181,6 @@
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
-    },
-    {
-      "id": "repsol-repsol-seia-seia-6270-485",
-      "name": "REPSOL Seia",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Seia",
-      "locality": "Seia",
-      "address": "Avª Terras de Sena-Quintela-Seia",
-      "postalCode": "6270-485",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.204,
-      "updatedAt": "2026-04-17T00:00:00+00:00",
-      "lat": 40.4209,
-      "lon": -7.712581,
-      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
     },
     {
       "id": "repsol-repsol-armamar-armamar-5110-152",
