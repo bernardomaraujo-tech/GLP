@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T13:07:25.139427+00:00",
+  "generatedAt": "2026-04-21T19:05:48.313569+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-21T13:25:00+00:00",
+  "dataUpdatedAt": "2026-04-21T15:15:00+00:00",
   "stats": {
     "totalStations": 437,
     "withCoordinates": 437,
@@ -1465,7 +1465,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-04-20T14:15:00+00:00",
+      "updatedAt": "2026-04-21T15:00:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -2298,7 +2298,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-04-16T11:20:00+00:00",
+      "updatedAt": "2026-04-21T14:55:00+00:00",
       "lat": 41.57053,
       "lon": -8.685565,
       "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
@@ -5001,7 +5001,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-20T10:30:00+00:00",
+      "updatedAt": "2026-04-21T15:15:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
