@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-22T07:24:41.554383+00:00",
+  "generatedAt": "2026-04-22T13:09:21.530591+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-22T08:20:00+00:00",
+  "dataUpdatedAt": "2026-04-22T13:25:00+00:00",
   "stats": {
     "totalStations": 436,
     "withCoordinates": 436,
@@ -666,7 +666,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-04-20T00:00:00+00:00",
+      "updatedAt": "2026-04-22T08:45:00+00:00",
       "lat": 41.21748,
       "lon": -8.604181,
       "sourceKey": "CEPSA|cepsa gueifaes|avenida dr. germano vieira, 559|4470-006|maia"
@@ -2281,7 +2281,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-04-14T16:05:00+00:00",
+      "updatedAt": "2026-04-22T12:35:00+00:00",
       "lat": 38.64518,
       "lon": -8.97844,
       "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
@@ -3454,7 +3454,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-21T09:05:00+00:00",
+      "updatedAt": "2026-04-22T09:00:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3947,7 +3947,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.119,
-      "updatedAt": "2026-04-20T09:30:00+00:00",
+      "updatedAt": "2026-04-22T10:25:00+00:00",
       "lat": 38.529193,
       "lon": -8.875492,
       "sourceKey": "GALP|estacao de servico central|av. infante d. henrique|2910-529|setubal"
@@ -4576,7 +4576,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-20T10:30:00+00:00",
+      "updatedAt": "2026-04-22T11:00:00+00:00",
       "lat": 40.92342,
       "lon": -8.56923,
       "sourceKey": "GALP|posto rainha da feira, lda|zona industrial do roligo|4520-112|santa maria da feira"
@@ -5137,7 +5137,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-21T08:25:00+00:00",
+      "updatedAt": "2026-04-22T11:00:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5341,7 +5341,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-22T08:15:00+00:00",
+      "updatedAt": "2026-04-22T13:25:00+00:00",
       "lat": 39.477825,
       "lon": -8.623297,
       "sourceKey": "REPSOL|repsol torres novas no a1/a23|lugar da lameira grande, videla - fig da zibreira - z.i da zibreira|2350-838|torres novas"
@@ -5702,6 +5702,23 @@
       "lat": 40.910305,
       "lon": -7.928194,
       "sourceKey": "GALP|galp castro daire - ldl combustiveis, lda|avenida maria alcina fadista, 1156|3600-199|castro daire"
+    },
+    {
+      "id": "repsol-repsol-famalicao-sul-vila-nova-de-famalicao-4760-281",
+      "name": "REPSOL Famalicao Sul",
+      "brand": "REPSOL",
+      "district": "Braga",
+      "municipality": "Vila Nova de Famalicão",
+      "locality": "Vila Nova de Famalicão",
+      "address": "Av D Afonso Henriques EN 14 km 24500 LE",
+      "postalCode": "4760-281",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.154,
+      "updatedAt": "2026-04-22T09:25:00+00:00",
+      "lat": 41.38188,
+      "lon": -8.53853,
+      "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
     },
     {
       "id": "repsol-repsol-vila-verde-vila-verde-4730-709",
@@ -7234,23 +7251,6 @@
       "sourceKey": "REPSOL|e.s. odemira|av. poole da costa no 49|7630-000|odemira"
     },
     {
-      "id": "repsol-repsol-famalicao-sul-vila-nova-de-famalicao-4760-281",
-      "name": "REPSOL Famalicao Sul",
-      "brand": "REPSOL",
-      "district": "Braga",
-      "municipality": "Vila Nova de Famalicão",
-      "locality": "Vila Nova de Famalicão",
-      "address": "Av D Afonso Henriques EN 14 km 24500 LE",
-      "postalCode": "4760-281",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.204,
-      "updatedAt": "2026-04-19T22:55:00+00:00",
-      "lat": 41.38188,
-      "lon": -8.53853,
-      "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
-    },
-    {
       "id": "repsol-es-portimao-cardosas-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-portimao-8500-315",
       "name": "ES PORTIMÃO CARDOSAS - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -7415,7 +7415,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.278,
-      "updatedAt": "2026-04-20T16:30:00+00:00",
+      "updatedAt": "2026-04-22T11:15:00+00:00",
       "lat": 41.445744,
       "lon": -8.400159,
       "sourceKey": "BP|bp- vermil|rua da portela no1005|4805-546|guimaraes"
