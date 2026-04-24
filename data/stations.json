@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-24T07:53:12.288431+00:00",
+  "generatedAt": "2026-04-24T13:05:28.923888+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-24T08:25:00+00:00",
+  "dataUpdatedAt": "2026-04-24T12:35:00+00:00",
   "stats": {
-    "totalStations": 424,
-    "withCoordinates": 424,
-    "withPrice": 424
+    "totalStations": 426,
+    "withCoordinates": 426,
+    "withPrice": 426
   },
   "stations": [
     {
@@ -292,7 +292,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-04-23T11:00:00+00:00",
+      "updatedAt": "2026-04-24T09:40:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -2525,6 +2525,23 @@
       "sourceKey": "REPSOL|coop. agr. de santo tirso e trofa|rua major dinis, 106|4780-200|santo tirso"
     },
     {
+      "id": "lusiadagas-lusiadagas-albufeira-8200-999",
+      "name": "Lusiadagás",
+      "brand": "LUSIADAGÁS",
+      "district": "Faro",
+      "municipality": "Albufeira",
+      "locality": "Albufeira",
+      "address": "Planeta Azul - Estrada de Brejos, Montechoro - Albufeira",
+      "postalCode": "8200-999",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 1.059,
+      "updatedAt": "2026-04-24T10:30:00+00:00",
+      "lat": 37.10871,
+      "lon": -8.231543,
+      "sourceKey": "LUSIADAGÁS|lusiadagas|planeta azul - estrada de brejos, montechoro - albufeira|8200-999|albufeira"
+    },
+    {
       "id": "auchan-auchan-lagoa-lagoa-8400-701",
       "name": "AUCHAN Lagoa",
       "brand": "AUCHAN",
@@ -3318,7 +3335,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-23T09:20:00+00:00",
+      "updatedAt": "2026-04-24T09:05:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3573,7 +3590,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.119,
-      "updatedAt": "2026-04-20T12:25:00+00:00",
+      "updatedAt": "2026-04-24T09:50:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -4848,7 +4865,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-23T11:10:00+00:00",
+      "updatedAt": "2026-04-24T09:25:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -4984,7 +5001,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-23T08:30:00+00:00",
+      "updatedAt": "2026-04-24T11:10:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5770,6 +5787,23 @@
       "lat": 38.592712,
       "lon": -9.046671,
       "sourceKey": "REPSOL|repsol coina|estrada nacional 10|2830-411|barreiro"
+    },
+    {
+      "id": "galp-galp-vouzela-vouzela-3670-234",
+      "name": "Galp Vouzela",
+      "brand": "GALP",
+      "district": "Viseu",
+      "municipality": "Vouzela",
+      "locality": "Vouzela",
+      "address": "Variante de Vouzela",
+      "postalCode": "3670-234",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.154,
+      "updatedAt": "2026-04-24T12:35:00+00:00",
+      "lat": 40.72417,
+      "lon": -8.110905,
+      "sourceKey": "GALP|galp vouzela|variante de vouzela|3670-234|vouzela"
     },
     {
       "id": "repsol-es-repsol-evora-chafariz-d-el-rei-evora-7000-002",
