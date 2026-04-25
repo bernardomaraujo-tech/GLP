@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-25T01:47:19.618661+00:00",
+  "generatedAt": "2026-04-25T07:06:31.204505+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-25T02:40:00+00:00",
+  "dataUpdatedAt": "2026-04-25T08:05:00+00:00",
   "stats": {
     "totalStations": 424,
     "withCoordinates": 424,
@@ -1652,7 +1652,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-04-24T03:40:00+00:00",
+      "updatedAt": "2026-04-25T02:50:00+00:00",
       "lat": 39.049244,
       "lon": -8.708553,
       "sourceKey": "PRIO|p50 - prio marinhais|estrada nacional 367, n.o 438|2125-121|salvaterra de magos"
@@ -2553,7 +2553,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-04-24T03:50:00+00:00",
+      "updatedAt": "2026-04-25T02:55:00+00:00",
       "lat": 41.262432,
       "lon": -8.062497,
       "sourceKey": "SHELL|p08 - shell amarante|lugar do ferro, no 593|4600-681|amarante"
@@ -2672,7 +2672,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-04-24T03:50:00+00:00",
+      "updatedAt": "2026-04-25T03:00:00+00:00",
       "lat": 38.858,
       "lon": -9.379323,
       "sourceKey": "SHELL|p35 - shell terrugem|en 247 ao km 66,38 - godigana|2705-869|sintra"
@@ -4066,7 +4066,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.124,
-      "updatedAt": "2026-04-25T00:45:00+00:00",
+      "updatedAt": "2026-04-25T08:05:00+00:00",
       "lat": 38.739,
       "lon": -9.202767,
       "sourceKey": "REPSOL|es casa pia - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda pina manique|1500-462|lisboa"
@@ -5868,7 +5868,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-04-24T07:00:00+00:00",
+      "updatedAt": "2026-04-25T08:00:00+00:00",
       "lat": 40.73628,
       "lon": -8.37964,
       "sourceKey": "GENÉRICO|ferreira, silva e espirito lda|zona industrial dos padroes n.o 587|3740-295|sever do vouga"
@@ -6038,7 +6038,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.164,
-      "updatedAt": "2026-04-25T00:10:00+00:00",
+      "updatedAt": "2026-04-25T08:05:00+00:00",
       "lat": 41.165108,
       "lon": -8.628078,
       "sourceKey": "REPSOL|es constituicao - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rua da constituicao no 2570|4000-000|porto"
