@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-26T07:20:46.510095+00:00",
+  "generatedAt": "2026-04-26T12:47:46.749552+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-26T08:20:00+00:00",
+  "dataUpdatedAt": "2026-04-26T10:40:00+00:00",
   "stats": {
     "totalStations": 422,
     "withCoordinates": 422,
@@ -1027,23 +1027,6 @@
       "lat": 41.70683,
       "lon": -8.80188,
       "sourceKey": "ECOBRENT|ecobrent - viana do castelo|rua dos carregais, 106|4900-665|viana do castelo"
-    },
-    {
-      "id": "moeve-moeve-viana-do-castelo-cardielos-viana-do-castelo-4925-347",
-      "name": "MOEVE Viana do Castelo - Cardielos",
-      "brand": "MOEVE",
-      "district": "Viana do Castelo",
-      "municipality": "Viana do Castelo",
-      "locality": "Cardielos",
-      "address": "EN 202, Km 7550 - Lugar do Porto",
-      "postalCode": "4925-347",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-04-20T00:05:00+00:00",
-      "lat": 41.71166,
-      "lon": -8.742154,
-      "sourceKey": "MOEVE|moeve viana do castelo - cardielos|en 202, km 7550 - lugar do porto|4925-347|viana do castelo"
     },
     {
       "id": "transforpel-transforpel-combustiveis-calcos-martinganca-alcobaca-2445-701",
@@ -2389,6 +2372,23 @@
       "sourceKey": "CEPSA|a28 viana do castelo (vnc/por)|a28 (antigo ic 1), km 372, vila nova de anha, apt. 52|4905-999|viana do castelo"
     },
     {
+      "id": "moeve-moeve-viana-do-castelo-cardielos-viana-do-castelo-4925-347",
+      "name": "MOEVE Viana do Castelo - Cardielos",
+      "brand": "MOEVE",
+      "district": "Viana do Castelo",
+      "municipality": "Viana do Castelo",
+      "locality": "Cardielos",
+      "address": "EN 202, Km 7550 - Lugar do Porto",
+      "postalCode": "4925-347",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.056,
+      "updatedAt": "2026-04-26T10:40:00+00:00",
+      "lat": 41.71166,
+      "lon": -8.742154,
+      "sourceKey": "MOEVE|moeve viana do castelo - cardielos|en 202, km 7550 - lugar do porto|4925-347|viana do castelo"
+    },
+    {
       "id": "cepsa-cepsa-carregal-do-sal-carregal-do-sal-3430-154",
       "name": "CEPSA Carregal do Sal",
       "brand": "CEPSA",
@@ -3114,7 +3114,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.104,
-      "updatedAt": "2026-04-25T08:25:00+00:00",
+      "updatedAt": "2026-04-26T08:25:00+00:00",
       "lat": 38.80345,
       "lon": -9.356381,
       "sourceKey": "REPSOL|es rot. da cavaleira - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda da cavaleira algueirao|2710-418|sintra"
@@ -4576,7 +4576,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-25T08:10:00+00:00",
+      "updatedAt": "2026-04-26T08:25:00+00:00",
       "lat": 38.76278,
       "lon": -9.1412,
       "sourceKey": "REPSOL|es 1169 - 2a circular (sul/norte) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|2a circular sentido sul/norte avenida marechal craveiro lopes|1700-284|lisboa"
@@ -4593,7 +4593,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-04-25T08:15:00+00:00",
+      "updatedAt": "2026-04-26T08:25:00+00:00",
       "lat": 38.755417,
       "lon": -9.183167,
       "sourceKey": "REPSOL|es repsol benfica b - estadio da luz|av. eusebio da silva ferreira (estadio da luz)|1500-313|lisboa"
@@ -5035,7 +5035,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-25T08:20:00+00:00",
+      "updatedAt": "2026-04-26T08:30:00+00:00",
       "lat": 41.18037,
       "lon": -8.568678,
       "sourceKey": "REPSOL|repsol rio tinto ii|rua de rebordoes n.o 297|4435-416|gondomar"
@@ -5222,7 +5222,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-25T08:10:00+00:00",
+      "updatedAt": "2026-04-26T08:30:00+00:00",
       "lat": 39.477825,
       "lon": -8.623297,
       "sourceKey": "REPSOL|repsol torres novas no a1/a23|lugar da lameira grande, videla - fig da zibreira - z.i da zibreira|2350-838|torres novas"
@@ -5239,7 +5239,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-25T08:10:00+00:00",
+      "updatedAt": "2026-04-26T08:25:00+00:00",
       "lat": 38.637806,
       "lon": -9.198797,
       "sourceKey": "REPSOL|area de servico repsol almada a33|a 33 km 2,5|2825-279|almada"
@@ -6939,7 +6939,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-25T08:20:00+00:00",
+      "updatedAt": "2026-04-26T08:25:00+00:00",
       "lat": 40.754807,
       "lon": -8.534985,
       "sourceKey": "REPSOL|as antua a - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1. ao km. 254 - antua|3850-909|estarreja"
@@ -7024,7 +7024,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-25T08:20:00+00:00",
+      "updatedAt": "2026-04-26T08:30:00+00:00",
       "lat": 41.101135,
       "lon": -8.597706,
       "sourceKey": "REPSOL|a s gaia b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1 ao km 295 sul/norte|4430-129|vila nova de gaia"
@@ -7092,7 +7092,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.194,
-      "updatedAt": "2026-04-25T08:20:00+00:00",
+      "updatedAt": "2026-04-26T08:25:00+00:00",
       "lat": 38.62257,
       "lon": -8.57766,
       "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
