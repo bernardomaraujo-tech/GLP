@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-28T08:12:27.128341+00:00",
+  "generatedAt": "2026-04-28T13:49:18.563004+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-28T09:00:00+00:00",
+  "dataUpdatedAt": "2026-04-28T11:45:00+00:00",
   "stats": {
     "totalStations": 430,
     "withCoordinates": 430,
@@ -177,6 +177,23 @@
       "lat": 37.70544,
       "lon": -8.08499,
       "sourceKey": "OZ ENERGIA|oz energia - castro verde(intermarche)|r. seara nova|7780-163|castro verde"
+    },
+    {
+      "id": "intermarche-intermarche-minde-alcanena-2395-189",
+      "name": "INTERMARCHÉ MINDE",
+      "brand": "INTERMARCHÉ",
+      "district": "Santarém",
+      "municipality": "Alcanena",
+      "locality": "MINDE",
+      "address": "RUA JOAO MARTINS",
+      "postalCode": "2395-189",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.977,
+      "updatedAt": "2026-04-28T09:30:00+00:00",
+      "lat": 39.51281,
+      "lon": -8.68554,
+      "sourceKey": "INTERMARCHÉ|intermarche minde|rua joao martins|2395-189|alcanena"
     },
     {
       "id": "oz-energia-oz-energia-barqueiros-barcelos-4740-694",
@@ -366,9 +383,9 @@
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
     },
     {
-      "id": "tuacar-tuacar-posto-mirandela-mirandela-5370-552",
-      "name": "Tuacar - Posto Mirandela",
-      "brand": "TUACAR",
+      "id": "oz-energia-oz-energia-mirandela-mirandela-5370-552",
+      "name": "OZ ENERGIA  -  MIRANDELA",
+      "brand": "OZ ENERGIA",
       "district": "Bragança",
       "municipality": "Mirandela",
       "locality": "Espinheiral",
@@ -377,10 +394,10 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-04-26T23:50:00+00:00",
+      "updatedAt": "2026-04-22T18:00:00+00:00",
       "lat": 41.479393,
       "lon": -7.205275,
-      "sourceKey": "TUACAR|tuacar - posto mirandela|lugar do espinheiral, en15, saida mirandela oeste|5370-552|mirandela"
+      "sourceKey": "OZ ENERGIA|oz energia - mirandela|lugar do espinheiral, en15, saida mirandela oeste|5370-552|mirandela"
     },
     {
       "id": "generico-g-m-i-vermoim-v-n-de-famalicao-vila-nova-de-famalicao-4770-754",
@@ -517,23 +534,6 @@
       "lat": 40.898796,
       "lon": -8.477838,
       "sourceKey": "GENÉRICO|pa petrozona sao joao da madeira|rua domingos jose de oliveira|3700-317|sao joao da madeira"
-    },
-    {
-      "id": "intermarche-intermarche-minde-alcanena-2395-189",
-      "name": "INTERMARCHÉ MINDE",
-      "brand": "INTERMARCHÉ",
-      "district": "Santarém",
-      "municipality": "Alcanena",
-      "locality": "MINDE",
-      "address": "RUA JOAO MARTINS",
-      "postalCode": "2395-189",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.995,
-      "updatedAt": "2026-04-21T09:30:00+00:00",
-      "lat": 39.51281,
-      "lon": -8.68554,
-      "sourceKey": "INTERMARCHÉ|intermarche minde|rua joao martins|2395-189|alcanena"
     },
     {
       "id": "cepsa-cepsa-aveiro-zi-aveiro-3800-264",
@@ -1091,7 +1091,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-04-20T09:40:00+00:00",
+      "updatedAt": "2026-04-28T10:05:00+00:00",
       "lat": 38.86376,
       "lon": -9.09955,
       "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
@@ -1788,7 +1788,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-04-21T09:20:00+00:00",
+      "updatedAt": "2026-04-28T09:55:00+00:00",
       "lat": 40.57759,
       "lon": -7.94474,
       "sourceKey": "NOVA|combsantos pindelo de silgueiros|av. joao padeiro|nan|viseu"
@@ -3012,7 +3012,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-04-21T10:55:00+00:00",
+      "updatedAt": "2026-04-28T11:40:00+00:00",
       "lat": 39.938229,
       "lon": -8.628914,
       "sourceKey": "GENÉRICO|ouro negro - pombal - poente|en 1 km 159,8|3105-295|pombal"
@@ -3046,7 +3046,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-04-20T00:15:00+00:00",
+      "updatedAt": "2026-04-28T11:25:00+00:00",
       "lat": 41.377384,
       "lon": -8.172588,
       "sourceKey": "GENÉRICO|posto sodimapi felgueiras|lameiro-morto, sendim|4610-750|felgueiras"
@@ -3063,7 +3063,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-04-21T10:50:00+00:00",
+      "updatedAt": "2026-04-28T11:40:00+00:00",
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
@@ -3352,7 +3352,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-04-27T09:45:00+00:00",
+      "updatedAt": "2026-04-28T10:10:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3454,7 +3454,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.114,
-      "updatedAt": "2026-04-27T00:05:00+00:00",
+      "updatedAt": "2026-04-28T10:00:00+00:00",
       "lat": 38.76924,
       "lon": -9.125385,
       "sourceKey": "BP|bp aeroporto|nova rotunda aeroporto de lisboa - av. de berlim|1700-067|lisboa"
@@ -4899,7 +4899,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-27T11:50:00+00:00",
+      "updatedAt": "2026-04-28T10:50:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -5018,7 +5018,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-27T11:55:00+00:00",
+      "updatedAt": "2026-04-28T10:25:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5987,7 +5987,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-20T19:00:00+00:00",
+      "updatedAt": "2026-04-28T10:40:00+00:00",
       "lat": 40.785388,
       "lon": -8.566024,
       "sourceKey": "BP|bp avanca (s-n)|r. do falcao, e.n. 109 - km 44.3|3860-060|estarreja"
@@ -6752,7 +6752,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.174,
-      "updatedAt": "2026-04-27T11:10:00+00:00",
+      "updatedAt": "2026-04-28T11:45:00+00:00",
       "lat": 40.85363,
       "lon": -7.50846,
       "sourceKey": "GENÉRICO|posto aguiar da beira|quinta de sto estevao|3570-191|aguiar da beira"
@@ -7262,7 +7262,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.219,
-      "updatedAt": "2026-04-27T11:30:00+00:00",
+      "updatedAt": "2026-04-28T09:25:00+00:00",
       "lat": 41.43717,
       "lon": -8.31279,
       "sourceKey": "BP|creixoauto guimaraes|rua miradouro de baixo|4835-079|guimaraes"
@@ -7296,7 +7296,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.239,
-      "updatedAt": "2026-04-20T15:00:00+00:00",
+      "updatedAt": "2026-04-28T09:45:00+00:00",
       "lat": 42.060314,
       "lon": -8.488322,
       "sourceKey": "GENÉRICO|pa mazedo - fg combustiveis|estrada de mazedo 2137|4950-276|moncao"
