@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-28T13:49:18.563004+00:00",
+  "generatedAt": "2026-04-28T19:24:48.526454+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-28T11:45:00+00:00",
+  "dataUpdatedAt": "2026-04-28T18:20:00+00:00",
   "stats": {
     "totalStations": 430,
     "withCoordinates": 430,
@@ -377,7 +377,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-04-27T09:40:00+00:00",
+      "updatedAt": "2026-04-28T16:15:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -3420,7 +3420,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.111,
-      "updatedAt": "2026-04-23T11:20:00+00:00",
+      "updatedAt": "2026-04-28T16:15:00+00:00",
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
@@ -4780,7 +4780,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.139,
-      "updatedAt": "2026-04-21T10:55:00+00:00",
+      "updatedAt": "2026-04-28T16:50:00+00:00",
       "lat": 39.065964,
       "lon": -8.876442,
       "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
@@ -5171,7 +5171,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.144,
-      "updatedAt": "2026-04-27T00:00:00+00:00",
+      "updatedAt": "2026-04-28T14:50:00+00:00",
       "lat": 39.20197,
       "lon": -8.62803,
       "sourceKey": "REPSOL|e.s. almeirim|rua coruche|2080-000|almeirim"
@@ -5528,7 +5528,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.149,
-      "updatedAt": "2026-04-27T00:05:00+00:00",
+      "updatedAt": "2026-04-28T18:20:00+00:00",
       "lat": 38.57734,
       "lon": -8.89189,
       "sourceKey": "BP|bp palmela|e. n. 379 bombas\\r\\nlage-s.juliao|2950-302|palmela"
@@ -5579,7 +5579,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.154,
-      "updatedAt": "2026-04-27T09:15:00+00:00",
+      "updatedAt": "2026-04-28T18:10:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -6038,7 +6038,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-04-20T14:40:00+00:00",
+      "updatedAt": "2026-04-28T15:40:00+00:00",
       "lat": 41.37069,
       "lon": -8.31226,
       "sourceKey": "BP|boxoil|rua guilherme caldas peixoto 183|4815-000|vizela"
