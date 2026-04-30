@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-30T08:09:39.265320+00:00",
+  "generatedAt": "2026-04-30T13:26:07.877566+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-04-30T09:00:00+00:00",
+  "dataUpdatedAt": "2026-04-30T11:55:00+00:00",
   "stats": {
     "totalStations": 423,
     "withCoordinates": 423,
@@ -513,7 +513,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-04-29T10:20:00+00:00",
+      "updatedAt": "2026-04-30T11:55:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -1669,7 +1669,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-04-29T09:20:00+00:00",
+      "updatedAt": "2026-04-30T11:15:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -3352,7 +3352,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.111,
-      "updatedAt": "2026-04-28T16:15:00+00:00",
+      "updatedAt": "2026-04-30T10:10:00+00:00",
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
