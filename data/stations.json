@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-01T08:05:52.058585+00:00",
+  "generatedAt": "2026-05-01T13:01:58.650747+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-01T08:25:00+00:00",
+  "dataUpdatedAt": "2026-05-01T13:50:00+00:00",
   "stats": {
-    "totalStations": 421,
-    "withCoordinates": 421,
-    "withPrice": 421
+    "totalStations": 422,
+    "withCoordinates": 422,
+    "withPrice": 422
   },
   "stations": [
     {
@@ -530,7 +530,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.989,
-      "updatedAt": "2026-04-28T00:05:00+00:00",
+      "updatedAt": "2026-05-01T13:00:00+00:00",
       "lat": 41.42127,
       "lon": -8.4415,
       "sourceKey": "GENÉRICO|g. m. i - vermoim- v. n. de famalicao|av. joao xxi|4770-754|vila nova de famalicao"
@@ -1907,7 +1907,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-05-01T00:00:00+00:00",
+      "updatedAt": "2026-05-01T10:50:00+00:00",
       "lat": 41.494,
       "lon": -8.36231,
       "sourceKey": "REPSOL|e.s. taipas|lugar porta da igrejas. martinho de sande|4800-826|guimaraes"
@@ -2387,6 +2387,23 @@
       "lat": 39.796231,
       "lon": -8.727059,
       "sourceKey": "GALP|vmf- raposeira|rua dr. diogo almeida pais santos|2420-003|leiria"
+    },
+    {
+      "id": "repsol-repsol-aveiro-no-sul-a-aveiro-3810-489",
+      "name": "REPSOL Aveiro - Nó Sul A",
+      "brand": "REPSOL",
+      "district": "Aveiro",
+      "municipality": "Aveiro",
+      "locality": "Aveiro",
+      "address": "AVENIDA DA UNIVERSIDADE",
+      "postalCode": "3810-489",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.054,
+      "updatedAt": "2026-05-01T13:50:00+00:00",
+      "lat": 40.626743,
+      "lon": -8.652549,
+      "sourceKey": "REPSOL|repsol aveiro - no sul a|avenida da universidade|3810-489|aveiro"
     },
     {
       "id": "repsol-e-s-s-joao-madeira-ii-sao-joao-da-madeira-3700-000",
@@ -2948,6 +2965,23 @@
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
+    },
+    {
+      "id": "repsol-repsol-vilar-formoso-e0905-almeida-6355-339",
+      "name": "REPSOL Vilar Formoso E0905",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Almeida",
+      "locality": "Vilar Formoso",
+      "address": "EN 16 (Av. Tílias)",
+      "postalCode": "6355-339",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.064,
+      "updatedAt": "2026-05-01T10:25:00+00:00",
+      "lat": 40.61075,
+      "lon": -6.83067,
+      "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
     },
     {
       "id": "repsol-e-s-s-jorge-batalha-a-batalha-2440-477",
@@ -4172,6 +4206,23 @@
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
+    },
+    {
+      "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
+      "name": "PGPL CHAMAGAS Rio Maior",
+      "brand": "CHAMAGÁS",
+      "district": "Santarém",
+      "municipality": "Rio Maior",
+      "locality": "Alto da Serra",
+      "address": "E.N. 1 - Alto da Serra",
+      "postalCode": "2040-063",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.099,
+      "updatedAt": "2026-05-01T09:35:00+00:00",
+      "lat": 39.375793,
+      "lon": -8.962691,
+      "sourceKey": "CHAMAGÁS|pgpl chamagas rio maior|e.n. 1 - alto da serra|2040-063|rio maior"
     },
     {
       "id": "leclerc-e-leclerc-lamego-lamego-5100-196",
@@ -5585,23 +5636,6 @@
       "sourceKey": "GALP|galp a25 a.s. aveiro - estadio (v/av)|auto estrada a25 / itinerario principal ip5, ao km 15.200, sublanco no do estadio|3800-911|aveiro"
     },
     {
-      "id": "repsol-repsol-aveiro-no-sul-a-aveiro-3810-489",
-      "name": "REPSOL Aveiro - Nó Sul A",
-      "brand": "REPSOL",
-      "district": "Aveiro",
-      "municipality": "Aveiro",
-      "locality": "Aveiro",
-      "address": "AVENIDA DA UNIVERSIDADE",
-      "postalCode": "3810-489",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.134,
-      "updatedAt": "2026-04-27T00:00:00+00:00",
-      "lat": 40.626743,
-      "lon": -8.652549,
-      "sourceKey": "REPSOL|repsol aveiro - no sul a|avenida da universidade|3810-489|aveiro"
-    },
-    {
       "id": "galp-posto-rainha-da-feira-lda-santa-maria-da-feira-4520-112",
       "name": "Posto Rainha da Feira, Lda",
       "brand": "GALP",
@@ -5855,23 +5889,6 @@
       "lat": 40.50452,
       "lon": -7.039117,
       "sourceKey": "FREITAS|clgf.lda|en 324 , no1|6320-131|sabugal"
-    },
-    {
-      "id": "repsol-repsol-vilar-formoso-e0905-almeida-6355-339",
-      "name": "REPSOL Vilar Formoso E0905",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Almeida",
-      "locality": "Vilar Formoso",
-      "address": "EN 16 (Av. Tílias)",
-      "postalCode": "6355-339",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.144,
-      "updatedAt": "2026-04-30T15:55:00+00:00",
-      "lat": 40.61075,
-      "lon": -6.83067,
-      "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
     },
     {
       "id": "bp-bp-seixal-fogueteiro-seixal-2840-432",
