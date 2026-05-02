@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-02T07:23:52.894750+00:00",
+  "generatedAt": "2026-05-02T12:53:53.047348+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-02T08:20:00+00:00",
+  "dataUpdatedAt": "2026-05-02T13:40:00+00:00",
   "stats": {
     "totalStations": 421,
     "withCoordinates": 421,
@@ -2519,7 +2519,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-01T08:25:00+00:00",
+      "updatedAt": "2026-05-02T08:25:00+00:00",
       "lat": 38.755417,
       "lon": -9.183167,
       "sourceKey": "REPSOL|es repsol benfica b - estadio da luz|av. eusebio da silva ferreira (estadio da luz)|1500-313|lisboa"
@@ -2961,7 +2961,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-01T10:25:00+00:00",
+      "updatedAt": "2026-05-02T09:30:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -3165,7 +3165,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-01T08:20:00+00:00",
+      "updatedAt": "2026-05-02T08:25:00+00:00",
       "lat": 41.18037,
       "lon": -8.568678,
       "sourceKey": "REPSOL|repsol rio tinto ii|rua de rebordoes n.o 297|4435-416|gondomar"
@@ -3352,7 +3352,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-01T08:15:00+00:00",
+      "updatedAt": "2026-05-02T08:25:00+00:00",
       "lat": 39.477825,
       "lon": -8.623297,
       "sourceKey": "REPSOL|repsol torres novas no a1/a23|lugar da lameira grande, videla - fig da zibreira - z.i da zibreira|2350-838|torres novas"
@@ -3424,23 +3424,6 @@
       "lat": 37.95812,
       "lon": -8.86573,
       "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
-    },
-    {
-      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
-      "name": "E.S. PONTE DE LIMA B",
-      "brand": "REPSOL",
-      "district": "Viana do Castelo",
-      "municipality": "Ponte de Lima",
-      "locality": "S. Gonçalo - Arcozelo",
-      "address": "EN 201 Km 0,76/0,826",
-      "postalCode": "4990-120",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.064,
-      "updatedAt": "2026-05-01T00:00:00+00:00",
-      "lat": 41.76622,
-      "lon": -8.5945,
-      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
     },
     {
       "id": "repsol-e-s-valenca-valenca-4930-002",
@@ -5466,6 +5449,23 @@
       "sourceKey": "REPSOL|repsol aires b|en 252 km 50,460|2950-439|palmela"
     },
     {
+      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
+      "name": "E.S. PONTE DE LIMA B",
+      "brand": "REPSOL",
+      "district": "Viana do Castelo",
+      "municipality": "Ponte de Lima",
+      "locality": "S. Gonçalo - Arcozelo",
+      "address": "EN 201 Km 0,76/0,826",
+      "postalCode": "4990-120",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.124,
+      "updatedAt": "2026-05-02T08:45:00+00:00",
+      "lat": 41.76622,
+      "lon": -8.5945,
+      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
+    },
+    {
       "id": "repsol-repsol-armamar-armamar-5110-152",
       "name": "REPSOL Armamar",
       "brand": "REPSOL",
@@ -6106,7 +6106,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.154,
-      "updatedAt": "2026-05-01T16:10:00+00:00",
+      "updatedAt": "2026-05-02T13:40:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
