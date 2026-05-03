@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-03T07:52:44.227438+00:00",
+  "generatedAt": "2026-05-03T12:53:34.336120+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-03T08:25:00+00:00",
+  "dataUpdatedAt": "2026-05-03T11:20:00+00:00",
   "stats": {
     "totalStations": 421,
     "withCoordinates": 421,
@@ -6106,7 +6106,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.154,
-      "updatedAt": "2026-05-02T13:40:00+00:00",
+      "updatedAt": "2026-05-03T11:20:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
