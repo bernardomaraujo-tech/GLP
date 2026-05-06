@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-06T08:12:45.116592+00:00",
+  "generatedAt": "2026-05-06T13:51:01.908777+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-06T09:10:00+00:00",
+  "dataUpdatedAt": "2026-05-06T13:50:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -1346,7 +1346,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-05-05T12:10:00+00:00",
+      "updatedAt": "2026-05-06T09:30:00+00:00",
       "lat": 38.731133,
       "lon": -9.226119,
       "sourceKey": "AUCHAN|auchan alfragide|rua da quinta do salrego (rua henrique mendes) - lote 12 - portela de carnaxide|2790-144|oeiras"
@@ -2026,7 +2026,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-05-05T09:05:00+00:00",
+      "updatedAt": "2026-05-06T09:25:00+00:00",
       "lat": 39.81447,
       "lon": -7.521308,
       "sourceKey": "AUCHAN|auchan castelo branco|zona industrial castelo branco|6000-459|castelo branco"
@@ -2077,7 +2077,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-05-04T09:35:00+00:00",
+      "updatedAt": "2026-05-06T10:25:00+00:00",
       "lat": 38.965427,
       "lon": -8.983408,
       "sourceKey": "GALP|galp vila franca xira|en 1 km 24,7|2600-000|vila franca de xira"
@@ -2372,6 +2372,23 @@
       "sourceKey": "BP|posto bp bela vista|av marechal antonio spinola|1950-380|lisboa"
     },
     {
+      "id": "galp-espertocar-lda-rio-maior-2040-000",
+      "name": "Espertocar, Lda.",
+      "brand": "GALP",
+      "district": "Santarém",
+      "municipality": "Rio Maior",
+      "locality": "Rio Maior-Zona Industrial",
+      "address": "E.N. 114, Km 49,6",
+      "postalCode": "2040-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.034,
+      "updatedAt": "2026-05-06T12:50:00+00:00",
+      "lat": 39.31499,
+      "lon": -8.92094,
+      "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
+    },
+    {
       "id": "galp-combustiveis-bairrada-lda-2-oliveira-do-bairro-3770-059",
       "name": "COMBUSTIVEIS BAIRRADA LDA(2)",
       "brand": "GALP",
@@ -2438,6 +2455,23 @@
       "lat": 37.08517,
       "lon": -8.04257,
       "sourceKey": "GALP|lubriolhao, lda|estrada da fonte santa|8135-107|loule"
+    },
+    {
+      "id": "galp-arm-soc-algarvia-de-comb-lda-portimao-8500-000",
+      "name": "ARM – Soc.Algarvia de Comb.lda",
+      "brand": "GALP",
+      "district": "Faro",
+      "municipality": "Portimão",
+      "locality": "Alto do Quintão",
+      "address": "EN 124-1 (V6)",
+      "postalCode": "8500-000",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 1.039,
+      "updatedAt": "2026-05-06T09:40:00+00:00",
+      "lat": 37.130362,
+      "lon": -8.54542,
+      "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
     },
     {
       "id": "galp-galp-a-s-aguas-santas-amar-porto-maia-4425-547",
@@ -2570,7 +2604,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-05-04T10:25:00+00:00",
+      "updatedAt": "2026-05-06T09:20:00+00:00",
       "lat": 39.237055,
       "lon": -8.703657,
       "sourceKey": "GALP|j. m. cordeiro, lda.(1)|rua o|2000-000|santarem"
@@ -2587,7 +2621,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-05-04T10:30:00+00:00",
+      "updatedAt": "2026-05-06T09:25:00+00:00",
       "lat": 39.23667,
       "lon": -8.7033,
       "sourceKey": "GALP|j. m. cordeiro, lda.(2)|rua o|2000-000|santarem"
@@ -3420,7 +3454,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-04T00:05:00+00:00",
+      "updatedAt": "2026-05-06T12:50:00+00:00",
       "lat": 40.11746,
       "lon": -8.28732,
       "sourceKey": "GALP|posto galp lousa en342 - anibal antunes bandeira, lda|en 342 ao km 8,75 (variante lousa-miranda do corvo)|3200-133|lousa"
@@ -3437,7 +3471,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-04T09:10:00+00:00",
+      "updatedAt": "2026-05-06T09:20:00+00:00",
       "lat": 40.46377,
       "lon": -7.753826,
       "sourceKey": "GALP|galp tourais (seia)|en 231|6270-581|seia"
@@ -3577,23 +3611,6 @@
       "lat": 41.289143,
       "lon": -8.704652,
       "sourceKey": "GALP|galp a.s. vila do conde (vila conde/porto)|a28 - km 12 - modivas|4485-600|vila do conde"
-    },
-    {
-      "id": "galp-espertocar-lda-rio-maior-2040-000",
-      "name": "Espertocar, Lda.",
-      "brand": "GALP",
-      "district": "Santarém",
-      "municipality": "Rio Maior",
-      "locality": "Rio Maior-Zona Industrial",
-      "address": "E.N. 114, Km 49,6",
-      "postalCode": "2040-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.054,
-      "updatedAt": "2026-05-04T17:55:00+00:00",
-      "lat": 39.31499,
-      "lon": -8.92094,
-      "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
     },
     {
       "id": "galp-galp-sousa-marquez-horta-das-figueiras-evora-evora-7005-872",
@@ -4151,7 +4168,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-05T11:50:00+00:00",
+      "updatedAt": "2026-05-06T11:05:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4899,7 +4916,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.074,
-      "updatedAt": "2026-05-05T20:55:00+00:00",
+      "updatedAt": "2026-05-06T12:10:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -6089,7 +6106,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.104,
-      "updatedAt": "2026-05-04T00:00:00+00:00",
+      "updatedAt": "2026-05-06T11:15:00+00:00",
       "lat": 41.7395,
       "lon": -7.4761,
       "sourceKey": "REPSOL|e.s. chaves ii|av. santo amaro, s/n|5400-000|chaves"
@@ -6208,7 +6225,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-05-05T09:00:00+00:00",
+      "updatedAt": "2026-05-06T09:50:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -6401,23 +6418,6 @@
       "sourceKey": "GALP|l. a. cameirinha , lda|rua de lisboa|7800-000|beja"
     },
     {
-      "id": "galp-arm-soc-algarvia-de-comb-lda-portimao-8500-000",
-      "name": "ARM – Soc.Algarvia de Comb.lda",
-      "brand": "GALP",
-      "district": "Faro",
-      "municipality": "Portimão",
-      "locality": "Alto do Quintão",
-      "address": "EN 124-1 (V6)",
-      "postalCode": "8500-000",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 1.119,
-      "updatedAt": "2026-05-04T09:45:00+00:00",
-      "lat": 37.130362,
-      "lon": -8.54542,
-      "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
-    },
-    {
       "id": "bp-bp-vale-de-figueira-loures-2695-772",
       "name": "BP - Vale de Figueira",
       "brand": "BP",
@@ -6463,7 +6463,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.119,
-      "updatedAt": "2026-05-04T09:05:00+00:00",
+      "updatedAt": "2026-05-06T13:50:00+00:00",
       "lat": 38.529193,
       "lon": -8.875492,
       "sourceKey": "GALP|estacao de servico central|av. infante d. henrique|2910-529|setubal"
@@ -6752,7 +6752,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-05-04T08:30:00+00:00",
+      "updatedAt": "2026-05-06T12:00:00+00:00",
       "lat": 40.92342,
       "lon": -8.56923,
       "sourceKey": "GALP|posto rainha da feira, lda|zona industrial do roligo|4520-112|santa maria da feira"
