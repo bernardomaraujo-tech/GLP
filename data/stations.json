@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-07T08:22:27.447925+00:00",
+  "generatedAt": "2026-05-07T13:47:13.536665+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-07T09:20:00+00:00",
+  "dataUpdatedAt": "2026-05-07T09:30:00+00:00",
   "stats": {
     "totalStations": 429,
     "withCoordinates": 429,
@@ -111,23 +111,6 @@
       "sourceKey": "AUCHAN|auchan paco de arcos|estrada paco de arcos lote 2|2770-129|oeiras"
     },
     {
-      "id": "auchan-auchan-sintra-sintra-2710-116",
-      "name": "AUCHAN Sintra",
-      "brand": "AUCHAN",
-      "district": "Lisboa",
-      "municipality": "Sintra",
-      "locality": "São Pedro",
-      "address": "Rua francisco lyon de castro",
-      "postalCode": "2710-116",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-05-05T09:25:00+00:00",
-      "lat": 38.778625,
-      "lon": -9.345505,
-      "sourceKey": "AUCHAN|auchan sintra|rua francisco lyon de castro|2710-116|sintra"
-    },
-    {
       "id": "galp-ultra-resistente-combustiveis-lda-satao-3560-085",
       "name": "Ultra Resistente - Combustiveis, Ldª",
       "brand": "GALP",
@@ -194,6 +177,23 @@
       "lat": 38.710672,
       "lon": -9.2892,
       "sourceKey": "OZ ENERGIA|oz energia - paco de arcos|rua calvet magalhaes, 145|2770-228|oeiras"
+    },
+    {
+      "id": "auchan-auchan-sintra-sintra-2710-116",
+      "name": "AUCHAN Sintra",
+      "brand": "AUCHAN",
+      "district": "Lisboa",
+      "municipality": "Sintra",
+      "locality": "São Pedro",
+      "address": "Rua francisco lyon de castro",
+      "postalCode": "2710-116",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-05-07T09:25:00+00:00",
+      "lat": 38.778625,
+      "lon": -9.345505,
+      "sourceKey": "AUCHAN|auchan sintra|rua francisco lyon de castro|2710-116|sintra"
     },
     {
       "id": "auchan-auchan-santo-tirso-santo-tirso-4780-219",
@@ -2304,6 +2304,23 @@
       "sourceKey": "NOVA|combsantos pindelo de silgueiros|av. joao padeiro|3500-543|viseu"
     },
     {
+      "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
+      "name": "TFGEST São Vicente Penso",
+      "brand": "FREITAS",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "São Vicente de Penso",
+      "address": "Avenida do Redondelo, 51 (EN 309 - km 29,970 D)",
+      "postalCode": "4705-628",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.034,
+      "updatedAt": "2026-05-07T09:30:00+00:00",
+      "lat": 41.48778,
+      "lon": -8.429883,
+      "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
+    },
+    {
       "id": "galp-sociedade-automoveis-cruz-de-cristo-lda-1-alcobaca-2460-052",
       "name": "SOCIEDADE AUTOMÓVEIS CRUZ DE CRISTO, LDA (1)",
       "brand": "GALP",
@@ -2778,23 +2795,6 @@
       "lat": 41.56547,
       "lon": -8.45018,
       "sourceKey": "REPSOL|e.s. frossos|en 201 km 62,8|4700-000|braga"
-    },
-    {
-      "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
-      "name": "TFGEST São Vicente Penso",
-      "brand": "FREITAS",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "São Vicente de Penso",
-      "address": "Avenida do Redondelo, 51 (EN 309 - km 29,970 D)",
-      "postalCode": "4705-628",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.044,
-      "updatedAt": "2026-05-04T22:00:00+00:00",
-      "lat": 41.48778,
-      "lon": -8.429883,
-      "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
     },
     {
       "id": "galp-teixeira-martins-automoveis-lda-esposende-4740-475",
@@ -4933,7 +4933,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.074,
-      "updatedAt": "2026-05-06T12:10:00+00:00",
+      "updatedAt": "2026-05-07T09:30:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
