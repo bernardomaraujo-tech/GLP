@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-09T07:47:31.715419+00:00",
+  "generatedAt": "2026-05-09T12:59:49.945575+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-09T08:25:00+00:00",
+  "dataUpdatedAt": "2026-05-09T12:35:00+00:00",
   "stats": {
     "totalStations": 432,
     "withCoordinates": 432,
@@ -3556,7 +3556,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-04T00:00:00+00:00",
+      "updatedAt": "2026-05-09T12:15:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -6265,6 +6265,23 @@
       "sourceKey": "BP|bp joao xxiii (oeste)|av. joao xxiii no 192|4590-515|pacos de ferreira"
     },
     {
+      "id": "bp-bp-meixomil-pacos-de-ferreira-4595-225",
+      "name": "BP MEIXOMIL",
+      "brand": "BP",
+      "district": "Porto",
+      "municipality": "Paços de Ferreira",
+      "locality": "Meixomil",
+      "address": "Av. do Marco, nº 197",
+      "postalCode": "4595-225",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.099,
+      "updatedAt": "2026-05-09T12:35:00+00:00",
+      "lat": 41.28255,
+      "lon": -8.38731,
+      "sourceKey": "BP|bp meixomil|av. do marco, no 197|4595-225|pacos de ferreira"
+    },
+    {
       "id": "prio-prio-valadares-vila-nova-de-gaia-4405-707",
       "name": "Prio Valadares",
       "brand": "PRIO",
@@ -7113,23 +7130,6 @@
       "lat": 41.190692,
       "lon": -8.398271,
       "sourceKey": "BP|bp vandoma|rua central de vandoma no 50|4585-769|paredes"
-    },
-    {
-      "id": "bp-bp-meixomil-pacos-de-ferreira-4595-225",
-      "name": "BP MEIXOMIL",
-      "brand": "BP",
-      "district": "Porto",
-      "municipality": "Paços de Ferreira",
-      "locality": "Meixomil",
-      "address": "Av. do Marco, nº 197",
-      "postalCode": "4595-225",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.169,
-      "updatedAt": "2026-05-04T07:35:00+00:00",
-      "lat": 41.28255,
-      "lon": -8.38731,
-      "sourceKey": "BP|bp meixomil|av. do marco, no 197|4595-225|pacos de ferreira"
     },
     {
       "id": "bp-a15-rio-maior-norte-rio-maior-2040-998",
