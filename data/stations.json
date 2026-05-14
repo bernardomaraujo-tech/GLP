@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-14T08:31:19.697420+00:00",
+  "generatedAt": "2026-05-14T13:52:09.865806+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-14T09:30:00+00:00",
+  "dataUpdatedAt": "2026-05-14T14:40:00+00:00",
   "stats": {
     "totalStations": 436,
     "withCoordinates": 436,
@@ -60,6 +60,23 @@
       "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
     },
     {
+      "id": "galp-galp-cruz-da-areia-leiria-leiria-2410-112",
+      "name": "Galp- Cruz da Areia (Leiria)",
+      "brand": "GALP",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Leiria",
+      "address": "Rua D. José Alves da Silva n. 12",
+      "postalCode": "2410-112",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-05-14T14:40:00+00:00",
+      "lat": 39.724262,
+      "lon": -8.806201,
+      "sourceKey": "GALP|galp- cruz da areia (leiria)|rua d. jose alves da silva n. 12|2410-112|leiria"
+    },
+    {
       "id": "generico-jetbase-produtos-bp-marinha-grande-2430-018",
       "name": "JETBASE - Produtos BP",
       "brand": "GENÉRICO",
@@ -75,23 +92,6 @@
       "lat": 39.79048,
       "lon": -8.92521,
       "sourceKey": "GENÉRICO|jetbase - produtos bp|r. central, 204|2430-018|marinha grande"
-    },
-    {
-      "id": "galp-galp-cruz-da-areia-leiria-leiria-2410-112",
-      "name": "Galp- Cruz da Areia (Leiria)",
-      "brand": "GALP",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Leiria",
-      "address": "Rua D. José Alves da Silva n. 12",
-      "postalCode": "2410-112",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.939,
-      "updatedAt": "2026-05-05T17:45:00+00:00",
-      "lat": 39.724262,
-      "lon": -8.806201,
-      "sourceKey": "GALP|galp- cruz da areia (leiria)|rua d. jose alves da silva n. 12|2410-112|leiria"
     },
     {
       "id": "generico-pa-petrozona-sao-joao-da-madeira-sao-joao-da-madeira-3700-317",
@@ -3046,7 +3046,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-05-11T00:00:00+00:00",
+      "updatedAt": "2026-05-14T11:00:00+00:00",
       "lat": 40.55081,
       "lon": -8.544742,
       "sourceKey": "GALP|combustiveis bairrada lda(2)|en 235 (o-e) km 13,400|3770-059|oliveira do bairro"
