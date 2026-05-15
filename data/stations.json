@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-15T08:45:12.186248+00:00",
+  "generatedAt": "2026-05-15T13:48:07.811031+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-15T09:30:00+00:00",
+  "dataUpdatedAt": "2026-05-15T13:15:00+00:00",
   "stats": {
-    "totalStations": 435,
-    "withCoordinates": 435,
-    "withPrice": 435
+    "totalStations": 436,
+    "withCoordinates": 436,
+    "withPrice": 436
   },
   "stations": [
     {
@@ -2168,6 +2168,23 @@
       "sourceKey": "GENÉRICO|eulupepneus-unipessoal, lda|estrada nacional 3 - ponte nova ( junto ao torreshoping )|2350-466|torres novas"
     },
     {
+      "id": "moeve-a2-almodovar-lis-alg-almodovar-7700-000",
+      "name": "A2 ALMODÔVAR (LIS/ALG)",
+      "brand": "MOEVE",
+      "district": "Beja",
+      "municipality": "Almodôvar",
+      "locality": "Almodôvar",
+      "address": "A2, KM 193, SUB-LANÇO CASTRO VERDE/ALMODÔVAR",
+      "postalCode": "7700-000",
+      "zone": "Alentejo",
+      "fuel": "GPL Auto",
+      "price": 1.006,
+      "updatedAt": "2026-05-15T13:15:00+00:00",
+      "lat": 37.536385,
+      "lon": -8.184828,
+      "sourceKey": "MOEVE|a2 almodovar (lis/alg)|a2, km 193, sub-lanco castro verde/almodovar|7700-000|almodovar"
+    },
+    {
       "id": "cepsa-cepsa-a3-barcelos-por-val-barcelos-4750-058",
       "name": "CEPSA - A3 Barcelos (POR/VAL)",
       "brand": "CEPSA",
@@ -3165,7 +3182,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-05-13T11:00:00+00:00",
+      "updatedAt": "2026-05-15T10:35:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -3800,6 +3817,23 @@
       "sourceKey": "SHELL|shell argoncilhe|rua da estrada nacional no1|4505-007|santa maria da feira"
     },
     {
+      "id": "leclerc-e-leclerc-fafe-fafe-4820-178",
+      "name": "E.LECLERC FAFE",
+      "brand": "LECLERC",
+      "district": "Braga",
+      "municipality": "Fafe",
+      "locality": "Campo do Lameiro – Santo Ovídeo",
+      "address": "Rua Cidade de Guimarães",
+      "postalCode": "4820-178",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.049,
+      "updatedAt": "2026-05-15T11:40:00+00:00",
+      "lat": 41.453073,
+      "lon": -8.189715,
+      "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
+    },
+    {
       "id": "alves-bandeira-alves-bandeira-vale-de-ourem-batalha-2495-036",
       "name": "ALVES BANDEIRA Vale de Ourém",
       "brand": "ALVES BANDEIRA",
@@ -4083,7 +4117,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-12T16:45:00+00:00",
+      "updatedAt": "2026-05-15T12:20:00+00:00",
       "lat": 40.89171,
       "lon": -8.49362,
       "sourceKey": "REPSOL|e.s. s. joao madeira ii|av. dr. renato araujo|3700-000|sao joao da madeira"
@@ -4185,7 +4219,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-11T00:00:00+00:00",
+      "updatedAt": "2026-05-15T11:35:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -5324,7 +5358,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.074,
-      "updatedAt": "2026-05-11T21:00:00+00:00",
+      "updatedAt": "2026-05-15T12:45:00+00:00",
       "lat": 40.54162,
       "lon": -7.2607,
       "sourceKey": "REPSOL|e.s. guarda - mileu|av. cidade de bejar|6300-373|guarda"
@@ -6025,23 +6059,6 @@
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
-    },
-    {
-      "id": "leclerc-e-leclerc-fafe-fafe-4820-178",
-      "name": "E.LECLERC FAFE",
-      "brand": "LECLERC",
-      "district": "Braga",
-      "municipality": "Fafe",
-      "locality": "Campo do Lameiro – Santo Ovídeo",
-      "address": "Rua Cidade de Guimarães",
-      "postalCode": "4820-178",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.099,
-      "updatedAt": "2026-05-11T20:45:00+00:00",
-      "lat": 41.453073,
-      "lon": -8.189715,
-      "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
     },
     {
       "id": "galp-controlsuper-com-de-combustiveis-lda-guimaraes-4810-910",
@@ -6922,7 +6939,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.119,
-      "updatedAt": "2026-04-13T16:55:00+00:00",
+      "updatedAt": "2026-05-15T11:15:00+00:00",
       "lat": 38.821947,
       "lon": -9.097843,
       "sourceKey": "GALP|marvimar, lda. (1)|av. dom afonso henriques|2695-691|loures"
