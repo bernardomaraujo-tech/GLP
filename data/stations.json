@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-16T07:54:14.755719+00:00",
+  "generatedAt": "2026-05-16T13:04:44.143182+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-16T08:25:00+00:00",
+  "dataUpdatedAt": "2026-05-16T09:25:00+00:00",
   "stats": {
     "totalStations": 436,
     "withCoordinates": 436,
@@ -3454,7 +3454,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-05-11T00:00:00+00:00",
+      "updatedAt": "2026-05-16T09:25:00+00:00",
       "lat": 41.43987,
       "lon": -8.32216,
       "sourceKey": "REPSOL|e.s. creixomil|en 206 - r joaquim ribeiro moura|4835-015|guimaraes"
