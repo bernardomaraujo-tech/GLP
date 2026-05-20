@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-20T08:57:36.633474+00:00",
+  "generatedAt": "2026-05-20T14:43:56.857417+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-20T09:55:00+00:00",
+  "dataUpdatedAt": "2026-05-20T14:35:00+00:00",
   "stats": {
     "totalStations": 437,
     "withCoordinates": 437,
@@ -598,7 +598,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-05-18T09:05:00+00:00",
+      "updatedAt": "2026-05-20T10:45:00+00:00",
       "lat": 38.58063,
       "lon": -9.041657,
       "sourceKey": "AUCHAN|auchan coina|en 10 km 18,5|2830-411|barreiro"
@@ -2808,7 +2808,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-05-11T10:25:00+00:00",
+      "updatedAt": "2026-05-20T12:30:00+00:00",
       "lat": 37.10871,
       "lon": -8.231543,
       "sourceKey": "LUSIADAGÁS|lusiadagas|planeta azul - estrada de brejos, montechoro - albufeira|8200-999|albufeira"
@@ -3216,7 +3216,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.034,
-      "updatedAt": "2026-05-19T10:00:00+00:00",
+      "updatedAt": "2026-05-20T14:35:00+00:00",
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
@@ -3284,7 +3284,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-05-19T12:20:00+00:00",
+      "updatedAt": "2026-05-20T10:05:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3743,7 +3743,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-05-19T00:00:00+00:00",
+      "updatedAt": "2026-05-20T10:25:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -4253,7 +4253,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.05,
-      "updatedAt": "2026-05-18T09:25:00+00:00",
+      "updatedAt": "2026-05-20T14:15:00+00:00",
       "lat": 39.796231,
       "lon": -8.727059,
       "sourceKey": "GALP|vmf- raposeira|rua dr. diogo almeida pais santos|2420-003|leiria"
@@ -4406,7 +4406,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-18T09:15:00+00:00",
+      "updatedAt": "2026-05-20T12:40:00+00:00",
       "lat": 39.570324,
       "lon": -8.878646,
       "sourceKey": "GALP|galp cst (leiria-lisboa) - 13114|ic2(en1), km 101+100 - sentido leiria/lisboa|2460-715|alcobaca"
@@ -4729,7 +4729,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-18T11:15:00+00:00",
+      "updatedAt": "2026-05-20T10:50:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -6820,7 +6820,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-05-19T08:50:00+00:00",
+      "updatedAt": "2026-05-20T10:00:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
