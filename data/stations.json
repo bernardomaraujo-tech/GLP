@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-26T09:40:16.047237+00:00",
+  "generatedAt": "2026-05-26T14:50:26.744870+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-26T10:40:00+00:00",
+  "dataUpdatedAt": "2026-05-26T15:20:00+00:00",
   "stats": {
     "totalStations": 431,
     "withCoordinates": 431,
@@ -105,7 +105,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.92,
-      "updatedAt": "2026-05-19T00:00:00+00:00",
+      "updatedAt": "2026-05-26T15:20:00+00:00",
       "lat": 40.24117,
       "lon": -8.48303,
       "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
@@ -360,7 +360,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-05-26T00:05:00+00:00",
+      "updatedAt": "2026-05-26T11:25:00+00:00",
       "lat": 41.42127,
       "lon": -8.4415,
       "sourceKey": "GENÉRICO|g. m. i - vermoim- v. n. de famalicao|av. joao xxi|4770-754|vila nova de famalicao"
@@ -398,6 +398,23 @@
       "lat": 38.802612,
       "lon": -9.336308,
       "sourceKey": "INTERMARCHÉ|intermemartins - supermercados, lda|av. capitaes de abril no 103|2725-093|sintra"
+    },
+    {
+      "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
+      "name": "Intermarché Vialonga",
+      "brand": "INTERMARCHÉ",
+      "district": "Lisboa",
+      "municipality": "Vila Franca de Xira",
+      "locality": "Vialonga",
+      "address": "Urb. Terras Compridas, Lote 8\\nEstrada da Várzea",
+      "postalCode": "2625-716",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.953,
+      "updatedAt": "2026-05-26T11:50:00+00:00",
+      "lat": 38.86376,
+      "lon": -9.09955,
+      "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
     },
     {
       "id": "auchan-auchan-coimbra-coimbra-3030-329",
@@ -551,23 +568,6 @@
       "lat": 38.888622,
       "lon": -9.041957,
       "sourceKey": "AUCHAN|auchan alverca|qta. drogas da verdelha e.n.10|2615-170|vila franca de xira"
-    },
-    {
-      "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
-      "name": "Intermarché Vialonga",
-      "brand": "INTERMARCHÉ",
-      "district": "Lisboa",
-      "municipality": "Vila Franca de Xira",
-      "locality": "Vialonga",
-      "address": "Urb. Terras Compridas, Lote 8\\nEstrada da Várzea",
-      "postalCode": "2625-716",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-05-18T11:05:00+00:00",
-      "lat": 38.86376,
-      "lon": -9.09955,
-      "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
     },
     {
       "id": "auchan-auchan-canidelo-vila-nova-de-gaia-4400-436",
@@ -4355,7 +4355,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-05-25T00:00:00+00:00",
+      "updatedAt": "2026-05-26T14:05:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -4831,7 +4831,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-25T15:30:00+00:00",
+      "updatedAt": "2026-05-26T11:35:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -6174,7 +6174,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.089,
-      "updatedAt": "2026-05-11T10:55:00+00:00",
+      "updatedAt": "2026-05-26T12:10:00+00:00",
       "lat": 41.72866,
       "lon": -7.47115,
       "sourceKey": "GALP|chamauto - sociedade transmontana de automoveis, lda (1)|en 2|5400-000|chaves"
@@ -6276,7 +6276,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-05-25T00:00:00+00:00",
+      "updatedAt": "2026-05-26T14:00:00+00:00",
       "lat": 38.00986,
       "lon": -7.87449,
       "sourceKey": "BP|bp beja (variante)|rua antonio sardinha|7800-000|beja"
