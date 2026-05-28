@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-28T09:50:31.200731+00:00",
+  "generatedAt": "2026-05-28T15:34:07.094290+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-28T10:50:00+00:00",
+  "dataUpdatedAt": "2026-05-28T15:35:00+00:00",
   "stats": {
-    "totalStations": 422,
-    "withCoordinates": 422,
-    "withPrice": 422
+    "totalStations": 423,
+    "withCoordinates": 423,
+    "withPrice": 423
   },
   "stations": [
     {
@@ -1794,6 +1794,23 @@
       "sourceKey": "OZ ENERGIA|oz energia - setubal|estrada da varzinha|2900-657|setubal"
     },
     {
+      "id": "galp-tecopneus-lda-batalha-2440-017",
+      "name": "TECOPNEUS, LDA",
+      "brand": "GALP",
+      "district": "Leiria",
+      "municipality": "Batalha",
+      "locality": "CASAIS DOS LEDOS",
+      "address": "ESTRADA NACIONAL 356 Pta 4A",
+      "postalCode": "2440-017",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.99,
+      "updatedAt": "2026-05-28T15:05:00+00:00",
+      "lat": 39.6718,
+      "lon": -8.85594,
+      "sourceKey": "GALP|tecopneus, lda|estrada nacional 356 pta 4a|2440-017|batalha"
+    },
+    {
       "id": "cepsa-cepsa-pinheiro-da-bemposta-oliveira-de-azemeis-3720-463",
       "name": "CEPSA  Pinheiro da Bemposta",
       "brand": "CEPSA",
@@ -3097,7 +3114,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.034,
-      "updatedAt": "2026-05-25T16:50:00+00:00",
+      "updatedAt": "2026-05-28T15:35:00+00:00",
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
@@ -4610,7 +4627,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-27T14:20:00+00:00",
+      "updatedAt": "2026-05-28T11:15:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -4746,7 +4763,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-27T15:30:00+00:00",
+      "updatedAt": "2026-05-28T14:25:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
