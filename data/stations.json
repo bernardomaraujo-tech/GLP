@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-29T09:40:24.973130+00:00",
+  "generatedAt": "2026-05-29T14:46:18.905408+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-29T10:35:00+00:00",
+  "dataUpdatedAt": "2026-05-29T15:45:00+00:00",
   "stats": {
-    "totalStations": 420,
-    "withCoordinates": 420,
-    "withPrice": 420
+    "totalStations": 419,
+    "withCoordinates": 419,
+    "withPrice": 419
   },
   "stations": [
     {
@@ -3250,7 +3250,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-05-26T09:50:00+00:00",
+      "updatedAt": "2026-05-29T10:45:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -3681,23 +3681,6 @@
       "sourceKey": "REPSOL|es casa pia - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda pina manique|1500-462|lisboa"
     },
     {
-      "id": "repsol-e-s-abrunheira-sintra-2725-113",
-      "name": "E.S. ABRUNHEIRA",
-      "brand": "REPSOL",
-      "district": "Lisboa",
-      "municipality": "Sintra",
-      "locality": "Abrunheira / Sintra",
-      "address": "EN 249 Km 1,2",
-      "postalCode": "2725-113",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.044,
-      "updatedAt": "2026-05-25T00:00:00+00:00",
-      "lat": 38.77212,
-      "lon": -9.35447,
-      "sourceKey": "REPSOL|e.s. abrunheira|en 249 km 1,2|2725-113|sintra"
-    },
-    {
       "id": "repsol-repsol-mem-martins-b-sintra-2725-260",
       "name": "REPSOL Mem Martins B",
       "brand": "REPSOL",
@@ -3760,7 +3743,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-05-25T22:40:00+00:00",
+      "updatedAt": "2026-05-29T14:45:00+00:00",
       "lat": 41.18254,
       "lon": -8.676889,
       "sourceKey": "REPSOL|repsol matosinhos - ip4|prolongamento da avenida republica, s/n|4450-130|matosinhos"
@@ -4610,7 +4593,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-05-29T08:15:00+00:00",
+      "updatedAt": "2026-05-29T15:45:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
