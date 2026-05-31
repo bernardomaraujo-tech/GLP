@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T08:38:20.833362+00:00",
+  "generatedAt": "2026-05-31T13:20:45.995897+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-05-31T08:20:00+00:00",
+  "dataUpdatedAt": "2026-05-31T11:35:00+00:00",
   "stats": {
     "totalStations": 417,
     "withCoordinates": 417,
@@ -3641,7 +3641,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-05-25T00:00:00+00:00",
+      "updatedAt": "2026-05-31T09:40:00+00:00",
       "lat": 38.69204,
       "lon": -9.34819,
       "sourceKey": "REPSOL|e.s. parede|av. maristas|2775-000|cascais"
@@ -5375,7 +5375,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.074,
-      "updatedAt": "2026-05-30T18:25:00+00:00",
+      "updatedAt": "2026-05-31T11:35:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
