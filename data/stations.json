@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-02T10:09:05.232067+00:00",
+  "generatedAt": "2026-06-02T16:06:48.766648+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-02T11:05:00+00:00",
+  "dataUpdatedAt": "2026-06-02T16:40:00+00:00",
   "stats": {
-    "totalStations": 427,
-    "withCoordinates": 427,
-    "withPrice": 427
+    "totalStations": 432,
+    "withCoordinates": 432,
+    "withPrice": 432
   },
   "stations": [
     {
@@ -24,6 +24,23 @@
       "lat": 41.49412,
       "lon": -7.98348,
       "sourceKey": "FREITAS|petro baulhe combustiveis, lda|parque industrial de lameiros, no114|4860-330|cabeceiras de basto"
+    },
+    {
+      "id": "oz-energia-auto-irmaos-ferreira-lda-pacos-de-ferreira-4590-789",
+      "name": "Auto Irmãos Ferreira,lda",
+      "brand": "OZ ENERGIA",
+      "district": "Porto",
+      "municipality": "Paços de Ferreira",
+      "locality": "Ferreira",
+      "address": "Travessa de Ferreira do Fundo nº 9",
+      "postalCode": "4590-789",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.83,
+      "updatedAt": "2026-06-02T16:20:00+00:00",
+      "lat": 41.2637,
+      "lon": -8.3679,
+      "sourceKey": "OZ ENERGIA|auto irmaos ferreira,lda|travessa de ferreira do fundo no 9|4590-789|pacos de ferreira"
     },
     {
       "id": "q8-q8-albergaria-a-velha-albergaria-a-velha-3850-273",
@@ -925,6 +942,23 @@
       "lat": 41.33237,
       "lon": -8.476991,
       "sourceKey": "AUCHAN|auchan santo tirso|rua das ras|4780-219|santo tirso"
+    },
+    {
+      "id": "chamagas-pa-chamagas-pedroso-vila-nova-de-gaia-4415-207",
+      "name": "PA CHAMAGÁS Pedroso",
+      "brand": "CHAMAGÁS",
+      "district": "Porto",
+      "municipality": "Vila Nova de Gaia",
+      "locality": "Pedroso",
+      "address": "Rua Nova da Raposa, 353 - Pedroso",
+      "postalCode": "4415-207",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.949,
+      "updatedAt": "2026-06-02T14:30:00+00:00",
+      "lat": 41.068367,
+      "lon": -8.575472,
+      "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
     },
     {
       "id": "prio-prio-canelas-vila-nova-de-gaia-4410-272",
@@ -1964,6 +1998,23 @@
       "sourceKey": "CEPSA|cepsa penela|zona industrial de penela|3230-347|penela"
     },
     {
+      "id": "bp-cantanhede-cantanhede-3060-124",
+      "name": "CANTANHEDE",
+      "brand": "BP",
+      "district": "Coimbra",
+      "municipality": "Cantanhede",
+      "locality": "Cantanhede",
+      "address": "Rotunda da EN 234/EN 234-1 Km 1,6",
+      "postalCode": "3060-124",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-06-02T16:40:00+00:00",
+      "lat": 40.34788,
+      "lon": -8.58496,
+      "sourceKey": "BP|cantanhede|rotunda da en 234/en 234-1 km 1,6|3060-124|cantanhede"
+    },
+    {
       "id": "auchan-auchan-figueira-da-foz-figueira-da-foz-3080-853",
       "name": "AUCHAN Figueira da Foz",
       "brand": "AUCHAN",
@@ -1979,6 +2030,23 @@
       "lat": 40.163612,
       "lon": -8.841515,
       "sourceKey": "AUCHAN|auchan figueira da foz|av. dr. francisco de sa carneiro, vila robim|3080-853|figueira da foz"
+    },
+    {
+      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
+      "name": "PA CHAMAGÁS Gala (Morraceira)",
+      "brand": "CHAMAGÁS",
+      "district": "Coimbra",
+      "municipality": "Figueira da Foz",
+      "locality": "Cova",
+      "address": "Rua Major Humberto Cruz - Morraceira",
+      "postalCode": "3090-707",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-06-02T15:00:00+00:00",
+      "lat": 40.13671,
+      "lon": -8.847939,
+      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
     },
     {
       "id": "auchan-auchan-lagoa-lagoa-8400-701",
@@ -2030,6 +2098,23 @@
       "lat": 38.76924,
       "lon": -9.125385,
       "sourceKey": "BP|bp aeroporto|nova rotunda aeroporto de lisboa - av. de berlim|1700-067|lisboa"
+    },
+    {
+      "id": "bp-bp-av-padre-cruz-lisboa-1600-000",
+      "name": "BP AV. PADRE CRUZ",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Lisboa",
+      "locality": "Lisboa",
+      "address": "Av. Padre Cruz",
+      "postalCode": "1600-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-06-02T13:40:00+00:00",
+      "lat": 38.762511,
+      "lon": -9.163239,
+      "sourceKey": "BP|bp av. padre cruz|av. padre cruz|1600-000|lisboa"
     },
     {
       "id": "galp-galp-a-s-aeroporto-s-n-lisboa-1700-277",
@@ -2780,23 +2865,6 @@
       "sourceKey": "GALP|galp a25 a.s. aveiro - estadio (v/av)|auto estrada a25 / itinerario principal ip5, ao km 15.200, sublanco no do estadio|3800-911|aveiro"
     },
     {
-      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
-      "name": "PA CHAMAGÁS Gala (Morraceira)",
-      "brand": "CHAMAGÁS",
-      "district": "Coimbra",
-      "municipality": "Figueira da Foz",
-      "locality": "Cova",
-      "address": "Rua Major Humberto Cruz - Morraceira",
-      "postalCode": "3090-707",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-06-01T16:00:00+00:00",
-      "lat": 40.13671,
-      "lon": -8.847939,
-      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
-    },
-    {
       "id": "galp-posto-galp-lousa-en342-anibal-antunes-bandeira-lda-lousa-3200-133",
       "name": "Posto GALP Lousã EN342  - Anibal Antunes Bandeira, Lda",
       "brand": "GALP",
@@ -2948,23 +3016,6 @@
       "lat": 41.20849,
       "lon": -8.54186,
       "sourceKey": "PRIO|prio ermesinde sta. rita|avenida jose joaquim ribeiro teles, no 280|4445-656|valongo"
-    },
-    {
-      "id": "chamagas-pa-chamagas-pedroso-vila-nova-de-gaia-4415-207",
-      "name": "PA CHAMAGÁS Pedroso",
-      "brand": "CHAMAGÁS",
-      "district": "Porto",
-      "municipality": "Vila Nova de Gaia",
-      "locality": "Pedroso",
-      "address": "Rua Nova da Raposa, 353 - Pedroso",
-      "postalCode": "4415-207",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-06-01T16:00:00+00:00",
-      "lat": 41.068367,
-      "lon": -8.575472,
-      "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
     },
     {
       "id": "galp-galp-a-s-vila-do-conde-porto-vila-conde-vila-do-conde-4485-600",
@@ -3590,7 +3641,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-06-01T14:30:00+00:00",
+      "updatedAt": "2026-06-02T15:45:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -3696,23 +3747,6 @@
       "lat": 38.585865,
       "lon": -8.929574,
       "sourceKey": "GALP|galp a2 a.s. palmela (s/n)|a2 - km 31,200|2950-137|palmela"
-    },
-    {
-      "id": "bp-cantanhede-cantanhede-3060-124",
-      "name": "CANTANHEDE",
-      "brand": "BP",
-      "district": "Coimbra",
-      "municipality": "Cantanhede",
-      "locality": "Cantanhede",
-      "address": "Rotunda da EN 234/EN 234-1 Km 1,6",
-      "postalCode": "3060-124",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.019,
-      "updatedAt": "2026-06-01T10:10:00+00:00",
-      "lat": 40.34788,
-      "lon": -8.58496,
-      "sourceKey": "BP|cantanhede|rotunda da en 234/en 234-1 km 1,6|3060-124|cantanhede"
     },
     {
       "id": "bp-peniche-av-mons-bastos-peniche-2520-000",
@@ -4208,23 +4242,6 @@
       "sourceKey": "GALP|galp a.s. aveiras cima (s/n)|a1 - km 44|2050-000|azambuja"
     },
     {
-      "id": "bp-bp-av-padre-cruz-lisboa-1600-000",
-      "name": "BP AV. PADRE CRUZ",
-      "brand": "BP",
-      "district": "Lisboa",
-      "municipality": "Lisboa",
-      "locality": "Lisboa",
-      "address": "Av. Padre Cruz",
-      "postalCode": "1600-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.034,
-      "updatedAt": "2026-05-31T23:30:00+00:00",
-      "lat": 38.762511,
-      "lon": -9.163239,
-      "sourceKey": "BP|bp av. padre cruz|av. padre cruz|1600-000|lisboa"
-    },
-    {
       "id": "galp-galp-a8-a-s-torres-vedras-n-s-torres-vedras-2565-646",
       "name": "GALP A8 A.S. Torres Vedras (N/S)",
       "brand": "GALP",
@@ -4406,7 +4423,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-01T11:20:00+00:00",
+      "updatedAt": "2026-06-02T12:10:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -4423,7 +4440,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-01T11:25:00+00:00",
+      "updatedAt": "2026-06-02T12:10:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -4633,6 +4650,23 @@
       "sourceKey": "BP|bp ribeirinho|rua ponte velha, n 25ribeirinho|4970-272|arcos de valdevez"
     },
     {
+      "id": "vibagas-acl-viba-gas-zi-sines-sines-7520-309",
+      "name": "ACL VIBA GÁS - ZI Sines",
+      "brand": "VIBAGÁS",
+      "district": "Setúbal",
+      "municipality": "Sines",
+      "locality": "Zona Industrial Ligeira 2",
+      "address": "ZIL 2, RUA 5, LOTE 1248, 7520-309, SINES",
+      "postalCode": "7520-309",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.043,
+      "updatedAt": "2026-06-02T11:50:00+00:00",
+      "lat": 37.96036,
+      "lon": -8.84291,
+      "sourceKey": "VIBAGÁS|acl viba gas - zi sines|zil 2, rua 5, lote 1248, 7520-309, sines|7520-309|sines"
+    },
+    {
       "id": "repsol-e-s-braga-piscinas-ii-braga-4700-000",
       "name": "E.S. BRAGA PISCINAS II",
       "brand": "REPSOL",
@@ -4763,7 +4797,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-06-01T14:45:00+00:00",
+      "updatedAt": "2026-06-02T11:20:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -4990,6 +5024,40 @@
       "sourceKey": "REPSOL|e.s. santa comba dao|r. miguel neves|3440-384|santa comba dao"
     },
     {
+      "id": "generico-ouro-negro-pombal-poente-pombal-3105-295",
+      "name": "Ouro Negro - Pombal - Poente",
+      "brand": "GENÉRICO",
+      "district": "Leiria",
+      "municipality": "Pombal",
+      "locality": "Pelariga",
+      "address": "EN 1 Km 159,8",
+      "postalCode": "3105-295",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.049,
+      "updatedAt": "2026-06-02T15:35:00+00:00",
+      "lat": 39.938229,
+      "lon": -8.628914,
+      "sourceKey": "GENÉRICO|ouro negro - pombal - poente|en 1 km 159,8|3105-295|pombal"
+    },
+    {
+      "id": "generico-ouro-negro-azambuja-norte-azambuja-2050-319",
+      "name": "OURO NEGRO - Azambuja_Norte",
+      "brand": "GENÉRICO",
+      "district": "Lisboa",
+      "municipality": "Azambuja",
+      "locality": "Azambuja",
+      "address": "E.N. 3 - Km 10.250 ANTIGO CAMPO DA FEIRA",
+      "postalCode": "2050-319",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.049,
+      "updatedAt": "2026-06-02T15:40:00+00:00",
+      "lat": 39.065964,
+      "lon": -8.876442,
+      "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
+    },
+    {
       "id": "leclerc-e-leclerc-portalegre-portalegre-7300-000",
       "name": "E. LECLERC PORTALEGRE",
       "brand": "LECLERC",
@@ -5022,6 +5090,23 @@
       "lat": 41.24876,
       "lon": -8.25595,
       "sourceKey": "BP|bp - meinedo|av. magneto, 980|4620-350|lousada"
+    },
+    {
+      "id": "generico-ouro-negro-almeirim-almeirim-2080-221",
+      "name": "Ouro Negro - Almeirim",
+      "brand": "GENÉRICO",
+      "district": "Santarém",
+      "municipality": "Almeirim",
+      "locality": "Almeirim",
+      "address": "Zona Industrial de Almeirim, Lote 10",
+      "postalCode": "2080-221",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.049,
+      "updatedAt": "2026-06-02T15:30:00+00:00",
+      "lat": 39.19523,
+      "lon": -8.62582,
+      "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
     },
     {
       "id": "repsol-repsol-aveiro-no-sul-a-aveiro-3810-489",
@@ -5103,7 +5188,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.054,
-      "updatedAt": "2026-06-01T00:00:00+00:00",
+      "updatedAt": "2026-06-02T11:40:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -5240,8 +5325,8 @@
       "fuel": "GPL Auto",
       "price": 1.059,
       "updatedAt": "2026-06-02T00:05:00+00:00",
-      "lat": 40.333252,
-      "lon": -8.492648,
+      "lat": 40.333233,
+      "lon": -8.492696,
       "sourceKey": "BP|bp a1 mealhada (este)|a1 - km 204 - enxofaes - murtede|3060-000|cantanhede"
     },
     {
@@ -5579,7 +5664,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-06-01T11:35:00+00:00",
+      "updatedAt": "2026-06-02T11:15:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -6072,7 +6157,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.074,
-      "updatedAt": "2026-05-25T10:40:00+00:00",
+      "updatedAt": "2026-06-02T11:20:00+00:00",
       "lat": 41.644604,
       "lon": -8.436118,
       "sourceKey": "REPSOL|repsol vila verde|av. antonio sergio, s/n|4730-709|vila verde"
@@ -6565,7 +6650,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-06-01T11:15:00+00:00",
+      "updatedAt": "2026-06-02T12:05:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
