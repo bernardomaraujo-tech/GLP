@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T10:47:17.192679+00:00",
+  "generatedAt": "2026-06-03T16:22:38.062347+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-03T11:30:00+00:00",
+  "dataUpdatedAt": "2026-06-03T17:20:00+00:00",
   "stats": {
     "totalStations": 435,
     "withCoordinates": 435,
@@ -139,7 +139,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.92,
-      "updatedAt": "2026-05-26T15:20:00+00:00",
+      "updatedAt": "2026-06-03T17:20:00+00:00",
       "lat": 40.24117,
       "lon": -8.48303,
       "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
@@ -1363,7 +1363,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-05-25T14:55:00+00:00",
+      "updatedAt": "2026-06-03T14:40:00+00:00",
       "lat": 40.75569,
       "lon": -7.72737,
       "sourceKey": "GALP|ultra resistente - combustiveis, lda|en 229 km 69.800|3560-085|satao"
@@ -1431,7 +1431,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-06-01T12:15:00+00:00",
+      "updatedAt": "2026-06-03T12:00:00+00:00",
       "lat": 37.02859,
       "lon": -7.90614,
       "sourceKey": "GALP|a. pinto, lda.(1)|en 125 km 107,6|8005-528|faro"
@@ -5936,7 +5936,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-06-03T08:10:00+00:00",
+      "updatedAt": "2026-06-03T14:05:00+00:00",
       "lat": 39.477825,
       "lon": -8.623297,
       "sourceKey": "REPSOL|repsol torres novas no a1/a23|lugar da lameira grande, videla - fig da zibreira - z.i da zibreira|2350-838|torres novas"
@@ -6412,7 +6412,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-05-28T17:50:00+00:00",
+      "updatedAt": "2026-06-03T16:55:00+00:00",
       "lat": 40.1424,
       "lon": -7.497109,
       "sourceKey": "REPSOL|repsol fundao a - r cidade covilha|rua da cidade da covilha, s/n|6230-346|fundao"
@@ -6429,7 +6429,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-05-28T17:55:00+00:00",
+      "updatedAt": "2026-06-03T16:55:00+00:00",
       "lat": 40.15476,
       "lon": -7.496789,
       "sourceKey": "REPSOL|repsol rotunda fundao|rua cidade da covilha|6230-346|fundao"
