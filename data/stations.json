@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-04T09:47:08.062727+00:00",
+  "generatedAt": "2026-06-04T14:41:41.316276+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-04T10:05:00+00:00",
+  "dataUpdatedAt": "2026-06-04T14:10:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -3239,6 +3239,40 @@
       "sourceKey": "GENÉRICO|eulupepneus-unipessoal, lda|estrada nacional 3 - ponte nova ( junto ao torreshoping )|2350-466|torres novas"
     },
     {
+      "id": "repsol-e-s-s-jorge-batalha-a-batalha-2440-477",
+      "name": "E.S. S. JORGE BATALHA A",
+      "brand": "REPSOL",
+      "district": "Leiria",
+      "municipality": "Batalha",
+      "locality": "Batalha",
+      "address": "IC2, nº10, Casal da Amieira",
+      "postalCode": "2440-477",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.004,
+      "updatedAt": "2026-06-04T12:50:00+00:00",
+      "lat": 39.64325,
+      "lon": -8.843011,
+      "sourceKey": "REPSOL|e.s. s. jorge batalha a|ic2, no10, casal da amieira|2440-477|batalha"
+    },
+    {
+      "id": "repsol-e-s-penafiel-circular-penafiel-4560-232",
+      "name": "E.S. PENAFIEL CIRCULAR",
+      "brand": "REPSOL",
+      "district": "Porto",
+      "municipality": "Penafiel",
+      "locality": "Milhundos",
+      "address": "Bouça Grande",
+      "postalCode": "4560-232",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.004,
+      "updatedAt": "2026-06-04T14:10:00+00:00",
+      "lat": 41.203603,
+      "lon": -8.27085,
+      "sourceKey": "REPSOL|e.s. penafiel circular|bouca grande|4560-232|penafiel"
+    },
+    {
       "id": "cepsa-cepsa-a3-barcelos-por-val-barcelos-4750-058",
       "name": "CEPSA - A3 Barcelos (POR/VAL)",
       "brand": "CEPSA",
@@ -5517,23 +5551,6 @@
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
     },
     {
-      "id": "repsol-e-s-s-jorge-batalha-a-batalha-2440-477",
-      "name": "E.S. S. JORGE BATALHA A",
-      "brand": "REPSOL",
-      "district": "Leiria",
-      "municipality": "Batalha",
-      "locality": "Batalha",
-      "address": "IC2, nº10, Casal da Amieira",
-      "postalCode": "2440-477",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.064,
-      "updatedAt": "2026-06-01T00:00:00+00:00",
-      "lat": 39.64325,
-      "lon": -8.843011,
-      "sourceKey": "REPSOL|e.s. s. jorge batalha a|ic2, no10, casal da amieira|2440-477|batalha"
-    },
-    {
       "id": "repsol-e-s-caldas-da-rainha-caldas-da-rainha-2500-256",
       "name": "E.S. CALDAS DA RAINHA",
       "brand": "REPSOL",
@@ -5770,23 +5787,6 @@
       "lat": 41.2611,
       "lon": -8.39889,
       "sourceKey": "REPSOL|e.s. pacos de ferreira ii|rua recta de gomil, 152|4595-144|pacos de ferreira"
-    },
-    {
-      "id": "repsol-e-s-penafiel-circular-penafiel-4560-232",
-      "name": "E.S. PENAFIEL CIRCULAR",
-      "brand": "REPSOL",
-      "district": "Porto",
-      "municipality": "Penafiel",
-      "locality": "Milhundos",
-      "address": "Bouça Grande",
-      "postalCode": "4560-232",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.064,
-      "updatedAt": "2026-06-02T20:00:00+00:00",
-      "lat": 41.203603,
-      "lon": -8.27085,
-      "sourceKey": "REPSOL|e.s. penafiel circular|bouca grande|4560-232|penafiel"
     },
     {
       "id": "repsol-e-s-valongo-valongo-4440-000",
