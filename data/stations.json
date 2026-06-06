@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-06T08:27:37.972183+00:00",
+  "generatedAt": "2026-06-06T13:14:17.089078+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-06T09:25:00+00:00",
+  "dataUpdatedAt": "2026-06-06T11:50:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -2417,7 +2417,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-05T00:00:00+00:00",
+      "updatedAt": "2026-06-06T11:50:00+00:00",
       "lat": 38.69204,
       "lon": -9.34819,
       "sourceKey": "REPSOL|e.s. parede|av. maristas|2775-000|cascais"
