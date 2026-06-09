@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-09T09:28:45.188889+00:00",
+  "generatedAt": "2026-06-09T14:32:13.878147+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-09T10:10:00+00:00",
+  "dataUpdatedAt": "2026-06-09T15:30:00+00:00",
   "stats": {
     "totalStations": 431,
     "withCoordinates": 431,
@@ -116,7 +116,7 @@
       "brand": "ALVES BANDEIRA",
       "district": "Aveiro",
       "municipality": "Albergaria-a-Velha",
-      "locality": "Albergaria-a-Velha",
+      "locality": "Urgueiras",
       "address": "Zona Industrial de Urgueiras - Lugar de Coito",
       "postalCode": "3850-280",
       "zone": "Centro",
@@ -326,7 +326,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-06-09T00:05:00+00:00",
+      "updatedAt": "2026-06-09T10:30:00+00:00",
       "lat": 41.42127,
       "lon": -8.4415,
       "sourceKey": "GENÉRICO|g. m. i - vermoim- v. n. de famalicao|av. joao xxi|4770-754|vila nova de famalicao"
@@ -751,7 +751,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.948,
-      "updatedAt": "2026-05-31T23:05:00+00:00",
+      "updatedAt": "2026-06-09T11:50:00+00:00",
       "lat": 39.76685,
       "lon": -8.79344,
       "sourceKey": "BP|ab fonseca - produtos bp|estrada dos pinheiros, 550|2415-566|leiria"
@@ -1193,7 +1193,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-06-09T01:00:00+00:00",
+      "updatedAt": "2026-06-09T15:30:00+00:00",
       "lat": 40.842354,
       "lon": -8.395429,
       "sourceKey": "PRIO|prio vale de cambra|av. do caima, no 750 sao pedro de casteloes - vale de cambra|3730-202|vale de cambra"
@@ -3596,6 +3596,23 @@
       "sourceKey": "PRIO|pa amarante - petrofregim|rua antonio carneiro no. 251|4600-049|amarante"
     },
     {
+      "id": "generico-posto-sodimapi-felgueiras-felgueiras-4610-750",
+      "name": "Posto Sodimapi Felgueiras",
+      "brand": "GENÉRICO",
+      "district": "Porto",
+      "municipality": "Felgueiras",
+      "locality": "Sendim",
+      "address": "Lameiro-Morto, Sendim",
+      "postalCode": "4610-750",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.998,
+      "updatedAt": "2026-06-09T15:30:00+00:00",
+      "lat": 41.377384,
+      "lon": -8.172588,
+      "sourceKey": "GENÉRICO|posto sodimapi felgueiras|lameiro-morto, sendim|4610-750|felgueiras"
+    },
+    {
       "id": "leclerc-e-leclerc-amora-seixal-2845-000",
       "name": "E. LECLERC AMORA",
       "brand": "LECLERC",
@@ -3964,7 +3981,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-08T10:55:00+00:00",
+      "updatedAt": "2026-06-09T15:10:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -4100,7 +4117,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-08T13:00:00+00:00",
+      "updatedAt": "2026-06-09T11:00:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4899,7 +4916,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-06-08T14:50:00+00:00",
+      "updatedAt": "2026-06-09T14:40:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -5460,7 +5477,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-06-08T00:00:00+00:00",
+      "updatedAt": "2026-06-09T13:20:00+00:00",
       "lat": 39.14572,
       "lon": -9.2822,
       "sourceKey": "REPSOL|e.s. a-dos-cunhados|rua 8 setembro|2560-063|torres vedras"
@@ -5834,7 +5851,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-02T09:40:00+00:00",
+      "updatedAt": "2026-06-09T12:25:00+00:00",
       "lat": 41.50852,
       "lon": -7.994753,
       "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
@@ -5936,7 +5953,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-08T11:45:00+00:00",
+      "updatedAt": "2026-06-09T11:45:00+00:00",
       "lat": 38.982386,
       "lon": -9.417686,
       "sourceKey": "BP|ericeira|en 247, mil regos|2655-319|mafra"
@@ -6741,23 +6758,6 @@
       "sourceKey": "REPSOL|e.s. alverca|av do marco da iv legua 17|2615-000|vila franca de xira"
     },
     {
-      "id": "generico-posto-sodimapi-felgueiras-felgueiras-4610-750",
-      "name": "Posto Sodimapi Felgueiras",
-      "brand": "GENÉRICO",
-      "district": "Porto",
-      "municipality": "Felgueiras",
-      "locality": "Sendim",
-      "address": "Lameiro-Morto, Sendim",
-      "postalCode": "4610-750",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.064,
-      "updatedAt": "2026-06-08T09:30:00+00:00",
-      "lat": 41.377384,
-      "lon": -8.172588,
-      "sourceKey": "GENÉRICO|posto sodimapi felgueiras|lameiro-morto, sendim|4610-750|felgueiras"
-    },
-    {
       "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
       "name": "ES  CONSTITUICAO - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -7092,7 +7092,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-06-03T09:20:00+00:00",
+      "updatedAt": "2026-06-09T10:55:00+00:00",
       "lat": 41.37069,
       "lon": -8.31226,
       "sourceKey": "BP|boxoil|rua guilherme caldas peixoto 183|4815-000|vizela"
@@ -7268,6 +7268,23 @@
       "sourceKey": "GENÉRICO|ferreira, silva e espirito lda|zona industrial dos padroes n.o 587|3740-295|sever do vouga"
     },
     {
+      "id": "bp-bp-vermil-guimaraes-4805-546",
+      "name": "BP- VERMIL",
+      "brand": "BP",
+      "district": "Braga",
+      "municipality": "Guimarães",
+      "locality": "Vermil",
+      "address": "Rua da Portela nº1005",
+      "postalCode": "4805-546",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.159,
+      "updatedAt": "2026-06-09T13:55:00+00:00",
+      "lat": 41.445744,
+      "lon": -8.400159,
+      "sourceKey": "BP|bp- vermil|rua da portela no1005|4805-546|guimaraes"
+    },
+    {
       "id": "beq-beq-paredes-do-gravo-oliveira-de-frades-3680-174",
       "name": "BEQ Paredes do Gravo",
       "brand": "BEQ",
@@ -7300,23 +7317,6 @@
       "lat": 39.22422,
       "lon": -9.29038,
       "sourceKey": "GENÉRICO|chamazul - lourinha|en8, km44|2530-000|lourinha"
-    },
-    {
-      "id": "bp-bp-vermil-guimaraes-4805-546",
-      "name": "BP- VERMIL",
-      "brand": "BP",
-      "district": "Braga",
-      "municipality": "Guimarães",
-      "locality": "Vermil",
-      "address": "Rua da Portela nº1005",
-      "postalCode": "4805-546",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.199,
-      "updatedAt": "2026-06-01T10:35:00+00:00",
-      "lat": 41.445744,
-      "lon": -8.400159,
-      "sourceKey": "BP|bp- vermil|rua da portela no1005|4805-546|guimaraes"
     },
     {
       "id": "generico-pa-mazedo-fg-combustiveis-moncao-4950-276",
