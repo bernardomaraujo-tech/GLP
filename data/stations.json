@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-09T14:32:13.878147+00:00",
+  "generatedAt": "2026-06-09T20:00:28.438247+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-09T15:30:00+00:00",
+  "dataUpdatedAt": "2026-06-09T18:05:00+00:00",
   "stats": {
-    "totalStations": 431,
-    "withCoordinates": 431,
-    "withPrice": 431
+    "totalStations": 433,
+    "withCoordinates": 433,
+    "withPrice": 433
   },
   "stations": [
     {
@@ -92,6 +92,23 @@
       "lat": 40.217327,
       "lon": -8.598031,
       "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
+    },
+    {
+      "id": "galp-galp-cruz-da-areia-leiria-leiria-2410-112",
+      "name": "Galp- Cruz da Areia (Leiria)",
+      "brand": "GALP",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Leiria",
+      "address": "Rua D. José Alves da Silva n. 12",
+      "postalCode": "2410-112",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.904,
+      "updatedAt": "2026-06-09T18:05:00+00:00",
+      "lat": 39.724262,
+      "lon": -8.806201,
+      "sourceKey": "GALP|galp- cruz da areia (leiria)|rua d. jose alves da silva n. 12|2410-112|leiria"
     },
     {
       "id": "repsol-coop-agr-de-santo-tirso-e-trofa-santo-tirso-4780-200",
@@ -241,7 +258,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.92,
-      "updatedAt": "2026-06-03T17:20:00+00:00",
+      "updatedAt": "2026-06-09T16:10:00+00:00",
       "lat": 40.24117,
       "lon": -8.48303,
       "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
@@ -1148,6 +1165,23 @@
       "sourceKey": "PRIO|prio fernao ferro|en 378, km 9+800|2865-300|seixal"
     },
     {
+      "id": "galp-tecopneus-lda-batalha-2440-017",
+      "name": "TECOPNEUS, LDA",
+      "brand": "GALP",
+      "district": "Leiria",
+      "municipality": "Batalha",
+      "locality": "CASAIS DOS LEDOS",
+      "address": "ESTRADA NACIONAL 356 Pta 4A",
+      "postalCode": "2440-017",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.95,
+      "updatedAt": "2026-06-09T15:40:00+00:00",
+      "lat": 39.6718,
+      "lon": -8.85594,
+      "sourceKey": "GALP|tecopneus, lda|estrada nacional 356 pta 4a|2440-017|batalha"
+    },
+    {
       "id": "moeve-supremotiv-lda-loule-8100-272",
       "name": "Supremotiv, Lda",
       "brand": "MOEVE",
@@ -1193,7 +1227,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-06-09T15:30:00+00:00",
+      "updatedAt": "2026-06-09T16:00:00+00:00",
       "lat": 40.842354,
       "lon": -8.395429,
       "sourceKey": "PRIO|prio vale de cambra|av. do caima, no 750 sao pedro de casteloes - vale de cambra|3730-202|vale de cambra"
@@ -2145,7 +2179,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-06-08T11:10:00+00:00",
+      "updatedAt": "2026-06-09T17:10:00+00:00",
       "lat": 40.34788,
       "lon": -8.58496,
       "sourceKey": "BP|cantanhede|rotunda da en 234/en 234-1 km 1,6|3060-124|cantanhede"
@@ -2353,6 +2387,23 @@
       "lat": 41.20849,
       "lon": -8.54186,
       "sourceKey": "PRIO|prio ermesinde sta. rita|avenida jose joaquim ribeiro teles, no 280|4445-656|valongo"
+    },
+    {
+      "id": "galp-espertocar-lda-rio-maior-2040-000",
+      "name": "Espertocar, Lda.",
+      "brand": "GALP",
+      "district": "Santarém",
+      "municipality": "Rio Maior",
+      "locality": "Rio Maior-Zona Industrial",
+      "address": "E.N. 114, Km 49,6",
+      "postalCode": "2040-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-06-09T16:00:00+00:00",
+      "lat": 39.31499,
+      "lon": -8.92094,
+      "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
     },
     {
       "id": "oz-energia-oz-energia-setubal-setubal-2900-657",
@@ -3800,23 +3851,6 @@
       "sourceKey": "GALP|galp a.s. vila do conde (vila conde/porto)|a28 - km 12 - modivas|4485-600|vila do conde"
     },
     {
-      "id": "galp-espertocar-lda-rio-maior-2040-000",
-      "name": "Espertocar, Lda.",
-      "brand": "GALP",
-      "district": "Santarém",
-      "municipality": "Rio Maior",
-      "locality": "Rio Maior-Zona Industrial",
-      "address": "E.N. 114, Km 49,6",
-      "postalCode": "2040-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-06-02T11:05:00+00:00",
-      "lat": 39.31499,
-      "lon": -8.92094,
-      "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
-    },
-    {
       "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
       "name": "PGPL CHAMAGAS Rio Maior",
       "brand": "CHAMAGÁS",
@@ -4372,7 +4406,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-08T00:05:00+00:00",
+      "updatedAt": "2026-06-09T16:05:00+00:00",
       "lat": 38.60971,
       "lon": -9.09919,
       "sourceKey": "BP|bp - seixal fogueteiro|interface seixal|2840-432|seixal"
@@ -5307,7 +5341,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-06-09T00:05:00+00:00",
+      "updatedAt": "2026-06-09T16:35:00+00:00",
       "lat": 38.57734,
       "lon": -8.89189,
       "sourceKey": "BP|bp palmela|e. n. 379 bombas\\r\\nlage-s.juliao|2950-302|palmela"
