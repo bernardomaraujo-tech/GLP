@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-10T09:44:22.830785+00:00",
+  "generatedAt": "2026-06-10T14:58:44.033552+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-10T08:45:00+00:00",
+  "dataUpdatedAt": "2026-06-10T13:05:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -3046,7 +3046,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-08T10:25:00+00:00",
+      "updatedAt": "2026-06-10T13:05:00+00:00",
       "lat": 38.529193,
       "lon": -8.875492,
       "sourceKey": "GALP|estacao de servico central|av. infante d. henrique|2910-529|setubal"
