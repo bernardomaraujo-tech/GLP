@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-11T10:11:11.312777+00:00",
+  "generatedAt": "2026-06-11T15:40:56.928592+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-11T11:05:00+00:00",
+  "dataUpdatedAt": "2026-06-11T16:25:00+00:00",
   "stats": {
-    "totalStations": 424,
-    "withCoordinates": 424,
-    "withPrice": 424
+    "totalStations": 425,
+    "withCoordinates": 425,
+    "withPrice": 425
   },
   "stations": [
     {
@@ -1913,6 +1913,23 @@
       "sourceKey": "CEPSA|cepsa oliveira do bairro|est. vila verde|3770-305|oliveira do bairro"
     },
     {
+      "id": "generico-pa-valverde-alcanede-santarem-2025-201",
+      "name": "PA Valverde - Alcanede",
+      "brand": "GENÉRICO",
+      "district": "Santarém",
+      "municipality": "Santarém",
+      "locality": "Valverde",
+      "address": "Estrada Nacional Nº 362 Km25.4, Valverde",
+      "postalCode": "2025-201",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.973,
+      "updatedAt": "2026-06-11T14:55:00+00:00",
+      "lat": 39.450424,
+      "lon": -8.849353,
+      "sourceKey": "GENÉRICO|pa valverde - alcanede|estrada nacional no 362 km25.4, valverde|2025-201|santarem"
+    },
+    {
       "id": "galp-paralelo-alternativo-comercio-de-combustiveis-lda-coimbra-3000-032",
       "name": "Paralelo Alternativo - Comércio de Combustíveis, Ldª",
       "brand": "GALP",
@@ -3233,7 +3250,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.99,
-      "updatedAt": "2026-06-09T00:00:00+00:00",
+      "updatedAt": "2026-06-11T15:45:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -3250,7 +3267,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.99,
-      "updatedAt": "2026-06-09T00:00:00+00:00",
+      "updatedAt": "2026-06-11T15:45:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3675,7 +3692,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-06-08T00:05:00+00:00",
+      "updatedAt": "2026-06-11T11:50:00+00:00",
       "lat": 40.11746,
       "lon": -8.28732,
       "sourceKey": "GALP|posto galp lousa en342 - anibal antunes bandeira, lda|en 342 ao km 8,75 (variante lousa-miranda do corvo)|3200-133|lousa"
@@ -3781,6 +3798,23 @@
       "lat": 41.289143,
       "lon": -8.704652,
       "sourceKey": "GALP|galp a.s. vila do conde (vila conde/porto)|a28 - km 12 - modivas|4485-600|vila do conde"
+    },
+    {
+      "id": "galp-auto-mindrica-lda-alcanena-2395-000",
+      "name": "AUTO MINDRICA LDA.",
+      "brand": "GALP",
+      "district": "Santarém",
+      "municipality": "Alcanena",
+      "locality": "Minde",
+      "address": "EN 243 Km 23,2",
+      "postalCode": "2395-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-06-11T12:00:00+00:00",
+      "lat": 39.519272,
+      "lon": -8.687941,
+      "sourceKey": "GALP|auto mindrica lda.|en 243 km 23,2|2395-000|alcanena"
     },
     {
       "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
@@ -4083,7 +4117,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-10T00:00:00+00:00",
+      "updatedAt": "2026-06-11T14:45:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5177,6 +5211,40 @@
       "sourceKey": "REPSOL|e.s. lanco grande|en 233 ao km 104,750|6000-067|castelo branco"
     },
     {
+      "id": "repsol-repsol-fundao-a-r-cidade-covilha-fundao-6230-346",
+      "name": "REPSOL Fundão A - R Cidade Covilhã",
+      "brand": "REPSOL",
+      "district": "Castelo Branco",
+      "municipality": "Fundão",
+      "locality": "Fundão",
+      "address": "Rua da Cidade da Covilhã, s/n",
+      "postalCode": "6230-346",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.019,
+      "updatedAt": "2026-06-11T15:15:00+00:00",
+      "lat": 40.1424,
+      "lon": -7.497109,
+      "sourceKey": "REPSOL|repsol fundao a - r cidade covilha|rua da cidade da covilha, s/n|6230-346|fundao"
+    },
+    {
+      "id": "repsol-repsol-rotunda-fundao-fundao-6230-346",
+      "name": "REPSOL Rotunda Fundão",
+      "brand": "REPSOL",
+      "district": "Castelo Branco",
+      "municipality": "Fundão",
+      "locality": "Fundão",
+      "address": "Rua Cidade da Covilha",
+      "postalCode": "6230-346",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.019,
+      "updatedAt": "2026-06-11T15:10:00+00:00",
+      "lat": 40.15476,
+      "lon": -7.496789,
+      "sourceKey": "REPSOL|repsol rotunda fundao|rua cidade da covilha|6230-346|fundao"
+    },
+    {
       "id": "repsol-e-s-serta-serta-6100-732",
       "name": "E.S. SERTÃ",
       "brand": "REPSOL",
@@ -5188,7 +5256,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-06-08T00:00:00+00:00",
+      "updatedAt": "2026-06-11T15:15:00+00:00",
       "lat": 39.773658,
       "lon": -8.109689,
       "sourceKey": "REPSOL|e.s. serta|estrada vila de rei|6100-732|serta"
@@ -6157,7 +6225,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-06-02T15:35:00+00:00",
+      "updatedAt": "2026-06-11T16:20:00+00:00",
       "lat": 39.938229,
       "lon": -8.628914,
       "sourceKey": "GENÉRICO|ouro negro - pombal - poente|en 1 km 159,8|3105-295|pombal"
@@ -6174,7 +6242,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-06-02T15:40:00+00:00",
+      "updatedAt": "2026-06-11T16:25:00+00:00",
       "lat": 39.065964,
       "lon": -8.876442,
       "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
@@ -6191,7 +6259,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-06-02T15:30:00+00:00",
+      "updatedAt": "2026-06-11T16:20:00+00:00",
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
@@ -6333,23 +6401,6 @@
       "sourceKey": "REPSOL|e.s. gaia a - a.s.|a 1 km 295|4400-000|vila nova de gaia"
     },
     {
-      "id": "galp-auto-mindrica-lda-alcanena-2395-000",
-      "name": "AUTO MINDRICA LDA.",
-      "brand": "GALP",
-      "district": "Santarém",
-      "municipality": "Alcanena",
-      "locality": "Minde",
-      "address": "EN 243 Km 23,2",
-      "postalCode": "2395-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.054,
-      "updatedAt": "2026-05-14T17:30:00+00:00",
-      "lat": 39.519272,
-      "lon": -8.687941,
-      "sourceKey": "GALP|auto mindrica lda.|en 243 km 23,2|2395-000|alcanena"
-    },
-    {
       "id": "repsol-repsol-a2-grandola-alg-lis-grandola-7570-512",
       "name": "REPSOL A2 Grândola (ALG/LIS)",
       "brand": "REPSOL",
@@ -6463,7 +6514,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-09T00:00:00+00:00",
+      "updatedAt": "2026-06-11T15:40:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6858,40 +6909,6 @@
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
-    },
-    {
-      "id": "repsol-repsol-fundao-a-r-cidade-covilha-fundao-6230-346",
-      "name": "REPSOL Fundão A - R Cidade Covilhã",
-      "brand": "REPSOL",
-      "district": "Castelo Branco",
-      "municipality": "Fundão",
-      "locality": "Fundão",
-      "address": "Rua da Cidade da Covilhã, s/n",
-      "postalCode": "6230-346",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.079,
-      "updatedAt": "2026-06-03T16:55:00+00:00",
-      "lat": 40.1424,
-      "lon": -7.497109,
-      "sourceKey": "REPSOL|repsol fundao a - r cidade covilha|rua da cidade da covilha, s/n|6230-346|fundao"
-    },
-    {
-      "id": "repsol-repsol-rotunda-fundao-fundao-6230-346",
-      "name": "REPSOL Rotunda Fundão",
-      "brand": "REPSOL",
-      "district": "Castelo Branco",
-      "municipality": "Fundão",
-      "locality": "Fundão",
-      "address": "Rua Cidade da Covilha",
-      "postalCode": "6230-346",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.079,
-      "updatedAt": "2026-06-03T16:55:00+00:00",
-      "lat": 40.15476,
-      "lon": -7.496789,
-      "sourceKey": "REPSOL|repsol rotunda fundao|rua cidade da covilha|6230-346|fundao"
     },
     {
       "id": "bp-coimbra-pedrulha-coimbra-3020-000",
