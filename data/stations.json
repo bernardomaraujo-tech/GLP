@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-12T10:01:12.525480+00:00",
+  "generatedAt": "2026-06-12T14:40:45.830006+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-12T11:00:00+00:00",
+  "dataUpdatedAt": "2026-06-12T14:05:00+00:00",
   "stats": {
-    "totalStations": 421,
-    "withCoordinates": 421,
-    "withPrice": 421
+    "totalStations": 422,
+    "withCoordinates": 422,
+    "withPrice": 422
   },
   "stations": [
     {
@@ -721,6 +721,23 @@
       "lat": 39.29211,
       "lon": -8.520625,
       "sourceKey": "CEPSA|cepsa vale de cavalos|estrada nacional 118, ao km 88,345|2140-400|chamusca"
+    },
+    {
+      "id": "cepsa-cepsa-povoa-santarem-santarem-2000-531",
+      "name": "Cepsa Povoa Santarém",
+      "brand": "CEPSA",
+      "district": "Santarém",
+      "municipality": "Santarém",
+      "locality": "Póvoa de Santarém",
+      "address": "EN 3 - Km 46",
+      "postalCode": "2000-531",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.946,
+      "updatedAt": "2026-06-12T12:05:00+00:00",
+      "lat": 39.303,
+      "lon": -8.68559,
+      "sourceKey": "CEPSA|cepsa povoa santarem|en 3 - km 46|2000-531|santarem"
     },
     {
       "id": "cepsa-moeve-nelas-nelas-3520-095",
@@ -2349,7 +2366,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-06-09T16:00:00+00:00",
+      "updatedAt": "2026-06-12T12:50:00+00:00",
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
@@ -3947,7 +3964,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-11T09:00:00+00:00",
+      "updatedAt": "2026-06-12T11:35:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -4083,7 +4100,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-11T14:45:00+00:00",
+      "updatedAt": "2026-06-12T14:05:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4814,7 +4831,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-06-09T00:00:00+00:00",
+      "updatedAt": "2026-06-12T11:25:00+00:00",
       "lat": 40.637491,
       "lon": -8.639779,
       "sourceKey": "BP|posto bp aveiro forca|av. francisco sa carneiro forca|3810-265|aveiro"
@@ -7075,7 +7092,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.119,
-      "updatedAt": "2026-05-15T11:15:00+00:00",
+      "updatedAt": "2026-06-12T12:05:00+00:00",
       "lat": 38.821947,
       "lon": -9.097843,
       "sourceKey": "GALP|marvimar, lda. (1)|av. dom afonso henriques|2695-691|loures"
