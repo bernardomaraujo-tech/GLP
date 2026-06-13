@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-13T08:50:34.820527+00:00",
+  "generatedAt": "2026-06-13T13:31:13.760584+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-13T08:25:00+00:00",
+  "dataUpdatedAt": "2026-06-13T13:50:00+00:00",
   "stats": {
-    "totalStations": 420,
-    "withCoordinates": 420,
-    "withPrice": 420
+    "totalStations": 421,
+    "withCoordinates": 421,
+    "withPrice": 421
   },
   "stations": [
     {
@@ -3318,7 +3318,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-06-08T00:00:00+00:00",
+      "updatedAt": "2026-06-13T13:50:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -3692,7 +3692,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-06-08T09:25:00+00:00",
+      "updatedAt": "2026-06-13T10:25:00+00:00",
       "lat": 39.570324,
       "lon": -8.878646,
       "sourceKey": "GALP|galp cst (leiria-lisboa) - 13114|ic2(en1), km 101+100 - sentido leiria/lisboa|2460-715|alcobaca"
@@ -3930,7 +3930,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-12T11:35:00+00:00",
+      "updatedAt": "2026-06-13T10:40:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -6824,6 +6824,23 @@
       "lat": 41.57254,
       "lon": -8.523811,
       "sourceKey": "BP|bp barcelos - ucha (carbuiberia)|en 205, km 33,300 - lugar de crasto - ucha de sao romao|4750-767|barcelos"
+    },
+    {
+      "id": "galp-galp-castro-daire-ldl-combustiveis-lda-castro-daire-3600-199",
+      "name": "GALP Castro Daire - LDL Combustíveis, Lda",
+      "brand": "GALP",
+      "district": "Viseu",
+      "municipality": "Castro Daire",
+      "locality": "Castro Daire",
+      "address": "Avenida Maria Alcina Fadista, 1156",
+      "postalCode": "3600-199",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.069,
+      "updatedAt": "2026-06-13T12:55:00+00:00",
+      "lat": 40.910305,
+      "lon": -7.928194,
+      "sourceKey": "GALP|galp castro daire - ldl combustiveis, lda|avenida maria alcina fadista, 1156|3600-199|castro daire"
     },
     {
       "id": "generico-pa-gestroil-belinho-esposende-4740-161",
