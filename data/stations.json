@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-17T10:30:39.355433+00:00",
+  "generatedAt": "2026-06-17T14:59:32.916651+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-17T11:00:00+00:00",
+  "dataUpdatedAt": "2026-06-17T14:50:00+00:00",
   "stats": {
     "totalStations": 436,
     "withCoordinates": 436,
@@ -4950,7 +4950,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.006,
-      "updatedAt": "2026-06-17T11:00:00+00:00",
+      "updatedAt": "2026-06-17T14:50:00+00:00",
       "lat": 37.536385,
       "lon": -8.184828,
       "sourceKey": "MOEVE|a2 almodovar (lis/alg)|a2, km 193, sub-lanco castro verde/almodovar|7700-000|almodovar"
@@ -7330,7 +7330,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-06-09T13:55:00+00:00",
+      "updatedAt": "2026-06-17T12:00:00+00:00",
       "lat": 41.445744,
       "lon": -8.400159,
       "sourceKey": "BP|bp- vermil|rua da portela no1005|4805-546|guimaraes"
