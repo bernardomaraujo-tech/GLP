@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-19T10:16:37.295948+00:00",
+  "generatedAt": "2026-06-19T14:47:45.400025+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-19T11:10:00+00:00",
+  "dataUpdatedAt": "2026-06-19T12:35:00+00:00",
   "stats": {
-    "totalStations": 429,
-    "withCoordinates": 429,
-    "withPrice": 429
+    "totalStations": 430,
+    "withCoordinates": 430,
+    "withPrice": 430
   },
   "stations": [
     {
@@ -853,7 +853,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-06-19T03:45:00+00:00",
+      "updatedAt": "2026-06-19T11:40:00+00:00",
       "lat": 41.180435,
       "lon": -8.635366,
       "sourceKey": "PRIO|p12 - prio porto - estrada circunvalacao|estrada interior da circunvalacao n.o 10783 e 10853|4250-252|porto"
@@ -1142,7 +1142,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-06-19T03:45:00+00:00",
+      "updatedAt": "2026-06-19T11:40:00+00:00",
       "lat": 41.612976,
       "lon": -8.472045,
       "sourceKey": "PRIO|p14 - prio fuselha - prado|en 201 - lugar da fuzelha|4730-461|vila verde"
@@ -1312,7 +1312,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-06-19T04:00:00+00:00",
+      "updatedAt": "2026-06-19T11:40:00+00:00",
       "lat": 39.049244,
       "lon": -8.708553,
       "sourceKey": "PRIO|p50 - prio marinhais|estrada nacional 367, n.o 438|2125-121|salvaterra de magos"
@@ -2740,7 +2740,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-06-19T04:05:00+00:00",
+      "updatedAt": "2026-06-19T11:40:00+00:00",
       "lat": 41.262432,
       "lon": -8.062497,
       "sourceKey": "SHELL|p08 - shell amarante|lugar do ferro, no 593|4600-681|amarante"
@@ -3868,6 +3868,23 @@
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
     },
     {
+      "id": "generico-a24-viseu-norte-viseu-3515-512",
+      "name": "A24 Viseu (Norte)",
+      "brand": "GENÉRICO",
+      "district": "Viseu",
+      "municipality": "Viseu",
+      "locality": "Bodiosa a Nova",
+      "address": "A24 Castro Daire Sul – Nó do IP5",
+      "postalCode": "3515-512",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.994,
+      "updatedAt": "2026-06-19T12:35:00+00:00",
+      "lat": 40.7075,
+      "lon": -7.943055,
+      "sourceKey": "GENÉRICO|a24 viseu (norte)|a24 castro daire sul no do ip5|3515-512|viseu"
+    },
+    {
       "id": "cepsa-cepsa-pinheiro-da-bemposta-oliveira-de-azemeis-3720-463",
       "name": "CEPSA  Pinheiro da Bemposta",
       "brand": "CEPSA",
@@ -4151,7 +4168,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-06-19T04:10:00+00:00",
+      "updatedAt": "2026-06-19T11:45:00+00:00",
       "lat": 38.858,
       "lon": -9.379323,
       "sourceKey": "SHELL|p35 - shell terrugem|en 247 ao km 66,38 - godigana|2705-869|sintra"
@@ -4168,7 +4185,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-06-19T00:55:00+00:00",
+      "updatedAt": "2026-06-19T11:30:00+00:00",
       "lat": 41.206177,
       "lon": -8.633565,
       "sourceKey": "SHELL|shell-recarei|rua de recarei/rua de redolhos|4465-648|matosinhos"
@@ -4236,7 +4253,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-06-19T01:05:00+00:00",
+      "updatedAt": "2026-06-19T11:30:00+00:00",
       "lat": 38.60893,
       "lon": -9.080099,
       "sourceKey": "SHELL|shell seixal|travessa quinta da galega no 1|2840-579|seixal"
@@ -4525,7 +4542,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-18T08:45:00+00:00",
+      "updatedAt": "2026-06-19T12:35:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4967,7 +4984,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-06-19T01:05:00+00:00",
+      "updatedAt": "2026-06-19T11:30:00+00:00",
       "lat": 41.01642,
       "lon": -8.557138,
       "sourceKey": "SHELL|shell argoncilhe|rua da estrada nacional no1|4505-007|santa maria da feira"
@@ -5035,7 +5052,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-06-19T01:00:00+00:00",
+      "updatedAt": "2026-06-19T11:30:00+00:00",
       "lat": 38.787167,
       "lon": -9.298369,
       "sourceKey": "SHELL|shell mira-sintra (a16 sul)|a 16 - ic16 - km 2,600 a 3,100|2735-395|sintra"
@@ -5069,7 +5086,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-06-19T01:05:00+00:00",
+      "updatedAt": "2026-06-19T11:30:00+00:00",
       "lat": 41.218337,
       "lon": -8.694601,
       "sourceKey": "SHELL|shell perafita|rua d. marcos da cruz|4455-533|matosinhos"
@@ -5103,7 +5120,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-06-18T10:10:00+00:00",
+      "updatedAt": "2026-06-19T12:15:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
