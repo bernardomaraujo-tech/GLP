@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-22T11:39:47.007338+00:00",
+  "generatedAt": "2026-06-22T16:33:03.441459+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-22T12:25:00+00:00",
+  "dataUpdatedAt": "2026-06-22T17:30:00+00:00",
   "stats": {
-    "totalStations": 434,
-    "withCoordinates": 434,
-    "withPrice": 434
+    "totalStations": 436,
+    "withCoordinates": 436,
+    "withPrice": 436
   },
   "stations": [
     {
@@ -774,6 +774,23 @@
       "sourceKey": "AUCHAN|auchan famalicao|en 206 av.do brasil lote, no2|4760-010|vila nova de famalicao"
     },
     {
+      "id": "bombagas-bombagas-combustiveis-e-lubrificantes-lda-vila-verde-4731-000",
+      "name": "BOMBAGAS COMBUSTIVEIS E LUBRIFICANTES LDA",
+      "brand": "BOMBAGÁS",
+      "district": "Braga",
+      "municipality": "Vila Verde",
+      "locality": "Marrancos-Arcozelo- Lugar do Monte Afurado",
+      "address": "EN 201",
+      "postalCode": "4731-000",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.919,
+      "updatedAt": "2026-06-22T17:30:00+00:00",
+      "lat": 41.67685,
+      "lon": -8.52491,
+      "sourceKey": "BOMBAGÁS|bombagas combustiveis e lubrificantes lda|en 201|4731-000|vila verde"
+    },
+    {
       "id": "prio-p14-prio-fuselha-prado-vila-verde-4730-461",
       "name": "P14 - PRIO  Fuselha - Prado",
       "brand": "PRIO",
@@ -870,7 +887,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.919,
-      "updatedAt": "2026-06-15T14:30:00+00:00",
+      "updatedAt": "2026-06-22T14:35:00+00:00",
       "lat": 39.73963,
       "lon": -8.82211,
       "sourceKey": "CHAMAGÁS|chamagas leiria|rua de santa clara - parceiros|2400-019|leiria"
@@ -1182,6 +1199,23 @@
       "sourceKey": "PRIO|prio avanca|e.n. 109 km 41,6 - valada - avanca|3860-000|estarreja"
     },
     {
+      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
+      "name": "PA Feitos -Barcelos",
+      "brand": "GENÉRICO",
+      "district": "Braga",
+      "municipality": "Barcelos",
+      "locality": "Feitos",
+      "address": "Rua da Estrada Nacional 103, km 12,100",
+      "postalCode": "4750-442",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-06-22T14:45:00+00:00",
+      "lat": 41.57053,
+      "lon": -8.685565,
+      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
+    },
+    {
       "id": "alves-bandeira-alves-bandeira-landim-vila-nova-de-famalicao-4770-309",
       "name": "ALVES BANDEIRA Landim",
       "brand": "ALVES BANDEIRA",
@@ -1244,7 +1278,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-06-18T14:30:00+00:00",
+      "updatedAt": "2026-06-22T14:30:00+00:00",
       "lat": 41.068367,
       "lon": -8.575472,
       "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
@@ -1278,7 +1312,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-06-15T15:00:00+00:00",
+      "updatedAt": "2026-06-22T15:00:00+00:00",
       "lat": 39.46791,
       "lon": -8.20883,
       "sourceKey": "ALVES BANDEIRA|ab de abrantes|rua d. joao i|2200-233|abrantes"
@@ -1335,23 +1369,6 @@
       "sourceKey": "GENÉRICO|jetbase - produtos bp|r. central, 204|2430-018|marinha grande"
     },
     {
-      "id": "bombagas-bombagas-combustiveis-e-lubrificantes-lda-vila-verde-4731-000",
-      "name": "BOMBAGAS COMBUSTIVEIS E LUBRIFICANTES LDA",
-      "brand": "BOMBAGÁS",
-      "district": "Braga",
-      "municipality": "Vila Verde",
-      "locality": "Marrancos-Arcozelo- Lugar do Monte Afurado",
-      "address": "EN 201",
-      "postalCode": "4731-000",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.939,
-      "updatedAt": "2026-06-22T06:00:00+00:00",
-      "lat": 41.67685,
-      "lon": -8.52491,
-      "sourceKey": "BOMBAGÁS|bombagas combustiveis e lubrificantes lda|en 201|4731-000|vila verde"
-    },
-    {
       "id": "auchan-auchan-figueira-da-foz-figueira-da-foz-3080-853",
       "name": "AUCHAN Figueira da Foz",
       "brand": "AUCHAN",
@@ -1380,10 +1397,27 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-06-15T15:00:00+00:00",
+      "updatedAt": "2026-06-22T15:00:00+00:00",
       "lat": 40.13671,
       "lon": -8.847939,
       "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
+    },
+    {
+      "id": "ecobrent-ecobrent-guia-albufeira-8200-413",
+      "name": "ECOBRENT - Guia",
+      "brand": "ECOBRENT",
+      "district": "Faro",
+      "municipality": "Albufeira",
+      "locality": "Cortelhas",
+      "address": "EN 125, Km 66,6",
+      "postalCode": "8200-413",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.939,
+      "updatedAt": "2026-06-22T16:45:00+00:00",
+      "lat": 37.12776,
+      "lon": -8.29955,
+      "sourceKey": "ECOBRENT|ecobrent - guia|en 125, km 66,6|8200-413|albufeira"
     },
     {
       "id": "oz-energia-oz-energia-massama-sintra-2745-838",
@@ -1418,6 +1452,74 @@
       "lat": 41.20849,
       "lon": -8.54186,
       "sourceKey": "PRIO|prio ermesinde sta. rita|avenida jose joaquim ribeiro teles, no 280|4445-656|valongo"
+    },
+    {
+      "id": "ecobrent-ecobrent-touguinho-vila-do-conde-4480-575",
+      "name": "ECOBRENT - Touguinhó",
+      "brand": "ECOBRENT",
+      "district": "Porto",
+      "municipality": "Vila do Conde",
+      "locality": "Touguinhó",
+      "address": "Avenida José Ramos Maia S/N",
+      "postalCode": "4480-575",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.939,
+      "updatedAt": "2026-06-22T16:45:00+00:00",
+      "lat": 41.392284,
+      "lon": -8.700511,
+      "sourceKey": "ECOBRENT|ecobrent - touguinho|avenida jose ramos maia s/n|4480-575|vila do conde"
+    },
+    {
+      "id": "ecobrent-ecobrent-modivas-vila-do-conde-4485-592",
+      "name": "ECOBRENT Modivas",
+      "brand": "ECOBRENT",
+      "district": "Porto",
+      "municipality": "Vila do Conde",
+      "locality": "Modivas",
+      "address": "Avenida Fonte Cova 400",
+      "postalCode": "4485-592",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.939,
+      "updatedAt": "2026-06-22T16:45:00+00:00",
+      "lat": 41.29811,
+      "lon": -8.70692,
+      "sourceKey": "ECOBRENT|ecobrent modivas|avenida fonte cova 400|4485-592|vila do conde"
+    },
+    {
+      "id": "ecobrent-ecobrent-santarem-retail-santarem-2000-471",
+      "name": "ECOBRENT - Santarém Retail",
+      "brand": "ECOBRENT",
+      "district": "Santarém",
+      "municipality": "Santarém",
+      "locality": "Santarém",
+      "address": "Santarém Retail Park Quinta das Cegonhas, Lote 28",
+      "postalCode": "2000-471",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.939,
+      "updatedAt": "2026-06-22T16:45:00+00:00",
+      "lat": 39.214977,
+      "lon": -8.691306,
+      "sourceKey": "ECOBRENT|ecobrent - santarem retail|santarem retail park quinta das cegonhas, lote 28|2000-471|santarem"
+    },
+    {
+      "id": "ecobrent-ecobrent-viana-do-castelo-viana-do-castelo-4900-665",
+      "name": "ECOBRENT - Viana do Castelo",
+      "brand": "ECOBRENT",
+      "district": "Viana do Castelo",
+      "municipality": "Viana do Castelo",
+      "locality": "Viana do Castelo",
+      "address": "Rua dos Carregais, 106",
+      "postalCode": "4900-665",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.939,
+      "updatedAt": "2026-06-22T16:45:00+00:00",
+      "lat": 41.70683,
+      "lon": -8.80188,
+      "sourceKey": "ECOBRENT|ecobrent - viana do castelo|rua dos carregais, 106|4900-665|viana do castelo"
     },
     {
       "id": "auchan-auchan-viseu-viseu-3520-000",
@@ -1890,7 +1992,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-06-15T10:20:00+00:00",
+      "updatedAt": "2026-06-22T15:55:00+00:00",
       "lat": 37.02859,
       "lon": -7.90614,
       "sourceKey": "GALP|a. pinto, lda.(1)|en 125 km 107,6|8005-528|faro"
@@ -1911,23 +2013,6 @@
       "lat": 38.80345,
       "lon": -9.356381,
       "sourceKey": "REPSOL|es rot. da cavaleira - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda da cavaleira algueirao|2710-418|sintra"
-    },
-    {
-      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
-      "name": "PA Feitos -Barcelos",
-      "brand": "GENÉRICO",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Feitos",
-      "address": "Rua da Estrada Nacional 103, km 12,100",
-      "postalCode": "4750-442",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.968,
-      "updatedAt": "2026-06-15T13:50:00+00:00",
-      "lat": 41.57053,
-      "lon": -8.685565,
-      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
     },
     {
       "id": "alves-bandeira-alves-bandeira-lourosa-b-norte-sul-santa-maria-da-feira-4535-090",
@@ -2066,23 +2151,6 @@
       "sourceKey": "GALP|paralelo alternativo - comercio de combustiveis, lda|ic 2 km 183,4|3000-032|coimbra"
     },
     {
-      "id": "ecobrent-ecobrent-guia-albufeira-8200-413",
-      "name": "ECOBRENT - Guia",
-      "brand": "ECOBRENT",
-      "district": "Faro",
-      "municipality": "Albufeira",
-      "locality": "Cortelhas",
-      "address": "EN 125, Km 66,6",
-      "postalCode": "8200-413",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-06-22T11:45:00+00:00",
-      "lat": 37.12776,
-      "lon": -8.29955,
-      "sourceKey": "ECOBRENT|ecobrent - guia|en 125, km 66,6|8200-413|albufeira"
-    },
-    {
       "id": "galp-galp-vila-franca-xira-vila-franca-de-xira-2600-000",
       "name": "GALP VILA FRANCA XIRA",
       "brand": "GALP",
@@ -2185,57 +2253,6 @@
       "sourceKey": "GALP|galp vila nova de gaia (norte)|via 8 - santa marinha (lado rio)|4400-698|vila nova de gaia"
     },
     {
-      "id": "ecobrent-ecobrent-touguinho-vila-do-conde-4480-575",
-      "name": "ECOBRENT - Touguinhó",
-      "brand": "ECOBRENT",
-      "district": "Porto",
-      "municipality": "Vila do Conde",
-      "locality": "Touguinhó",
-      "address": "Avenida José Ramos Maia S/N",
-      "postalCode": "4480-575",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-06-22T11:50:00+00:00",
-      "lat": 41.392284,
-      "lon": -8.700511,
-      "sourceKey": "ECOBRENT|ecobrent - touguinho|avenida jose ramos maia s/n|4480-575|vila do conde"
-    },
-    {
-      "id": "ecobrent-ecobrent-modivas-vila-do-conde-4485-592",
-      "name": "ECOBRENT Modivas",
-      "brand": "ECOBRENT",
-      "district": "Porto",
-      "municipality": "Vila do Conde",
-      "locality": "Modivas",
-      "address": "Avenida Fonte Cova 400",
-      "postalCode": "4485-592",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-06-22T11:50:00+00:00",
-      "lat": 41.29811,
-      "lon": -8.70692,
-      "sourceKey": "ECOBRENT|ecobrent modivas|avenida fonte cova 400|4485-592|vila do conde"
-    },
-    {
-      "id": "ecobrent-ecobrent-santarem-retail-santarem-2000-471",
-      "name": "ECOBRENT - Santarém Retail",
-      "brand": "ECOBRENT",
-      "district": "Santarém",
-      "municipality": "Santarém",
-      "locality": "Santarém",
-      "address": "Santarém Retail Park Quinta das Cegonhas, Lote 28",
-      "postalCode": "2000-471",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-06-22T11:45:00+00:00",
-      "lat": 39.214977,
-      "lon": -8.691306,
-      "sourceKey": "ECOBRENT|ecobrent - santarem retail|santarem retail park quinta das cegonhas, lote 28|2000-471|santarem"
-    },
-    {
       "id": "galp-galp-vila-amelia-14734-palmela-2950-805",
       "name": "Galp Vila Amélia (14734)",
       "brand": "GALP",
@@ -2268,23 +2285,6 @@
       "lat": 37.95935,
       "lon": -8.859145,
       "sourceKey": "GALP|galp sines|av.general humberto delgado|7520-106|sines"
-    },
-    {
-      "id": "ecobrent-ecobrent-viana-do-castelo-viana-do-castelo-4900-665",
-      "name": "ECOBRENT - Viana do Castelo",
-      "brand": "ECOBRENT",
-      "district": "Viana do Castelo",
-      "municipality": "Viana do Castelo",
-      "locality": "Viana do Castelo",
-      "address": "Rua dos Carregais, 106",
-      "postalCode": "4900-665",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-06-22T11:50:00+00:00",
-      "lat": 41.70683,
-      "lon": -8.80188,
-      "sourceKey": "ECOBRENT|ecobrent - viana do castelo|rua dos carregais, 106|4900-665|viana do castelo"
     },
     {
       "id": "prio-pa-amarante-petrofregim-amarante-4600-049",
@@ -2638,7 +2638,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-06-16T16:05:00+00:00",
+      "updatedAt": "2026-06-22T12:40:00+00:00",
       "lat": 39.55952,
       "lon": -8.97807,
       "sourceKey": "GALP|sociedade automoveis cruz de cristo, lda (1)|av. general humberto delgado|2460-052|alcobaca"
@@ -3080,7 +3080,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-15T13:10:00+00:00",
+      "updatedAt": "2026-06-22T14:40:00+00:00",
       "lat": 40.064014,
       "lon": -8.618356,
       "sourceKey": "REPSOL|repsol soure i|cruz-nova|3130-200|soure"
@@ -3318,7 +3318,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-20T00:00:00+00:00",
+      "updatedAt": "2026-06-22T15:00:00+00:00",
       "lat": 41.18254,
       "lon": -8.676889,
       "sourceKey": "REPSOL|repsol matosinhos - ip4|prolongamento da avenida republica, s/n|4450-130|matosinhos"
@@ -3505,7 +3505,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-15T14:30:00+00:00",
+      "updatedAt": "2026-06-22T14:40:00+00:00",
       "lat": 38.561623,
       "lon": -8.887839,
       "sourceKey": "REPSOL|repsol aires b|en 252 km 50,460|2950-439|palmela"
@@ -3556,7 +3556,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T14:45:00+00:00",
       "lat": 40.4961,
       "lon": -7.9047,
       "sourceKey": "REPSOL|e.s. canas de senhorim|rua da estacao - lugar da raposeira|3525-018|nelas"
@@ -3573,7 +3573,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T14:45:00+00:00",
       "lat": 40.39775,
       "lon": -8.12854,
       "sourceKey": "REPSOL|e.s. santa comba dao|r. miguel neves|3440-384|santa comba dao"
@@ -3896,7 +3896,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-06-15T00:00:00+00:00",
+      "updatedAt": "2026-06-22T16:00:00+00:00",
       "lat": 40.626743,
       "lon": -8.652549,
       "sourceKey": "REPSOL|repsol aveiro - no sul a|avenida da universidade|3810-489|aveiro"
@@ -4185,7 +4185,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.998,
-      "updatedAt": "2026-06-16T15:30:00+00:00",
+      "updatedAt": "2026-06-22T13:35:00+00:00",
       "lat": 41.377384,
       "lon": -8.172588,
       "sourceKey": "GENÉRICO|posto sodimapi felgueiras|lameiro-morto, sendim|4610-750|felgueiras"
@@ -4342,6 +4342,23 @@
       "lat": 39.570324,
       "lon": -8.878646,
       "sourceKey": "GALP|galp cst (leiria-lisboa) - 13114|ic2(en1), km 101+100 - sentido leiria/lisboa|2460-715|alcobaca"
+    },
+    {
+      "id": "generico-petrovila-combustiveis-lda-felgueiras-4650-092",
+      "name": "Petrovila - Combustíveis, Lda",
+      "brand": "GENÉRICO",
+      "district": "Porto",
+      "municipality": "Felgueiras",
+      "locality": "Airães",
+      "address": "Rua da Liberdade, S/N",
+      "postalCode": "4650-092",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-06-22T14:50:00+00:00",
+      "lat": 41.32086,
+      "lon": -8.19268,
+      "sourceKey": "GENÉRICO|petrovila - combustiveis, lda|rua da liberdade, s/n|4650-092|felgueiras"
     },
     {
       "id": "galp-galp-a-s-vila-do-conde-porto-vila-conde-vila-do-conde-4485-600",
@@ -4797,7 +4814,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T15:15:00+00:00",
       "lat": 39.472078,
       "lon": -8.195447,
       "sourceKey": "REPSOL|e.s. abrantes|av. d. joao i 3|2200-494|abrantes"
@@ -4848,7 +4865,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T16:25:00+00:00",
       "lat": 39.24329,
       "lon": -8.69662,
       "sourceKey": "REPSOL|e.s. santarem|rua o|2000-630|santarem"
@@ -4967,7 +4984,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-15T14:20:00+00:00",
+      "updatedAt": "2026-06-22T14:35:00+00:00",
       "lat": 38.617588,
       "lon": -9.116368,
       "sourceKey": "REPSOL|repsol fogueteiro|rua oliveira martins|2845-381|seixal"
@@ -5035,7 +5052,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T16:15:00+00:00",
       "lat": 40.66386,
       "lon": -7.91913,
       "sourceKey": "REPSOL|e.s. viseu-av cap h ribeiro|av. capitao homem ribeiro|3500-000|viseu"
@@ -5171,7 +5188,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-06-19T12:15:00+00:00",
+      "updatedAt": "2026-06-22T15:20:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -5307,7 +5324,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T14:40:00+00:00",
       "lat": 41.172061,
       "lon": -8.441431,
       "sourceKey": "REPSOL|e.s. gandra paredes|en 15-3 (cruzamento da rua do negral c/ rua central da ribeira)|4440-115|paredes"
@@ -5341,7 +5358,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-06-15T13:00:00+00:00",
+      "updatedAt": "2026-06-22T13:00:00+00:00",
       "lat": 41.2329,
       "lon": -8.22747,
       "sourceKey": "GENÉRICO|js e sf|av. de sao mamede,1974|4560-800|penafiel"
@@ -5511,7 +5528,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-06-19T17:40:00+00:00",
+      "updatedAt": "2026-06-22T15:30:00+00:00",
       "lat": 40.1424,
       "lon": -7.497109,
       "sourceKey": "REPSOL|repsol fundao a - r cidade covilha|rua da cidade da covilha, s/n|6230-346|fundao"
@@ -5528,7 +5545,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-06-19T17:40:00+00:00",
+      "updatedAt": "2026-06-22T15:30:00+00:00",
       "lat": 40.15476,
       "lon": -7.496789,
       "sourceKey": "REPSOL|repsol rotunda fundao|rua cidade da covilha|6230-346|fundao"
@@ -5545,7 +5562,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T12:55:00+00:00",
       "lat": 39.773658,
       "lon": -8.109689,
       "sourceKey": "REPSOL|e.s. serta|estrada vila de rei|6100-732|serta"
@@ -5936,7 +5953,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.034,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T16:45:00+00:00",
       "lat": 40.61653,
       "lon": -7.75982,
       "sourceKey": "REPSOL|e.s. mangualde|ip 5|3530-000|mangualde"
@@ -6038,7 +6055,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-15T17:10:00+00:00",
+      "updatedAt": "2026-06-22T15:30:00+00:00",
       "lat": 41.50852,
       "lon": -7.994753,
       "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
@@ -6157,7 +6174,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-16T15:05:00+00:00",
+      "updatedAt": "2026-06-22T16:40:00+00:00",
       "lat": 37.18386,
       "lon": -7.46997,
       "sourceKey": "BP|monte gordo norte|en 125 aldeia nova monte gordo|8900-441|vila real de santo antonio"
@@ -6282,23 +6299,6 @@
       "sourceKey": "PRIO|prio valadares|av. combatentes do ultramar portugues|4405-707|vila nova de gaia"
     },
     {
-      "id": "intermarche-intermarche-alcacer-do-sal-alcacer-do-sal-7580-054",
-      "name": "INTERMARCHÉ ALCÁCER DO SAL",
-      "brand": "INTERMARCHÉ",
-      "district": "Setúbal",
-      "municipality": "Alcácer do Sal",
-      "locality": "Alcácer do Sal",
-      "address": "Cerrado das Majapoas",
-      "postalCode": "7580-054",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.039,
-      "updatedAt": "2026-06-15T20:00:00+00:00",
-      "lat": 38.38147,
-      "lon": -8.514054,
-      "sourceKey": "INTERMARCHÉ|intermarche alcacer do sal|cerrado das majapoas|7580-054|alcacer do sal"
-    },
-    {
       "id": "bp-bp-grandola-oeste-grandola-7570-124",
       "name": "BP GRANDOLA (OESTE)",
       "brand": "BP",
@@ -6395,7 +6395,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T15:15:00+00:00",
       "lat": 39.59649,
       "lon": -8.81717,
       "sourceKey": "REPSOL|e.s. porto de mos|en 243|2480-170|porto de mos"
@@ -6484,6 +6484,23 @@
       "lat": 39.065964,
       "lon": -8.876442,
       "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
+    },
+    {
+      "id": "intermarche-intermarche-alcacer-do-sal-alcacer-do-sal-7580-054",
+      "name": "INTERMARCHÉ ALCÁCER DO SAL",
+      "brand": "INTERMARCHÉ",
+      "district": "Setúbal",
+      "municipality": "Alcácer do Sal",
+      "locality": "Alcácer do Sal",
+      "address": "Cerrado das Majapoas",
+      "postalCode": "7580-054",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.049,
+      "updatedAt": "2026-06-22T14:55:00+00:00",
+      "lat": 38.38147,
+      "lon": -8.514054,
+      "sourceKey": "INTERMARCHÉ|intermarche alcacer do sal|cerrado das majapoas|7580-054|alcacer do sal"
     },
     {
       "id": "repsol-as-antua-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-estarreja-3850-909",
@@ -7007,7 +7024,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-22T14:25:00+00:00",
       "lat": 39.64321,
       "lon": -8.68515,
       "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
@@ -7075,7 +7092,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.068,
-      "updatedAt": "2026-06-15T09:15:00+00:00",
+      "updatedAt": "2026-06-22T15:15:00+00:00",
       "lat": 41.57254,
       "lon": -8.523811,
       "sourceKey": "BP|bp barcelos - ucha (carbuiberia)|en 205, km 33,300 - lugar de crasto - ucha de sao romao|4750-767|barcelos"
@@ -7126,10 +7143,27 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.07,
-      "updatedAt": "2026-06-15T09:20:00+00:00",
+      "updatedAt": "2026-06-22T15:25:00+00:00",
       "lat": 41.599396,
       "lon": -8.785084,
       "sourceKey": "GENÉRICO|pa gestroil belinho|avenida de belinho, no64 - e.n. 13 - km 52|4740-161|esposende"
+    },
+    {
+      "id": "tfuel-tfuel-vendas-novas-vendas-novas-7080-031",
+      "name": "TFUEL - VENDAS NOVAS",
+      "brand": "TFUEL",
+      "district": "Évora",
+      "municipality": "Vendas Novas",
+      "locality": "Vendas Novas",
+      "address": "Rua São João de Deus",
+      "postalCode": "7080-031",
+      "zone": "Alentejo",
+      "fuel": "GPL Auto",
+      "price": 1.089,
+      "updatedAt": "2026-06-22T14:45:00+00:00",
+      "lat": 38.67433,
+      "lon": -8.445581,
+      "sourceKey": "TFUEL|tfuel - vendas novas|rua sao joao de deus|7080-031|vendas novas"
     },
     {
       "id": "galp-controlsuper-com-de-combustiveis-lda-guimaraes-4810-910",
