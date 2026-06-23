@@ -1,13 +1,30 @@
 {
-  "generatedAt": "2026-06-23T09:26:15.675192+00:00",
+  "generatedAt": "2026-06-23T14:32:44.159114+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-23T10:15:00+00:00",
+  "dataUpdatedAt": "2026-06-23T15:15:00+00:00",
   "stats": {
-    "totalStations": 439,
-    "withCoordinates": 439,
-    "withPrice": 439
+    "totalStations": 440,
+    "withCoordinates": 440,
+    "withPrice": 440
   },
   "stations": [
+    {
+      "id": "oz-energia-auto-irmaos-ferreira-lda-pacos-de-ferreira-4590-789",
+      "name": "Auto Irmãos Ferreira,lda",
+      "brand": "OZ ENERGIA",
+      "district": "Porto",
+      "municipality": "Paços de Ferreira",
+      "locality": "Ferreira",
+      "address": "Travessa de Ferreira do Fundo nº 9",
+      "postalCode": "4590-789",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.81,
+      "updatedAt": "2026-06-23T11:05:00+00:00",
+      "lat": 41.2637,
+      "lon": -8.3679,
+      "sourceKey": "OZ ENERGIA|auto irmaos ferreira,lda|travessa de ferreira do fundo no 9|4590-789|pacos de ferreira"
+    },
     {
       "id": "galp-pagpl-a-dos-rolhados-sintra-2725-056",
       "name": "PAGPL A-Dos-Rolhados",
@@ -143,6 +160,23 @@
       "lat": 40.217327,
       "lon": -8.598031,
       "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
+    },
+    {
+      "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
+      "name": "Intermarché Vialonga",
+      "brand": "INTERMARCHÉ",
+      "district": "Lisboa",
+      "municipality": "Vila Franca de Xira",
+      "locality": "Vialonga",
+      "address": "Urb. Terras Compridas, Lote 8\\nEstrada da Várzea",
+      "postalCode": "2625-716",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.899,
+      "updatedAt": "2026-06-23T11:25:00+00:00",
+      "lat": 38.86376,
+      "lon": -9.09955,
+      "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
     },
     {
       "id": "auchan-auchan-santo-tirso-santo-tirso-4780-219",
@@ -978,23 +1012,6 @@
       "sourceKey": "AUCHAN|auchan alfragide|rua da quinta do salrego (rua henrique mendes) - lote 12 - portela de carnaxide|2790-144|oeiras"
     },
     {
-      "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
-      "name": "Intermarché Vialonga",
-      "brand": "INTERMARCHÉ",
-      "district": "Lisboa",
-      "municipality": "Vila Franca de Xira",
-      "locality": "Vialonga",
-      "address": "Urb. Terras Compridas, Lote 8\\nEstrada da Várzea",
-      "postalCode": "2625-716",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.919,
-      "updatedAt": "2026-06-15T14:45:00+00:00",
-      "lat": 38.86376,
-      "lon": -9.09955,
-      "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
-    },
-    {
       "id": "prio-prio-fanzeres-gondomar-4510-707",
       "name": "PRIO Fânzeres",
       "brand": "PRIO",
@@ -1248,6 +1265,40 @@
       "lat": 41.379173,
       "lon": -8.451441,
       "sourceKey": "ALVES BANDEIRA|alves bandeira landim|rua da est nacional 204/5, no 2035|4770-309|vila nova de famalicao"
+    },
+    {
+      "id": "carrasquinho-filhos-carrasquinho-filhos-vale-parra-norte-albufeira-8200-427",
+      "name": "Carrasquinho & Filhos - Vale Parra - Norte",
+      "brand": "CARRASQUINHO & FILHOS",
+      "district": "Faro",
+      "municipality": "Albufeira",
+      "locality": "Vale Parra - Guia",
+      "address": "EM 526",
+      "postalCode": "8200-427",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-06-23T11:45:00+00:00",
+      "lat": 37.09515,
+      "lon": -8.30434,
+      "sourceKey": "CARRASQUINHO & FILHOS|carrasquinho & filhos - vale parra - norte|em 526|8200-427|albufeira"
+    },
+    {
+      "id": "carrasquinho-filhos-carrasquinho-filhos-tunes-silves-8365-231",
+      "name": "Carrasquinho & Filhos - Tunes",
+      "brand": "CARRASQUINHO & FILHOS",
+      "district": "Faro",
+      "municipality": "Silves",
+      "locality": "Tunes-Gateiras ou Amendoais",
+      "address": "Travessa Poeta António Aleixo\\r\\n",
+      "postalCode": "8365-231",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-06-23T11:45:00+00:00",
+      "lat": 37.16909,
+      "lon": -8.26132,
+      "sourceKey": "CARRASQUINHO & FILHOS|carrasquinho & filhos - tunes|travessa poeta antonio aleixo\\r\\n|8365-231|silves"
     },
     {
       "id": "auchan-auchan-alverca-vila-franca-de-xira-2615-170",
@@ -1743,23 +1794,6 @@
       "sourceKey": "AUCHAN|auchan castelo branco|zona industrial castelo branco|6000-459|castelo branco"
     },
     {
-      "id": "carrasquinho-filhos-carrasquinho-filhos-vale-parra-norte-albufeira-8200-427",
-      "name": "Carrasquinho & Filhos - Vale Parra - Norte",
-      "brand": "CARRASQUINHO & FILHOS",
-      "district": "Faro",
-      "municipality": "Albufeira",
-      "locality": "Vale Parra - Guia",
-      "address": "EM 526",
-      "postalCode": "8200-427",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-06-22T00:25:00+00:00",
-      "lat": 37.09515,
-      "lon": -8.30434,
-      "sourceKey": "CARRASQUINHO & FILHOS|carrasquinho & filhos - vale parra - norte|em 526|8200-427|albufeira"
-    },
-    {
       "id": "auchan-auchan-lagoa-lagoa-8400-701",
       "name": "AUCHAN Lagoa",
       "brand": "AUCHAN",
@@ -1775,23 +1809,6 @@
       "lat": 37.136505,
       "lon": -8.463485,
       "sourceKey": "AUCHAN|auchan lagoa|en 125 - sitio da bemposta|8400-701|lagoa"
-    },
-    {
-      "id": "carrasquinho-filhos-carrasquinho-filhos-tunes-silves-8365-231",
-      "name": "Carrasquinho & Filhos - Tunes",
-      "brand": "CARRASQUINHO & FILHOS",
-      "district": "Faro",
-      "municipality": "Silves",
-      "locality": "Tunes-Gateiras ou Amendoais",
-      "address": "Travessa Poeta António Aleixo\\r\\n",
-      "postalCode": "8365-231",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-06-22T00:20:00+00:00",
-      "lat": 37.16909,
-      "lon": -8.26132,
-      "sourceKey": "CARRASQUINHO & FILHOS|carrasquinho & filhos - tunes|travessa poeta antonio aleixo\\r\\n|8365-231|silves"
     },
     {
       "id": "oz-energia-oz-energia-paco-de-arcos-oeiras-2770-228",
@@ -3947,7 +3964,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-23T13:35:00+00:00",
       "lat": 40.89171,
       "lon": -8.49362,
       "sourceKey": "REPSOL|e.s. s. joao madeira ii|av. dr. renato araujo|3700-000|sao joao da madeira"
@@ -4202,7 +4219,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.998,
-      "updatedAt": "2026-06-16T16:30:00+00:00",
+      "updatedAt": "2026-06-23T11:50:00+00:00",
       "lat": 39.938229,
       "lon": -8.628914,
       "sourceKey": "GENÉRICO|ouro negro - pombal - poente|en 1 km 159,8|3105-295|pombal"
@@ -4236,7 +4253,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.998,
-      "updatedAt": "2026-06-16T16:30:00+00:00",
+      "updatedAt": "2026-06-23T11:50:00+00:00",
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
@@ -4712,7 +4729,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-22T10:45:00+00:00",
+      "updatedAt": "2026-06-23T15:15:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5222,7 +5239,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-06-22T15:20:00+00:00",
+      "updatedAt": "2026-06-23T10:45:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -7466,7 +7483,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.27,
-      "updatedAt": "2026-06-15T10:50:00+00:00",
+      "updatedAt": "2026-06-23T12:15:00+00:00",
       "lat": 41.49412,
       "lon": -7.98348,
       "sourceKey": "FREITAS|petro baulhe combustiveis, lda|parque industrial de lameiros, no114|4860-330|cabeceiras de basto"
