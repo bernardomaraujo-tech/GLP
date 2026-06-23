@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-23T14:32:44.159114+00:00",
+  "generatedAt": "2026-06-23T19:53:29.219374+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-23T15:15:00+00:00",
+  "dataUpdatedAt": "2026-06-23T18:55:00+00:00",
   "stats": {
     "totalStations": 440,
     "withCoordinates": 440,
@@ -1947,6 +1947,40 @@
       "sourceKey": "AUCHAN|auchan evora|rua werner siemens, lote 9 - zona industrial|7005-345|evora"
     },
     {
+      "id": "moeve-cepsa-orfaos-i-poente-braga-4700-000",
+      "name": "CEPSA ÓRFÃOS -  I (Poente)",
+      "brand": "MOEVE",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "Braga",
+      "address": "Av. Cónego Jorge Peixoto Coutinho- variante 14",
+      "postalCode": "4700-000",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.96,
+      "updatedAt": "2026-06-23T17:00:00+00:00",
+      "lat": 41.543404,
+      "lon": -8.440024,
+      "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
+    },
+    {
+      "id": "moeve-ilidio-mota-palmeira-2-braga-4700-690",
+      "name": "Ilídio Mota - Palmeira 2",
+      "brand": "MOEVE",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "Palmeira",
+      "address": "Avenida Cávado 268",
+      "postalCode": "4700-690",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.96,
+      "updatedAt": "2026-06-23T17:00:00+00:00",
+      "lat": 41.59746,
+      "lon": -8.428921,
+      "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
+    },
+    {
       "id": "generico-eulupepneus-unipessoal-lda-torres-novas-2350-466",
       "name": "EULUPEPNEUS-UNIPESSOAL, LDA",
       "brand": "GENÉRICO",
@@ -3868,40 +3902,6 @@
       "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
     },
     {
-      "id": "moeve-cepsa-orfaos-i-poente-braga-4700-000",
-      "name": "CEPSA ÓRFÃOS -  I (Poente)",
-      "brand": "MOEVE",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "Braga",
-      "address": "Av. Cónego Jorge Peixoto Coutinho- variante 14",
-      "postalCode": "4700-000",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.99,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
-      "lat": 41.543404,
-      "lon": -8.440024,
-      "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
-    },
-    {
-      "id": "moeve-ilidio-mota-palmeira-2-braga-4700-690",
-      "name": "Ilídio Mota - Palmeira 2",
-      "brand": "MOEVE",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "Palmeira",
-      "address": "Avenida Cávado 268",
-      "postalCode": "4700-690",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.99,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
-      "lat": 41.59746,
-      "lon": -8.428921,
-      "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
-    },
-    {
       "id": "generico-galp-ofimaq-pousos-leiria-leiria-2410-211",
       "name": "Galp-OFIMAQ- Pousos_Leiria",
       "brand": "GENÉRICO",
@@ -4525,7 +4525,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.0,
-      "updatedAt": "2026-06-19T18:50:00+00:00",
+      "updatedAt": "2026-06-23T18:55:00+00:00",
       "lat": 39.68448,
       "lon": -8.96818,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis calcos martinganca|av. nossa sra. da nazare, en 242, km 21|2445-701|alcobaca"
@@ -4542,7 +4542,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.0,
-      "updatedAt": "2026-06-19T18:50:00+00:00",
+      "updatedAt": "2026-06-23T18:55:00+00:00",
       "lat": 39.750379,
       "lon": -8.904627,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis marinha grande|zona industrial da embra|2430-091|marinha grande"
@@ -5783,7 +5783,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-23T16:55:00+00:00",
       "lat": 39.14572,
       "lon": -9.2822,
       "sourceKey": "REPSOL|e.s. a-dos-cunhados|rua 8 setembro|2560-063|torres vedras"
