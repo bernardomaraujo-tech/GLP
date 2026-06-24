@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-24T08:56:56.942241+00:00",
+  "generatedAt": "2026-06-24T14:12:08.133063+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-24T09:45:00+00:00",
+  "dataUpdatedAt": "2026-06-24T15:10:00+00:00",
   "stats": {
     "totalStations": 440,
     "withCoordinates": 440,
@@ -1057,7 +1057,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.919,
-      "updatedAt": "2026-06-24T09:40:00+00:00",
+      "updatedAt": "2026-06-24T11:30:00+00:00",
       "lat": 38.77347,
       "lon": -9.216102,
       "sourceKey": "AUCHAN|auchan amadora (ubbo)|av lima de freitas parcela a|2650-501|amadora"
@@ -1176,7 +1176,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.92,
-      "updatedAt": "2026-06-16T11:45:00+00:00",
+      "updatedAt": "2026-06-24T12:45:00+00:00",
       "lat": 40.24117,
       "lon": -8.48303,
       "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
@@ -1528,7 +1528,7 @@
       "district": "Porto",
       "municipality": "Vila do Conde",
       "locality": "Touguinhó",
-      "address": "Avenida José Ramos Maia S/N",
+      "address": "Avenida José Ramos Maia S/N,  4480-575 Touguinhó",
       "postalCode": "4480-575",
       "zone": "Norte",
       "fuel": "GPL Auto",
@@ -1536,7 +1536,7 @@
       "updatedAt": "2026-06-22T16:45:00+00:00",
       "lat": 41.392284,
       "lon": -8.700511,
-      "sourceKey": "ECOBRENT|ecobrent - touguinho|avenida jose ramos maia s/n|4480-575|vila do conde"
+      "sourceKey": "ECOBRENT|ecobrent - touguinho|avenida jose ramos maia s/n, 4480-575 touguinho|4480-575|vila do conde"
     },
     {
       "id": "ecobrent-ecobrent-modivas-vila-do-conde-4485-592",
@@ -4729,7 +4729,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-23T15:15:00+00:00",
+      "updatedAt": "2026-06-24T10:45:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -6452,6 +6452,40 @@
       "sourceKey": "BP|bp estremoz|zona industrial de estremoz, lote no 63|7100-147|estremoz"
     },
     {
+      "id": "generico-pa-r-star-energy-espinho-espinho-4500-088",
+      "name": "PA R STAR ENERGY Espinho",
+      "brand": "GENÉRICO",
+      "district": "Aveiro",
+      "municipality": "Espinho",
+      "locality": "Espinho",
+      "address": "Rua Ponte D`Anta",
+      "postalCode": "4500-088",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.04,
+      "updatedAt": "2026-06-24T15:05:00+00:00",
+      "lat": 41.015324,
+      "lon": -8.633272,
+      "sourceKey": "GENÉRICO|pa r star energy espinho|rua ponte d`anta|4500-088|espinho"
+    },
+    {
+      "id": "generico-energy-penafiel-penafiel-4560-492",
+      "name": "ENERGY PENAFIEL",
+      "brand": "GENÉRICO",
+      "district": "Porto",
+      "municipality": "Penafiel",
+      "locality": "Penafiel",
+      "address": "Av. Cavalum Milhundos",
+      "postalCode": "4560-492",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.04,
+      "updatedAt": "2026-06-24T15:10:00+00:00",
+      "lat": 41.20923,
+      "lon": -8.27103,
+      "sourceKey": "GENÉRICO|energy penafiel|av. cavalum milhundos|4560-492|penafiel"
+    },
+    {
       "id": "repsol-e-s-porto-de-mos-porto-de-mos-2480-170",
       "name": "E.S. PORTO DE MOS",
       "brand": "REPSOL",
@@ -7419,40 +7453,6 @@
       "lat": 40.7019,
       "lon": -8.245872,
       "sourceKey": "BEQ|beq paredes do gravo|paredes de gravo|3680-174|oliveira de frades"
-    },
-    {
-      "id": "generico-pa-r-star-energy-espinho-espinho-4500-088",
-      "name": "PA R STAR ENERGY Espinho",
-      "brand": "GENÉRICO",
-      "district": "Aveiro",
-      "municipality": "Espinho",
-      "locality": "Espinho",
-      "address": "Rua Ponte D`Anta",
-      "postalCode": "4500-088",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.191,
-      "updatedAt": "2026-06-22T17:35:00+00:00",
-      "lat": 41.015324,
-      "lon": -8.633272,
-      "sourceKey": "GENÉRICO|pa r star energy espinho|rua ponte d`anta|4500-088|espinho"
-    },
-    {
-      "id": "generico-energy-penafiel-penafiel-4560-492",
-      "name": "ENERGY PENAFIEL",
-      "brand": "GENÉRICO",
-      "district": "Porto",
-      "municipality": "Penafiel",
-      "locality": "Penafiel",
-      "address": "Av. Cavalum Milhundos",
-      "postalCode": "4560-492",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.191,
-      "updatedAt": "2026-06-22T17:40:00+00:00",
-      "lat": 41.20923,
-      "lon": -8.27103,
-      "sourceKey": "GENÉRICO|energy penafiel|av. cavalum milhundos|4560-492|penafiel"
     },
     {
       "id": "gaspe-gaspe-braganca-braganca-5300-274",
