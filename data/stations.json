@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-25T08:51:45.989416+00:00",
+  "generatedAt": "2026-06-25T14:09:04.172361+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-25T09:50:00+00:00",
+  "dataUpdatedAt": "2026-06-25T15:05:00+00:00",
   "stats": {
-    "totalStations": 432,
-    "withCoordinates": 432,
-    "withPrice": 432
+    "totalStations": 435,
+    "withCoordinates": 435,
+    "withPrice": 435
   },
   "stations": [
     {
@@ -228,6 +228,23 @@
       "lat": 40.25461,
       "lon": -8.429237,
       "sourceKey": "AUCHAN|auchan eiras|ribeira de eiras|3020-322|coimbra"
+    },
+    {
+      "id": "oz-energia-cl-autogas-montemor-o-velho-3140-563",
+      "name": "CL-AUTOGÁS.",
+      "brand": "OZ ENERGIA",
+      "district": "Coimbra",
+      "municipality": "Montemor-o-Velho",
+      "locality": "Tentúgal",
+      "address": "Est. Nacional 111",
+      "postalCode": "3140-563",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.899,
+      "updatedAt": "2026-06-25T10:50:00+00:00",
+      "lat": 40.217327,
+      "lon": -8.598031,
+      "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
     },
     {
       "id": "auchan-auchan-faro-faro-8000-074",
@@ -755,6 +772,23 @@
       "lat": 40.65145,
       "lon": -8.61118,
       "sourceKey": "CEPSA|cepsa aveiro zi|rua joao francisco do casal, 122|3800-264|aveiro"
+    },
+    {
+      "id": "cepsa-cepsa-oliveira-de-azemeis-oliveira-de-azemeis-3720-268",
+      "name": "CEPSA  Oliveira de Azeméis",
+      "brand": "CEPSA",
+      "district": "Aveiro",
+      "municipality": "Oliveira de Azeméis",
+      "locality": "Oliveira de Azeméis",
+      "address": "Av. Francisco Tavares, nº 11",
+      "postalCode": "3720-268",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.916,
+      "updatedAt": "2026-06-25T10:35:00+00:00",
+      "lat": 40.84614,
+      "lon": -8.4687,
+      "sourceKey": "CEPSA|cepsa oliveira de azemeis|av. francisco tavares, no 11|3720-268|oliveira de azemeis"
     },
     {
       "id": "moeve-supremotiv-lda-loule-8100-272",
@@ -1862,23 +1896,6 @@
       "sourceKey": "AUCHAN|auchan evora|rua werner siemens, lote 9 - zona industrial|7005-345|evora"
     },
     {
-      "id": "moeve-cepsa-orfaos-i-poente-braga-4700-000",
-      "name": "CEPSA ÓRFÃOS -  I (Poente)",
-      "brand": "MOEVE",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "Braga",
-      "address": "Av. Cónego Jorge Peixoto Coutinho- variante 14",
-      "postalCode": "4700-000",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.96,
-      "updatedAt": "2026-06-24T00:00:00+00:00",
-      "lat": 41.543404,
-      "lon": -8.440024,
-      "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
-    },
-    {
       "id": "galp-santos-da-cunha-6-logistica-e-transportes-lda-braga-4715-034",
       "name": "Santos da Cunha 6 -  Logística e Transportes, Lda.",
       "brand": "GALP",
@@ -1945,6 +1962,23 @@
       "lat": 38.80345,
       "lon": -9.356381,
       "sourceKey": "REPSOL|es rot. da cavaleira - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda da cavaleira algueirao|2710-418|sintra"
+    },
+    {
+      "id": "generico-moitasul-moita-2860-707",
+      "name": "MoitaSul",
+      "brand": "GENÉRICO",
+      "district": "Setúbal",
+      "municipality": "Moita",
+      "locality": "Moita",
+      "address": "Fazenda Do Costa - Carvalhinho",
+      "postalCode": "2860-707",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.965,
+      "updatedAt": "2026-06-25T11:20:00+00:00",
+      "lat": 38.64518,
+      "lon": -8.97844,
+      "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
     },
     {
       "id": "generico-combustiveis-carvalho-lda-vila-nova-de-famalicao-4770-526",
@@ -2744,6 +2778,23 @@
       "lat": 41.206177,
       "lon": -8.633565,
       "sourceKey": "SHELL|shell-recarei|rua de recarei/rua de redolhos|4465-648|matosinhos"
+    },
+    {
+      "id": "generico-js-e-sf-penafiel-4560-800",
+      "name": "js e sf",
+      "brand": "GENÉRICO",
+      "district": "Porto",
+      "municipality": "Penafiel",
+      "locality": "São Mamede de Recezinhos",
+      "address": "Av. de São Mamede,1974",
+      "postalCode": "4560-800",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-06-25T12:00:00+00:00",
+      "lat": 41.2329,
+      "lon": -8.22747,
+      "sourceKey": "GENÉRICO|js e sf|av. de sao mamede,1974|4560-800|penafiel"
     },
     {
       "id": "galp-espertocar-lda-rio-maior-2040-000",
@@ -3766,21 +3817,21 @@
       "sourceKey": "OZ ENERGIA|oz energia - feijo|rua joaquim pires jorge, no19|2810-000|almada"
     },
     {
-      "id": "generico-moitasul-moita-2860-707",
-      "name": "MoitaSul",
-      "brand": "GENÉRICO",
-      "district": "Setúbal",
-      "municipality": "Moita",
-      "locality": "Moita",
-      "address": "Fazenda Do Costa - Carvalhinho",
-      "postalCode": "2860-707",
-      "zone": "Lisboa e Vale do Tejo",
+      "id": "moeve-cepsa-orfaos-i-poente-braga-4700-000",
+      "name": "CEPSA ÓRFÃOS -  I (Poente)",
+      "brand": "MOEVE",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "Braga",
+      "address": "Av. Cónego Jorge Peixoto Coutinho- variante 14",
+      "postalCode": "4700-000",
+      "zone": "Norte",
       "fuel": "GPL Auto",
-      "price": 0.989,
-      "updatedAt": "2026-06-16T12:10:00+00:00",
-      "lat": 38.64518,
-      "lon": -8.97844,
-      "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
+      "price": 0.99,
+      "updatedAt": "2026-06-25T15:05:00+00:00",
+      "lat": 41.543404,
+      "lon": -8.440024,
+      "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
     },
     {
       "id": "moeve-ilidio-mota-palmeira-2-braga-4700-690",
@@ -5137,10 +5188,27 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-06-23T10:45:00+00:00",
+      "updatedAt": "2026-06-25T14:40:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
+    },
+    {
+      "id": "galp-irmaos-beleza-castelo-de-paiva-4550-208",
+      "name": "IRMAOS BELEZA",
+      "brand": "GALP",
+      "district": "Aveiro",
+      "municipality": "Castelo de Paiva",
+      "locality": "Sobrado",
+      "address": "Lugar do Bom Retiro",
+      "postalCode": "4550-208",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.014,
+      "updatedAt": "2026-06-25T12:20:00+00:00",
+      "lat": 41.044731,
+      "lon": -8.265869,
+      "sourceKey": "GALP|irmaos beleza|lugar do bom retiro|4550-208|castelo de paiva"
     },
     {
       "id": "repsol-repsol-famalicao-sul-vila-nova-de-famalicao-4760-281",
@@ -5294,23 +5362,6 @@
       "lat": 41.196667,
       "lon": -8.434161,
       "sourceKey": "REPSOL|repsol gandra - rotunda oliveiras|via rota dos moveis, n.o 50|4585-325|paredes"
-    },
-    {
-      "id": "generico-js-e-sf-penafiel-4560-800",
-      "name": "js e sf",
-      "brand": "GENÉRICO",
-      "district": "Porto",
-      "municipality": "Penafiel",
-      "locality": "São Mamede de Recezinhos",
-      "address": "Av. de São Mamede,1974",
-      "postalCode": "4560-800",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.014,
-      "updatedAt": "2026-06-22T13:00:00+00:00",
-      "lat": 41.2329,
-      "lon": -8.22747,
-      "sourceKey": "GENÉRICO|js e sf|av. de sao mamede,1974|4560-800|penafiel"
     },
     {
       "id": "repsol-e-s-ourem-ourem-2490-506",
@@ -6701,7 +6752,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-24T00:00:00+00:00",
+      "updatedAt": "2026-06-25T15:05:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -7177,7 +7228,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-06-23T09:35:00+00:00",
+      "updatedAt": "2026-06-25T10:25:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
