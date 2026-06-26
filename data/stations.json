@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-26T08:54:26.537997+00:00",
+  "generatedAt": "2026-06-26T14:08:35.143688+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-26T09:50:00+00:00",
+  "dataUpdatedAt": "2026-06-26T14:15:00+00:00",
   "stats": {
     "totalStations": 432,
     "withCoordinates": 432,
@@ -3641,7 +3641,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.989,
-      "updatedAt": "2026-06-22T10:20:00+00:00",
+      "updatedAt": "2026-06-26T14:15:00+00:00",
       "lat": 37.10871,
       "lon": -8.231543,
       "sourceKey": "LUSIADAGÁS|lusiadagas|planeta azul - estrada de brejos, montechoro - albufeira|8200-999|albufeira"
@@ -4695,7 +4695,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-25T09:50:00+00:00",
+      "updatedAt": "2026-06-26T12:30:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5664,7 +5664,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-06-25T09:40:00+00:00",
+      "updatedAt": "2026-06-26T10:05:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -7194,7 +7194,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.109,
-      "updatedAt": "2026-06-25T10:25:00+00:00",
+      "updatedAt": "2026-06-26T10:50:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
