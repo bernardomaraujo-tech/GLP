@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-27T08:29:47.244702+00:00",
+  "generatedAt": "2026-06-27T13:16:42.871315+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-27T08:25:00+00:00",
+  "dataUpdatedAt": "2026-06-27T13:25:00+00:00",
   "stats": {
     "totalStations": 431,
     "withCoordinates": 431,
@@ -5035,7 +5035,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-26T08:20:00+00:00",
+      "updatedAt": "2026-06-27T13:25:00+00:00",
       "lat": 38.633119,
       "lon": -9.149581,
       "sourceKey": "REPSOL|e.s. sta. marta corroios|av. rui gracio|2855-577|seixal"
@@ -6361,7 +6361,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-22T06:00:00+00:00",
+      "updatedAt": "2026-06-27T11:15:00+00:00",
       "lat": 41.190692,
       "lon": -8.398271,
       "sourceKey": "BP|bp vandoma|rua central de vandoma no 50|4585-769|paredes"
