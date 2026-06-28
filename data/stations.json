@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-28T08:44:07.382054+00:00",
+  "generatedAt": "2026-06-28T13:22:06.826181+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-28T08:25:00+00:00",
+  "dataUpdatedAt": "2026-06-28T12:45:00+00:00",
   "stats": {
     "totalStations": 430,
     "withCoordinates": 430,
@@ -41,6 +41,23 @@
       "lat": 40.68503,
       "lon": -8.521238,
       "sourceKey": "Q8|q8 albergaria-a-velha|rua dr. quina ferreira, 74 (en 16 ao km 11.9)|3850-273|albergaria-a-velha"
+    },
+    {
+      "id": "oz-energia-cl-autogas-montemor-o-velho-3140-563",
+      "name": "CL-AUTOGÁS.",
+      "brand": "OZ ENERGIA",
+      "district": "Coimbra",
+      "municipality": "Montemor-o-Velho",
+      "locality": "Tentúgal",
+      "address": "Est. Nacional 111",
+      "postalCode": "3140-563",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.879,
+      "updatedAt": "2026-06-28T12:45:00+00:00",
+      "lat": 40.217327,
+      "lon": -8.598031,
+      "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
     },
     {
       "id": "auchan-auchan-famalicao-vila-nova-de-famalicao-4760-010",
@@ -228,23 +245,6 @@
       "lat": 40.25461,
       "lon": -8.429237,
       "sourceKey": "AUCHAN|auchan eiras|ribeira de eiras|3020-322|coimbra"
-    },
-    {
-      "id": "oz-energia-cl-autogas-montemor-o-velho-3140-563",
-      "name": "CL-AUTOGÁS.",
-      "brand": "OZ ENERGIA",
-      "district": "Coimbra",
-      "municipality": "Montemor-o-Velho",
-      "locality": "Tentúgal",
-      "address": "Est. Nacional 111",
-      "postalCode": "3140-563",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.899,
-      "updatedAt": "2026-06-25T10:50:00+00:00",
-      "lat": 40.217327,
-      "lon": -8.598031,
-      "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
     },
     {
       "id": "auchan-auchan-faro-faro-8000-074",
@@ -3131,7 +3131,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-06-27T00:00:00+00:00",
+      "updatedAt": "2026-06-28T12:45:00+00:00",
       "lat": 38.69204,
       "lon": -9.34819,
       "sourceKey": "REPSOL|e.s. parede|av. maristas|2775-000|cascais"
