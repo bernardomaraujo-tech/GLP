@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-29T10:27:34.803444+00:00",
+  "generatedAt": "2026-06-29T15:34:52.397480+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-29T11:25:00+00:00",
+  "dataUpdatedAt": "2026-06-29T16:15:00+00:00",
   "stats": {
-    "totalStations": 429,
-    "withCoordinates": 429,
-    "withPrice": 429
+    "totalStations": 427,
+    "withCoordinates": 427,
+    "withPrice": 427
   },
   "stations": [
     {
@@ -377,7 +377,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.907,
-      "updatedAt": "2026-06-22T18:25:00+00:00",
+      "updatedAt": "2026-06-29T12:00:00+00:00",
       "lat": 38.9516,
       "lon": -9.33227,
       "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
@@ -428,7 +428,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.909,
-      "updatedAt": "2026-06-22T09:30:00+00:00",
+      "updatedAt": "2026-06-29T12:45:00+00:00",
       "lat": 41.53171,
       "lon": -8.69155,
       "sourceKey": "PRIO|prio - perelhal|rua frei pedro de perelhal, 856|4750-620|barcelos"
@@ -466,6 +466,23 @@
       "lat": 39.63865,
       "lon": -8.71554,
       "sourceKey": "ALVES BANDEIRA|alves bandeira vale de ourem|e.n. 356 - estrada da batalha|2495-036|batalha"
+    },
+    {
+      "id": "chamagas-chamagas-leiria-leiria-2400-019",
+      "name": "CHAMAGÁS LEIRIA",
+      "brand": "CHAMAGÁS",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Parceiros",
+      "address": "Rua de Santa Clara - Parceiros",
+      "postalCode": "2400-019",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.909,
+      "updatedAt": "2026-06-29T14:30:00+00:00",
+      "lat": 39.73963,
+      "lon": -8.82211,
+      "sourceKey": "CHAMAGÁS|chamagas leiria|rua de santa clara - parceiros|2400-019|leiria"
     },
     {
       "id": "prio-prio-alta-de-lisboa-lisboa-1750-114",
@@ -683,7 +700,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.909,
-      "updatedAt": "2026-06-26T07:00:00+00:00",
+      "updatedAt": "2026-06-29T14:30:00+00:00",
       "lat": 41.068367,
       "lon": -8.575472,
       "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
@@ -1029,23 +1046,6 @@
       "sourceKey": "PRIO|prio faro|en 125-10 (estrada do aeroporto)|8005-146|faro"
     },
     {
-      "id": "chamagas-chamagas-leiria-leiria-2400-019",
-      "name": "CHAMAGÁS LEIRIA",
-      "brand": "CHAMAGÁS",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Parceiros",
-      "address": "Rua de Santa Clara - Parceiros",
-      "postalCode": "2400-019",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.919,
-      "updatedAt": "2026-06-22T14:35:00+00:00",
-      "lat": 39.73963,
-      "lon": -8.82211,
-      "sourceKey": "CHAMAGÁS|chamagas leiria|rua de santa clara - parceiros|2400-019|leiria"
-    },
-    {
       "id": "prio-prio-guia-pombal-3105-099",
       "name": "PRIO Guia",
       "brand": "PRIO",
@@ -1295,7 +1295,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-06-22T14:45:00+00:00",
+      "updatedAt": "2026-06-29T14:25:00+00:00",
       "lat": 41.57053,
       "lon": -8.685565,
       "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
@@ -2434,7 +2434,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.976,
-      "updatedAt": "2026-06-22T09:35:00+00:00",
+      "updatedAt": "2026-06-29T12:10:00+00:00",
       "lat": 40.190334,
       "lon": -7.488123,
       "sourceKey": "MOEVE|a23 fundao (fnd/cbr)|a23, lanco km 18,5 teixoso alqueria, apt. 370|6230-022|fundao"
@@ -2451,7 +2451,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.976,
-      "updatedAt": "2026-06-22T09:35:00+00:00",
+      "updatedAt": "2026-06-29T12:10:00+00:00",
       "lat": 40.190697,
       "lon": -7.486373,
       "sourceKey": "MOEVE|a23 fundao (c.b. / fundao)|a23, lanco km 18,5 teixoso alqueria|6230-198|fundao"
@@ -2638,7 +2638,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-06-22T12:40:00+00:00",
+      "updatedAt": "2026-06-29T14:15:00+00:00",
       "lat": 39.55952,
       "lon": -8.97807,
       "sourceKey": "GALP|sociedade automoveis cruz de cristo, lda (1)|av. general humberto delgado|2460-052|alcobaca"
@@ -2808,7 +2808,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-06-25T12:00:00+00:00",
+      "updatedAt": "2026-06-29T13:00:00+00:00",
       "lat": 41.2329,
       "lon": -8.22747,
       "sourceKey": "GENÉRICO|js e sf|av. de sao mamede,1974|4560-800|penafiel"
@@ -3237,23 +3237,6 @@
       "lat": 41.23925,
       "lon": -8.306453,
       "sourceKey": "REPSOL|e.s. sequeiros|avenida de sequeiros, 940|4620-226|lousada"
-    },
-    {
-      "id": "repsol-e-s-padrao-da-moreira-maia-4470-616",
-      "name": "E.S. PADRAO DA MOREIRA",
-      "brand": "REPSOL",
-      "district": "Porto",
-      "municipality": "Maia",
-      "locality": "Porto",
-      "address": "Rua Conselheiro Luís Magalhães, 161",
-      "postalCode": "4470-616",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.984,
-      "updatedAt": "2026-06-29T00:05:00+00:00",
-      "lat": 41.246089,
-      "lon": -8.648967,
-      "sourceKey": "REPSOL|e.s. padrao da moreira|rua conselheiro luis magalhaes, 161|4470-616|maia"
     },
     {
       "id": "galp-galp-a-s-aguas-santas-amar-porto-maia-4425-547",
@@ -4083,7 +4066,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-29T12:45:00+00:00",
       "lat": 40.7847,
       "lon": -8.491492,
       "sourceKey": "CEPSA|cepsa pinheiro da bemposta|rua de sao paio, 564|3720-463|oliveira de azemeis"
@@ -4100,7 +4083,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-29T12:45:00+00:00",
       "lat": 41.056435,
       "lon": -8.567146,
       "sourceKey": "CEPSA|cepsa carvalhos - pedroso|av .dr. moreira de sousa no 2316|4415-382|vila nova de gaia"
@@ -4117,7 +4100,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-06-22T00:00:00+00:00",
+      "updatedAt": "2026-06-29T12:45:00+00:00",
       "lat": 41.07038,
       "lon": -8.625255,
       "sourceKey": "CEPSA|cepsa gulpilhares|rua salvador brandao, gulpilhares|4405-702|vila nova de gaia"
@@ -4508,7 +4491,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-25T16:40:00+00:00",
+      "updatedAt": "2026-06-29T16:05:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -4699,23 +4682,6 @@
       "lat": 41.18037,
       "lon": -8.568678,
       "sourceKey": "REPSOL|repsol rio tinto ii|rua de rebordoes n.o 297|4435-416|gondomar"
-    },
-    {
-      "id": "repsol-e-s-pacos-de-ferreira-pacos-de-ferreira-4594-930",
-      "name": "E.S. PACOS DE FERREIRA",
-      "brand": "REPSOL",
-      "district": "Porto",
-      "municipality": "Paços de Ferreira",
-      "locality": "Paços de Ferreira",
-      "address": "Via do Poder Local",
-      "postalCode": "4594-930",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.004,
-      "updatedAt": "2026-06-29T00:05:00+00:00",
-      "lat": 41.26708,
-      "lon": -8.37683,
-      "sourceKey": "REPSOL|e.s. pacos de ferreira|via do poder local|4594-930|pacos de ferreira"
     },
     {
       "id": "repsol-e-s-pacos-de-ferreira-ii-pacos-de-ferreira-4595-144",
@@ -6078,21 +6044,21 @@
       "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
     },
     {
-      "id": "bp-boxoil-vizela-4815-000",
-      "name": "Boxoil",
+      "id": "bp-bp-vizela-rotunda-vizela-4815-435",
+      "name": "BP vizela Rotunda",
       "brand": "BP",
       "district": "Braga",
       "municipality": "Vizela",
       "locality": "Vizela",
-      "address": "Rua Guilherme Caldas Peixoto 183",
-      "postalCode": "4815-000",
+      "address": "Rua Guilherme Caldas Peixoto",
+      "postalCode": "4815-435",
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
       "updatedAt": "2026-06-23T08:40:00+00:00",
       "lat": 41.37069,
       "lon": -8.31226,
-      "sourceKey": "BP|boxoil|rua guilherme caldas peixoto 183|4815-000|vizela"
+      "sourceKey": "BP|bp vizela rotunda|rua guilherme caldas peixoto|4815-435|vizela"
     },
     {
       "id": "bp-coimbra-pedrulha-coimbra-3020-000",
@@ -6327,7 +6293,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-29T09:55:00+00:00",
+      "updatedAt": "2026-06-29T14:05:00+00:00",
       "lat": 40.537857,
       "lon": -8.052477,
       "sourceKey": "PRIO|gascomb prio tondela|en2 - lugar de naia|3460-016|tondela"
@@ -6429,7 +6395,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-06-29T00:00:00+00:00",
+      "updatedAt": "2026-06-29T13:25:00+00:00",
       "lat": 37.95812,
       "lon": -8.86573,
       "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
@@ -6667,7 +6633,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
+      "updatedAt": "2026-06-29T16:15:00+00:00",
       "lat": 40.333233,
       "lon": -8.492696,
       "sourceKey": "BP|bp a1 mealhada (este)|a1 - km 204 - enxofaes - murtede|3060-000|cantanhede"
@@ -6684,7 +6650,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
+      "updatedAt": "2026-06-29T16:15:00+00:00",
       "lat": 40.334175,
       "lon": -8.495814,
       "sourceKey": "BP|bp a1 mealhada (oeste)|a1 - km 204 - enxofaes - murtede|3060-000|cantanhede"
@@ -6803,7 +6769,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
+      "updatedAt": "2026-06-29T16:15:00+00:00",
       "lat": 39.391315,
       "lon": -8.637829,
       "sourceKey": "BP|bp a1 santarem (este)|a. e. 1 - km 84|2001-701|santarem"
@@ -6820,7 +6786,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
+      "updatedAt": "2026-06-29T16:15:00+00:00",
       "lat": 39.393482,
       "lon": -8.640076,
       "sourceKey": "BP|bp a1 santarem (oeste)|a. e. 1 - km 84|2001-701|santarem"
@@ -6837,7 +6803,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-06-23T00:00:00+00:00",
+      "updatedAt": "2026-06-29T16:15:00+00:00",
       "lat": 38.622807,
       "lon": -9.134171,
       "sourceKey": "BP|bp a2 seixal|a. e. 2 km 12 sublanco almada - fogueteiro|2840-000|seixal"
@@ -7092,7 +7058,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.089,
-      "updatedAt": "2026-06-22T14:45:00+00:00",
+      "updatedAt": "2026-06-29T12:00:00+00:00",
       "lat": 38.67433,
       "lon": -8.445581,
       "sourceKey": "TFUEL|tfuel - vendas novas|rua sao joao de deus|7080-031|vendas novas"
