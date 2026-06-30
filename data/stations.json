@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T09:00:29.058977+00:00",
+  "generatedAt": "2026-06-30T14:01:45.520910+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-06-30T09:45:00+00:00",
+  "dataUpdatedAt": "2026-06-30T12:20:00+00:00",
   "stats": {
     "totalStations": 427,
     "withCoordinates": 427,
@@ -1822,7 +1822,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-06-30T07:25:00+00:00",
+      "updatedAt": "2026-06-30T12:20:00+00:00",
       "lat": 41.08775,
       "lon": -7.798573,
       "sourceKey": "LECLERC|e. leclerc lamego|quinta dos prados de baixo - lugar da rina|5100-196|lamego"
@@ -4134,7 +4134,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.998,
-      "updatedAt": "2026-06-22T13:35:00+00:00",
+      "updatedAt": "2026-06-30T10:50:00+00:00",
       "lat": 41.377384,
       "lon": -8.172588,
       "sourceKey": "GENÉRICO|posto sodimapi felgueiras|lameiro-morto, sendim|4610-750|felgueiras"
@@ -4627,7 +4627,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-06-29T10:35:00+00:00",
+      "updatedAt": "2026-06-30T10:35:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -6004,7 +6004,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-06-22T15:30:00+00:00",
+      "updatedAt": "2026-06-30T10:30:00+00:00",
       "lat": 41.50852,
       "lon": -7.994753,
       "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
@@ -6537,21 +6537,21 @@
       "sourceKey": "REPSOL|a s gaia b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1 ao km 295 sul/norte|4430-129|vila nova de gaia"
     },
     {
-      "id": "repsol-e-s-gaia-a-a-s-vila-nova-de-gaia-4400-000",
-      "name": "E.S. GAIA A - A.S.",
+      "id": "repsol-as-gaia-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-vila-nova-de-gaia-4430-129",
+      "name": "AS GAIA A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
       "district": "Porto",
       "municipality": "Vila Nova de Gaia",
       "locality": "Vila Nova de Gaia",
-      "address": "A 1 Km 295",
-      "postalCode": "4400-000",
+      "address": "A1 ao Km 295 Sul/Norte",
+      "postalCode": "4430-129",
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.054,
       "updatedAt": "2026-06-30T08:15:00+00:00",
-      "lat": 41.101417,
+      "lat": 41.101418,
       "lon": -8.599467,
-      "sourceKey": "REPSOL|e.s. gaia a - a.s.|a 1 km 295|4400-000|vila nova de gaia"
+      "sourceKey": "REPSOL|as gaia a - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1 ao km 295 sul/norte|4430-129|vila nova de gaia"
     },
     {
       "id": "repsol-repsol-a2-grandola-alg-lis-grandola-7570-512",
