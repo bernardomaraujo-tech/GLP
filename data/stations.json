@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-01T09:33:26.169222+00:00",
+  "generatedAt": "2026-07-01T14:14:43.177564+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-01T10:10:00+00:00",
+  "dataUpdatedAt": "2026-07-01T15:05:00+00:00",
   "stats": {
-    "totalStations": 426,
-    "withCoordinates": 426,
-    "withPrice": 426
+    "totalStations": 428,
+    "withCoordinates": 428,
+    "withPrice": 428
   },
   "stations": [
     {
@@ -143,6 +143,23 @@
       "lat": 38.58063,
       "lon": -9.041657,
       "sourceKey": "AUCHAN|auchan coina|en 10 km 18,5|2830-411|barreiro"
+    },
+    {
+      "id": "generico-pa-petrozona-sao-joao-da-madeira-sao-joao-da-madeira-3700-317",
+      "name": "PA PETROZONA São João da Madeira",
+      "brand": "GENÉRICO",
+      "district": "Aveiro",
+      "municipality": "São João da Madeira",
+      "locality": "São João da Madeira",
+      "address": "Rua Domingos Jose de Oliveira",
+      "postalCode": "3700-317",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.897,
+      "updatedAt": "2026-07-01T15:05:00+00:00",
+      "lat": 40.898796,
+      "lon": -8.477838,
+      "sourceKey": "GENÉRICO|pa petrozona sao joao da madeira|rua domingos jose de oliveira|3700-317|sao joao da madeira"
     },
     {
       "id": "esso-novais-barcelos-4775-193",
@@ -1403,6 +1420,23 @@
       "sourceKey": "ALVES BANDEIRA|ab de abrantes|rua d. joao i|2200-233|abrantes"
     },
     {
+      "id": "galp-santos-da-cunha-6-logistica-e-transportes-lda-braga-4715-034",
+      "name": "Santos da Cunha 6 -  Logística e Transportes, Lda.",
+      "brand": "GALP",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "Braga",
+      "address": "EN 14 - Av. João Paulo II",
+      "postalCode": "4715-034",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.934,
+      "updatedAt": "2026-07-01T11:10:00+00:00",
+      "lat": 41.551822,
+      "lon": -8.40931,
+      "sourceKey": "GALP|santos da cunha 6 - logistica e transportes, lda.|en 14 - av. joao paulo ii|4715-034|braga"
+    },
+    {
       "id": "galp-petropostos-comercio-de-combustiveis-lda-coimbra-3000-125",
       "name": "PETROPOSTOS COMERCIO DE COMBUSTIVEIS LDA",
       "brand": "GALP",
@@ -1692,6 +1726,23 @@
       "sourceKey": "GALP|galp porto - francos|rotunda do bessa|4100-012|porto"
     },
     {
+      "id": "galp-galp-gaia-vila-nova-de-gaia-4430-247",
+      "name": "GALP GAIA",
+      "brand": "GALP",
+      "district": "Porto",
+      "municipality": "Vila Nova de Gaia",
+      "locality": "Oliveira do Douro",
+      "address": "Av. Vasco da Gama nº 1538",
+      "postalCode": "4430-247",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.944,
+      "updatedAt": "2026-07-01T11:10:00+00:00",
+      "lat": 41.11363,
+      "lon": -8.59042,
+      "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
+    },
+    {
       "id": "galp-galp-vila-nova-de-gaia-norte-vila-nova-de-gaia-4400-698",
       "name": "GALP Vila Nova de Gaia (Norte)",
       "brand": "GALP",
@@ -1911,6 +1962,23 @@
       "lat": 40.018032,
       "lon": -8.813965,
       "sourceKey": "GALP|galp marinha das ondas (n/s) - posicao 11674|en 109 - no 176|3090-485|figueira da foz"
+    },
+    {
+      "id": "galp-lubriolhao-lda-loule-8135-107",
+      "name": "Lubriolhão, Lda",
+      "brand": "GALP",
+      "district": "Faro",
+      "municipality": "Loulé",
+      "locality": "Barros de Almancil",
+      "address": "Estrada da Fonte Santa",
+      "postalCode": "8135-107",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.954,
+      "updatedAt": "2026-07-01T14:10:00+00:00",
+      "lat": 37.08517,
+      "lon": -8.04257,
+      "sourceKey": "GALP|lubriolhao, lda|estrada da fonte santa|8135-107|loule"
     },
     {
       "id": "galp-galp-a-s-aguas-santas-amar-porto-maia-4425-547",
@@ -2355,23 +2423,6 @@
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
     },
     {
-      "id": "galp-santos-da-cunha-6-logistica-e-transportes-lda-braga-4715-034",
-      "name": "Santos da Cunha 6 -  Logística e Transportes, Lda.",
-      "brand": "GALP",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "Braga",
-      "address": "EN 14 - Av. João Paulo II",
-      "postalCode": "4715-034",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.964,
-      "updatedAt": "2026-06-22T10:45:00+00:00",
-      "lat": 41.551822,
-      "lon": -8.40931,
-      "sourceKey": "GALP|santos da cunha 6 - logistica e transportes, lda.|en 14 - av. joao paulo ii|4715-034|braga"
-    },
-    {
       "id": "galp-galp-a-s-oeiras-casc-lisb-oeiras-2780-201",
       "name": "GALP A.S. Oeiras (Casc/Lisb)",
       "brand": "GALP",
@@ -2540,6 +2591,23 @@
       "lat": 41.45777,
       "lon": -8.71975,
       "sourceKey": "OZ ENERGIA|oz energia - barqueiros|estrada nacional 205 - km 9|4740-694|barcelos"
+    },
+    {
+      "id": "galp-posto-galp-lousa-en342-anibal-antunes-bandeira-lda-lousa-3200-133",
+      "name": "Posto GALP Lousã EN342  - Anibal Antunes Bandeira, Lda",
+      "brand": "GALP",
+      "district": "Coimbra",
+      "municipality": "Lousã",
+      "locality": "Zona Industrial do Alto do Padrão",
+      "address": "EN 342 ao Km 8,75 (Variante Lousã-Miranda do Corvo)",
+      "postalCode": "3200-133",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-07-01T11:45:00+00:00",
+      "lat": 40.11746,
+      "lon": -8.28732,
+      "sourceKey": "GALP|posto galp lousa en342 - anibal antunes bandeira, lda|en 342 ao km 8,75 (variante lousa-miranda do corvo)|3200-133|lousa"
     },
     {
       "id": "auchan-auchan-lagoa-lagoa-8400-701",
@@ -3475,23 +3543,6 @@
       "lat": 37.136974,
       "lon": -8.110044,
       "sourceKey": "GALP|galp a22 loule (faro/loule)|a. e. 22 km 62.5 sublanco guia / loule_aparta|8100-000|loule"
-    },
-    {
-      "id": "galp-lubriolhao-lda-loule-8135-107",
-      "name": "Lubriolhão, Lda",
-      "brand": "GALP",
-      "district": "Faro",
-      "municipality": "Loulé",
-      "locality": "Barros de Almancil",
-      "address": "Estrada da Fonte Santa",
-      "postalCode": "8135-107",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.984,
-      "updatedAt": "2026-06-22T18:30:00+00:00",
-      "lat": 37.08517,
-      "lon": -8.04257,
-      "sourceKey": "GALP|lubriolhao, lda|estrada da fonte santa|8135-107|loule"
     },
     {
       "id": "repsol-e-s-olhao-olhao-8700-207",
@@ -4478,23 +4529,6 @@
       "lat": 39.572548,
       "lon": -7.78226,
       "sourceKey": "GALP|galp a.s. a23 vila velha de rodao (s/n)|a23 - km 80 - fratel|6030-012|vila velha de rodao"
-    },
-    {
-      "id": "galp-posto-galp-lousa-en342-anibal-antunes-bandeira-lda-lousa-3200-133",
-      "name": "Posto GALP Lousã EN342  - Anibal Antunes Bandeira, Lda",
-      "brand": "GALP",
-      "district": "Coimbra",
-      "municipality": "Lousã",
-      "locality": "Zona Industrial do Alto do Padrão",
-      "address": "EN 342 ao Km 8,75 (Variante Lousã-Miranda do Corvo)",
-      "postalCode": "3200-133",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-06-29T00:05:00+00:00",
-      "lat": 40.11746,
-      "lon": -8.28732,
-      "sourceKey": "GALP|posto galp lousa en342 - anibal antunes bandeira, lda|en 342 ao km 8,75 (variante lousa-miranda do corvo)|3200-133|lousa"
     },
     {
       "id": "prio-ig-combustiveis-oliveira-do-hospital-3400-058",
@@ -6435,6 +6469,23 @@
       "sourceKey": "INTERMARCHÉ|intermarche alcacer do sal|cerrado das majapoas|7580-054|alcacer do sal"
     },
     {
+      "id": "generico-pagpl-c-m-pedro-autoreparadora-boliqueime-loule-8100-089",
+      "name": "PAGPL C.M.Pedro Autoreparadora Boliqueime",
+      "brand": "GENÉRICO",
+      "district": "Faro",
+      "municipality": "Loulé",
+      "locality": "Povo Velho",
+      "address": "ESTRADA NACIONAL 270 POSTO GPL BOLIQUEIME",
+      "postalCode": "8100-089",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 1.05,
+      "updatedAt": "2026-07-01T11:10:00+00:00",
+      "lat": 37.12806,
+      "lon": -8.159311,
+      "sourceKey": "GENÉRICO|pagpl c.m.pedro autoreparadora boliqueime|estrada nacional 270 posto gpl boliqueime|8100-089|loule"
+    },
+    {
       "id": "repsol-as-antua-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-estarreja-3850-909",
       "name": "AS ANTUÃ A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -7079,23 +7130,6 @@
       "lat": 41.451572,
       "lon": -8.301094,
       "sourceKey": "GALP|controlsuper - com. de combustiveis lda.|circular urbana de guimaraes\\r\\nen 105|4810-910|guimaraes"
-    },
-    {
-      "id": "galp-galp-gaia-vila-nova-de-gaia-4430-247",
-      "name": "GALP GAIA",
-      "brand": "GALP",
-      "district": "Porto",
-      "municipality": "Vila Nova de Gaia",
-      "locality": "Oliveira do Douro",
-      "address": "Av. Vasco da Gama nº 1538",
-      "postalCode": "4430-247",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.109,
-      "updatedAt": "2026-06-30T09:45:00+00:00",
-      "lat": 41.11363,
-      "lon": -8.59042,
-      "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
     },
     {
       "id": "bp-bp-vale-de-figueira-loures-2695-772",
