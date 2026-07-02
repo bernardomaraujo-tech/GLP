@@ -117,7 +117,6 @@
 "E.S. GUARDA SUL ROTUNDA";"Outro";"Guarda";"1,014 €";"REPSOL";"GPL Auto";"2026-06-29 00:00";"Guarda";"Av Veiga Simão, Parque Industrial da Guarda";"GUARDA";"6300-625";40.53441;-7.243571
 "E.S. PONTE CHAMUSCA";"Outro";"Chamusca";"1,004 €";"REPSOL";"GPL Auto";"2026-06-29 00:00";"Santarém";"Ponte da Chamusca";"Ponte da Chamusca";"2140-000";39.37976;-8.45504
 "E.S. CANAS DE SENHORIM";"Outro";"Nelas";"0,984 €";"REPSOL";"GPL Auto";"2026-06-29 00:00";"Viseu";"Rua da Estação - Lugar da Raposeira";"Canas de Senhorim";"3525-018";40.4961;-7.9047
-"E.S. BARRO ZI  ";"Outro";"Águeda";"0,994 €";"REPSOL";"GPL Auto";"2026-06-29 00:00";"Aveiro";"Zona Industrial";"Barrô";"3750-353";40.53712;-8.45097
 "E.S. AVELAR";"Outro";"Ansião";"1,014 €";"REPSOL";"GPL Auto";"2026-06-29 00:00";"Leiria";"Rua das Cinco Vilas";"Avelar";"3240-306";39.92142;-8.36953
 "A23 ABRANTES (ABR/LIS)";"Auto-estrada";"Abrantes";"0,976 €";"MOEVE";"GPL Auto";"2026-06-29 00:00";"Santarém";"A 23, KM 44, SUB-LANÇO ABRANTES - MOURISCAS, APT. 70";"Abrantes";"2200-037";39.4857;-8.158823
 "A23 ABRANTES (LIS/ABR)";"Auto-estrada";"Abrantes";"0,976 €";"MOEVE";"GPL Auto";"2026-06-29 00:00";"Santarém";"A 23, KM 44, SUB-LANÇO ABRANTES - MOURISCAS, APT. 70";"Abrantes";"2200-006";39.485092;-8.155059
@@ -219,7 +218,6 @@
 "PETRO BASTO ENERGIA -  Cabeceira de Basto";"Outro";"Cabeceiras de Basto";"1,039 €";"PETRO BASTO";"GPL Auto";"2026-06-30 10:30";"Braga";"Rua Monsenhor Dr. António Tanque - PINHEIRO";"Refojos de Basto";"4860-401";41.50852;-7.994753
 "Posto Sodimapi Felgueiras";"Outro";"Felgueiras";"0,998 €";"Genérico";"GPL Auto";"2026-06-30 10:50";"Porto";"Lameiro-Morto, Sendim";"Sendim";"4610-750";41.377384;-8.172588
 "E. LECLERC LAMEGO";"Outro";"Lamego";"0,959 €";"LECLERC";"GPL Auto";"2026-06-30 12:20";"Viseu";"Quinta dos Prados de Baixo - Lugar da Rina";"Lamego";"5100-196";41.08775;-7.798573
-"Lusiadagás";"Outro";"Albufeira";"0,959 €";"LUSIADAGÁS";"GPL Auto";"2026-06-30 15:10";"Faro";"Planeta Azul - Estrada de Brejos, Montechoro - Albufeira";"Albufeira";"8200-999";37.10871;-8.231543
 "Ultra Resistente - Combustiveis, Ldª";"Outro";"Sátão";"0,959 €";"GALP";"GPL Auto";"2026-06-30 16:05";"Viseu";"EN 229 Km 69.800";"Longra";"3560-085";40.75569;-7.72737
 "BEQ Paredes do Gravo";"Outro";"Oliveira de Frades";"1,169 €";"BEQ";"GPL Auto";"2026-06-30 18:15";"Viseu";"Paredes de Gravo ";"Paredes de Gravo";"3680-174";40.7019;-8.245872
 "PETROPOSTOS COMERCIO DE COMBUSTIVEIS LDA";"Outro";"Coimbra";"0,934 €";"GALP";"GPL Auto";"2026-07-01 00:00";"Coimbra";"Circular Externa de Coimbra";"Coimbra- Ribeira de Coselhas";"3000-125";40.22189;-8.43117
@@ -370,3 +368,5 @@
 "GALP GAIA";"Outro";"Vila Nova de Gaia";"0,944 €";"GALP";"GPL Auto";"2026-07-02 08:55";"Porto";"Av. Vasco da Gama nº 1538";"Oliveira do Douro";"4430-247";41.11363;-8.59042
 "E.S. PORTALEGRE";"Outro";"Portalegre";"1,004 €";"REPSOL";"GPL Auto";"2026-07-02 09:10";"Portalegre";"Rua Mestre João Serra Lt. D";"Zona Industrial";"7300-069";39.26658;-7.43713
 "E.S. CERCADO B";"Outro";"Loulé";"1,014 €";"REPSOL";"GPL Auto";"2026-07-02 09:20";"Faro";"EN 125-CERCADO";"Loulé";"8100-287";37.10323;-8.07321
+"ACL VIBA GÁS - ZI Sines";"Outro";"Sines";"1,043 €";"VIBAGÁS";"GPL Auto";"2026-07-02 10:00";"Setúbal";"ZIL 2, RUA 5, LOTE 1248, 7520-309, SINES";"Zona Industrial Ligeira 2";"7520-309";37.96036;-8.84291
+"Lusiadagás";"Outro";"Albufeira";"0,989 €";"LUSIADAGÁS";"GPL Auto";"2026-07-02 10:35";"Faro";"Planeta Azul - Estrada de Brejos, Montechoro - Albufeira";"Albufeira";"8200-999";37.10871;-8.231543

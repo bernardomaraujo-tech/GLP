@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-02T08:49:32.700015+00:00",
+  "generatedAt": "2026-07-02T13:42:56.288382+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-02T09:20:00+00:00",
+  "dataUpdatedAt": "2026-07-02T10:35:00+00:00",
   "stats": {
     "totalStations": 370,
     "withCoordinates": 370,
@@ -1947,23 +1947,6 @@
       "sourceKey": "AUCHAN|auchan castelo branco|zona industrial castelo branco|6000-459|castelo branco"
     },
     {
-      "id": "lusiadagas-lusiadagas-albufeira-8200-999",
-      "name": "Lusiadagás",
-      "brand": "LUSIADAGÁS",
-      "district": "Faro",
-      "municipality": "Albufeira",
-      "locality": "Albufeira",
-      "address": "Planeta Azul - Estrada de Brejos, Montechoro - Albufeira",
-      "postalCode": "8200-999",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-06-30T15:10:00+00:00",
-      "lat": 37.10871,
-      "lon": -8.231543,
-      "sourceKey": "LUSIADAGÁS|lusiadagas|planeta azul - estrada de brejos, montechoro - albufeira|8200-999|albufeira"
-    },
-    {
       "id": "galp-galp-a-s-vilamoura-albufeira-vilamoura-loule-8125-000",
       "name": "GALP A.S. Vilamoura - (Albufeira/Vilamoura)",
       "brand": "GALP",
@@ -3426,6 +3409,23 @@
       "sourceKey": "SHELL|shell argoncilhe|rua da estrada nacional no1|4505-007|santa maria da feira"
     },
     {
+      "id": "lusiadagas-lusiadagas-albufeira-8200-999",
+      "name": "Lusiadagás",
+      "brand": "LUSIADAGÁS",
+      "district": "Faro",
+      "municipality": "Albufeira",
+      "locality": "Albufeira",
+      "address": "Planeta Azul - Estrada de Brejos, Montechoro - Albufeira",
+      "postalCode": "8200-999",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.989,
+      "updatedAt": "2026-07-02T10:35:00+00:00",
+      "lat": 37.10871,
+      "lon": -8.231543,
+      "sourceKey": "LUSIADAGÁS|lusiadagas|planeta azul - estrada de brejos, montechoro - albufeira|8200-999|albufeira"
+    },
+    {
       "id": "shell-a8-obidos-lei-lis-poente-obidos-2500-000",
       "name": "A8 OBIDOS ( LEI / LIS ) POENTE",
       "brand": "SHELL",
@@ -3645,23 +3645,6 @@
       "lat": 40.89818,
       "lon": -8.479,
       "sourceKey": "REPSOL|e.s. s. joao madeira z.ind.|rua domingos jose oliveira, s/n|3700-317|sao joao da madeira"
-    },
-    {
-      "id": "repsol-e-s-barro-zi-agueda-3750-353",
-      "name": "E.S. BARRO ZI",
-      "brand": "REPSOL",
-      "district": "Aveiro",
-      "municipality": "Águeda",
-      "locality": "Barrô",
-      "address": "Zona Industrial",
-      "postalCode": "3750-353",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.994,
-      "updatedAt": "2026-06-29T00:00:00+00:00",
-      "lat": 40.53712,
-      "lon": -8.45097,
-      "sourceKey": "REPSOL|e.s. barro zi|zona industrial|3750-353|agueda"
     },
     {
       "id": "repsol-e-s-estoril-cascais-2775-000",
@@ -5515,6 +5498,23 @@
       "lat": 41.20923,
       "lon": -8.27103,
       "sourceKey": "GENÉRICO|energy penafiel|av. cavalum milhundos|4560-492|penafiel"
+    },
+    {
+      "id": "vibagas-acl-viba-gas-zi-sines-sines-7520-309",
+      "name": "ACL VIBA GÁS - ZI Sines",
+      "brand": "VIBAGÁS",
+      "district": "Setúbal",
+      "municipality": "Sines",
+      "locality": "Zona Industrial Ligeira 2",
+      "address": "ZIL 2, RUA 5, LOTE 1248, 7520-309, SINES",
+      "postalCode": "7520-309",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.043,
+      "updatedAt": "2026-07-02T10:00:00+00:00",
+      "lat": 37.96036,
+      "lon": -8.84291,
+      "sourceKey": "VIBAGÁS|acl viba gas - zi sines|zil 2, rua 5, lote 1248, 7520-309, sines|7520-309|sines"
     },
     {
       "id": "repsol-e-s-porto-de-mos-porto-de-mos-2480-170",
