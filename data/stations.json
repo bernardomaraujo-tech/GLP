@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-03T08:53:11.105629+00:00",
+  "generatedAt": "2026-07-03T13:47:53.822083+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-03T09:50:00+00:00",
+  "dataUpdatedAt": "2026-07-03T14:30:00+00:00",
   "stats": {
-    "totalStations": 347,
-    "withCoordinates": 347,
-    "withPrice": 347
+    "totalStations": 356,
+    "withCoordinates": 356,
+    "withPrice": 356
   },
   "stations": [
     {
@@ -332,6 +332,23 @@
       "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
     },
     {
+      "id": "alves-bandeira-alves-bandeira-albergaria-a-velha-urgeiras-albergaria-a-velha-3850-280",
+      "name": "ALVES BANDEIRA Albergaria-a-Velha (Urgeiras)",
+      "brand": "ALVES BANDEIRA",
+      "district": "Aveiro",
+      "municipality": "Albergaria-a-Velha",
+      "locality": "Urgueiras",
+      "address": "Zona Industrial de Urgueiras - Lugar de Coito",
+      "postalCode": "3850-280",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.909,
+      "updatedAt": "2026-07-03T11:00:00+00:00",
+      "lat": 40.70629,
+      "lon": -8.482127,
+      "sourceKey": "ALVES BANDEIRA|alves bandeira albergaria-a-velha (urgeiras)|zona industrial de urgueiras - lugar de coito|3850-280|albergaria-a-velha"
+    },
+    {
       "id": "prio-prio-perelhal-barcelos-4750-620",
       "name": "PRIO - Perelhal",
       "brand": "PRIO",
@@ -364,6 +381,23 @@
       "lat": 41.42762,
       "lon": -8.43019,
       "sourceKey": "PRIO|prio pousada de saramagos|av. riopele 815|4770-405|vila nova de famalicao"
+    },
+    {
+      "id": "alves-bandeira-alves-bandeira-vale-de-ourem-batalha-2495-036",
+      "name": "ALVES BANDEIRA Vale de Ourém",
+      "brand": "ALVES BANDEIRA",
+      "district": "Leiria",
+      "municipality": "Batalha",
+      "locality": "Vale de Ourém",
+      "address": "E.N. 356 - ESTRADA DA BATALHA",
+      "postalCode": "2495-036",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.909,
+      "updatedAt": "2026-07-03T11:10:00+00:00",
+      "lat": 39.63865,
+      "lon": -8.71554,
+      "sourceKey": "ALVES BANDEIRA|alves bandeira vale de ourem|e.n. 356 - estrada da batalha|2495-036|batalha"
     },
     {
       "id": "chamagas-chamagas-leiria-leiria-2400-019",
@@ -1046,6 +1080,23 @@
       "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
     },
     {
+      "id": "alves-bandeira-alves-bandeira-santa-cruz-do-bispo-matosinhos-4455-877",
+      "name": "ALVES BANDEIRA Santa Cruz do Bispo",
+      "brand": "ALVES BANDEIRA",
+      "district": "Porto",
+      "municipality": "Matosinhos",
+      "locality": "Santa Cruz do Bispo",
+      "address": "Av. Arquiteto Fernando Távora, 1040 - Lugar de Aguiar",
+      "postalCode": "4455-877",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.924,
+      "updatedAt": "2026-07-03T11:15:00+00:00",
+      "lat": 41.213566,
+      "lon": -8.682849,
+      "sourceKey": "ALVES BANDEIRA|alves bandeira santa cruz do bispo|av. arquiteto fernando tavora, 1040 - lugar de aguiar|4455-877|matosinhos"
+    },
+    {
       "id": "leclerc-e-leclerc-caldas-da-rainha-caldas-da-rainha-2504-915",
       "name": "E.LECLERC CALDAS DA RAINHA",
       "brand": "LECLERC",
@@ -1095,6 +1146,23 @@
       "lat": 41.57053,
       "lon": -8.685565,
       "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
+    },
+    {
+      "id": "alves-bandeira-alves-bandeira-landim-vila-nova-de-famalicao-4770-309",
+      "name": "ALVES BANDEIRA Landim",
+      "brand": "ALVES BANDEIRA",
+      "district": "Braga",
+      "municipality": "Vila Nova de Famalicão",
+      "locality": "Landim",
+      "address": "Rua da Est Nacional 204/5, Nº 2035",
+      "postalCode": "4770-309",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-07-03T11:05:00+00:00",
+      "lat": 41.379173,
+      "lon": -8.451441,
+      "sourceKey": "ALVES BANDEIRA|alves bandeira landim|rua da est nacional 204/5, no 2035|4770-309|vila nova de famalicao"
     },
     {
       "id": "galp-santos-da-cunha-6-logistica-e-transportes-lda-braga-4715-034",
@@ -1448,7 +1516,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-02T08:55:00+00:00",
+      "updatedAt": "2026-07-03T11:20:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -1673,6 +1741,23 @@
       "lat": 41.3067,
       "lon": -8.70315,
       "sourceKey": "BP|bp mindelo|estrada nacional 13, km 16.500|4485-470|vila do conde"
+    },
+    {
+      "id": "generico-fernando-oliveira-inocencio-unipessoal-lda-mira-3070-212",
+      "name": "Fernando Oliveira Inocencio, Unipessoal Lda.",
+      "brand": "GENÉRICO",
+      "district": "Coimbra",
+      "municipality": "Mira",
+      "locality": "Leitões",
+      "address": "EN 234 km 2,1 , Via do Infante D. Pedro",
+      "postalCode": "3070-212",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.95,
+      "updatedAt": "2026-07-03T10:15:00+00:00",
+      "lat": 40.420692,
+      "lon": -8.713302,
+      "sourceKey": "GENÉRICO|fernando oliveira inocencio, unipessoal lda.|en 234 km 2,1 , via do infante d. pedro|3070-212|mira"
     },
     {
       "id": "galp-combustiveis-bairrada-lda-2-oliveira-do-bairro-3770-059",
@@ -2236,6 +2321,23 @@
       "sourceKey": "GALP|galp a25 a.s. aveiro - estadio (v/av)|auto estrada a25 / itinerario principal ip5, ao km 15.200, sublanco no do estadio|3800-911|aveiro"
     },
     {
+      "id": "alves-bandeira-alves-bandeira-lourosa-b-norte-sul-santa-maria-da-feira-4535-090",
+      "name": "ALVES BANDEIRA Lourosa B (Norte-Sul)",
+      "brand": "ALVES BANDEIRA",
+      "district": "Aveiro",
+      "municipality": "Santa Maria da Feira",
+      "locality": "Lourosa",
+      "address": "E.N. 1 - AV. PRINCIPAL, Nº 110",
+      "postalCode": "4535-090",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-07-03T11:10:00+00:00",
+      "lat": 40.99839,
+      "lon": -8.540699,
+      "sourceKey": "ALVES BANDEIRA|alves bandeira lourosa b (norte-sul)|e.n. 1 - av. principal, no 110|4535-090|santa maria da feira"
+    },
+    {
       "id": "oz-energia-oz-energia-barqueiros-barcelos-4740-694",
       "name": "OZ ENERGIA  - BARQUEIROS",
       "brand": "OZ ENERGIA",
@@ -2319,6 +2421,23 @@
       "lat": 38.807922,
       "lon": -9.094993,
       "sourceKey": "OZ ENERGIA|oz energia - bobadela (gpl auto)|estrada nacional 10, km140|2695-444|loures"
+    },
+    {
+      "id": "bp-bp-oeiras-cacilhas-oeiras-2780-239",
+      "name": "BP - Oeiras (Cacilhas )",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Oeiras",
+      "locality": "Lugar de Cacilhas",
+      "address": "Rua do Colégio Militar",
+      "postalCode": "2780-239",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-07-03T14:30:00+00:00",
+      "lat": 38.70222,
+      "lon": -9.30844,
+      "sourceKey": "BP|bp - oeiras (cacilhas )|rua do colegio militar|2780-239|oeiras"
     },
     {
       "id": "bp-bp-meinedo-lousada-4620-350",
@@ -2678,6 +2797,23 @@
       "sourceKey": "GALP|sociedade automoveis cruz de cristo, lda (1)|av. general humberto delgado|2460-052|alcobaca"
     },
     {
+      "id": "bp-peniche-av-mons-bastos-peniche-2520-000",
+      "name": "PENICHE - AV. MONS. BASTOS",
+      "brand": "BP",
+      "district": "Leiria",
+      "municipality": "Peniche",
+      "locality": "Peniche",
+      "address": "Av. Monsenhor Bastos",
+      "postalCode": "2520-000",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-07-03T10:00:00+00:00",
+      "lat": 39.353305,
+      "lon": -9.362397,
+      "sourceKey": "BP|peniche - av. mons. bastos|av. monsenhor bastos|2520-000|peniche"
+    },
+    {
       "id": "shell-p35-shell-terrugem-sintra-2705-869",
       "name": "P35 - SHELL Terrugem",
       "brand": "SHELL",
@@ -3012,7 +3148,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-01T00:00:00+00:00",
+      "updatedAt": "2026-07-03T10:30:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -3834,6 +3970,23 @@
       "sourceKey": "BP|bp a1 mealhada (oeste)|a1 - km 204 - enxofaes - murtede|3060-000|cantanhede"
     },
     {
+      "id": "bp-bp-s-bartolomeu-de-messines-area-sul-norte-1100-silves-8375-014",
+      "name": "BP- S. Bartolomeu de Messines Área Sul/Norte 1100",
+      "brand": "BP",
+      "district": "Faro",
+      "municipality": "Silves",
+      "locality": "Barrocal",
+      "address": "IC1 I.P.1c Lanço Messines-Guia Km4",
+      "postalCode": "8375-014",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-07-03T12:30:00+00:00",
+      "lat": 37.2299,
+      "lon": -8.264495,
+      "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
+    },
+    {
       "id": "bp-monte-gordo-norte-vila-real-de-santo-antonio-8900-441",
       "name": "MONTE GORDO NORTE",
       "brand": "BP",
@@ -4004,6 +4157,23 @@
       "sourceKey": "GALP|galp a.s. aveiras cima (s/n)|a1 - km 44|2050-000|azambuja"
     },
     {
+      "id": "bp-ericeira-mafra-2655-319",
+      "name": "ERICEIRA",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Mafra",
+      "locality": "Ericeira",
+      "address": "EN 247, Mil Regos",
+      "postalCode": "2655-319",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-07-03T12:20:00+00:00",
+      "lat": 38.982386,
+      "lon": -9.417686,
+      "sourceKey": "BP|ericeira|en 247, mil regos|2655-319|mafra"
+    },
+    {
       "id": "galp-galp-a8-a-s-torres-vedras-n-s-torres-vedras-2565-646",
       "name": "GALP A8 A.S. Torres Vedras (N/S)",
       "brand": "GALP",
@@ -4036,6 +4206,23 @@
       "lat": 39.15679,
       "lon": -9.22618,
       "sourceKey": "GALP|galp a8 a.s. torres vedras (s/n)|a8 - km 12,070 - sub lanco carvalhal / campelos|2565-646|torres vedras"
+    },
+    {
+      "id": "bp-torres-vedras-torres-vedras-2560-000",
+      "name": "TORRES VEDRAS",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Torres Vedras",
+      "locality": "Torres Vedras",
+      "address": "Rotunda de Arenes (Ligação à A8)",
+      "postalCode": "2560-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-07-03T10:00:00+00:00",
+      "lat": 39.099525,
+      "lon": -9.24887,
+      "sourceKey": "BP|torres vedras|rotunda de arenes (ligacao a a8)|2560-000|torres vedras"
     },
     {
       "id": "bp-bp-ferreira-variante-pacos-de-ferreira-4590-901",
@@ -4746,7 +4933,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-07-01T16:40:00+00:00",
+      "updatedAt": "2026-07-03T11:30:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -4797,7 +4984,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-07-02T09:20:00+00:00",
+      "updatedAt": "2026-07-03T11:05:00+00:00",
       "lat": 37.10323,
       "lon": -8.07321,
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
@@ -5124,23 +5311,6 @@
       "lat": 37.119785,
       "lon": -8.67342,
       "sourceKey": "BP|lagos - e. n. 125 (oeste)|en125 telheiro|8600-327|lagos"
-    },
-    {
-      "id": "bp-ericeira-mafra-2655-319",
-      "name": "ERICEIRA",
-      "brand": "BP",
-      "district": "Lisboa",
-      "municipality": "Mafra",
-      "locality": "Ericeira",
-      "address": "EN 247, Mil Regos",
-      "postalCode": "2655-319",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.039,
-      "updatedAt": "2026-06-29T09:05:00+00:00",
-      "lat": 38.982386,
-      "lon": -9.417686,
-      "sourceKey": "BP|ericeira|en 247, mil regos|2655-319|mafra"
     },
     {
       "id": "bp-bp-vandoma-paredes-4585-769",
@@ -5549,23 +5719,6 @@
       "lat": 38.62257,
       "lon": -8.57766,
       "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
-    },
-    {
-      "id": "bp-bp-s-bartolomeu-de-messines-area-sul-norte-1100-silves-8375-014",
-      "name": "BP- S. Bartolomeu de Messines Área Sul/Norte 1100",
-      "brand": "BP",
-      "district": "Faro",
-      "municipality": "Silves",
-      "locality": "Barrocal",
-      "address": "IC1 I.P.1c Lanço Messines-Guia Km4",
-      "postalCode": "8375-014",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 1.059,
-      "updatedAt": "2026-07-03T07:00:00+00:00",
-      "lat": 37.2299,
-      "lon": -8.264495,
-      "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
     },
     {
       "id": "bp-bp-arruda-dos-vinhos-arruda-dos-vinhos-2634-909",
