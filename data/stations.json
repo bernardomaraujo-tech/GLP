@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-09T09:35:55.309157+00:00",
+  "generatedAt": "2026-07-09T14:36:56.382956+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-09T10:05:00+00:00",
+  "dataUpdatedAt": "2026-07-09T13:05:00+00:00",
   "stats": {
     "totalStations": 430,
     "withCoordinates": 430,
@@ -1737,7 +1737,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-08T09:25:00+00:00",
+      "updatedAt": "2026-07-09T11:10:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1754,7 +1754,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-08T09:30:00+00:00",
+      "updatedAt": "2026-07-09T11:10:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3437,7 +3437,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-06T09:35:00+00:00",
+      "updatedAt": "2026-07-09T12:15:00+00:00",
       "lat": 40.92149,
       "lon": -8.5633,
       "sourceKey": "REPSOL|es repsol - santa maria da feira|rua dr. crespim borges castro|4520-195|santa maria da feira"
@@ -4644,7 +4644,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-07T20:55:00+00:00",
+      "updatedAt": "2026-07-09T11:25:00+00:00",
       "lat": 38.592712,
       "lon": -9.046671,
       "sourceKey": "REPSOL|repsol coina|estrada nacional 10|2830-411|barreiro"
@@ -4984,7 +4984,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-07-06T00:00:00+00:00",
+      "updatedAt": "2026-07-09T11:10:00+00:00",
       "lat": 39.857197,
       "lon": -7.459347,
       "sourceKey": "REPSOL|e.s. lanco grande|en 233 ao km 104,750|6000-067|castelo branco"
@@ -5205,7 +5205,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-06T10:30:00+00:00",
+      "updatedAt": "2026-07-09T13:05:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -5766,7 +5766,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-08T09:25:00+00:00",
+      "updatedAt": "2026-07-09T11:10:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6531,7 +6531,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-07-08T15:25:00+00:00",
+      "updatedAt": "2026-07-09T12:45:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -6718,7 +6718,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-07-08T10:10:00+00:00",
+      "updatedAt": "2026-07-09T10:45:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
