@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-10T09:22:49.228361+00:00",
+  "generatedAt": "2026-07-10T14:05:27.996213+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-10T10:20:00+00:00",
+  "dataUpdatedAt": "2026-07-10T14:10:00+00:00",
   "stats": {
     "totalStations": 429,
     "withCoordinates": 429,
@@ -2349,7 +2349,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-06T14:40:00+00:00",
+      "updatedAt": "2026-07-10T14:10:00+00:00",
       "lat": 41.18254,
       "lon": -8.676889,
       "sourceKey": "REPSOL|repsol matosinhos - ip4|prolongamento da avenida republica, s/n|4450-130|matosinhos"
@@ -3868,6 +3868,23 @@
       "sourceKey": "REPSOL|e.s. ponte chamusca|ponte da chamusca|2140-000|chamusca"
     },
     {
+      "id": "repsol-e-s-fatima-ourem-2495-407",
+      "name": "E.S. FATIMA",
+      "brand": "REPSOL",
+      "district": "Santarém",
+      "municipality": "Ourém",
+      "locality": "Fátima",
+      "address": "Estrada de Leiria, n.º148 - Lugar de Barradas",
+      "postalCode": "2495-407",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-07-10T11:25:00+00:00",
+      "lat": 39.64321,
+      "lon": -8.68515,
+      "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
+    },
+    {
       "id": "repsol-e-s-santarem-santarem-2000-630",
       "name": "E.S. SANTAREM",
       "brand": "REPSOL",
@@ -5239,7 +5256,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-09T13:05:00+00:00",
+      "updatedAt": "2026-07-10T10:50:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -6841,23 +6858,6 @@
       "lat": 41.165108,
       "lon": -8.628078,
       "sourceKey": "REPSOL|es constituicao - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rua da constituicao no 2570|4000-000|porto"
-    },
-    {
-      "id": "repsol-e-s-fatima-ourem-2495-407",
-      "name": "E.S. FATIMA",
-      "brand": "REPSOL",
-      "district": "Santarém",
-      "municipality": "Ourém",
-      "locality": "Fátima",
-      "address": "Estrada de Leiria, n.º148 - Lugar de Barradas",
-      "postalCode": "2495-407",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-06T14:00:00+00:00",
-      "lat": 39.64321,
-      "lon": -8.68515,
-      "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
     },
     {
       "id": "repsol-es-alcochete-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-alcochete-2890-009",
