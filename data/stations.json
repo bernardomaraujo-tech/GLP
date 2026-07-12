@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T13:01:48.442478+00:00",
+  "generatedAt": "2026-07-12T18:55:31.805787+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-12T08:20:00+00:00",
+  "dataUpdatedAt": "2026-07-12T18:55:00+00:00",
   "stats": {
     "totalStations": 425,
     "withCoordinates": 425,
@@ -4355,7 +4355,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-06T09:15:00+00:00",
+      "updatedAt": "2026-07-12T18:55:00+00:00",
       "lat": 41.24876,
       "lon": -8.25595,
       "sourceKey": "BP|bp - meinedo|av. magneto, 980|4620-350|lousada"
@@ -6435,6 +6435,23 @@
       "sourceKey": "BP|bp a2 seixal|a. e. 2 km 12 sublanco almada - fogueteiro|2840-000|seixal"
     },
     {
+      "id": "bp-bp-ribeirinho-arcos-de-valdevez-4970-272",
+      "name": "bp ribeirinho",
+      "brand": "BP",
+      "district": "Viana do Castelo",
+      "municipality": "Arcos de Valdevez",
+      "locality": "Parada",
+      "address": "Rua Ponte Velha, n 25Ribeirinho",
+      "postalCode": "4970-272",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-07-12T16:40:00+00:00",
+      "lat": 41.859408,
+      "lon": -8.42645,
+      "sourceKey": "BP|bp ribeirinho|rua ponte velha, n 25ribeirinho|4970-272|arcos de valdevez"
+    },
+    {
       "id": "gasolar-gasolar-caminha-caminha-4910-204",
       "name": "GASOLAR - CAMINHA",
       "brand": "GASOLAR",
@@ -6994,23 +7011,6 @@
       "lat": 41.0855,
       "lon": -8.63278,
       "sourceKey": "PRIO|prio valadares|av. combatentes do ultramar portugues|4405-707|vila nova de gaia"
-    },
-    {
-      "id": "bp-bp-ribeirinho-arcos-de-valdevez-4970-272",
-      "name": "bp ribeirinho",
-      "brand": "BP",
-      "district": "Viana do Castelo",
-      "municipality": "Arcos de Valdevez",
-      "locality": "Parada",
-      "address": "Rua Ponte Velha, n 25Ribeirinho",
-      "postalCode": "4970-272",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.039,
-      "updatedAt": "2026-07-06T22:05:00+00:00",
-      "lat": 41.859408,
-      "lon": -8.42645,
-      "sourceKey": "BP|bp ribeirinho|rua ponte velha, n 25ribeirinho|4970-272|arcos de valdevez"
     },
     {
       "id": "generico-ouro-negro-azambuja-norte-azambuja-2050-319",
