@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-14T19:07:20.545730+00:00",
+  "generatedAt": "2026-07-15T01:32:00.147805+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-14T19:40:00+00:00",
+  "dataUpdatedAt": "2026-07-15T00:40:00+00:00",
   "stats": {
     "totalStations": 441,
     "withCoordinates": 441,
@@ -326,7 +326,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.88,
-      "updatedAt": "2026-07-14T00:00:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 40.31897,
       "lon": -8.75116,
       "sourceKey": "GENÉRICO|coop.agric.tocha|rua manuel rodrigues batata|3064-908|cantanhede"
@@ -2179,7 +2179,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -3233,7 +3233,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 38.656499,
       "lon": -9.053564,
       "sourceKey": "GALP|galp barreiro|av. manuel dos santos cabanas|2835-000|barreiro"
@@ -3573,7 +3573,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-13T18:05:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -3607,7 +3607,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-14T16:45:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 39.7454,
       "lon": -8.89058,
       "sourceKey": "REPSOL|e.s. albergaria|en 242 km 8,5 (av na sra nazare)|2430-011|marinha grande"
@@ -4661,7 +4661,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 37.10323,
       "lon": -8.07321,
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
@@ -4831,7 +4831,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-14T08:10:00+00:00",
+      "updatedAt": "2026-07-15T00:40:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
@@ -5834,7 +5834,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-14T00:05:00+00:00",
+      "updatedAt": "2026-07-15T00:05:00+00:00",
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
@@ -6072,7 +6072,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-14T00:00:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6089,7 +6089,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-14T00:00:00+00:00",
+      "updatedAt": "2026-07-15T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -7058,7 +7058,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-07-14T08:10:00+00:00",
+      "updatedAt": "2026-07-15T00:10:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
