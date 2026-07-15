@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-15T07:54:46.075637+00:00",
+  "generatedAt": "2026-07-15T13:18:34.154355+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-15T08:20:00+00:00",
+  "dataUpdatedAt": "2026-07-15T12:25:00+00:00",
   "stats": {
-    "totalStations": 441,
-    "withCoordinates": 441,
-    "withPrice": 441
+    "totalStations": 442,
+    "withCoordinates": 442,
+    "withPrice": 442
   },
   "stations": [
     {
@@ -326,7 +326,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.88,
-      "updatedAt": "2026-07-15T00:00:00+00:00",
+      "updatedAt": "2026-07-15T10:30:00+00:00",
       "lat": 40.31897,
       "lon": -8.75116,
       "sourceKey": "GENÉRICO|coop.agric.tocha|rua manuel rodrigues batata|3064-908|cantanhede"
@@ -1556,6 +1556,23 @@
       "sourceKey": "OZ ENERGIA|oz energia - barqueiros|estrada nacional 205 - km 9|4740-694|barcelos"
     },
     {
+      "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
+      "name": "TFGEST São Vicente Penso",
+      "brand": "FREITAS",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "São Vicente de Penso",
+      "address": "Avenida do Redondelo, 51 (EN 309 - km 29,970 D)",
+      "postalCode": "4705-628",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-07-15T09:45:00+00:00",
+      "lat": 41.48778,
+      "lon": -8.429883,
+      "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
+    },
+    {
       "id": "prio-prio-penela-penela-3230-292",
       "name": "PRIO PENELA",
       "brand": "PRIO",
@@ -1686,27 +1703,10 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.934,
-      "updatedAt": "2026-07-13T11:00:00+00:00",
+      "updatedAt": "2026-07-15T12:15:00+00:00",
       "lat": 41.551822,
       "lon": -8.40931,
       "sourceKey": "GALP|santos da cunha 6 - logistica e transportes, lda.|en 14 - av. joao paulo ii|4715-034|braga"
-    },
-    {
-      "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
-      "name": "TFGEST São Vicente Penso",
-      "brand": "FREITAS",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "São Vicente de Penso",
-      "address": "Avenida do Redondelo, 51 (EN 309 - km 29,970 D)",
-      "postalCode": "4705-628",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.934,
-      "updatedAt": "2026-07-13T22:00:00+00:00",
-      "lat": 41.48778,
-      "lon": -8.429883,
-      "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
     },
     {
       "id": "galp-petropostos-comercio-de-combustiveis-lda-coimbra-3000-125",
@@ -2485,7 +2485,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-14T11:30:00+00:00",
+      "updatedAt": "2026-07-15T11:35:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3692,7 +3692,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-14T14:00:00+00:00",
+      "updatedAt": "2026-07-15T10:30:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4189,6 +4189,23 @@
       "lat": 40.637491,
       "lon": -8.639779,
       "sourceKey": "BP|posto bp aveiro forca|av. francisco sa carneiro forca|3810-265|aveiro"
+    },
+    {
+      "id": "galp-irmaos-beleza-castelo-de-paiva-4550-208",
+      "name": "IRMAOS BELEZA",
+      "brand": "GALP",
+      "district": "Aveiro",
+      "municipality": "Castelo de Paiva",
+      "locality": "Sobrado",
+      "address": "Lugar do Bom Retiro",
+      "postalCode": "4550-208",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-07-15T10:45:00+00:00",
+      "lat": 41.044731,
+      "lon": -8.265869,
+      "sourceKey": "GALP|irmaos beleza|lugar do bom retiro|4550-208|castelo de paiva"
     },
     {
       "id": "galp-posto-rainha-da-feira-lda-santa-maria-da-feira-4520-112",
@@ -4831,7 +4848,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-15T08:10:00+00:00",
+      "updatedAt": "2026-07-15T12:25:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
@@ -5256,7 +5273,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-07-13T11:10:00+00:00",
+      "updatedAt": "2026-07-15T11:05:00+00:00",
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
@@ -6021,7 +6038,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-06T17:15:00+00:00",
+      "updatedAt": "2026-07-15T10:50:00+00:00",
       "lat": 37.18386,
       "lon": -7.46997,
       "sourceKey": "BP|monte gordo norte|en 125 aldeia nova monte gordo|8900-441|vila real de santo antonio"
@@ -6911,23 +6928,6 @@
       "sourceKey": "REPSOL|area de servico de grandola a norte - sul|a2 km 111,0 sublanco grandola norte / grandola sul|7570-512|grandola"
     },
     {
-      "id": "repsol-as-v-novas-norte-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-vendas-novas-7080-011",
-      "name": "AS V. NOVAS NORTE (A) - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
-      "brand": "REPSOL",
-      "district": "Évora",
-      "municipality": "Vendas Novas",
-      "locality": "Vendas Novas",
-      "address": "A6 Km 5,5 Vendas Novas",
-      "postalCode": "7080-011",
-      "zone": "Alentejo",
-      "fuel": "GPL Auto",
-      "price": 1.014,
-      "updatedAt": "2026-07-15T08:10:00+00:00",
-      "lat": 38.62257,
-      "lon": -8.57766,
-      "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
-    },
-    {
       "id": "generico-posto-aguiar-da-beira-aguiar-da-beira-3570-191",
       "name": "POSTO AGUIAR DA BEIRA",
       "brand": "GENÉRICO",
@@ -7215,6 +7215,23 @@
       "lat": 41.097977,
       "lon": -7.685744,
       "sourceKey": "REPSOL|repsol armamar|lugar bica do hospital|5110-152|armamar"
+    },
+    {
+      "id": "repsol-as-v-novas-norte-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-vendas-novas-7080-011",
+      "name": "AS V. NOVAS NORTE (A) - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
+      "brand": "REPSOL",
+      "district": "Évora",
+      "municipality": "Vendas Novas",
+      "locality": "Vendas Novas",
+      "address": "A6 Km 5,5 Vendas Novas",
+      "postalCode": "7080-011",
+      "zone": "Alentejo",
+      "fuel": "GPL Auto",
+      "price": 1.024,
+      "updatedAt": "2026-07-15T11:10:00+00:00",
+      "lat": 38.62257,
+      "lon": -8.57766,
+      "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
     },
     {
       "id": "galp-l-a-cameirinha-lda-beja-7800-000",
