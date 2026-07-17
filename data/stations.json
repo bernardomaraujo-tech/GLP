@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-17T07:56:45.897397+00:00",
+  "generatedAt": "2026-07-17T13:10:36.818185+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-17T08:20:00+00:00",
+  "dataUpdatedAt": "2026-07-17T10:40:00+00:00",
   "stats": {
     "totalStations": 435,
     "withCoordinates": 435,
@@ -808,23 +808,6 @@
       "sourceKey": "PRIO|prio fernao ferro|en 378, km 9+800|2865-300|seixal"
     },
     {
-      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
-      "name": "PA Feitos -Barcelos",
-      "brand": "GENÉRICO",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Feitos",
-      "address": "Rua da Estrada Nacional 103, km 12,100",
-      "postalCode": "4750-442",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.894,
-      "updatedAt": "2026-07-13T13:30:00+00:00",
-      "lat": 41.57053,
-      "lon": -8.685565,
-      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
-    },
-    {
       "id": "prio-prio-verdemilho-aveiro-3810-414",
       "name": "PRIO Verdemilho",
       "brand": "PRIO",
@@ -857,6 +840,23 @@
       "lat": 40.842354,
       "lon": -8.395429,
       "sourceKey": "PRIO|prio vale de cambra|av. do caima, no 750 sao pedro de casteloes - vale de cambra|3730-202|vale de cambra"
+    },
+    {
+      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
+      "name": "PA Feitos -Barcelos",
+      "brand": "GENÉRICO",
+      "district": "Braga",
+      "municipality": "Barcelos",
+      "locality": "Feitos",
+      "address": "Rua da Estrada Nacional 103, km 12,100",
+      "postalCode": "4750-442",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.899,
+      "updatedAt": "2026-07-17T09:10:00+00:00",
+      "lat": 41.57053,
+      "lon": -8.685565,
+      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
     },
     {
       "id": "prio-prio-perelhal-barcelos-4750-620",
@@ -1278,7 +1278,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.916,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
+      "updatedAt": "2026-07-17T10:30:00+00:00",
       "lat": 40.65145,
       "lon": -8.61118,
       "sourceKey": "CEPSA|cepsa aveiro zi|rua joao francisco do casal, 122|3800-264|aveiro"
@@ -2485,7 +2485,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-16T12:10:00+00:00",
+      "updatedAt": "2026-07-17T10:40:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3573,7 +3573,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-16T15:25:00+00:00",
+      "updatedAt": "2026-07-17T09:50:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -3743,7 +3743,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-16T17:10:00+00:00",
+      "updatedAt": "2026-07-17T09:20:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4032,7 +4032,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-13T00:05:00+00:00",
+      "updatedAt": "2026-07-17T10:10:00+00:00",
       "lat": 38.639392,
       "lon": -9.150164,
       "sourceKey": "BP|bp corroios|en 10 km 5,9|2855-000|seixal"
@@ -4695,7 +4695,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-15T00:00:00+00:00",
+      "updatedAt": "2026-07-17T09:30:00+00:00",
       "lat": 37.10323,
       "lon": -8.07321,
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
@@ -4865,7 +4865,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-17T08:20:00+00:00",
+      "updatedAt": "2026-07-17T09:05:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
@@ -5409,7 +5409,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-13T09:55:00+00:00",
+      "updatedAt": "2026-07-17T10:20:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
