@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-18T07:31:35.063371+00:00",
+  "generatedAt": "2026-07-18T12:57:50.964373+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-18T08:25:00+00:00",
+  "dataUpdatedAt": "2026-07-18T12:50:00+00:00",
   "stats": {
     "totalStations": 435,
     "withCoordinates": 435,
@@ -3675,7 +3675,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-18T10:40:00+00:00",
       "lat": 39.922311,
       "lon": -8.629056,
       "sourceKey": "REPSOL|e.s. pombal centro|en 1|3100-000|pombal"
@@ -3794,7 +3794,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-13T06:30:00+00:00",
+      "updatedAt": "2026-07-18T11:05:00+00:00",
       "lat": 41.279994,
       "lon": -8.082825,
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
@@ -3981,7 +3981,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-18T12:50:00+00:00",
       "lat": 39.64321,
       "lon": -8.68515,
       "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
@@ -4138,6 +4138,23 @@
       "lat": 37.95812,
       "lon": -8.86573,
       "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
+    },
+    {
+      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
+      "name": "E.S. PONTE DE LIMA B",
+      "brand": "REPSOL",
+      "district": "Viana do Castelo",
+      "municipality": "Ponte de Lima",
+      "locality": "S. Gonçalo - Arcozelo",
+      "address": "EN 201 Km 0,76/0,826",
+      "postalCode": "4990-120",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-07-18T09:00:00+00:00",
+      "lat": 41.76622,
+      "lon": -8.5945,
+      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
     },
     {
       "id": "repsol-e-s-valenca-valenca-4930-002",
@@ -4729,7 +4746,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-17T21:20:00+00:00",
+      "updatedAt": "2026-07-18T12:10:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -5477,7 +5494,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-17T10:20:00+00:00",
+      "updatedAt": "2026-07-18T09:10:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -6973,7 +6990,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-07-17T15:10:00+00:00",
+      "updatedAt": "2026-07-18T08:45:00+00:00",
       "lat": 37.59879,
       "lon": -8.64547,
       "sourceKey": "REPSOL|e.s. odemira|av. poole da costa no 49|7630-000|odemira"
@@ -7079,23 +7096,6 @@
       "lat": 38.90655,
       "lon": -9.032439,
       "sourceKey": "REPSOL|e.s. alverca|av do marco da iv legua 17|2615-000|vila franca de xira"
-    },
-    {
-      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
-      "name": "E.S. PONTE DE LIMA B",
-      "brand": "REPSOL",
-      "district": "Viana do Castelo",
-      "municipality": "Ponte de Lima",
-      "locality": "S. Gonçalo - Arcozelo",
-      "address": "EN 201 Km 0,76/0,826",
-      "postalCode": "4990-120",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-14T09:50:00+00:00",
-      "lat": 41.76622,
-      "lon": -8.5945,
-      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
     },
     {
       "id": "repsol-repsol-armamar-armamar-5110-152",
