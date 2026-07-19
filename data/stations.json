@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-18T18:53:20.839178+00:00",
+  "generatedAt": "2026-07-19T01:54:21.152578+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-18T18:40:00+00:00",
+  "dataUpdatedAt": "2026-07-19T00:05:00+00:00",
   "stats": {
-    "totalStations": 435,
-    "withCoordinates": 435,
-    "withPrice": 435
+    "totalStations": 433,
+    "withCoordinates": 433,
+    "withPrice": 433
   },
   "stations": [
     {
@@ -1771,7 +1771,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1788,7 +1788,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -1809,23 +1809,6 @@
       "lat": 40.34788,
       "lon": -8.58496,
       "sourceKey": "BP|cantanhede|rotunda da en 234/en 234-1 km 1,6|3060-124|cantanhede"
-    },
-    {
-      "id": "galp-galp-cantanhede-estacao-das-colinas-cantanhede-3060-851",
-      "name": "GALP Cantanhede - Estação das Colinas",
-      "brand": "GALP",
-      "district": "Coimbra",
-      "municipality": "Cantanhede",
-      "locality": "Cantanhede",
-      "address": "Av. Prof Aníbal de Oliveira",
-      "postalCode": "3060-851",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.939,
-      "updatedAt": "2026-07-09T00:00:00+00:00",
-      "lat": 40.35054,
-      "lon": -8.5794,
-      "sourceKey": "GALP|galp cantanhede - estacao das colinas|av. prof anibal de oliveira|3060-851|cantanhede"
     },
     {
       "id": "auchan-auchan-figueira-da-foz-figueira-da-foz-3080-853",
@@ -3318,7 +3301,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-07-17T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -3760,7 +3743,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4712,7 +4695,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-13T18:00:00+00:00",
+      "updatedAt": "2026-07-18T21:35:00+00:00",
       "lat": 38.553825,
       "lon": -7.917911,
       "sourceKey": "GALP|galp- sousa & marquez (horta das figueiras- evora)|variante ao parque industrial|7005-872|evora"
@@ -5103,7 +5086,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.976,
-      "updatedAt": "2026-07-17T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 39.4857,
       "lon": -8.158823,
       "sourceKey": "MOEVE|a23 abrantes (abr/lis)|a 23, km 44, sub-lanco abrantes - mouriscas, apt. 70|2200-037|abrantes"
@@ -5120,7 +5103,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.976,
-      "updatedAt": "2026-07-17T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 39.485092,
       "lon": -8.155059,
       "sourceKey": "MOEVE|a23 abrantes (lis/abr)|a 23, km 44, sub-lanco abrantes - mouriscas, apt. 70|2200-006|abrantes"
@@ -5498,6 +5481,23 @@
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
+    },
+    {
+      "id": "repsol-repsol-seia-seia-6270-485",
+      "name": "REPSOL Seia",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Seia",
+      "locality": "Seia",
+      "address": "Avª Terras de Sena-Quintela-Seia",
+      "postalCode": "6270-485",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-07-19T00:00:00+00:00",
+      "lat": 40.4209,
+      "lon": -7.712581,
+      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
     },
     {
       "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
@@ -5953,7 +5953,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-18T00:05:00+00:00",
+      "updatedAt": "2026-07-19T00:05:00+00:00",
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
@@ -6123,7 +6123,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6191,7 +6191,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6208,7 +6208,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-18T00:00:00+00:00",
+      "updatedAt": "2026-07-19T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6962,23 +6962,6 @@
       "sourceKey": "GENÉRICO|posto aguiar da beira|quinta de sto estevao|3570-191|aguiar da beira"
     },
     {
-      "id": "generico-nautigas-cian-lda-pa-gpl-auto-viana-do-castelo-4900-580",
-      "name": "Nautigas, CIAN, Lda - PA GPL Auto",
-      "brand": "GENÉRICO",
-      "district": "Viana do Castelo",
-      "municipality": "Viana do Castelo",
-      "locality": "Viana do Castelo",
-      "address": "Av. Além do Rio, 744 - Areosa",
-      "postalCode": "4900-580",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.019,
-      "updatedAt": "2026-07-09T10:45:00+00:00",
-      "lat": 41.72606,
-      "lon": -8.859825,
-      "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
-    },
-    {
       "id": "repsol-e-s-odemira-odemira-7630-000",
       "name": "E.S. ODEMIRA",
       "brand": "REPSOL",
@@ -7062,23 +7045,6 @@
       "lat": 40.53441,
       "lon": -7.243571,
       "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
-    },
-    {
-      "id": "repsol-repsol-seia-seia-6270-485",
-      "name": "REPSOL Seia",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Seia",
-      "locality": "Seia",
-      "address": "Avª Terras de Sena-Quintela-Seia",
-      "postalCode": "6270-485",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
-      "lat": 40.4209,
-      "lon": -7.712581,
-      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
     },
     {
       "id": "repsol-e-s-alverca-vila-franca-de-xira-2615-000",
