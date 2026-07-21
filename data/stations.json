@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T08:12:47.625664+00:00",
+  "generatedAt": "2026-07-21T13:22:04.321281+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-21T09:05:00+00:00",
+  "dataUpdatedAt": "2026-07-21T14:20:00+00:00",
   "stats": {
     "totalStations": 438,
     "withCoordinates": 438,
@@ -2145,7 +2145,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-20T11:55:00+00:00",
+      "updatedAt": "2026-07-21T12:25:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -2236,23 +2236,6 @@
       "sourceKey": "REPSOL|repsol abrunheira|e. n. 249-4 km 1,0|2725-114|sintra"
     },
     {
-      "id": "repsol-e-s-alverca-vila-franca-de-xira-2615-000",
-      "name": "E.S. ALVERCA",
-      "brand": "REPSOL",
-      "district": "Lisboa",
-      "municipality": "Vila Franca de Xira",
-      "locality": "Alverca",
-      "address": "AV DO MARCO DA IV LEGUA 17",
-      "postalCode": "2615-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.944,
-      "updatedAt": "2026-07-20T00:00:00+00:00",
-      "lat": 38.90655,
-      "lon": -9.032439,
-      "sourceKey": "REPSOL|e.s. alverca|av do marco da iv legua 17|2615-000|vila franca de xira"
-    },
-    {
       "id": "galp-galp-vila-franca-xira-vila-franca-de-xira-2600-000",
       "name": "GALP VILA FRANCA XIRA",
       "brand": "GALP",
@@ -2264,7 +2247,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-20T10:55:00+00:00",
+      "updatedAt": "2026-07-21T09:45:00+00:00",
       "lat": 38.965427,
       "lon": -8.983408,
       "sourceKey": "GALP|galp vila franca xira|en 1 km 24,7|2600-000|vila franca de xira"
@@ -2383,7 +2366,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-20T10:50:00+00:00",
+      "updatedAt": "2026-07-21T10:20:00+00:00",
       "lat": 41.194393,
       "lon": -8.297167,
       "sourceKey": "GALP|galp penafiel - tenente valadim|rua tenente valadim e.n 15 km 29,6 - tapadinha|4560-532|penafiel"
@@ -2485,7 +2468,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-20T10:30:00+00:00",
+      "updatedAt": "2026-07-21T11:55:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3505,7 +3488,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-07-13T14:45:00+00:00",
+      "updatedAt": "2026-07-21T10:35:00+00:00",
       "lat": 40.75569,
       "lon": -7.72737,
       "sourceKey": "GALP|ultra resistente - combustiveis, lda|en 229 km 69.800|3560-085|satao"
@@ -3607,7 +3590,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-20T10:50:00+00:00",
+      "updatedAt": "2026-07-21T14:20:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -3777,7 +3760,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-20T11:50:00+00:00",
+      "updatedAt": "2026-07-21T11:40:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -3981,7 +3964,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-20T00:00:00+00:00",
+      "updatedAt": "2026-07-21T11:50:00+00:00",
       "lat": 39.24329,
       "lon": -8.69662,
       "sourceKey": "REPSOL|e.s. santarem|rua o|2000-630|santarem"
@@ -4106,23 +4089,6 @@
       "sourceKey": "REPSOL|repsol fogueteiro|rua oliveira martins|2845-381|seixal"
     },
     {
-      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
-      "name": "E.S. PONTE DE LIMA B",
-      "brand": "REPSOL",
-      "district": "Viana do Castelo",
-      "municipality": "Ponte de Lima",
-      "locality": "S. Gonçalo - Arcozelo",
-      "address": "EN 201 Km 0,76/0,826",
-      "postalCode": "4990-120",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.964,
-      "updatedAt": "2026-07-20T11:50:00+00:00",
-      "lat": 41.76622,
-      "lon": -8.5945,
-      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
-    },
-    {
       "id": "repsol-e-s-valenca-valenca-4930-002",
       "name": "E.S. VALENCA",
       "brand": "REPSOL",
@@ -4202,7 +4168,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.968,
-      "updatedAt": "2026-07-13T14:25:00+00:00",
+      "updatedAt": "2026-07-21T10:25:00+00:00",
       "lat": 41.47191,
       "lon": -8.487272,
       "sourceKey": "GENÉRICO|combustiveis carvalho, lda|av conde arnoso, 1902|4770-526|vila nova de famalicao"
@@ -4406,7 +4372,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-20T09:20:00+00:00",
+      "updatedAt": "2026-07-21T10:20:00+00:00",
       "lat": 40.46377,
       "lon": -7.753826,
       "sourceKey": "GALP|galp tourais (seia)|en 231|6270-581|seia"
@@ -4508,7 +4474,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-20T00:00:00+00:00",
+      "updatedAt": "2026-07-21T09:25:00+00:00",
       "lat": 38.70222,
       "lon": -9.30844,
       "sourceKey": "BP|bp - oeiras (cacilhas )|rua do colegio militar|2780-239|oeiras"
@@ -4780,7 +4746,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-20T00:00:00+00:00",
+      "updatedAt": "2026-07-21T12:15:00+00:00",
       "lat": 41.172061,
       "lon": -8.441431,
       "sourceKey": "REPSOL|e.s. gandra paredes|en 15-3 (cruzamento da rua do negral c/ rua central da ribeira)|4440-115|paredes"
@@ -5511,7 +5477,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-20T00:00:00+00:00",
+      "updatedAt": "2026-07-21T12:15:00+00:00",
       "lat": 41.30531,
       "lon": -7.72257,
       "sourceKey": "REPSOL|e.s. vila real abambres|r. gaspar sameiro, n 920|5000-261|vila real"
@@ -5620,7 +5586,7 @@
     },
     {
       "id": "galp-galp-vouzela-vouzela-3670-234",
-      "name": "Galp Vouzela",
+      "name": "GALP Vouzela",
       "brand": "GALP",
       "district": "Viseu",
       "municipality": "Vouzela",
@@ -5630,7 +5596,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.989,
-      "updatedAt": "2026-07-13T08:50:00+00:00",
+      "updatedAt": "2026-07-21T10:00:00+00:00",
       "lat": 40.72417,
       "lon": -8.110905,
       "sourceKey": "GALP|galp vouzela|variante de vouzela|3670-234|vouzela"
@@ -5783,7 +5749,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-20T07:00:00+00:00",
+      "updatedAt": "2026-07-21T11:35:00+00:00",
       "lat": 40.785388,
       "lon": -8.566024,
       "sourceKey": "BP|bp avanca (s-n)|r. do falcao, e.n. 109 - km 44.3|3860-060|estarreja"
@@ -5821,6 +5787,23 @@
       "lat": 37.92348,
       "lon": -8.241723,
       "sourceKey": "GALP|galp a.s. a2 aljustrel (s/n)|a2 - km 148 (s/n)|7600-000|aljustrel"
+    },
+    {
+      "id": "petro-basto-petro-basto-energia-cabeceira-de-basto-cabeceiras-de-basto-4860-401",
+      "name": "PETRO BASTO ENERGIA -  Cabeceira de Basto",
+      "brand": "PETRO BASTO",
+      "district": "Braga",
+      "municipality": "Cabeceiras de Basto",
+      "locality": "Refojos de Basto",
+      "address": "Rua Monsenhor Dr. António Tanque - PINHEIRO",
+      "postalCode": "4860-401",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-07-21T11:00:00+00:00",
+      "lat": 41.50852,
+      "lon": -7.994753,
+      "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
     },
     {
       "id": "bp-bp-fao-esposende-4740-321",
@@ -5970,7 +5953,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-20T10:15:00+00:00",
+      "updatedAt": "2026-07-21T11:00:00+00:00",
       "lat": 37.119785,
       "lon": -8.67342,
       "sourceKey": "BP|lagos - e. n. 125 (oeste)|en125 telheiro|8600-327|lagos"
@@ -6021,7 +6004,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-20T09:35:00+00:00",
+      "updatedAt": "2026-07-21T12:45:00+00:00",
       "lat": 37.18386,
       "lon": -7.46997,
       "sourceKey": "BP|monte gordo norte|en 125 aldeia nova monte gordo|8900-441|vila real de santo antonio"
@@ -6191,7 +6174,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-20T12:35:00+00:00",
+      "updatedAt": "2026-07-21T11:40:00+00:00",
       "lat": 38.982386,
       "lon": -9.417686,
       "sourceKey": "BP|ericeira|en 247, mil regos|2655-319|mafra"
@@ -6565,7 +6548,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-13T11:40:00+00:00",
+      "updatedAt": "2026-07-21T10:00:00+00:00",
       "lat": 40.537857,
       "lon": -8.052477,
       "sourceKey": "PRIO|gascomb prio tondela|en2 - lugar de naia|3460-016|tondela"
@@ -6599,7 +6582,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-13T11:40:00+00:00",
+      "updatedAt": "2026-07-21T10:00:00+00:00",
       "lat": 40.68089,
       "lon": -7.926881,
       "sourceKey": "BP|bp viseu abraveses|ribeira de mide - viseu|3515-419|viseu"
@@ -6956,7 +6939,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-07-20T15:10:00+00:00",
+      "updatedAt": "2026-07-21T11:40:00+00:00",
       "lat": 37.59879,
       "lon": -8.64547,
       "sourceKey": "REPSOL|e.s. odemira|av. poole da costa no 49|7630-000|odemira"
@@ -7081,6 +7064,23 @@
       "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
     },
     {
+      "id": "repsol-e-s-alverca-vila-franca-de-xira-2615-000",
+      "name": "E.S. ALVERCA",
+      "brand": "REPSOL",
+      "district": "Lisboa",
+      "municipality": "Vila Franca de Xira",
+      "locality": "Alverca",
+      "address": "AV DO MARCO DA IV LEGUA 17",
+      "postalCode": "2615-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.024,
+      "updatedAt": "2026-07-21T10:30:00+00:00",
+      "lat": 38.90655,
+      "lon": -9.032439,
+      "sourceKey": "REPSOL|e.s. alverca|av do marco da iv legua 17|2615-000|vila franca de xira"
+    },
+    {
       "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
       "name": "ES  CONSTITUICAO - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -7132,6 +7132,23 @@
       "sourceKey": "REPSOL|es alcochete - gespost - gestao e administracao de postos de abastecimento unipessoal lda|lugar do entroncamento|2890-009|alcochete"
     },
     {
+      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
+      "name": "E.S. PONTE DE LIMA B",
+      "brand": "REPSOL",
+      "district": "Viana do Castelo",
+      "municipality": "Ponte de Lima",
+      "locality": "S. Gonçalo - Arcozelo",
+      "address": "EN 201 Km 0,76/0,826",
+      "postalCode": "4990-120",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.024,
+      "updatedAt": "2026-07-21T11:00:00+00:00",
+      "lat": 41.76622,
+      "lon": -8.5945,
+      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
+    },
+    {
       "id": "repsol-e-s-murca-murca-5090-000",
       "name": "E.S. MURÇA",
       "brand": "REPSOL",
@@ -7164,23 +7181,6 @@
       "lat": 41.097977,
       "lon": -7.685744,
       "sourceKey": "REPSOL|repsol armamar|lugar bica do hospital|5110-152|armamar"
-    },
-    {
-      "id": "petro-basto-petro-basto-energia-cabeceira-de-basto-cabeceiras-de-basto-4860-401",
-      "name": "PETRO BASTO ENERGIA -  Cabeceira de Basto",
-      "brand": "PETRO BASTO",
-      "district": "Braga",
-      "municipality": "Cabeceiras de Basto",
-      "locality": "Refojos de Basto",
-      "address": "Rua Monsenhor Dr. António Tanque - PINHEIRO",
-      "postalCode": "4860-401",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.039,
-      "updatedAt": "2026-07-14T10:15:00+00:00",
-      "lat": 41.50852,
-      "lon": -7.994753,
-      "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
     },
     {
       "id": "bp-bp-vizela-rotunda-vizela-4815-435",
