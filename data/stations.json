@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-22T08:12:58.612985+00:00",
+  "generatedAt": "2026-07-22T13:26:18.019620+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-22T08:20:00+00:00",
+  "dataUpdatedAt": "2026-07-22T14:15:00+00:00",
   "stats": {
     "totalStations": 438,
     "withCoordinates": 438,
@@ -1278,7 +1278,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.915,
-      "updatedAt": "2026-07-14T09:25:00+00:00",
+      "updatedAt": "2026-07-22T14:15:00+00:00",
       "lat": 39.51281,
       "lon": -8.68554,
       "sourceKey": "INTERMARCHÉ|intermarche minde|rua joao martins|2395-189|alcanena"
@@ -1686,7 +1686,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.93,
-      "updatedAt": "2026-07-17T17:15:00+00:00",
+      "updatedAt": "2026-07-22T10:55:00+00:00",
       "lat": 39.68448,
       "lon": -8.96818,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis calcos martinganca|av. nossa sra. da nazare, en 242, km 21|2445-701|alcobaca"
@@ -1703,7 +1703,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.93,
-      "updatedAt": "2026-07-17T17:20:00+00:00",
+      "updatedAt": "2026-07-22T10:55:00+00:00",
       "lat": 39.750379,
       "lon": -8.904627,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis marinha grande|zona industrial da embra|2430-091|marinha grande"
@@ -2485,7 +2485,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-21T11:55:00+00:00",
+      "updatedAt": "2026-07-22T09:30:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3607,7 +3607,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-21T14:20:00+00:00",
+      "updatedAt": "2026-07-22T10:00:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -3777,7 +3777,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-21T11:40:00+00:00",
+      "updatedAt": "2026-07-22T09:25:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4814,7 +4814,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-13T12:05:00+00:00",
+      "updatedAt": "2026-07-22T12:25:00+00:00",
       "lat": 39.66291,
       "lon": -8.57091,
       "sourceKey": "REPSOL|repsol ourem - gt petro|rua 1o de dezembro, n.o 232|2490-506|ourem"
@@ -7421,9 +7421,9 @@
       "sourceKey": "GENÉRICO|pa mazedo - fg combustiveis|estrada de mazedo 2137|4950-276|moncao"
     },
     {
-      "id": "beq-beq-paredes-do-gravo-oliveira-de-frades-3680-174",
-      "name": "BEQ Paredes do Gravo",
-      "brand": "BEQ",
+      "id": "generico-petrogravo-oliveira-de-frades-3680-174",
+      "name": "Petrogravo",
+      "brand": "GENÉRICO",
       "district": "Viseu",
       "municipality": "Oliveira de Frades",
       "locality": "Paredes de Gravo",
@@ -7432,10 +7432,10 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.169,
-      "updatedAt": "2026-07-14T10:10:00+00:00",
+      "updatedAt": "2026-07-22T09:50:00+00:00",
       "lat": 40.7019,
       "lon": -8.245872,
-      "sourceKey": "BEQ|beq paredes do gravo|paredes de gravo|3680-174|oliveira de frades"
+      "sourceKey": "GENÉRICO|petrogravo|paredes de gravo|3680-174|oliveira de frades"
     },
     {
       "id": "generico-chamazul-lourinha-lourinha-2530-000",
