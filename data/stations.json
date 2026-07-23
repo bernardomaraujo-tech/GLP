@@ -1,30 +1,13 @@
 {
-  "generatedAt": "2026-07-22T19:01:29.170763+00:00",
+  "generatedAt": "2026-07-23T02:00:25.096405+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-22T18:45:00+00:00",
+  "dataUpdatedAt": "2026-07-23T00:30:00+00:00",
   "stats": {
-    "totalStations": 439,
-    "withCoordinates": 439,
-    "withPrice": 439
+    "totalStations": 428,
+    "withCoordinates": 428,
+    "withPrice": 428
   },
   "stations": [
-    {
-      "id": "oz-energia-auto-irmaos-ferreira-lda-pacos-de-ferreira-4590-789",
-      "name": "Auto Irmãos Ferreira,lda",
-      "brand": "OZ ENERGIA",
-      "district": "Porto",
-      "municipality": "Paços de Ferreira",
-      "locality": "Ferreira",
-      "address": "Travessa de Ferreira do Fundo nº 9",
-      "postalCode": "4590-789",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.83,
-      "updatedAt": "2026-07-13T18:40:00+00:00",
-      "lat": 41.2637,
-      "lon": -8.3679,
-      "sourceKey": "OZ ENERGIA|auto irmaos ferreira,lda|travessa de ferreira do fundo no 9|4590-789|pacos de ferreira"
-    },
     {
       "id": "generico-pa-petrozona-sao-joao-da-madeira-sao-joao-da-madeira-3700-317",
       "name": "PA PETROZONA São João da Madeira",
@@ -296,23 +279,6 @@
       "lat": 41.599396,
       "lon": -8.785084,
       "sourceKey": "GENÉRICO|pa gestroil belinho|avenida de belinho, no64 - e.n. 13 - km 52|4740-161|esposende"
-    },
-    {
-      "id": "oz-energia-cl-autogas-montemor-o-velho-3140-563",
-      "name": "CL-AUTOGÁS.",
-      "brand": "OZ ENERGIA",
-      "district": "Coimbra",
-      "municipality": "Montemor-o-Velho",
-      "locality": "Tentúgal",
-      "address": "Est. Nacional 111",
-      "postalCode": "3140-563",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.879,
-      "updatedAt": "2026-07-13T11:25:00+00:00",
-      "lat": 40.217327,
-      "lon": -8.598031,
-      "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
     },
     {
       "id": "alves-bandeira-alves-bandeira-santa-cruz-do-bispo-matosinhos-4455-877",
@@ -721,23 +687,6 @@
       "lat": 41.130836,
       "lon": -8.646461,
       "sourceKey": "AUCHAN|auchan canidelo|rua do emissor, 236-238 canidelo|4400-436|vila nova de gaia"
-    },
-    {
-      "id": "chamagas-pa-chamagas-pedroso-vila-nova-de-gaia-4415-207",
-      "name": "PA CHAMAGÁS Pedroso",
-      "brand": "CHAMAGÁS",
-      "district": "Porto",
-      "municipality": "Vila Nova de Gaia",
-      "locality": "Pedroso",
-      "address": "Rua Nova da Raposa, 353 - Pedroso",
-      "postalCode": "4415-207",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.889,
-      "updatedAt": "2026-07-13T14:30:00+00:00",
-      "lat": 41.068367,
-      "lon": -8.575472,
-      "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
     },
     {
       "id": "prio-prio-canelas-vila-nova-de-gaia-4410-272",
@@ -1233,23 +1182,6 @@
       "sourceKey": "PRIO|prio avanca|e.n. 109 km 41,6 - valada - avanca|3860-000|estarreja"
     },
     {
-      "id": "chamagas-chamagas-leiria-leiria-2400-019",
-      "name": "CHAMAGÁS LEIRIA",
-      "brand": "CHAMAGÁS",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Parceiros",
-      "address": "Rua de Santa Clara - Parceiros",
-      "postalCode": "2400-019",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.909,
-      "updatedAt": "2026-07-13T12:55:00+00:00",
-      "lat": 39.73963,
-      "lon": -8.82211,
-      "sourceKey": "CHAMAGÁS|chamagas leiria|rua de santa clara - parceiros|2400-019|leiria"
-    },
-    {
       "id": "oz-energia-pagpl-oz-energia-prior-velho-loures-2685-869",
       "name": "PAGPL OZ ENERGIA -  PRIOR VELHO",
       "brand": "OZ ENERGIA",
@@ -1316,40 +1248,6 @@
       "lat": 40.65145,
       "lon": -8.61118,
       "sourceKey": "CEPSA|cepsa aveiro zi|rua joao francisco do casal, 122|3800-264|aveiro"
-    },
-    {
-      "id": "cepsa-cepsa-oliveira-de-azemeis-oliveira-de-azemeis-3720-268",
-      "name": "CEPSA  Oliveira de Azeméis",
-      "brand": "CEPSA",
-      "district": "Aveiro",
-      "municipality": "Oliveira de Azeméis",
-      "locality": "Oliveira de Azeméis",
-      "address": "Av. Francisco Tavares, nº 11",
-      "postalCode": "3720-268",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.916,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
-      "lat": 40.84614,
-      "lon": -8.4687,
-      "sourceKey": "CEPSA|cepsa oliveira de azemeis|av. francisco tavares, no 11|3720-268|oliveira de azemeis"
-    },
-    {
-      "id": "moeve-supremotiv-lda-loule-8100-272",
-      "name": "Supremotiv, Lda",
-      "brand": "MOEVE",
-      "district": "Faro",
-      "municipality": "Loulé",
-      "locality": "Loulé",
-      "address": "Zona Industrial Lt-1",
-      "postalCode": "8100-272",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.916,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
-      "lat": 37.129475,
-      "lon": -8.039609,
-      "sourceKey": "MOEVE|supremotiv, lda|zona industrial lt-1|8100-272|loule"
     },
     {
       "id": "cepsa-cepsa-gueifaes-maia-4470-006",
@@ -1845,23 +1743,6 @@
       "sourceKey": "AUCHAN|auchan figueira da foz|av. dr. francisco de sa carneiro, vila robim|3080-853|figueira da foz"
     },
     {
-      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
-      "name": "PA CHAMAGÁS Gala (Morraceira)",
-      "brand": "CHAMAGÁS",
-      "district": "Coimbra",
-      "municipality": "Figueira da Foz",
-      "locality": "Cova",
-      "address": "Rua Major Humberto Cruz - Morraceira",
-      "postalCode": "3090-707",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.939,
-      "updatedAt": "2026-07-13T15:00:00+00:00",
-      "lat": 40.13671,
-      "lon": -8.847939,
-      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
-    },
-    {
       "id": "galp-galp-carnaxide-qta-do-minote-oeiras-2794-051",
       "name": "GALP Carnaxide (Qta. do Minote)",
       "brand": "GALP",
@@ -2162,7 +2043,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-22T00:00:00+00:00",
+      "updatedAt": "2026-07-23T00:00:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -3658,7 +3539,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-22T00:00:00+00:00",
+      "updatedAt": "2026-07-23T00:00:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -4865,44 +4746,10 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-22T08:15:00+00:00",
+      "updatedAt": "2026-07-23T00:30:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
-    },
-    {
-      "id": "moeve-a2-almodovar-alg-lis-almodovar-7700-000",
-      "name": "A2 ALMODÔVAR (ALG/LIS)",
-      "brand": "MOEVE",
-      "district": "Beja",
-      "municipality": "Almodôvar",
-      "locality": "Almodôvar",
-      "address": "A2, KM 193, SUB-LANÇO CASTRO VERDE/ALMODÔVAR, APARTADO 93",
-      "postalCode": "7700-000",
-      "zone": "Alentejo",
-      "fuel": "GPL Auto",
-      "price": 0.976,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
-      "lat": 37.53582,
-      "lon": -8.182937,
-      "sourceKey": "MOEVE|a2 almodovar (alg/lis)|a2, km 193, sub-lanco castro verde/almodovar, apartado 93|7700-000|almodovar"
-    },
-    {
-      "id": "moeve-a2-almodovar-lis-alg-almodovar-7700-000",
-      "name": "A2 ALMODÔVAR (LIS/ALG)",
-      "brand": "MOEVE",
-      "district": "Beja",
-      "municipality": "Almodôvar",
-      "locality": "Almodôvar",
-      "address": "A2, KM 193, SUB-LANÇO CASTRO VERDE/ALMODÔVAR",
-      "postalCode": "7700-000",
-      "zone": "Alentejo",
-      "fuel": "GPL Auto",
-      "price": 0.976,
-      "updatedAt": "2026-07-13T00:00:00+00:00",
-      "lat": 37.536385,
-      "lon": -8.184828,
-      "sourceKey": "MOEVE|a2 almodovar (lis/alg)|a2, km 193, sub-lanco castro verde/almodovar|7700-000|almodovar"
     },
     {
       "id": "cepsa-cepsa-a3-barcelos-por-val-barcelos-4750-058",
@@ -5670,23 +5517,6 @@
       "sourceKey": "REPSOL|e.s. mangualde|ip 5|3530-000|mangualde"
     },
     {
-      "id": "generico-pvgg-inforgas-fundao-fundao-6230-483",
-      "name": "PVGG INFORGAS  Fundão",
-      "brand": "GENÉRICO",
-      "district": "Castelo Branco",
-      "municipality": "Fundão",
-      "locality": "Fundão",
-      "address": "Zona Industrial Fundão, lote 171",
-      "postalCode": "6230-483",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.995,
-      "updatedAt": "2026-07-13T17:15:00+00:00",
-      "lat": 40.1777,
-      "lon": -7.490709,
-      "sourceKey": "GENÉRICO|pvgg inforgas fundao|zona industrial fundao, lote 171|6230-483|fundao"
-    },
-    {
       "id": "cepsa-cepsa-pinheiro-da-bemposta-oliveira-de-azemeis-3720-463",
       "name": "CEPSA  Pinheiro da Bemposta",
       "brand": "CEPSA",
@@ -6072,7 +5902,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-22T00:00:00+00:00",
+      "updatedAt": "2026-07-23T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6089,7 +5919,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-22T00:00:00+00:00",
+      "updatedAt": "2026-07-23T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6571,23 +6401,6 @@
       "sourceKey": "PRIO|gascomb prio tondela|en2 - lugar de naia|3460-016|tondela"
     },
     {
-      "id": "generico-a24-viseu-norte-viseu-3515-512",
-      "name": "A24 Viseu (Norte)",
-      "brand": "GENÉRICO",
-      "district": "Viseu",
-      "municipality": "Viseu",
-      "locality": "Bodiosa a Nova",
-      "address": "A24 Castro Daire Sul – Nó do IP5",
-      "postalCode": "3515-512",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-07-13T17:50:00+00:00",
-      "lat": 40.7075,
-      "lon": -7.943055,
-      "sourceKey": "GENÉRICO|a24 viseu (norte)|a24 castro daire sul no do ip5|3515-512|viseu"
-    },
-    {
       "id": "bp-bp-viseu-abraveses-viseu-3515-419",
       "name": "BP VISEU ABRAVESES",
       "brand": "BP",
@@ -7058,7 +6871,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-07-22T08:15:00+00:00",
+      "updatedAt": "2026-07-23T00:10:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
