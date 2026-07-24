@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-24T08:12:27.086043+00:00",
+  "generatedAt": "2026-07-24T13:22:21.977018+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-24T08:25:00+00:00",
+  "dataUpdatedAt": "2026-07-24T11:20:00+00:00",
   "stats": {
-    "totalStations": 425,
-    "withCoordinates": 425,
-    "withPrice": 425
+    "totalStations": 426,
+    "withCoordinates": 426,
+    "withPrice": 426
   },
   "stations": [
     {
@@ -1471,6 +1471,23 @@
       "sourceKey": "REPSOL|es rot. da cavaleira - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda da cavaleira algueirao|2710-418|sintra"
     },
     {
+      "id": "moeve-supremotiv-lda-loule-8100-272",
+      "name": "Supremotiv, Lda",
+      "brand": "MOEVE",
+      "district": "Faro",
+      "municipality": "Loulé",
+      "locality": "Loulé",
+      "address": "Zona Industrial Lt-1",
+      "postalCode": "8100-272",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.926,
+      "updatedAt": "2026-07-24T11:20:00+00:00",
+      "lat": 37.129475,
+      "lon": -8.039609,
+      "sourceKey": "MOEVE|supremotiv, lda|zona industrial lt-1|8100-272|loule"
+    },
+    {
       "id": "leclerc-e-leclerc-caldas-da-rainha-caldas-da-rainha-2504-915",
       "name": "E.LECLERC CALDAS DA RAINHA",
       "brand": "LECLERC",
@@ -2349,7 +2366,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-23T09:55:00+00:00",
+      "updatedAt": "2026-07-24T09:50:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -3454,7 +3471,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-20T10:20:00+00:00",
+      "updatedAt": "2026-07-24T10:45:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -3658,7 +3675,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-23T08:30:00+00:00",
+      "updatedAt": "2026-07-24T10:10:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
