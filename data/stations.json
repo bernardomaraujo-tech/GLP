@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-29T19:02:13.825096+00:00",
+  "generatedAt": "2026-07-30T01:44:32.936599+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-29T18:40:00+00:00",
+  "dataUpdatedAt": "2026-07-30T00:00:00+00:00",
   "stats": {
-    "totalStations": 433,
-    "withCoordinates": 433,
-    "withPrice": 433
+    "totalStations": 429,
+    "withCoordinates": 429,
+    "withPrice": 429
   },
   "stations": [
     {
@@ -1505,23 +1505,6 @@
       "sourceKey": "PRIO|prio avanca|e.n. 109 km 41,6 - valada - avanca|3860-000|estarreja"
     },
     {
-      "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
-      "name": "PGPL CHAMAGAS Rio Maior",
-      "brand": "CHAMAGÁS",
-      "district": "Santarém",
-      "municipality": "Rio Maior",
-      "locality": "Alto da Serra",
-      "address": "E.N. 1 - Alto da Serra",
-      "postalCode": "2040-063",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.919,
-      "updatedAt": "2026-07-20T10:05:00+00:00",
-      "lat": 39.375793,
-      "lon": -8.962691,
-      "sourceKey": "CHAMAGÁS|pgpl chamagas rio maior|e.n. 1 - alto da serra|2040-063|rio maior"
-    },
-    {
       "id": "leclerc-e-leclerc-amora-seixal-2845-000",
       "name": "E. LECLERC AMORA",
       "brand": "LECLERC",
@@ -1975,7 +1958,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 40.35054,
       "lon": -8.5794,
       "sourceKey": "GALP|galp cantanhede - estacao das colinas|av. prof anibal de oliveira|3060-851|cantanhede"
@@ -2179,7 +2162,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 40.167801,
       "lon": -8.456432,
       "sourceKey": "GALP|paralelo alternativo - comercio de combustiveis, lda|ic 2 km 183,4|3000-032|coimbra"
@@ -2230,7 +2213,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-27T13:15:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -3692,7 +3675,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -4627,7 +4610,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-28T18:45:00+00:00",
+      "updatedAt": "2026-07-29T21:25:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -4661,7 +4644,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-28T09:15:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 37.10323,
       "lon": -8.07321,
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
@@ -5568,23 +5551,6 @@
       "sourceKey": "REPSOL|e.s. vila real abambres|r. gaspar sameiro, n 920|5000-261|vila real"
     },
     {
-      "id": "galp-galp-castro-daire-ldl-combustiveis-lda-castro-daire-3600-199",
-      "name": "GALP Castro Daire - LDL Combustíveis, Lda",
-      "brand": "GALP",
-      "district": "Viseu",
-      "municipality": "Castro Daire",
-      "locality": "Castro Daire",
-      "address": "Avenida Maria Alcina Fadista, 1156",
-      "postalCode": "3600-199",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.984,
-      "updatedAt": "2026-07-20T09:45:00+00:00",
-      "lat": 40.910305,
-      "lon": -7.928194,
-      "sourceKey": "GALP|galp castro daire - ldl combustiveis, lda|avenida maria alcina fadista, 1156|3600-199|castro daire"
-    },
-    {
       "id": "moeve-moeve-viana-do-castelo-cardielos-viana-do-castelo-4925-347",
       "name": "MOEVE Viana do Castelo - Cardielos",
       "brand": "MOEVE",
@@ -6123,7 +6089,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6140,7 +6106,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-30T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6297,23 +6263,6 @@
       "lat": 39.099525,
       "lon": -9.24887,
       "sourceKey": "BP|torres vedras|rotunda de arenes (ligacao a a8)|2560-000|torres vedras"
-    },
-    {
-      "id": "generico-petrovila-combustiveis-lda-felgueiras-4650-092",
-      "name": "Petrovila - Combustíveis, Lda",
-      "brand": "GENÉRICO",
-      "district": "Porto",
-      "municipality": "Felgueiras",
-      "locality": "Airães",
-      "address": "Rua da Liberdade, S/N",
-      "postalCode": "4650-092",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-07-20T13:55:00+00:00",
-      "lat": 41.32086,
-      "lon": -8.19268,
-      "sourceKey": "GENÉRICO|petrovila - combustiveis, lda|rua da liberdade, s/n|4650-092|felgueiras"
     },
     {
       "id": "bp-bp-vandoma-paredes-4585-769",
@@ -6790,23 +6739,6 @@
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
-    },
-    {
-      "id": "vibagas-acl-viba-gas-zi-sines-sines-7520-309",
-      "name": "ACL VIBA GÁS - ZI Sines",
-      "brand": "VIBAGÁS",
-      "district": "Setúbal",
-      "municipality": "Sines",
-      "locality": "Zona Industrial Ligeira 2",
-      "address": "ZIL 2, RUA 5, LOTE 1248, 7520-309, SINES",
-      "postalCode": "7520-309",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.012,
-      "updatedAt": "2026-07-20T11:25:00+00:00",
-      "lat": 37.96036,
-      "lon": -8.84291,
-      "sourceKey": "VIBAGÁS|acl viba gas - zi sines|zil 2, rua 5, lote 1248, 7520-309, sines|7520-309|sines"
     },
     {
       "id": "repsol-as-antua-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-estarreja-3850-909",
