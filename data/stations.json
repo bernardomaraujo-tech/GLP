@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-30T08:12:14.403670+00:00",
+  "generatedAt": "2026-07-30T13:32:27.017297+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-30T08:25:00+00:00",
+  "dataUpdatedAt": "2026-07-30T14:30:00+00:00",
   "stats": {
-    "totalStations": 429,
-    "withCoordinates": 429,
-    "withPrice": 429
+    "totalStations": 430,
+    "withCoordinates": 430,
+    "withPrice": 430
   },
   "stations": [
     {
@@ -636,23 +636,6 @@
       "lat": 39.403405,
       "lon": -9.148029,
       "sourceKey": "LECLERC|e.leclerc caldas da rainha|quinta do salgado|2504-915|caldas da rainha"
-    },
-    {
-      "id": "bp-ab-fonseca-produtos-bp-leiria-2415-566",
-      "name": "AB Fonseca - Produtos BP",
-      "brand": "BP",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Covinhas - Marrazes",
-      "address": "Estrada dos Pinheiros, 550",
-      "postalCode": "2415-566",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.898,
-      "updatedAt": "2026-07-27T10:35:00+00:00",
-      "lat": 39.76685,
-      "lon": -8.79344,
-      "sourceKey": "BP|ab fonseca - produtos bp|estrada dos pinheiros, 550|2415-566|leiria"
     },
     {
       "id": "generico-jetbase-produtos-bp-marinha-grande-2430-018",
@@ -1890,7 +1873,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-29T12:30:00+00:00",
+      "updatedAt": "2026-07-30T13:00:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1907,7 +1890,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-29T12:35:00+00:00",
+      "updatedAt": "2026-07-30T14:30:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -2536,7 +2519,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-29T10:15:00+00:00",
+      "updatedAt": "2026-07-30T09:45:00+00:00",
       "lat": 41.11363,
       "lon": -8.59042,
       "sourceKey": "GALP|galp gaia|av. vasco da gama no 1538|4430-247|vila nova de gaia"
@@ -2965,6 +2948,23 @@
       "lat": 38.547485,
       "lon": -8.883927,
       "sourceKey": "OZ ENERGIA|oz energia - setubal|estrada da varzinha|2900-657|setubal"
+    },
+    {
+      "id": "galp-tecopneus-lda-batalha-2440-017",
+      "name": "TECOPNEUS, LDA",
+      "brand": "GALP",
+      "district": "Leiria",
+      "municipality": "Batalha",
+      "locality": "CASAIS DOS LEDOS",
+      "address": "ESTRADA NACIONAL 356 Pta 4A",
+      "postalCode": "2440-017",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.95,
+      "updatedAt": "2026-07-30T11:55:00+00:00",
+      "lat": 39.6718,
+      "lon": -8.85594,
+      "sourceKey": "GALP|tecopneus, lda|estrada nacional 356 pta 4a|2440-017|batalha"
     },
     {
       "id": "repsol-repsol-aveiro-no-sul-a-aveiro-3810-489",
@@ -5211,6 +5211,23 @@
       "sourceKey": "ECOBRENT|ecobrent - guia|en 125, km 66,6|8200-413|albufeira"
     },
     {
+      "id": "lusiadagas-lusiadagas-albufeira-8200-999",
+      "name": "Lusiadagás",
+      "brand": "LUSIADAGÁS",
+      "district": "Faro",
+      "municipality": "Albufeira",
+      "locality": "Albufeira",
+      "address": "Planeta Azul - Estrada de Brejos, Montechoro - Albufeira",
+      "postalCode": "8200-999",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-07-30T09:20:00+00:00",
+      "lat": 37.10871,
+      "lon": -8.231543,
+      "sourceKey": "LUSIADAGÁS|lusiadagas|planeta azul - estrada de brejos, montechoro - albufeira|8200-999|albufeira"
+    },
+    {
       "id": "bp-peniche-av-mons-bastos-peniche-2520-000",
       "name": "PENICHE - AV. MONS. BASTOS",
       "brand": "BP",
@@ -6004,7 +6021,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-29T12:25:00+00:00",
+      "updatedAt": "2026-07-30T12:55:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
