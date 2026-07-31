@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-31T08:38:56.817890+00:00",
+  "generatedAt": "2026-07-31T13:45:58.891675+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-31T09:30:00+00:00",
+  "dataUpdatedAt": "2026-07-31T14:25:00+00:00",
   "stats": {
-    "totalStations": 425,
-    "withCoordinates": 425,
-    "withPrice": 425
+    "totalStations": 427,
+    "withCoordinates": 427,
+    "withPrice": 427
   },
   "stations": [
     {
@@ -1080,6 +1080,23 @@
       "sourceKey": "PRIO|prio vale de cambra|av. do caima, no 750 sao pedro de casteloes - vale de cambra|3730-202|vale de cambra"
     },
     {
+      "id": "prio-prio-perelhal-barcelos-4750-620",
+      "name": "PRIO - Perelhal",
+      "brand": "PRIO",
+      "district": "Braga",
+      "municipality": "Barcelos",
+      "locality": "Perelhal",
+      "address": "Rua Frei Pedro de Perelhal, 856",
+      "postalCode": "4750-620",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.909,
+      "updatedAt": "2026-07-31T12:35:00+00:00",
+      "lat": 41.53171,
+      "lon": -8.69155,
+      "sourceKey": "PRIO|prio - perelhal|rua frei pedro de perelhal, 856|4750-620|barcelos"
+    },
+    {
       "id": "bombagas-bombagas-combustiveis-e-lubrificantes-lda-vila-verde-4731-000",
       "name": "BOMBAGAS COMBUSTIVEIS E LUBRIFICANTES LDA",
       "brand": "BOMBAGÁS",
@@ -1822,7 +1839,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-30T13:00:00+00:00",
+      "updatedAt": "2026-07-31T12:45:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1839,7 +1856,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-30T14:30:00+00:00",
+      "updatedAt": "2026-07-31T14:25:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3460,6 +3477,23 @@
       "sourceKey": "OZ ENERGIA|oz energia - feijo|rua joaquim pires jorge, no19|2810-000|almada"
     },
     {
+      "id": "galp-ultra-resistente-combustiveis-lda-satao-3560-085",
+      "name": "Ultra Resistente - Combustiveis, Ldª",
+      "brand": "GALP",
+      "district": "Viseu",
+      "municipality": "Sátão",
+      "locality": "Longra",
+      "address": "EN 229 Km 69.800",
+      "postalCode": "3560-085",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.959,
+      "updatedAt": "2026-07-31T11:55:00+00:00",
+      "lat": 40.75569,
+      "lon": -7.72737,
+      "sourceKey": "GALP|ultra resistente - combustiveis, lda|en 229 km 69.800|3560-085|satao"
+    },
+    {
       "id": "freitas-clgf-lda-sabugal-6320-131",
       "name": "CLGF.LDA",
       "brand": "FREITAS",
@@ -3522,7 +3556,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-27T10:25:00+00:00",
+      "updatedAt": "2026-07-31T10:20:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -3726,7 +3760,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-30T17:00:00+00:00",
+      "updatedAt": "2026-07-31T12:20:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5953,7 +5987,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-30T12:55:00+00:00",
+      "updatedAt": "2026-07-31T12:30:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
