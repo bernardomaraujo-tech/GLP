@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-30T19:14:09.553252+00:00",
+  "generatedAt": "2026-07-31T02:01:23.593323+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-30T18:35:00+00:00",
+  "dataUpdatedAt": "2026-07-31T00:15:00+00:00",
   "stats": {
-    "totalStations": 430,
-    "withCoordinates": 430,
-    "withPrice": 430
+    "totalStations": 425,
+    "withCoordinates": 425,
+    "withPrice": 425
   },
   "stations": [
     {
@@ -689,23 +689,6 @@
       "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
     },
     {
-      "id": "prio-prio-perelhal-barcelos-4750-620",
-      "name": "PRIO - Perelhal",
-      "brand": "PRIO",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Perelhal",
-      "address": "Rua Frei Pedro de Perelhal, 856",
-      "postalCode": "4750-620",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.899,
-      "updatedAt": "2026-07-21T21:00:00+00:00",
-      "lat": 41.53171,
-      "lon": -8.69155,
-      "sourceKey": "PRIO|prio - perelhal|rua frei pedro de perelhal, 856|4750-620|barcelos"
-    },
-    {
       "id": "prio-prio-pousada-de-saramagos-vila-nova-de-famalicao-4770-405",
       "name": "PRIO Pousada de Saramagos",
       "brand": "PRIO",
@@ -738,23 +721,6 @@
       "lat": 37.03714,
       "lon": -7.957144,
       "sourceKey": "PRIO|prio faro|en 125-10 (estrada do aeroporto)|8005-146|faro"
-    },
-    {
-      "id": "galp-galp-cruz-da-areia-leiria-leiria-2410-112",
-      "name": "Galp- Cruz da Areia (Leiria)",
-      "brand": "GALP",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Leiria",
-      "address": "Rua D. José Alves da Silva n. 12",
-      "postalCode": "2410-112",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.899,
-      "updatedAt": "2026-07-21T14:45:00+00:00",
-      "lat": 39.724262,
-      "lon": -8.806201,
-      "sourceKey": "GALP|galp- cruz da areia (leiria)|rua d. jose alves da silva n. 12|2410-112|leiria"
     },
     {
       "id": "prio-prio-alta-de-lisboa-lisboa-1750-114",
@@ -1539,23 +1505,6 @@
       "sourceKey": "AUCHAN|auchan viseu|qta. da alagoa estrada nelas|3520-000|viseu"
     },
     {
-      "id": "cepsa-posto-da-cidreira-coimbra-3025-300",
-      "name": "POSTO DA CIDREIRA",
-      "brand": "CEPSA",
-      "district": "Coimbra",
-      "municipality": "Coimbra",
-      "locality": "CIDREIRA",
-      "address": "EN.111-KM 35,100 - CIDREIRA",
-      "postalCode": "3025-300",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.92,
-      "updatedAt": "2026-07-21T17:55:00+00:00",
-      "lat": 40.24117,
-      "lon": -8.48303,
-      "sourceKey": "CEPSA|posto da cidreira|en.111-km 35,100 - cidreira|3025-300|coimbra"
-    },
-    {
       "id": "generico-fernando-oliveira-inocencio-unipessoal-lda-mira-3070-212",
       "name": "Fernando Oliveira Inocencio, Unipessoal Lda.",
       "brand": "GENÉRICO",
@@ -2196,7 +2145,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-30T00:00:00+00:00",
+      "updatedAt": "2026-07-31T00:00:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -2234,23 +2183,6 @@
       "lat": 38.739,
       "lon": -9.202767,
       "sourceKey": "REPSOL|es casa pia - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda pina manique|1500-462|lisboa"
-    },
-    {
-      "id": "galp-galp-canecas-norte-11499-b-odivelas-1685-601",
-      "name": "GALP Caneças Norte (11499) B",
-      "brand": "GALP",
-      "district": "Lisboa",
-      "municipality": "Odivelas",
-      "locality": "Caneças",
-      "address": "Rua Luis de Camões",
-      "postalCode": "1685-601",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.944,
-      "updatedAt": "2026-07-21T08:55:00+00:00",
-      "lat": 38.813442,
-      "lon": -9.210954,
-      "sourceKey": "GALP|galp canecas norte (11499) b|rua luis de camoes|1685-601|odivelas"
     },
     {
       "id": "repsol-repsol-mem-martins-b-sintra-2725-260",
@@ -3403,7 +3335,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-31T00:00:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -3528,23 +3460,6 @@
       "sourceKey": "OZ ENERGIA|oz energia - feijo|rua joaquim pires jorge, no19|2810-000|almada"
     },
     {
-      "id": "galp-ultra-resistente-combustiveis-lda-satao-3560-085",
-      "name": "Ultra Resistente - Combustiveis, Ldª",
-      "brand": "GALP",
-      "district": "Viseu",
-      "municipality": "Sátão",
-      "locality": "Longra",
-      "address": "EN 229 Km 69.800",
-      "postalCode": "3560-085",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-07-21T10:35:00+00:00",
-      "lat": 40.75569,
-      "lon": -7.72737,
-      "sourceKey": "GALP|ultra resistente - combustiveis, lda|en 229 km 69.800|3560-085|satao"
-    },
-    {
       "id": "freitas-clgf-lda-sabugal-6320-131",
       "name": "CLGF.LDA",
       "brand": "FREITAS",
@@ -3613,6 +3528,23 @@
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
     },
     {
+      "id": "repsol-es-portimao-cardosas-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-portimao-8500-315",
+      "name": "ES PORTIMÃO CARDOSAS - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
+      "brand": "REPSOL",
+      "district": "Faro",
+      "municipality": "Portimão",
+      "locality": "nan",
+      "address": "Poço Seco - Cardosas",
+      "postalCode": "8500-315",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-07-31T00:10:00+00:00",
+      "lat": 37.150074,
+      "lon": -8.539489,
+      "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
+    },
+    {
       "id": "repsol-repsol-vilar-formoso-e0905-almeida-6355-339",
       "name": "REPSOL Vilar Formoso E0905",
       "brand": "REPSOL",
@@ -3675,7 +3607,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-30T00:00:00+00:00",
+      "updatedAt": "2026-07-31T00:00:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -3709,7 +3641,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-29T00:00:00+00:00",
+      "updatedAt": "2026-07-31T00:00:00+00:00",
       "lat": 39.7454,
       "lon": -8.89058,
       "sourceKey": "REPSOL|e.s. albergaria|en 242 km 8,5 (av na sra nazare)|2430-011|marinha grande"
@@ -4610,7 +4542,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-29T21:25:00+00:00",
+      "updatedAt": "2026-07-30T23:35:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -4644,7 +4576,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-30T00:00:00+00:00",
+      "updatedAt": "2026-07-31T00:00:00+00:00",
       "lat": 37.10323,
       "lon": -8.07321,
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
@@ -4797,7 +4729,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-30T08:15:00+00:00",
+      "updatedAt": "2026-07-31T00:15:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
@@ -6960,23 +6892,6 @@
       "lat": 37.59879,
       "lon": -8.64547,
       "sourceKey": "REPSOL|e.s. odemira|av. poole da costa no 49|7630-000|odemira"
-    },
-    {
-      "id": "repsol-es-portimao-cardosas-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-portimao-8500-315",
-      "name": "ES PORTIMÃO CARDOSAS - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
-      "brand": "REPSOL",
-      "district": "Faro",
-      "municipality": "Portimão",
-      "locality": "nan",
-      "address": "Poço Seco - Cardosas",
-      "postalCode": "8500-315",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-30T08:20:00+00:00",
-      "lat": 37.150074,
-      "lon": -8.539489,
-      "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
     },
     {
       "id": "repsol-e-s-guarda-sul-rotunda-guarda-6300-625",
