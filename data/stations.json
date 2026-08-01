@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-31T19:12:40.062584+00:00",
+  "generatedAt": "2026-08-01T02:02:22.041998+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-07-31T20:00:00+00:00",
+  "dataUpdatedAt": "2026-08-01T00:45:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -1584,7 +1584,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.924,
-      "updatedAt": "2026-07-31T08:15:00+00:00",
+      "updatedAt": "2026-08-01T00:40:00+00:00",
       "lat": 38.80345,
       "lon": -9.356381,
       "sourceKey": "REPSOL|es rot. da cavaleira - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda da cavaleira algueirao|2710-418|sintra"
@@ -1805,7 +1805,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.934,
-      "updatedAt": "2026-07-27T00:05:00+00:00",
+      "updatedAt": "2026-08-01T00:10:00+00:00",
       "lat": 40.22189,
       "lon": -8.43117,
       "sourceKey": "GALP|petropostos comercio de combustiveis lda|circular externa de coimbra|3000-125|coimbra"
@@ -1856,7 +1856,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-31T12:45:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1873,7 +1873,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-31T14:25:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -2213,7 +2213,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-31T08:15:00+00:00",
+      "updatedAt": "2026-08-01T00:45:00+00:00",
       "lat": 38.739,
       "lon": -9.202767,
       "sourceKey": "REPSOL|es casa pia - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda pina manique|1500-462|lisboa"
@@ -2230,7 +2230,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-31T08:15:00+00:00",
+      "updatedAt": "2026-08-01T00:45:00+00:00",
       "lat": 38.78333,
       "lon": -9.338441,
       "sourceKey": "REPSOL|repsol mem martins b|alto do forte rua das vagens - mem martins|2725-260|sintra"
@@ -2332,7 +2332,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-27T00:05:00+00:00",
+      "updatedAt": "2026-08-01T00:05:00+00:00",
       "lat": 41.24609,
       "lon": -8.648967,
       "sourceKey": "REPSOL|repsol maia - padrao da moreira|rua conselheiro luis magalhaes|4470-616|maia"
@@ -2366,7 +2366,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-27T14:30:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 41.18254,
       "lon": -8.676889,
       "sourceKey": "REPSOL|repsol matosinhos - ip4|prolongamento da avenida republica, s/n|4450-130|matosinhos"
@@ -3658,7 +3658,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-31T00:00:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -3709,10 +3709,27 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 39.922311,
       "lon": -8.629056,
       "sourceKey": "REPSOL|e.s. pombal centro|en 1|3100-000|pombal"
+    },
+    {
+      "id": "repsol-e-s-porto-de-mos-porto-de-mos-2480-170",
+      "name": "E.S. PORTO DE MOS",
+      "brand": "REPSOL",
+      "district": "Leiria",
+      "municipality": "Porto de Mós",
+      "locality": "Várzea StºAntónio",
+      "address": "EN 243",
+      "postalCode": "2480-170",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 39.59649,
+      "lon": -8.81717,
+      "sourceKey": "REPSOL|e.s. porto de mos|en 243|2480-170|porto de mos"
     },
     {
       "id": "galp-galp-a-s-oeiras-casc-lisb-oeiras-2780-201",
@@ -3777,7 +3794,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-31T12:20:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -3849,6 +3866,23 @@
       "lat": 41.18037,
       "lon": -8.568678,
       "sourceKey": "REPSOL|repsol rio tinto ii|rua de rebordoes n.o 297|4435-416|gondomar"
+    },
+    {
+      "id": "repsol-e-s-marco-de-canavezes-marco-de-canaveses-4630-070",
+      "name": "E.S. MARCO DE CANAVEZES",
+      "brand": "REPSOL",
+      "district": "Porto",
+      "municipality": "Marco de Canaveses",
+      "locality": "Marco de Canavezes",
+      "address": "Av. Bombeiros Voluntários do Marco de Canavezes, 1002",
+      "postalCode": "4630-070",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 41.186696,
+      "lon": -8.155601,
+      "sourceKey": "REPSOL|e.s. marco de canavezes|av. bombeiros voluntarios do marco de canavezes, 1002|4630-070|marco de canaveses"
     },
     {
       "id": "repsol-e-s-pacos-de-ferreira-ii-pacos-de-ferreira-4595-144",
@@ -3970,6 +4004,23 @@
       "sourceKey": "REPSOL|e.s. ponte chamusca|ponte da chamusca|2140-000|chamusca"
     },
     {
+      "id": "repsol-e-s-fatima-ourem-2495-407",
+      "name": "E.S. FATIMA",
+      "brand": "REPSOL",
+      "district": "Santarém",
+      "municipality": "Ourém",
+      "locality": "Fátima",
+      "address": "Estrada de Leiria, n.º148 - Lugar de Barradas",
+      "postalCode": "2495-407",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 39.64321,
+      "lon": -8.68515,
+      "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
+    },
+    {
       "id": "repsol-e-s-santarem-santarem-2000-630",
       "name": "E.S. SANTAREM",
       "brand": "REPSOL",
@@ -4015,7 +4066,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-31T08:25:00+00:00",
+      "updatedAt": "2026-08-01T00:10:00+00:00",
       "lat": 38.637806,
       "lon": -9.198797,
       "sourceKey": "REPSOL|area de servico repsol almada a33|a 33 km 2,5|2825-279|almada"
@@ -4066,7 +4117,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-28T00:05:00+00:00",
+      "updatedAt": "2026-08-01T00:05:00+00:00",
       "lat": 38.639392,
       "lon": -9.150164,
       "sourceKey": "BP|bp corroios|en 10 km 5,9|2855-000|seixal"
@@ -4083,7 +4134,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-31T08:25:00+00:00",
+      "updatedAt": "2026-08-01T00:45:00+00:00",
       "lat": 38.633119,
       "lon": -9.149581,
       "sourceKey": "REPSOL|e.s. sta. marta corroios|av. rui gracio|2855-577|seixal"
@@ -4104,6 +4155,23 @@
       "lat": 38.617588,
       "lon": -9.116368,
       "sourceKey": "REPSOL|repsol fogueteiro|rua oliveira martins|2845-381|seixal"
+    },
+    {
+      "id": "repsol-e-s-sines-sines-7520-000",
+      "name": "E.S. SINES",
+      "brand": "REPSOL",
+      "district": "Setúbal",
+      "municipality": "Sines",
+      "locality": "Sines",
+      "address": "Av. General Humberto Delgado M-N-O",
+      "postalCode": "7520-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 37.95812,
+      "lon": -8.86573,
+      "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
     },
     {
       "id": "repsol-e-s-valenca-valenca-4930-002",
@@ -4304,7 +4372,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-27T00:05:00+00:00",
+      "updatedAt": "2026-08-01T00:05:00+00:00",
       "lat": 40.11746,
       "lon": -8.28732,
       "sourceKey": "GALP|posto galp lousa en342 - anibal antunes bandeira, lda|en 342 ao km 8,75 (variante lousa-miranda do corvo)|3200-133|lousa"
@@ -4614,23 +4682,6 @@
       "lat": 41.644604,
       "lon": -8.436118,
       "sourceKey": "REPSOL|repsol vila verde|av. antonio sergio, s/n|4730-709|vila verde"
-    },
-    {
-      "id": "repsol-e-s-cercado-b-loule-8100-287",
-      "name": "E.S. CERCADO B",
-      "brand": "REPSOL",
-      "district": "Faro",
-      "municipality": "Loulé",
-      "locality": "Loulé",
-      "address": "EN 125-CERCADO",
-      "postalCode": "8100-287",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-07-31T00:00:00+00:00",
-      "lat": 37.10323,
-      "lon": -8.07321,
-      "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
     },
     {
       "id": "repsol-e-s-guarda-mileu-guarda-6300-373",
@@ -5398,6 +5449,23 @@
       "sourceKey": "GALP|posto de sobral de monte agraco|av. 1o de maio|2590-001|sobral de monte agraco"
     },
     {
+      "id": "repsol-e-s-mealhada-a-mealhada-3050-000",
+      "name": "E.S. MEALHADA A",
+      "brand": "REPSOL",
+      "district": "Aveiro",
+      "municipality": "Mealhada",
+      "locality": "Porto Seixo",
+      "address": "EN 1 Km 217,2",
+      "postalCode": "3050-000",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 40.364032,
+      "lon": -8.453945,
+      "sourceKey": "REPSOL|e.s. mealhada a|en 1 km 217,2|3050-000|mealhada"
+    },
+    {
       "id": "oz-energia-oz-energia-castro-verde-intermarche-castro-verde-7780-163",
       "name": "OZ ENERGIA - CASTRO VERDE(Intermarché)",
       "brand": "OZ ENERGIA",
@@ -5432,6 +5500,23 @@
       "sourceKey": "OZ ENERGIA|oz energia - mirandela|lugar do espinheiral, en15, saida mirandela oeste|5370-552|mirandela"
     },
     {
+      "id": "repsol-e-s-cercado-b-loule-8100-287",
+      "name": "E.S. CERCADO B",
+      "brand": "REPSOL",
+      "district": "Faro",
+      "municipality": "Loulé",
+      "locality": "Loulé",
+      "address": "EN 125-CERCADO",
+      "postalCode": "8100-287",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 37.10323,
+      "lon": -8.07321,
+      "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
+    },
+    {
       "id": "galp-galp-a-s-loule-loule-faro-loule-8100-000",
       "name": "GALP A.S. Loulé (Loulé/Faro)",
       "brand": "GALP",
@@ -5464,6 +5549,40 @@
       "lat": 37.136974,
       "lon": -8.110044,
       "sourceKey": "GALP|galp a22 loule (faro/loule)|a. e. 22 km 62.5 sublanco guia / loule_aparta|8100-000|loule"
+    },
+    {
+      "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
+      "name": "ES  CONSTITUICAO - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
+      "brand": "REPSOL",
+      "district": "Porto",
+      "municipality": "Porto",
+      "locality": "Porto",
+      "address": "Rua da Constituição nº 2570",
+      "postalCode": "4000-000",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-01T00:05:00+00:00",
+      "lat": 41.165108,
+      "lon": -8.628078,
+      "sourceKey": "REPSOL|es constituicao - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rua da constituicao no 2570|4000-000|porto"
+    },
+    {
+      "id": "repsol-es-alcochete-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-alcochete-2890-009",
+      "name": "ES ALCOCHETE - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
+      "brand": "REPSOL",
+      "district": "Setúbal",
+      "municipality": "Alcochete",
+      "locality": "Alcochete",
+      "address": "Lugar do Entroncamento",
+      "postalCode": "2890-009",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-01T00:40:00+00:00",
+      "lat": 38.745583,
+      "lon": -8.930714,
+      "sourceKey": "REPSOL|es alcochete - gespost - gestao e administracao de postos de abastecimento unipessoal lda|lugar do entroncamento|2890-009|alcochete"
     },
     {
       "id": "galp-galp-a12-a-s-alcochete-pte-vasco-da-gama-n-s-alcochete-2890-201",
@@ -5534,6 +5653,23 @@
       "sourceKey": "GALP|sociedade combustiveis silva do vale, lda|av. 25 de abril|4900-496|viana do castelo"
     },
     {
+      "id": "repsol-e-s-murca-murca-5090-000",
+      "name": "E.S. MURÇA",
+      "brand": "REPSOL",
+      "district": "Vila Real",
+      "municipality": "Murça",
+      "locality": "Murça",
+      "address": "Variante à EN 15",
+      "postalCode": "5090-000",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 41.40636,
+      "lon": -7.45023,
+      "sourceKey": "REPSOL|e.s. murca|variante a en 15|5090-000|murca"
+    },
+    {
       "id": "repsol-e-s-vila-real-abambres-vila-real-5000-261",
       "name": "E.S. VILA REAL ABAMBRES",
       "brand": "REPSOL",
@@ -5549,6 +5685,23 @@
       "lat": 41.30531,
       "lon": -7.72257,
       "sourceKey": "REPSOL|e.s. vila real abambres|r. gaspar sameiro, n 920|5000-261|vila real"
+    },
+    {
+      "id": "galp-galp-castro-daire-ldl-combustiveis-lda-castro-daire-3600-199",
+      "name": "GALP Castro Daire - LDL Combustíveis, Lda",
+      "brand": "GALP",
+      "district": "Viseu",
+      "municipality": "Castro Daire",
+      "locality": "Castro Daire",
+      "address": "Avenida Maria Alcina Fadista, 1156",
+      "postalCode": "3600-199",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "lat": 40.910305,
+      "lon": -7.928194,
+      "sourceKey": "GALP|galp castro daire - ldl combustiveis, lda|avenida maria alcina fadista, 1156|3600-199|castro daire"
     },
     {
       "id": "moeve-moeve-viana-do-castelo-cardielos-viana-do-castelo-4925-347",
@@ -5834,7 +5987,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-29T00:05:00+00:00",
+      "updatedAt": "2026-08-01T00:05:00+00:00",
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
@@ -6004,7 +6157,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-31T12:30:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6089,7 +6242,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-30T00:00:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6106,7 +6259,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-30T00:00:00+00:00",
+      "updatedAt": "2026-08-01T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6622,57 +6775,6 @@
       "sourceKey": "GALP|galp a25 vouzela (aveiro/viseu)|a.e. a25 - ip5, km 7,90 e 8,30 do sub -lanco talhadas/vouzela - lanco nodo ic2|3670-056|vouzela"
     },
     {
-      "id": "bp-bp-estremoz-estremoz-7100-147",
-      "name": "Bp Estremoz",
-      "brand": "BP",
-      "district": "Évora",
-      "municipality": "Estremoz",
-      "locality": "Estremoz",
-      "address": "Zona Industrial de Estremoz, lote nº 63",
-      "postalCode": "7100-147",
-      "zone": "Alentejo",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-07-22T15:15:00+00:00",
-      "lat": 38.84741,
-      "lon": -7.5815,
-      "sourceKey": "BP|bp estremoz|zona industrial de estremoz, lote no 63|7100-147|estremoz"
-    },
-    {
-      "id": "repsol-e-s-porto-de-mos-porto-de-mos-2480-170",
-      "name": "E.S. PORTO DE MOS",
-      "brand": "REPSOL",
-      "district": "Leiria",
-      "municipality": "Porto de Mós",
-      "locality": "Várzea StºAntónio",
-      "address": "EN 243",
-      "postalCode": "2480-170",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.004,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
-      "lat": 39.59649,
-      "lon": -8.81717,
-      "sourceKey": "REPSOL|e.s. porto de mos|en 243|2480-170|porto de mos"
-    },
-    {
-      "id": "repsol-e-s-marco-de-canavezes-marco-de-canaveses-4630-070",
-      "name": "E.S. MARCO DE CANAVEZES",
-      "brand": "REPSOL",
-      "district": "Porto",
-      "municipality": "Marco de Canaveses",
-      "locality": "Marco de Canavezes",
-      "address": "Av. Bombeiros Voluntários do Marco de Canavezes, 1002",
-      "postalCode": "4630-070",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.004,
-      "updatedAt": "2026-07-27T09:45:00+00:00",
-      "lat": 41.186696,
-      "lon": -8.155601,
-      "sourceKey": "REPSOL|e.s. marco de canavezes|av. bombeiros voluntarios do marco de canavezes, 1002|4630-070|marco de canaveses"
-    },
-    {
       "id": "repsol-repsol-lordelo-do-ouro-porto-4150-357",
       "name": "REPSOL Lordelo do Ouro",
       "brand": "REPSOL",
@@ -6688,23 +6790,6 @@
       "lat": 41.16147,
       "lon": -8.65623,
       "sourceKey": "REPSOL|repsol lordelo do ouro|av. marechal gomes da costa, 99|4150-357|porto"
-    },
-    {
-      "id": "repsol-e-s-sines-sines-7520-000",
-      "name": "E.S. SINES",
-      "brand": "REPSOL",
-      "district": "Setúbal",
-      "municipality": "Sines",
-      "locality": "Sines",
-      "address": "Av. General Humberto Delgado M-N-O",
-      "postalCode": "7520-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.004,
-      "updatedAt": "2026-07-27T12:25:00+00:00",
-      "lat": 37.95812,
-      "lon": -8.86573,
-      "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
     },
     {
       "id": "repsol-e-s-chaves-ii-chaves-5400-000",
@@ -6911,23 +6996,6 @@
       "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
     },
     {
-      "id": "repsol-e-s-mealhada-a-mealhada-3050-000",
-      "name": "E.S. MEALHADA A",
-      "brand": "REPSOL",
-      "district": "Aveiro",
-      "municipality": "Mealhada",
-      "locality": "Porto Seixo",
-      "address": "EN 1 Km 217,2",
-      "postalCode": "3050-000",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
-      "lat": 40.364032,
-      "lon": -8.453945,
-      "sourceKey": "REPSOL|e.s. mealhada a|en 1 km 217,2|3050-000|mealhada"
-    },
-    {
       "id": "repsol-e-s-odemira-odemira-7630-000",
       "name": "E.S. ODEMIRA",
       "brand": "REPSOL",
@@ -6996,57 +7064,6 @@
       "sourceKey": "REPSOL|e.s. alverca|av do marco da iv legua 17|2615-000|vila franca de xira"
     },
     {
-      "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
-      "name": "ES  CONSTITUICAO - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
-      "brand": "REPSOL",
-      "district": "Porto",
-      "municipality": "Porto",
-      "locality": "Porto",
-      "address": "Rua da Constituição nº 2570",
-      "postalCode": "4000-000",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-31T08:20:00+00:00",
-      "lat": 41.165108,
-      "lon": -8.628078,
-      "sourceKey": "REPSOL|es constituicao - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rua da constituicao no 2570|4000-000|porto"
-    },
-    {
-      "id": "repsol-e-s-fatima-ourem-2495-407",
-      "name": "E.S. FATIMA",
-      "brand": "REPSOL",
-      "district": "Santarém",
-      "municipality": "Ourém",
-      "locality": "Fátima",
-      "address": "Estrada de Leiria, n.º148 - Lugar de Barradas",
-      "postalCode": "2495-407",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-28T15:45:00+00:00",
-      "lat": 39.64321,
-      "lon": -8.68515,
-      "sourceKey": "REPSOL|e.s. fatima|estrada de leiria, n.o148 - lugar de barradas|2495-407|ourem"
-    },
-    {
-      "id": "repsol-es-alcochete-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-alcochete-2890-009",
-      "name": "ES ALCOCHETE - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
-      "brand": "REPSOL",
-      "district": "Setúbal",
-      "municipality": "Alcochete",
-      "locality": "Alcochete",
-      "address": "Lugar do Entroncamento",
-      "postalCode": "2890-009",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-31T08:05:00+00:00",
-      "lat": 38.745583,
-      "lon": -8.930714,
-      "sourceKey": "REPSOL|es alcochete - gespost - gestao e administracao de postos de abastecimento unipessoal lda|lugar do entroncamento|2890-009|alcochete"
-    },
-    {
       "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
       "name": "E.S. PONTE DE LIMA B",
       "brand": "REPSOL",
@@ -7062,23 +7079,6 @@
       "lat": 41.76622,
       "lon": -8.5945,
       "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
-    },
-    {
-      "id": "repsol-e-s-murca-murca-5090-000",
-      "name": "E.S. MURÇA",
-      "brand": "REPSOL",
-      "district": "Vila Real",
-      "municipality": "Murça",
-      "locality": "Murça",
-      "address": "Variante à EN 15",
-      "postalCode": "5090-000",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
-      "lat": 41.40636,
-      "lon": -7.45023,
-      "sourceKey": "REPSOL|e.s. murca|variante a en 15|5090-000|murca"
     },
     {
       "id": "repsol-repsol-armamar-armamar-5110-152",
