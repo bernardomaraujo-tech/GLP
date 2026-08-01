@@ -18,7 +18,6 @@
 "COMBUSTIVEIS BAIRRADA LDA(2)";"Outro";"Oliveira do Bairro";"0,954 €";"GALP";"GPL Auto";"2026-07-27 00:00";"Aveiro";"EN 235 (O-E) Km 13,400";"Oiã";"3770-059";40.55081;-8.544742
 "Supremotiv, Lda";"Outro";"Loulé";"0,926 €";"MOEVE";"GPL Auto";"2026-07-27 00:00";"Faro";"Zona Industrial Lt-1";"Loulé";"8100-272";37.129475;-8.039609
 "CEPSA GUEIFAES";"Outro";"Maia";"0,916 €";"CEPSA";"GPL Auto";"2026-07-27 00:00";"Porto";"Avenida Dr. Germano Vieira, 559";"Maia";"4470-006";41.21748;-8.604181
-"E.S. S. JORGE BATALHA A";"Outro";"Batalha";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Leiria";"IC2, nº10, Casal da Amieira";"Batalha";"2440-477";39.64325;-8.843011
 "E.S. CALDAS DA RAINHA";"Outro";"Caldas da Rainha";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Leiria";"EN 360 ( Nó de Lig. ao IC1)Águas Santas";"Sto Ónofre - Águas Santas";"2500-256";39.40614;-9.15249
 "E.S. ESTORIL";"Outro";"Cascais";"0,954 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Lisboa";"Av. Conde de Barcelona";"Estoril";"2775-000";38.7142;-9.38999
 "E.S. LEIAO";"Outro";"Oeiras";"0,954 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Lisboa";"Variante à EN 249-3";"Leião";"2780-000";38.72953;-9.30175
@@ -31,7 +30,6 @@
 "E.S. PONTE CHAMUSCA";"Outro";"Chamusca";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Santarém";"Ponte da Chamusca";"Ponte da Chamusca";"2140-000";39.37976;-8.45504
 "Cepsa Povoa Santarém";"Outro";"Santarém";"0,916 €";"CEPSA";"GPL Auto";"2026-07-27 00:00";"Santarém";"EN 3 - Km 46";"Póvoa de Santarém";"2000-531";39.303;-8.68559
 "CEPSA Carregal do Sal";"Outro";"Carregal do Sal";"0,976 €";"CEPSA";"GPL Auto";"2026-07-27 00:00";"Viseu";"Arruamento Urbano a Sul da Vila s/nCarregal do Sal";"Carregal do Sal";"3430-154";40.4311;-7.99496
-"E.S. PAREDE";"Outro";"Cascais";"0,944 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Lisboa";"Av. Maristas";"Parede";"2775-000";38.69204;-9.34819
 "E.S. LIXA";"Outro";"Amarante";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Porto";"Av. Alto da Lixa nº 562";"Lixa";"4615-013";41.31519;-8.1391
 "REPSOL Fogueteiro";"Outro";"Seixal";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Setúbal";"Rua Oliveira Martins";"Paivas";"2845-381";38.617588;-9.116368
 "REPSOL Aires  B";"Outro";"Palmela";"0,944 €";"REPSOL";"GPL Auto";"2026-07-27 00:00";"Setúbal";"EN 252 Km 50,460";"Palmela";"2950-439";38.561623;-8.887839
@@ -47,19 +45,19 @@
 "REPSOL Armamar";"Outro";"Armamar";"1,024 €";"REPSOL";"GPL Auto";"2026-07-27 00:05";"Viseu";"LUGAR BICA DO HOSPITAL";"Armamar";"5110-152";41.097977;-7.685744
 "MOEVE Viana do Castelo - Cardielos";"Outro";"Viana do Castelo";"0,986 €";"MOEVE";"GPL Auto";"2026-07-27 00:05";"Viana do Castelo";"EN 202, Km 7550 - Lugar do Porto";"Cardielos";"4925-347";41.71166;-8.742154
 "PRIO Fânzeres";"Outro";"Gondomar";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua Dr. Severiano 130, Fânzeres";"Fânzeres";"4510-707";41.160137;-8.53055
-"PRIO Fábrica do Cobre";"Outro";"Porto";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Loteamento Fábrica do Cobre, Lote 1 - Rua Linhas de Torres";"Campanhã";"4350";41.169384;-8.57232
-"SHELL Perafita";"Outro";"Matosinhos";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua D. Marcos da Cruz";"Perafita";"4455-533";41.218337;-8.694601
 "SHELL-RECAREI";"Outro";"Matosinhos";"0,969 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua de Recarei/Rua de Redolhos";"Leça do Balio";"4465-648";41.206177;-8.633565
 "SHELL  Seixal";"Outro";"Seixal";"0,969 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Setúbal";"Travessa Quinta da Galega nº 1";"Paio Pires";"2840-579";38.60893;-9.080099
+"A8 OBIDOS ( LEI / LIS ) POENTE";"Auto-estrada";"Óbidos";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Leiria";"A8 Sub-Lanço Gaeiras  - Apartado 93";"Caldas da Rainha";"2500-000";39.38781;-9.14929
+"A8 OBIDOS ( LIS / LEI ) NASCENTE";"Auto-estrada";"Óbidos";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Leiria";"A8 Sub-Lanço Gaeiras  - Apartado 93";"Caldas da Rainha";"2500-000";39.38696;-9.15066
+"P50 - PRIO Marinhais";"Outro";"Salvaterra de Magos";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Santarém";"Estrada Nacional 367, n.º 438 ";"Marinhais";"2125-121";39.049244;-8.708553
+"PRIO Canidelo";"Outro";"Vila Nova de Gaia";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Av. Poeta Eugenio de AndradeVia Atlantica, nº 1115";"Canidelo";"4400-357";41.117298;-8.646667
+"PRIO Verdemilho";"Outro";"Aveiro";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Rua Conselheiro QueirózNacional 109";"Verdemilho";"3810-414";40.61869;-8.65511
 "PRIO Maia (Via Ardegães)";"Outro";"Maia";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Via de Ardegães n.º255 - Aguas Santas";"Maia";"4425-500";41.22373;-8.56429
+"PRIO Fábrica do Cobre";"Outro";"Porto";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Loteamento Fábrica do Cobre, Lote 1 - Rua Linhas de Torres";"Campanhã";"4350";41.169384;-8.57232
+"SHELL Perafita";"Outro";"Matosinhos";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua D. Marcos da Cruz";"Perafita";"4455-533";41.218337;-8.694601
 "P35 - SHELL Terrugem";"Outro";"Sintra";"0,969 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Lisboa";"EN 247 ao km 66,38 - Godigana";"Terrugem";"2705-869";38.858;-9.379323
 "PRIO Trofa";"Outro";"Trofa";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua Costa Ferreira nº 25 ";"Trofa";"4785-298";41.338908;-8.551626
 "SHELL Argoncilhe";"Outro";"Santa Maria da Feira";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Rua da Estrada Nacional Nº1 ";"Argoncilhe";"4505-007";41.01642;-8.557138
-"P50 - PRIO Marinhais";"Outro";"Salvaterra de Magos";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Santarém";"Estrada Nacional 367, n.º 438 ";"Marinhais";"2125-121";39.049244;-8.708553
-"A8 OBIDOS ( LEI / LIS ) POENTE";"Auto-estrada";"Óbidos";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Leiria";"A8 Sub-Lanço Gaeiras  - Apartado 93";"Caldas da Rainha";"2500-000";39.38781;-9.14929
-"A8 OBIDOS ( LIS / LEI ) NASCENTE";"Auto-estrada";"Óbidos";"0,979 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Leiria";"A8 Sub-Lanço Gaeiras  - Apartado 93";"Caldas da Rainha";"2500-000";39.38696;-9.15066
-"PRIO Canidelo";"Outro";"Vila Nova de Gaia";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Av. Poeta Eugenio de AndradeVia Atlantica, nº 1115";"Canidelo";"4400-357";41.117298;-8.646667
-"PRIO Verdemilho";"Outro";"Aveiro";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Rua Conselheiro QueirózNacional 109";"Verdemilho";"3810-414";40.61869;-8.65511
 "PRIO Vale de Cambra";"Outro";"Vale de Cambra";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Av. Do Caima, nº 750 São Pedro de Castelões  - Vale de Cambra";"Vale de Cambra";"3730-202";40.842354;-8.395429
 "PRIO Guia";"Outro";"Pombal";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Leiria";"EN 109 Km 145,5";"Lagoa da Guia";"3105-099";39.9373094559;-8.79688332094
 "PRIO Gafanha da Nazaré - Av Bacalhoeiros";"Outro";"Ílhavo";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Av. dos Bacalhoeiros";"Gafanha da Nazaré";"3800-000";40.634082;-8.691465
@@ -69,16 +67,16 @@
 "PRIO  Arroja";"Outro";"Odivelas";"0,889 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Lisboa";"Av. Acácias/R. Sara Afonso, Lote 10";"ARROJA, FAMÕES";"1685-655";38.79903;-9.19697
 "PRIO Fernão Ferro";"Outro";"Seixal";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Setúbal";"EN 378, km 9+800";"Fernão Ferro";"2865-300";38.559606;-9.100747
 "P08 - SHELL Amarante";"Outro";"Amarante";"0,949 €";"SHELL";"GPL Auto";"2026-07-27 00:05";"Porto";"Lugar do Ferro, nº 593";"Lufrei";"4600-681";41.262432;-8.062497
-"P12 - PRIO Porto - Estrada Circunvalação";"Outro";"Porto";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Estrada Interior da Circunvalação n.º 10783 e 10853";"Porto";"4250-252";41.180435;-8.635366
-"PRIO Póvoa do Varzim";"Outro";"Póvoa de Varzim";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Av. 25 de Abril";"Póvoa de Varzim ";"4490-000";41.39275;-8.75503
-"PRIO Taveiro - Coimbra";"Outro";"Coimbra";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Coimbra";"Lugar de Vale ou Presa e Telhões (ao lado do Retail Park de Taveiro)";"Taveiro";"3040-881";40.19243;-8.508243
 "PRIO Porto - Zona Industrial";"Outro";"Porto";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua Engenheiro Ferreira Dias, Freguesia de Ramalde, 1104,1150";"Porto";"4100-247";41.17751;-8.648651
 "PRIO Gaia";"Outro";"Vila Nova de Gaia";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Gaveto da Av. Vasco da Gama com a Rua de Baiza, nº1243 ";"Vilar de Andorinho";"4430-335";41.10897;-8.57401
 "PRIO Canelas";"Outro";"Vila Nova de Gaia";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Rua das Lajes, nº 1165";"Canelas";"4410-272";41.087156;-8.602517
 "PRIO  Faro";"Outro";"Faro";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Faro";"EN 125-10 (Estrada do Aeroporto)";"Faro";"8005-146";37.03714;-7.957144
-"Posto Rainha da Feira, Lda";"Outro";"Santa Maria da Feira";"0,969 €";"GALP";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Zona Industrial do Roligo";"Espargo";"4520-112";40.92342;-8.56923
+"PRIO Póvoa do Varzim";"Outro";"Póvoa de Varzim";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Av. 25 de Abril";"Póvoa de Varzim ";"4490-000";41.39275;-8.75503
+"PRIO Taveiro - Coimbra";"Outro";"Coimbra";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Coimbra";"Lugar de Vale ou Presa e Telhões (ao lado do Retail Park de Taveiro)";"Taveiro";"3040-881";40.19243;-8.508243
 "PRIO Avanca";"Outro";"Estarreja";"0,919 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Aveiro";"E.N. 109 KM 41,6 - Valada - Avanca";"Avanca";"3860-000";40.8091;-8.57279
+"Posto Rainha da Feira, Lda";"Outro";"Santa Maria da Feira";"0,969 €";"GALP";"GPL Auto";"2026-07-27 00:05";"Aveiro";"Zona Industrial do Roligo";"Espargo";"4520-112";40.92342;-8.56923
 "P14 - PRIO  Fuselha - Prado";"Outro";"Vila Verde";"0,909 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Braga";"EN 201 - Lugar da Fuzelha";"Fuselha";"4730-461";41.612976;-8.472045
+"P12 - PRIO Porto - Estrada Circunvalação";"Outro";"Porto";"0,899 €";"PRIO";"GPL Auto";"2026-07-27 00:05";"Porto";"Estrada Interior da Circunvalação n.º 10783 e 10853";"Porto";"4250-252";41.180435;-8.635366
 "Carrasquinho & Filhos - Tunes";"Outro";"Silves";"0,949 €";"CARRASQUINHO & FILHOS";"GPL Auto";"2026-07-27 01:10";"Faro";"Travessa Poeta António Aleixo\r\n";"Tunes-Gateiras ou Amendoais";"8365-231";37.16909;-8.26132
 "Carrasquinho & Filhos - Vale Parra - Norte";"Outro";"Albufeira";"0,949 €";"CARRASQUINHO & FILHOS";"GPL Auto";"2026-07-27 01:15";"Faro";"EM 526";"Vale Parra - Guia";"8200-427";37.09515;-8.30434
 "Posto Sodimapi Felgueiras";"Outro";"Felgueiras";"0,944 €";"Genérico";"GPL Auto";"2026-07-27 03:25";"Porto";"Lameiro-Morto, Sendim";"Sendim";"4610-750";41.377384;-8.172588
@@ -103,9 +101,9 @@
 "BP VISEU ABRAVESES";"Outro";"Viseu";"0,999 €";"BP";"GPL Auto";"2026-07-27 09:40";"Viseu";"RIBEIRA DE MIDE - VISEU";"Viseu";"3515-419";40.68089;-7.926881
 "E.S. S. JOAO MADEIRA Z.IND.";"Outro";"São João da Madeira";"0,954 €";"REPSOL";"GPL Auto";"2026-07-27 09:40";"Aveiro";"Rua Domingos José Oliveira, s/n";"São João da Madeira";"3700-317";40.89818;-8.479
 "E.S. GUARDA - MILEU";"Outro";"Guarda";"0,974 €";"REPSOL";"GPL Auto";"2026-07-27 09:40";"Guarda";"Av. Cidade de Bejar";"Castelos Velhos";"6300-373";40.54162;-7.2607
+"E.S. VALONGO";"Outro";"Valongo";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 09:45";"Porto";"Rua Fonsecas Dias nº 291";"Valongo";"4440-000";41.1857638888889;-8.48685555555556
 "A.S. CAIA B";"Auto-estrada";"Elvas";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 09:45";"Portalegre";"IP 7/A 6 Km 4,5";"ELVAS";"7350-443";38.883633333;-7.048736111
 "E.S. VISEU-AV CAP H RIBEIRO";"Outro";"Viseu";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 09:45";"Viseu";"Av. Capitão Homem Ribeiro";"Viseu";"3500-000";40.66386;-7.91913
-"E.S. VALONGO";"Outro";"Valongo";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 09:45";"Porto";"Rua Fonsecas Dias nº 291";"Valongo";"4440-000";41.1857638888889;-8.48685555555556
 "E.S. CANAS DE SENHORIM";"Outro";"Nelas";"0,944 €";"REPSOL";"GPL Auto";"2026-07-27 09:45";"Viseu";"Rua da Estação - Lugar da Raposeira";"Canas de Senhorim";"3525-018";40.4961;-7.9047
 "E.S. PAÇOS DE FERREIRA II";"Outro";"Paços de Ferreira";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 09:45";"Porto";"Rua Recta de Gomil, 152";"Frazão";"4595-144";41.2611;-8.39889
 "MONTE GORDO NORTE";"Outro";"Vila Real de Santo António";"0,999 €";"BP";"GPL Auto";"2026-07-27 09:45";"Faro";"EN 125 ALDEIA NOVA MONTE GORDO";"Aldeia Nova-Monte Gordo";"8900-441";37.18386;-7.46997
@@ -123,10 +121,10 @@
 "A33 LANÇADA (MONTIJO/MOITA)";"Auto-estrada";"Montijo";"0,976 €";"MOEVE";"GPL Auto";"2026-07-27 10:10";"Setúbal";"A33 - km 30,4";"Sarilhos Grandes";"2870-521";38.665188;-8.957188
 "REPSOL Gandra - Rotunda Oliveiras";"Outro";"Paredes";"0,974 €";"REPSOL";"GPL Auto";"2026-07-27 10:10";"Porto";"VIA ROTA DOS MÓVEIS, n.º 50";"Gandra";"4585-325";41.196667;-8.434161
 "PRIO PENELA";"Outro";"Penela";"0,929 €";"PRIO";"GPL Auto";"2026-07-27 10:10";"Coimbra";"Zona industrial de Penela, lote 1";"Penela";"3230-292";40.01876;-8.37316
-"PA GESTROIL Belinho";"Outro";"Esposende";"0,908 €";"Genérico";"GPL Auto";"2026-07-27 10:15";"Braga";"Avenida de Belinho, nº64 - E.N. 13 - KM 52";"Belinho";"4740-161";41.599396;-8.785084
 "REPSOL Coina";"Outro";"Barreiro";"0,974 €";"REPSOL";"GPL Auto";"2026-07-27 10:15";"Setúbal";"Estrada Nacional 10";"Coina";"2830-411";38.592712;-9.046671
-"Fernando Oliveira Inocencio, Unipessoal Lda.";"Outro";"Mira";"0,920 €";"Genérico";"GPL Auto";"2026-07-27 10:15";"Coimbra";"EN 234 km 2,1 , Via do Infante D. Pedro";"Leitões";"3070-212";40.420692;-8.713302
+"PA GESTROIL Belinho";"Outro";"Esposende";"0,908 €";"Genérico";"GPL Auto";"2026-07-27 10:15";"Braga";"Avenida de Belinho, nº64 - E.N. 13 - KM 52";"Belinho";"4740-161";41.599396;-8.785084
 "E.S. CONDEIXA A";"Outro";"Coimbra";"0,944 €";"REPSOL";"GPL Auto";"2026-07-27 10:15";"Coimbra";"EN 1";"Condeixa";"3150-000";40.1259;-8.48953
+"Fernando Oliveira Inocencio, Unipessoal Lda.";"Outro";"Mira";"0,920 €";"Genérico";"GPL Auto";"2026-07-27 10:15";"Coimbra";"EN 234 km 2,1 , Via do Infante D. Pedro";"Leitões";"3070-212";40.420692;-8.713302
 "E.S. ALMEIRIM";"Outro";"Almeirim";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 10:15";"Santarém";"Rua Coruche";"Frente Paça de Touros";"2080-000";39.20197;-8.62803
 "Santos da Cunha 6 -  Logística e Transportes, Lda.";"Outro";"Braga";"0,934 €";"GALP";"GPL Auto";"2026-07-27 10:30";"Braga";"EN 14 - Av. João Paulo II";"Braga";"4715-034";41.551822;-8.40931
 "E.S. FROSSOS";"Outro";"Braga";"0,944 €";"REPSOL";"GPL Auto";"2026-07-27 10:40";"Braga";"EN 201 Km 62,8";"Lugar de Carreiro";"4700-000";41.56547;-8.45018
@@ -143,8 +141,8 @@
 "ALVES BANDEIRA Albergaria-a-Velha (Urgeiras)";"Outro";"Albergaria-a-Velha";"0,864 €";"ALVES BANDEIRA";"GPL Auto";"2026-07-27 11:35";"Aveiro";"Zona Industrial de Urgueiras - Lugar de Coito";"Urgueiras";"3850-280";40.70629;-8.482127
 "ALVES BANDEIRA Vale de Ourém";"Outro";"Batalha";"0,864 €";"ALVES BANDEIRA";"GPL Auto";"2026-07-27 11:40";"Leiria";"E.N. 356 - ESTRADA DA BATALHA";"Vale de Ourém";"2495-036";39.63865;-8.71554
 "Anta - Espinho \"TOTAL\"";"Outro";"Espinho";"0,996 €";"CEPSA";"GPL Auto";"2026-07-27 11:40";"Aveiro";"Rua de Esmojães";"Esmojães - Anta";"4500-063";41.00042;-8.60527
-"Prio Valadares";"Outro";"Vila Nova de Gaia";"0,999 €";"PRIO";"GPL Auto";"2026-07-27 11:45";"Porto";"Av. Combatentes do Ultramar Português";"Valadares";"4405-707";41.0855;-8.63278
 "CEPSA  Pinheiro da Bemposta";"Outro";"Oliveira de Azeméis";"0,996 €";"CEPSA";"GPL Auto";"2026-07-27 11:45";"Aveiro";"Rua de São Paio, 564";"Bemposta";"3720-463";40.7847;-8.491492
+"Prio Valadares";"Outro";"Vila Nova de Gaia";"0,999 €";"PRIO";"GPL Auto";"2026-07-27 11:45";"Porto";"Av. Combatentes do Ultramar Português";"Valadares";"4405-707";41.0855;-8.63278
 "CEPSA Gulpilhares";"Outro";"Vila Nova de Gaia";"0,996 €";"CEPSA";"GPL Auto";"2026-07-27 11:45";"Porto";"RUA SALVADOR BRANDÃO, GULPILHARES";"Vila Nova de Gaia";"4405-702";41.07038;-8.625255
 "CEPSA CARVALHOS - PEDROSO";"Outro";"Vila Nova de Gaia";"0,996 €";"CEPSA";"GPL Auto";"2026-07-27 11:45";"Porto";"Av .Dr. Moreira de Sousa nº 2316";"Pedroso";"4415-382";41.056435;-8.567146
 "GALP Penafiel - Tenente Valadim";"Outro";"Penafiel";"0,944 €";"GALP";"GPL Auto";"2026-07-27 11:50";"Porto";"Rua Tenente Valadim E.N 15 Km 29,6 - Tapadinha";"Penafiel";"4560-532";41.194393;-8.297167
@@ -176,8 +174,8 @@
 "E.S. SEQUEIROS";"Outro";"Lousada";"0,944 €";"REPSOL";"GPL Auto";"2026-07-27 15:35";"Porto";"AVENIDA DE SEQUEIROS, 940";"Lodares";"4620-226";41.23925;-8.306453
 "Ouro Negro - Almeirim";"Outro";"Almeirim";"0,949 €";"Genérico";"GPL Auto";"2026-07-27 15:40";"Santarém";"Zona Industrial de Almeirim, Lote 10";"Almeirim";"2080-221";39.19523;-8.62582
 "Ouro Negro - Pombal - Poente";"Outro";"Pombal";"0,949 €";"Genérico";"GPL Auto";"2026-07-27 15:40";"Leiria";"EN 1 Km 159,8";"Pelariga";"3105-295";39.938229;-8.628914
-"REPSOL Aveiro - Nó Sul A";"Outro";"Aveiro";"0,954 €";"REPSOL";"GPL Auto";"2026-07-27 15:40";"Aveiro";"AVENIDA DA UNIVERSIDADE";"Aveiro";"3810-489";40.626743;-8.652549
 "OURO NEGRO - Azambuja_Norte";"Outro";"Azambuja";"0,949 €";"Genérico";"GPL Auto";"2026-07-27 15:40";"Lisboa";"E.N. 3 - Km 10.250 ANTIGO CAMPO DA FEIRA";"Azambuja";"2050-319";39.065964;-8.876442
+"REPSOL Aveiro - Nó Sul A";"Outro";"Aveiro";"0,954 €";"REPSOL";"GPL Auto";"2026-07-27 15:40";"Aveiro";"AVENIDA DA UNIVERSIDADE";"Aveiro";"3810-489";40.626743;-8.652549
 "E.S. CHAVES II";"Outro";"Chaves";"1,004 €";"REPSOL";"GPL Auto";"2026-07-27 16:00";"Vila Real";"Av. Santo Amaro, S/N";"Chaves";"5400-000";41.7395;-7.4761
 "E.S. SANTAREM";"Outro";"Santarém";"0,964 €";"REPSOL";"GPL Auto";"2026-07-27 16:15";"Santarém";"Rua O";"Variante E.N 114";"2000-630";39.24329;-8.69662
 "SOCIEDADE AUTOMÓVEIS CRUZ DE CRISTO, LDA (1)";"Outro";"Alcobaça";"0,949 €";"GALP";"GPL Auto";"2026-07-27 16:30";"Leiria";"Av. General Humberto Delgado";"Alcobaça";"2460-052";39.55952;-8.97807
@@ -194,6 +192,8 @@
 "TFGEST São Vicente Penso";"Outro";"Braga";"0,929 €";"FREITAS";"GPL Auto";"2026-07-27 22:00";"Braga";"Avenida do Redondelo, 51 (EN 309 - km 29,970 D)";"São Vicente de Penso";"4705-628";41.48778;-8.429883
 "Gasodueça - PA Genérico Meãs";"Outro";"Miranda do Corvo";"0,909 €";"Genérico";"GPL Auto";"2026-07-27 22:05";"Coimbra";"Rua Trás das Casas 29";"Meãs";"3220-115";40.083;-8.318
 "PA PETROZONA São João da Madeira";"Outro";"São João da Madeira";"0,847 €";"Genérico";"GPL Auto";"2026-07-27 22:50";"Aveiro";"Rua Domingos Jose de Oliveira";"São João da Madeira";"3700-317";40.898796;-8.477838
+"E.S. PONTE DE LIMA B";"Outro";"Ponte de Lima";"1,024 €";"REPSOL";"GPL Auto";"2026-07-28 00:00";"Viana do Castelo";"EN 201 Km 0,76/0,826";"S. Gonçalo - Arcozelo";"4990-120";41.76622;-8.5945
+"BP - Oeiras (Cacilhas )";"Outro";"Oeiras";"0,969 €";"BP";"GPL Auto";"2026-07-28 00:00";"Lisboa";"Rua do Colégio Militar";"Lugar de Cacilhas";"2780-239";38.70222;-9.30844
 "Coop.Agríc.Tocha";"Outro";"Cantanhede";"0,880 €";"Genérico";"GPL Auto";"2026-07-28 00:00";"Coimbra";"Rua Manuel Rodrigues Batata";"Andrades-Tocha";"3064-908";40.31897;-8.75116
 "Galp-OFIMAQ- Pousos_Leiria";"Outro";"Leiria";"0,980 €";"Genérico";"GPL Auto";"2026-07-28 00:00";"Leiria";"Charneca - Pousos";"Leiria";"2410-211";39.735157;-8.764882
 "A23 CASTELO BRANCO (ABR/CBR)";"Auto-estrada";"Castelo Branco";"0,976 €";"MOEVE";"GPL Auto";"2026-07-28 00:00";"Castelo Branco";"A23, KM 127, SUBLANÇO CASTELO BRANCO, APT. 86";"Alcains";"6005-999";39.88772;-7.487027
@@ -206,13 +206,11 @@
 "CEPSA - A3 Barcelos (VAL/POR)";"Auto-estrada";"Barcelos";"0,976 €";"CEPSA";"GPL Auto";"2026-07-28 00:00";"Braga";"A3 AUTO EST. PORTO/VALENÇA, SUB LANÇO BRAGA/EN201, (APARTADO 600, CP 4751)";"Alheira";"4750-058";41.60596;-8.550696
 "A6  ESTREMOZ (ELV/LIS)";"Auto-estrada";"Estremoz";"0,976 €";"CEPSA";"GPL Auto";"2026-07-28 00:00";"Évora";"A6, SUBLANÇO ÉVORA, KM 23, APARTADO 247";"Estremoz";"7100-108";38.8008;-7.660409
 "A6 ESTREMOZ  (LIS/ELV)";"Auto-estrada";"Estremoz";"0,976 €";"CEPSA";"GPL Auto";"2026-07-28 00:00";"Évora";"A6, SUBLANÇO ÉVORA, KM 23, APARTADO 247";"Estremoz";"7100-108";38.79915;-7.660607
-"BP - Oeiras (Cacilhas )";"Outro";"Oeiras";"0,969 €";"BP";"GPL Auto";"2026-07-28 00:00";"Lisboa";"Rua do Colégio Militar";"Lugar de Cacilhas";"2780-239";38.70222;-9.30844
 "CASP - ÁREA DE SERVIÇO PORTAS DO CÁVADO, LDA.";"Outro";"Barcelos";"0,993 €";"FREITAS";"GPL Auto";"2026-07-28 00:00";"Braga";"Av. das Pontes 153, Tamel S. Veríssimo (EN 205 Km 600) ";"Tamel S. Veríssimo";"4750-754";41.535347;-8.601057
 "COOP. AGR. DE SANTO TIRSO E TROFA";"Outro";"Santo Tirso";"0,866 €";"REPSOL";"GPL Auto";"2026-07-28 00:00";"Porto";"Rua Major Dinis, 106";"Santa Cristina Couto";"4780-200";41.334717;-8.480655
 "Posto  BP Bela Vista";"Outro";"Lisboa";"0,949 €";"BP";"GPL Auto";"2026-07-28 00:00";"Lisboa";"Av Marechal Antonio Spinola";"Lisboa";"1950-380";38.74944171;-9.10864097
 "BP GRANDOLA (OESTE)";"Outro";"Grândola";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:00";"Setúbal";"EN 120";"Bairro do Isaías";"7570-124";38.21951;-8.558103
 "BP AEROPORTO";"Outro";"Lisboa";"0,949 €";"BP";"GPL Auto";"2026-07-28 00:00";"Lisboa";"Nova Rotunda Aeroporto de Lisboa - Av. de Berlim";"Lisboa";"1700-067";38.76924;-9.125385
-"E.S. PONTE DE LIMA B";"Outro";"Ponte de Lima";"1,024 €";"REPSOL";"GPL Auto";"2026-07-28 00:00";"Viana do Castelo";"EN 201 Km 0,76/0,826";"S. Gonçalo - Arcozelo";"4990-120";41.76622;-8.5945
 "BP A2 SEIXAL";"Auto-estrada";"Seixal";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:00";"Setúbal";"A. E. 2 Km 12 Sublanço Almada - Fogueteiro";"Torre da Marinha";"2840-000";38.622807;-9.134171
 "AVEIRO (OESTE)";"Outro";"Aveiro";"0,969 €";"BP";"GPL Auto";"2026-07-28 00:00";"Aveiro";"EN 109 Km 57,8";"Aveiro";"3810-000";40.63187;-8.64133
 "PENICHE - AV. MONS. BASTOS";"Outro";"Peniche";"0,979 €";"BP";"GPL Auto";"2026-07-28 00:00";"Leiria";"Av. Monsenhor Bastos";"Peniche";"2520-000";39.353305;-9.362397
@@ -228,10 +226,10 @@
 "TORRES VEDRAS";"Outro";"Torres Vedras";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:05";"Lisboa";"Rotunda de Arenes (Ligação à A8)";"Torres Vedras";"2560-000";39.099525;-9.24887
 "COIMBRA - PEDRULHA";"Outro";"Coimbra";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:05";"Coimbra";"Rotunda da Pedrulha";"Coimbra-Cabeço da Romeira";"3020-000";40.238182;-8.43772
 "BP João XXIII (Oeste)";"Outro";"Paços de Ferreira";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:05";"Porto";"Av. João XXIII nº 192";"Paços de Ferreira";"4590-515";41.27985;-8.371397
+"BP - Seixal Fogueteiro";"Outro";"Seixal";"0,964 €";"BP";"GPL Auto";"2026-07-28 00:05";"Setúbal";"Interface Seixal";"Casal do Marco - Fogueteiro";"2840-432";38.60971;-9.09919
 "BP Ferreira - Variante";"Outro";"Paços de Ferreira";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:05";"Porto";"Via do Poder Local, n.º889";"Ferreira";"4590-901";41.27705;-8.35772
 "BP MINDELO";"Outro";"Vila do Conde";"0,949 €";"BP";"GPL Auto";"2026-07-28 00:05";"Porto";"Estrada Nacional 13, KM 16.500";"Mindelo";"4485-470";41.3067;-8.70315
 "G. M. I - VERMOIM- V. N. DE FAMALICÃO";"Outro";"Vila Nova de Famalicão";"0,889 €";"Genérico";"GPL Auto";"2026-07-28 00:05";"Braga";"Av. João XXI";"Vermoim";"4770-754";41.42127;-8.4415
-"BP - Seixal Fogueteiro";"Outro";"Seixal";"0,964 €";"BP";"GPL Auto";"2026-07-28 00:05";"Setúbal";"Interface Seixal";"Casal do Marco - Fogueteiro";"2840-432";38.60971;-9.09919
 "BP PALMELA";"Outro";"Palmela";"0,979 €";"BP";"GPL Auto";"2026-07-28 00:05";"Setúbal";"E. N. 379 Bombas\r\nLage-S.Julião";"Volta da Pedra - Palmela";"2950-302";38.57734;-8.89189
 "BP SALGUEIROS";"Outro";"Porto";"0,969 €";"BP";"GPL Auto";"2026-07-28 00:05";"Porto";"Rua Particular de Monsanto, 162-192";"Amial";"4250-360";41.17346;-8.61664
 "A15 - Rio Maior (Norte)";"Auto-estrada";"Rio Maior";"0,999 €";"BP";"GPL Auto";"2026-07-28 00:05";"Santarém";"A15  Km 23.4";"Sublanço Rio Maior/Malaqueijo";"2040-998";39.301414;-8.896528
@@ -281,7 +279,6 @@
 "GALP Marinha das Ondas (N/S) - POSIÇÃO 11674";"Outro";"Figueira da Foz";"0,954 €";"GALP";"GPL Auto";"2026-07-29 09:05";"Coimbra";"EN 109 - nº 176";"Marinha das Ondas";"3090-485";40.018032;-8.813965
 "AUCHAN Paço de Arcos";"Área comercial (Hipermercados)";"Oeiras";"0,899 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Estrada Paço de Arcos Lote 2";"Paço de Arcos";"2770-129";38.70494;-9.293772
 "AUCHAN  Vila do Conde";"Auto-estrada";"Vila do Conde";"0,899 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Porto";"Rua Aristides Sousa Mendes, Lote 2 4480-732  Vila do Conde";"Vila do Conde";"4480-732";41.36259;-8.744403
-"AUCHAN Santo Tirso";"Outro";"Santo Tirso";"0,859 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Porto";"Rua das Rãs";"Santa Cristina Couto";"4780-219";41.33237;-8.476991
 "AUCHAN Setúbal (Alegro)";"Outro";"Setúbal";"0,909 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Setúbal";"Rua Nova Sintra, Lote 18, Azeda";"Setúbal";"2910-039";38.538197;-8.878284
 "AUCHAN Setúbal - (EN 10)";"Outro";"Setúbal";"0,909 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Setúbal";"Rua Engº Ferreira Dias - (EN 10 Vale do Cobro)";"Setúbal";"2910-000";38.535072;-8.862466
 "AUCHAN Matosinhos";"Outro";"Maia";"0,899 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Porto";"Av. Fernando Távora, nº 1570";"Maia";"4470-558";41.23662;-8.667163
@@ -289,22 +286,23 @@
 "AUCHAN Viseu";"Outro";"Viseu";"0,919 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Viseu";"Qta. da Alagoa Estrada Nelas";"Nelas";"3520-000";40.63785;-7.908987
 "AUCHAN Alfragide";"Outro";"Oeiras";"0,879 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Rua da Quinta do Salrego (Rua Henrique Mendes) -  Lote 12 - Portela de Carnaxide";"Carnaxide";"2790-144";38.731133;-9.226119
 "AUCHAN Alverca ";"Outro";"Vila Franca de Xira";"0,889 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Qta. Drogas da Verdelha E.N.10";"Alverca do Ribatejo";"2615-170";38.888622;-9.041957
-"AUCHAN Lagoa";"Outro";"Lagoa";"0,969 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Faro";"EN 125 - Sitio da Bemposta";"Bemposta";"8400-701";37.136505;-8.463485
 "AUCHAN Eiras";"Outro";"Coimbra";"0,889 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Coimbra";"Ribeira de Eiras";"Coimbra";"3020-322";40.25461;-8.429237
 "AUCHAN Figueira da Foz";"Outro";"Figueira da Foz";"0,939 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Coimbra";"Av. Dr. Francisco de Sá Carneiro, Vila Robim";"Chã";"3080-853";40.163612;-8.841515
+"AUCHAN Santo Tirso";"Outro";"Santo Tirso";"0,859 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Porto";"Rua das Rãs";"Santa Cristina Couto";"4780-219";41.33237;-8.476991
 "AUCHAN Sintra";"Outro";"Sintra";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Rua francisco lyon de castro";"São Pedro";"2710-116";38.778625;-9.345505
 "AUCHAN Amadora (UBBO)";"Outro";"Amadora";"0,879 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Av Lima de Freitas Parcela A";"Amadora";"2650-501";38.77347;-9.216102
 "AUCHAN Évora";"Outro";"Évora";"0,939 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Évora";"Rua Werner Siemens, Lote 9 - Zona Industrial";"Évora";"7005-345";38.551273;-7.905527
-"AUCHAN Coimbra";"Outro";"Coimbra";"0,889 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Coimbra";"Rua Ferrer Correia (Estrada das Beiras)";"Coimbra";"3030-329";40.189957;-8.401005
-"AUCHAN Famalicão";"Outro";"Vila Nova de Famalicão";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Braga";" EN 206 Av.do Brasil lote, nº2 ";"Vila Nova de Famalicão";"4760-010";41.411793;-8.512639
-"AUCHAN Faro";"Outro";"Faro";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Faro";"Av. Cidade Hayward ";"Faro";"8000-074";37.02634;-7.916969
-"AUCHAN Vila Real";"Outro";"Vila Real";"0,929 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Vila Real";"Rua Dr. Otílio Figueiredo";"Vila Real";"5000-587";41.29717;-7.736542
-"AUCHAN Coina";"Outro";"Barreiro";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Setúbal";"EN 10  Km 18,5";"Coina";"2830-411";38.58063;-9.041657
 "AUCHAN Cascais";"Outro";"Cascais";"0,959 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Av. De Sintra / Cascais nº 1617";"Alcabideche";"2755-318";38.71596;-9.418377
 "AUCHAN Maia";"Outro";"Maia";"0,899 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Porto";"Rua Velha de Mandim, nº 67";"Maia";"4470-053";41.249943;-8.619664
 "AUCHAN Guimarães";"Outro";"Guimarães";"0,889 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Braga";"Rua 25 de Abril, 999 Silvares";"Guimarães";"4835-400";41.44742;-8.341431
 "AUCHAN Torres Vedras";"Outro";"Torres Vedras";"0,989 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Lisboa";"Rua António Alves Ferreira, Nº 2 ";"Torres Vedras";"2560-256";39.10158;-9.254366
 "AUCHAN Canidelo";"Outro";"Vila Nova de Gaia";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Porto";"Rua do Emissor, 236-238 Canidelo";"Vila Nova de Gaia";"4400-436";41.130836;-8.646461
+"AUCHAN Lagoa";"Outro";"Lagoa";"0,969 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Faro";"EN 125 - Sitio da Bemposta";"Bemposta";"8400-701";37.136505;-8.463485
+"AUCHAN Coimbra";"Outro";"Coimbra";"0,889 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Coimbra";"Rua Ferrer Correia (Estrada das Beiras)";"Coimbra";"3030-329";40.189957;-8.401005
+"AUCHAN Vila Real";"Outro";"Vila Real";"0,929 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Vila Real";"Rua Dr. Otílio Figueiredo";"Vila Real";"5000-587";41.29717;-7.736542
+"AUCHAN Coina";"Outro";"Barreiro";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Setúbal";"EN 10  Km 18,5";"Coina";"2830-411";38.58063;-9.041657
+"AUCHAN Famalicão";"Outro";"Vila Nova de Famalicão";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Braga";" EN 206 Av.do Brasil lote, nº2 ";"Vila Nova de Famalicão";"4760-010";41.411793;-8.512639
+"AUCHAN Faro";"Outro";"Faro";"0,869 €";"AUCHAN";"GPL Auto";"2026-07-29 09:10";"Faro";"Av. Cidade Hayward ";"Faro";"8000-074";37.02634;-7.916969
 "Espertocar, Lda.";"Outro";"Rio Maior";"0,979 €";"GALP";"GPL Auto";"2026-07-29 09:25";"Santarém";"E.N. 114, Km 49,6 ";"Rio Maior-Zona Industrial";"2040-000";39.31499;-8.92094
 "Controlsuper-Com. de Combust, Lda- Fafe-Guimarães";"Outro";"Guimarães";"0,934 €";"GALP";"GPL Auto";"2026-07-29 09:45";"Braga";"Circular Urbana de Guimarães - EN 105, Km 44,900";"Guimarães";"4800-000";41.451572;-8.301094
 "Cepsa Oliveira do Bairro";"Outro";"Oliveira do Bairro";"0,943 €";"CEPSA";"GPL Auto";"2026-07-29 10:10";"Aveiro";"Est. Vila Verde";"Vila Verde";"3770-305";40.50667;-8.536321
@@ -336,13 +334,9 @@
 "PRIO - Perelhal";"Outro";"Barcelos";"0,909 €";"PRIO";"GPL Auto";"2026-07-31 12:35";"Braga";"Rua Frei Pedro de Perelhal, 856";"Perelhal";"4750-620";41.53171;-8.69155
 "Galp- Cruz da Areia (Leiria)";"Outro";"Leiria";"0,899 €";"GALP";"GPL Auto";"2026-07-31 15:00";"Leiria";"Rua D. José Alves da Silva n. 12";"Leiria";"2410-112";39.724262;-8.806201
 "POSTO AGUIAR DA BEIRA";"Outro";"Aguiar da Beira";"0,999 €";"Genérico";"GPL Auto";"2026-07-31 16:20";"Guarda";"Quinta de Stº Estevão";"Ponte do Abade";"3570-191";40.85363;-7.50846
-"REPSOL Famalicao Sul";"Outro";"Vila Nova de Famalicão";"0,974 €";"REPSOL";"GPL Auto";"2026-07-31 20:00";"Braga";"Av D Afonso Henriques EN 14 km 24500 LE";"Vila Nova de Famalicão";"4760-281";41.38188;-8.53853
-"REPSOL Matosinhos - IP4";"Outro";"Matosinhos";"0,944 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Porto";"PROLONGAMENTO DA AVENIDA REPÚBLICA, S/N";"Matosinhos";"4450-130";41.18254;-8.676889
-"E.S. FATIMA";"Outro";"Ourém";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Santarém";"Estrada de Leiria, n.º148 - Lugar de Barradas";"Fátima";"2495-407";39.64321;-8.68515
-"E.S. MURÇA";"Outro";"Murça";"0,984 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Vila Real";"Variante à EN 15";"Murça";"5090-000";41.40636;-7.45023
 "E.S. CERCADO B";"Outro";"Loulé";"0,984 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Faro";"EN 125-CERCADO";"Loulé";"8100-287";37.10323;-8.07321
-"E.S. POMBAL CENTRO";"Outro";"Pombal";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Leiria";"EN 1";"Alto do Cabaço";"3100-000";39.922311;-8.629056
 "E.S. COVA FAIAS B";"Outro";"Leiria";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Leiria";"EN 1 (IC2)";"Cova das Faias";"2420-354";39.767417;-8.775519
+"E.S. POMBAL CENTRO";"Outro";"Pombal";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Leiria";"EN 1";"Alto do Cabaço";"3100-000";39.922311;-8.629056
 "E.S. PORTO DE MOS";"Outro";"Porto de Mós";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Leiria";"EN 243";"Várzea StºAntónio";"2480-170";39.59649;-8.81717
 "E.S. MEALHADA A";"Outro";"Mealhada";"0,984 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Aveiro";"EN 1 Km 217,2";"Porto Seixo";"3050-000";40.364032;-8.453945
 "E.S. PORTALEGRE";"Outro";"Portalegre";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Portalegre";"Rua Mestre João Serra Lt. D";"Zona Industrial";"7300-069";39.26658;-7.43713
@@ -354,10 +348,13 @@
 "BP- S. Bartolomeu de Messines Área Sul/Norte 1100";"Outro";"Silves";"0,999 €";"BP";"GPL Auto";"2026-08-01 00:00";"Faro";"IC1 I.P.1c Lanço Messines-Guia Km4";"Barrocal";"8375-014";37.2299;-8.264495
 "Ilídio Mota - Palmeira 2";"Outro";"Braga";"0,939 €";"MOEVE";"GPL Auto";"2026-08-01 00:00";"Braga";"Avenida Cávado 268";"Palmeira";"4700-690";41.59746;-8.428921
 "CEPSA ÓRFÃOS -  I (Poente)";"Outro";"Braga";"0,939 €";"MOEVE";"GPL Auto";"2026-08-01 00:00";"Braga";"Av. Cónego Jorge Peixoto Coutinho- variante 14";"Braga";"4700-000";41.543404;-8.440024
+"E.S. FATIMA";"Outro";"Ourém";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Santarém";"Estrada de Leiria, n.º148 - Lugar de Barradas";"Fátima";"2495-407";39.64321;-8.68515
+"E.S. MURÇA";"Outro";"Murça";"0,984 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Vila Real";"Variante à EN 15";"Murça";"5090-000";41.40636;-7.45023
+"REPSOL Matosinhos - IP4";"Outro";"Matosinhos";"0,944 €";"REPSOL";"GPL Auto";"2026-08-01 00:00";"Porto";"PROLONGAMENTO DA AVENIDA REPÚBLICA, S/N";"Matosinhos";"4450-130";41.18254;-8.676889
+"REPSOL Maia - Padrão da Moreira";"Outro";"Maia";"0,944 €";"REPSOL";"GPL Auto";"2026-08-01 00:05";"Porto";"Rua Conselheiro Luis Magalhães  ";"Maia";"4470-616";41.24609;-8.648967
 "Posto GALP Lousã EN342  - Anibal Antunes Bandeira, Lda ";"Outro";"Lousã";"0,969 €";"GALP";"GPL Auto";"2026-08-01 00:05";"Coimbra";"EN 342 ao Km 8,75 (Variante Lousã-Miranda do Corvo)";"Zona Industrial do Alto do Padrão";"3200-133";40.11746;-8.28732
 "BP CORROIOS";"Outro";"Seixal";"0,964 €";"BP";"GPL Auto";"2026-08-01 00:05";"Setúbal";"EN 10 Km 5,9";"Corroios";"2855-000";38.639392;-9.150164
 "BP FÃO";"Outro";"Esposende";"0,999 €";"BP";"GPL Auto";"2026-08-01 00:05";"Braga";"EN 13 Km 40,5 (Av. S. Cristóvão) ";"Fão";"4740-321";41.504212;-8.762344
-"REPSOL Maia - Padrão da Moreira";"Outro";"Maia";"0,944 €";"REPSOL";"GPL Auto";"2026-08-01 00:05";"Porto";"Rua Conselheiro Luis Magalhães  ";"Maia";"4470-616";41.24609;-8.648967
 "PETROPOSTOS COMERCIO DE COMBUSTIVEIS LDA";"Outro";"Coimbra";"0,934 €";"GALP";"GPL Auto";"2026-08-01 00:10";"Coimbra";"Circular Externa de Coimbra";"Coimbra- Ribeira de Coselhas";"3000-125";40.22189;-8.43117
 "Galp- SOUSA & MARQUÊZ  (Horta das Figueiras- Évora)";"Outro";"Évora";"0,969 €";"GALP";"GPL Auto";"2026-08-01 03:25";"Évora";"Variante Ao Parque Industrial";"Évora";"7005-872";38.553825;-7.917911
 "GALP A.S. Aeroporto (S/N)";"Outro";"Lisboa";"0,949 €";"GALP";"GPL Auto";"2026-08-01 03:40";"Lisboa";"Avª Marechal CrAveiro Lopes";"Lisboa";"1700-277";38.77945;-9.12223
@@ -422,9 +419,12 @@
 "ES ALCOCHETE - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Alcochete";"0,984 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Setúbal";"Lugar do Entroncamento";"Alcochete";"2890-009";38.745583;-8.930714
 "AS PENAFIEL B - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Penafiel";"1,014 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Porto";"A4 Sub Lanço Penafiel-Amarante Km 47.5  Castelões";"Castelões";"4560-055";41.23311;-8.17954
 "AS PENAFIEL A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Penafiel";"1,014 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Porto";"A4 Sub Lanço Penafiel-Amarante Km 47.5  Castelões";"Castelões";"4560-055";41.23329;-8.17894
-"AS GAIA A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Vila Nova de Gaia";"1,014 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Porto";"A1 ao Km 295 Sul/Norte ";"Vila Nova de Gaia";"4430-129";41.101418;-8.599467
 "REPSOL Mem Martins B";"Outro";"Sintra";"0,944 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Lisboa";"Alto do Forte Rua das Vagens - Mem Martins ";"Mem Martins";"2725-260";38.78333;-9.338441
+"AS GAIA A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Vila Nova de Gaia";"1,014 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Porto";"A1 ao Km 295 Sul/Norte ";"Vila Nova de Gaia";"4430-129";41.101418;-8.599467
 "ES  REPSOL Évora - Chafariz D'El Rei";"Outro";"Évora";"0,974 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Évora";"E.N. 18, Largo Chaf.D`El Rei ";"";"7000-002";38.566532;-7.902219
 "Estação de Serviço de Aveiro Rotunda";"Outro";"Aveiro";"0,969 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Aveiro";"Zona Industrial da Taboeira Qta Simão Sul  Sector II";"Aveiro";"3800-055";40.6516;-8.60898
 "AS ANTUÃ B - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Estarreja";"1,014 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Aveiro";"A1.  Ao Km. 255 - Antua ";"";"3850-909";40.75632;-8.537286
 "REPSOL A2 Grândola (ALG/LIS)";"Auto-estrada";"Grândola";"1,014 €";"REPSOL";"GPL Auto";"2026-08-01 08:20";"Setúbal";"A2 Km 111 Sublanço Grandola Sul - Grandola";"Grândola";"7570-512";38.167145;-8.490486
+"E.S. S. JORGE BATALHA A";"Outro";"Batalha";"0,964 €";"REPSOL";"GPL Auto";"2026-08-01 11:05";"Leiria";"IC2, nº10, Casal da Amieira";"Batalha";"2440-477";39.64325;-8.843011
+"REPSOL Famalicao Sul";"Outro";"Vila Nova de Famalicão";"0,974 €";"REPSOL";"GPL Auto";"2026-08-01 11:20";"Braga";"Av D Afonso Henriques EN 14 km 24500 LE";"Vila Nova de Famalicão";"4760-281";41.38188;-8.53853
+"E.S. PAREDE";"Outro";"Cascais";"0,944 €";"REPSOL";"GPL Auto";"2026-08-01 12:15";"Lisboa";"Av. Maristas";"Parede";"2775-000";38.69204;-9.34819

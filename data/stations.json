@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-01T08:08:09.089214+00:00",
+  "generatedAt": "2026-08-01T13:02:03.296524+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-01T08:20:00+00:00",
+  "dataUpdatedAt": "2026-08-01T12:15:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -2196,7 +2196,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
+      "updatedAt": "2026-08-01T12:15:00+00:00",
       "lat": 38.69204,
       "lon": -9.34819,
       "sourceKey": "REPSOL|e.s. parede|av. maristas|2775-000|cascais"
@@ -3624,7 +3624,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
+      "updatedAt": "2026-08-01T11:05:00+00:00",
       "lat": 39.64325,
       "lon": -8.843011,
       "sourceKey": "REPSOL|e.s. s. jorge batalha a|ic2, no10, casal da amieira|2440-477|batalha"
@@ -4661,7 +4661,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-07-31T20:00:00+00:00",
+      "updatedAt": "2026-08-01T11:20:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
