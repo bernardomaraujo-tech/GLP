@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T13:04:54.202574+00:00",
+  "generatedAt": "2026-08-02T18:59:41.566549+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-02T08:25:00+00:00",
+  "dataUpdatedAt": "2026-08-02T19:55:00+00:00",
   "stats": {
     "totalStations": 427,
     "withCoordinates": 427,
@@ -4202,7 +4202,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
+      "updatedAt": "2026-08-02T19:55:00+00:00",
       "lat": 42.015051,
       "lon": -8.638627,
       "sourceKey": "REPSOL|e.s. valenca|en 13 km 117 favais - arao|4930-002|valenca"
@@ -4508,7 +4508,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-28T00:05:00+00:00",
+      "updatedAt": "2026-08-02T18:45:00+00:00",
       "lat": 41.24876,
       "lon": -8.25595,
       "sourceKey": "BP|bp - meinedo|av. magneto, 980|4620-350|lousada"
