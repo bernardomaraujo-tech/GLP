@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-01T18:59:03.724969+00:00",
+  "generatedAt": "2026-08-02T01:58:52.311512+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-01T18:50:00+00:00",
+  "dataUpdatedAt": "2026-08-02T00:05:00+00:00",
   "stats": {
-    "totalStations": 428,
-    "withCoordinates": 428,
-    "withPrice": 428
+    "totalStations": 427,
+    "withCoordinates": 427,
+    "withPrice": 427
   },
   "stations": [
     {
@@ -1856,7 +1856,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "updatedAt": "2026-08-02T00:00:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1873,7 +1873,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "updatedAt": "2026-08-02T00:00:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3369,7 +3369,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-07-31T00:00:00+00:00",
+      "updatedAt": "2026-08-02T00:00:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -4172,6 +4172,23 @@
       "lat": 37.95812,
       "lon": -8.86573,
       "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
+    },
+    {
+      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
+      "name": "E.S. PONTE DE LIMA B",
+      "brand": "REPSOL",
+      "district": "Viana do Castelo",
+      "municipality": "Ponte de Lima",
+      "locality": "S. Gonçalo - Arcozelo",
+      "address": "EN 201 Km 0,76/0,826",
+      "postalCode": "4990-120",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.964,
+      "updatedAt": "2026-08-02T00:00:00+00:00",
+      "lat": 41.76622,
+      "lon": -8.5945,
+      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
     },
     {
       "id": "repsol-e-s-valenca-valenca-4930-002",
@@ -5551,6 +5568,23 @@
       "sourceKey": "GALP|galp a22 loule (faro/loule)|a. e. 22 km 62.5 sublanco guia / loule_aparta|8100-000|loule"
     },
     {
+      "id": "repsol-repsol-seia-seia-6270-485",
+      "name": "REPSOL Seia",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Seia",
+      "locality": "Seia",
+      "address": "Avª Terras de Sena-Quintela-Seia",
+      "postalCode": "6270-485",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.984,
+      "updatedAt": "2026-08-02T00:00:00+00:00",
+      "lat": 40.4209,
+      "lon": -7.712581,
+      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
+    },
+    {
       "id": "repsol-es-constituicao-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-porto-4000-000",
       "name": "ES  CONSTITUICAO - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -5987,7 +6021,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-01T00:05:00+00:00",
+      "updatedAt": "2026-08-02T00:05:00+00:00",
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
@@ -6157,7 +6191,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "updatedAt": "2026-08-02T00:00:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6242,7 +6276,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "updatedAt": "2026-08-02T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6259,7 +6293,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-01T00:00:00+00:00",
+      "updatedAt": "2026-08-02T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6809,23 +6843,6 @@
       "sourceKey": "REPSOL|e.s. chaves ii|av. santo amaro, s/n|5400-000|chaves"
     },
     {
-      "id": "generico-pa-silveirinho-penacova-3360-259",
-      "name": "PA Silveirinho",
-      "brand": "GENÉRICO",
-      "district": "Coimbra",
-      "municipality": "Penacova",
-      "locality": "Silveirinho",
-      "address": "EN 2-3, km 3,400 - Silveirinho",
-      "postalCode": "3360-259",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.01,
-      "updatedAt": "2026-07-23T12:00:00+00:00",
-      "lat": 40.30859,
-      "lon": -8.192012,
-      "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
-    },
-    {
       "id": "repsol-as-antua-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-estarreja-3850-909",
       "name": "AS ANTUÃ A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA",
       "brand": "REPSOL",
@@ -7030,23 +7047,6 @@
       "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
     },
     {
-      "id": "repsol-repsol-seia-seia-6270-485",
-      "name": "REPSOL Seia",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Seia",
-      "locality": "Seia",
-      "address": "Avª Terras de Sena-Quintela-Seia",
-      "postalCode": "6270-485",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-27T00:00:00+00:00",
-      "lat": 40.4209,
-      "lon": -7.712581,
-      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
-    },
-    {
       "id": "repsol-e-s-alverca-vila-franca-de-xira-2615-000",
       "name": "E.S. ALVERCA",
       "brand": "REPSOL",
@@ -7062,23 +7062,6 @@
       "lat": 38.90655,
       "lon": -9.032439,
       "sourceKey": "REPSOL|e.s. alverca|av do marco da iv legua 17|2615-000|vila franca de xira"
-    },
-    {
-      "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
-      "name": "E.S. PONTE DE LIMA B",
-      "brand": "REPSOL",
-      "district": "Viana do Castelo",
-      "municipality": "Ponte de Lima",
-      "locality": "S. Gonçalo - Arcozelo",
-      "address": "EN 201 Km 0,76/0,826",
-      "postalCode": "4990-120",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-07-28T00:00:00+00:00",
-      "lat": 41.76622,
-      "lon": -8.5945,
-      "sourceKey": "REPSOL|e.s. ponte de lima b|en 201 km 0,76/0,826|4990-120|ponte de lima"
     },
     {
       "id": "repsol-repsol-armamar-armamar-5110-152",
