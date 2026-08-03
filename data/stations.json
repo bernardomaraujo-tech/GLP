@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-03T02:01:30.367321+00:00",
+  "generatedAt": "2026-08-03T09:27:22.716421+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-03T01:00:00+00:00",
+  "dataUpdatedAt": "2026-08-03T10:20:00+00:00",
   "stats": {
-    "totalStations": 428,
-    "withCoordinates": 428,
-    "withPrice": 428
+    "totalStations": 430,
+    "withCoordinates": 430,
+    "withPrice": 430
   },
   "stations": [
     {
@@ -54,7 +54,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.859,
-      "updatedAt": "2026-07-27T18:05:00+00:00",
+      "updatedAt": "2026-08-03T10:20:00+00:00",
       "lat": 38.9516,
       "lon": -9.33227,
       "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
@@ -173,7 +173,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.869,
-      "updatedAt": "2026-07-27T09:55:00+00:00",
+      "updatedAt": "2026-08-03T09:30:00+00:00",
       "lat": 38.96593,
       "lon": -9.40785,
       "sourceKey": "INTERMARCHÉ|intermarche ericeira|estrada nacional 116, km 1, edificio intermarche|2655-139|mafra"
@@ -207,7 +207,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.869,
-      "updatedAt": "2026-07-28T07:00:00+00:00",
+      "updatedAt": "2026-08-03T07:00:00+00:00",
       "lat": 38.802612,
       "lon": -9.336308,
       "sourceKey": "INTERMARCHÉ|intermarche algueirao - mem martins|avenida capitaes de abril, lote 103|2725-037|sintra"
@@ -292,7 +292,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.879,
-      "updatedAt": "2026-07-29T11:00:00+00:00",
+      "updatedAt": "2026-08-03T09:35:00+00:00",
       "lat": 38.792127,
       "lon": -9.214949,
       "sourceKey": "INTERMARCHÉ|posto de abastecimento - intermarche de famoes|urb. quinta do segulim, lote ea-01|1675-351|odivelas"
@@ -428,10 +428,27 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.889,
-      "updatedAt": "2026-07-27T09:30:00+00:00",
+      "updatedAt": "2026-08-03T09:40:00+00:00",
       "lat": 40.68503,
       "lon": -8.521238,
       "sourceKey": "Q8|q8 albergaria-a-velha|rua dr. quina ferreira, 74 (en 16 ao km 11.9)|3850-273|albergaria-a-velha"
+    },
+    {
+      "id": "prio-prio-samil-oliveira-de-azemeis-3720-716",
+      "name": "PRIO Samil",
+      "brand": "PRIO",
+      "district": "Aveiro",
+      "municipality": "Oliveira de Azeméis",
+      "locality": "Samil",
+      "address": "Gaveto da Rua de Samil com a Rua da Devesa Velha - Lugar das Devesas",
+      "postalCode": "3720-716",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.889,
+      "updatedAt": "2026-08-03T10:15:00+00:00",
+      "lat": 40.890083,
+      "lon": -8.47475,
+      "sourceKey": "PRIO|prio samil|gaveto da rua de samil com a rua da devesa velha - lugar das devesas|3720-716|oliveira de azemeis"
     },
     {
       "id": "auchan-auchan-guimaraes-guimaraes-4835-400",
@@ -502,23 +519,6 @@
       "sourceKey": "AUCHAN|auchan eiras|ribeira de eiras|3020-322|coimbra"
     },
     {
-      "id": "prio-prio-sto-antonio-dos-cavaleiros-loures-2660-699",
-      "name": "Prio - Sto. António dos Cavaleiros",
-      "brand": "PRIO",
-      "district": "Lisboa",
-      "municipality": "Loures",
-      "locality": "Santo António dos Cavaleiros",
-      "address": "Rua José Malhoa,1- Paradela",
-      "postalCode": "2660-699",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.889,
-      "updatedAt": "2026-07-27T09:30:00+00:00",
-      "lat": 38.80744,
-      "lon": -9.16869,
-      "sourceKey": "PRIO|prio - sto. antonio dos cavaleiros|rua jose malhoa,1- paradela|2660-699|loures"
-    },
-    {
       "id": "prio-prio-arroja-odivelas-1685-655",
       "name": "PRIO  Arroja",
       "brand": "PRIO",
@@ -564,7 +564,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.889,
-      "updatedAt": "2026-07-30T08:05:00+00:00",
+      "updatedAt": "2026-08-03T09:55:00+00:00",
       "lat": 38.86376,
       "lon": -9.09955,
       "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
@@ -615,7 +615,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.897,
-      "updatedAt": "2026-07-27T09:50:00+00:00",
+      "updatedAt": "2026-08-03T09:30:00+00:00",
       "lat": 39.796231,
       "lon": -8.727059,
       "sourceKey": "GALP|vmf- raposeira|rua dr. diogo almeida pais santos|2420-003|leiria"
@@ -700,7 +700,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.899,
-      "updatedAt": "2026-07-27T08:20:00+00:00",
+      "updatedAt": "2026-08-03T09:15:00+00:00",
       "lat": 41.42762,
       "lon": -8.43019,
       "sourceKey": "PRIO|prio pousada de saramagos|av. riopele 815|4770-405|vila nova de famalicao"
@@ -755,6 +755,23 @@
       "lat": 38.7880851,
       "lon": -9.1470678,
       "sourceKey": "PRIO|prio alta de lisboa|estrada forte da ameixoeira, lote 29.1, urbanizacao alto do lumiar\\t\\t\\t\\t\\t\\t\\t|1750-114|lisboa"
+    },
+    {
+      "id": "prio-prio-sto-antonio-dos-cavaleiros-loures-2660-699",
+      "name": "Prio - Sto. António dos Cavaleiros",
+      "brand": "PRIO",
+      "district": "Lisboa",
+      "municipality": "Loures",
+      "locality": "Santo António dos Cavaleiros",
+      "address": "Rua José Malhoa,1- Paradela",
+      "postalCode": "2660-699",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.899,
+      "updatedAt": "2026-08-03T09:30:00+00:00",
+      "lat": 38.80744,
+      "lon": -9.16869,
+      "sourceKey": "PRIO|prio - sto. antonio dos cavaleiros|rua jose malhoa,1- paradela|2660-699|loures"
     },
     {
       "id": "auchan-auchan-paco-de-arcos-oeiras-2770-129",
@@ -1363,7 +1380,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.915,
-      "updatedAt": "2026-07-27T07:20:00+00:00",
+      "updatedAt": "2026-08-03T07:10:00+00:00",
       "lat": 41.08775,
       "lon": -7.798573,
       "sourceKey": "LECLERC|e. leclerc lamego|quinta dos prados de baixo - lugar da rina|5100-196|lamego"
@@ -1584,7 +1601,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.924,
-      "updatedAt": "2026-08-03T00:35:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 38.80345,
       "lon": -9.356381,
       "sourceKey": "REPSOL|es rot. da cavaleira - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda da cavaleira algueirao|2710-418|sintra"
@@ -1652,7 +1669,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-07-27T10:10:00+00:00",
+      "updatedAt": "2026-08-03T08:45:00+00:00",
       "lat": 40.01876,
       "lon": -8.37316,
       "sourceKey": "PRIO|prio penela|zona industrial de penela, lote 1|3230-292|penela"
@@ -1669,7 +1686,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-07-27T07:00:00+00:00",
+      "updatedAt": "2026-08-03T07:00:00+00:00",
       "lat": 39.34556,
       "lon": -9.34062,
       "sourceKey": "INTERMARCHÉ|intermarche atouguia da baleia|en 114 km 7,600|2525-553|peniche"
@@ -1907,7 +1924,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-27T11:10:00+00:00",
+      "updatedAt": "2026-08-03T10:15:00+00:00",
       "lat": 40.34788,
       "lon": -8.58496,
       "sourceKey": "BP|bp cantanhede|rotunda da en 234/en 234-1 km 1,6|3060-124|cantanhede"
@@ -1992,7 +2009,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-07-27T07:30:00+00:00",
+      "updatedAt": "2026-08-03T07:35:00+00:00",
       "lat": 39.246939,
       "lon": -8.693825,
       "sourceKey": "LECLERC|e. leclerc santarem|quinta do mergulhao|2005-071|santarem"
@@ -2094,7 +2111,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T07:30:00+00:00",
       "lat": 41.494,
       "lon": -8.36231,
       "sourceKey": "REPSOL|e.s. taipas|lugar porta da igrejas. martinho de sande|4800-826|guimaraes"
@@ -2111,7 +2128,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T10:10:00+00:00",
       "lat": 40.1259,
       "lon": -8.48953,
       "sourceKey": "REPSOL|e.s. condeixa a|en 1|3150-000|coimbra"
@@ -2128,7 +2145,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-03T00:35:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 40.227688,
       "lon": -8.446369,
       "sourceKey": "REPSOL|es coimbra - gespost - gestao e administracao de postos de abastecimento unipessoal lda|e n 111,1 - sta cruz (junto a academia do choupal)|3000-477|coimbra"
@@ -2230,10 +2247,27 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-03T00:35:00+00:00",
+      "updatedAt": "2026-08-03T08:10:00+00:00",
       "lat": 38.739,
       "lon": -9.202767,
       "sourceKey": "REPSOL|es casa pia - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rotunda pina manique|1500-462|lisboa"
+    },
+    {
+      "id": "galp-galp-canecas-norte-11499-b-odivelas-1685-601",
+      "name": "GALP Caneças Norte (11499) B",
+      "brand": "GALP",
+      "district": "Lisboa",
+      "municipality": "Odivelas",
+      "locality": "Caneças",
+      "address": "Rua Luis de Camões",
+      "postalCode": "1685-601",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.944,
+      "updatedAt": "2026-08-03T08:50:00+00:00",
+      "lat": 38.813442,
+      "lon": -9.210954,
+      "sourceKey": "GALP|galp canecas norte (11499) b|rua luis de camoes|1685-601|odivelas"
     },
     {
       "id": "repsol-repsol-mem-martins-b-sintra-2725-260",
@@ -2247,7 +2281,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-03T00:35:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 38.78333,
       "lon": -9.338441,
       "sourceKey": "REPSOL|repsol mem martins b|alto do forte rua das vagens - mem martins|2725-260|sintra"
@@ -2298,7 +2332,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-29T10:50:00+00:00",
+      "updatedAt": "2026-08-03T10:15:00+00:00",
       "lat": 38.965427,
       "lon": -8.983408,
       "sourceKey": "GALP|galp vila franca xira|en 1 km 24,7|2600-000|vila franca de xira"
@@ -2315,7 +2349,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-07-27T03:25:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 41.377384,
       "lon": -8.172588,
       "sourceKey": "GENÉRICO|posto sodimapi felgueiras|lameiro-morto, sendim|4610-750|felgueiras"
@@ -2332,7 +2366,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-02T03:45:00+00:00",
+      "updatedAt": "2026-08-03T04:05:00+00:00",
       "lat": 41.14706,
       "lon": -8.531529,
       "sourceKey": "GALP|galp- gondomar|av.general humberto delgado|4420-155|gondomar"
@@ -2349,7 +2383,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:15:00+00:00",
       "lat": 41.23925,
       "lon": -8.306453,
       "sourceKey": "REPSOL|e.s. sequeiros|avenida de sequeiros, 940|4620-226|lousada"
@@ -2383,7 +2417,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-02T04:30:00+00:00",
+      "updatedAt": "2026-08-03T04:45:00+00:00",
       "lat": 41.182222,
       "lon": -8.647778,
       "sourceKey": "GALP|galp senhora da hora|e.n. 12 estrada da circunvalacao no 12040|4460-282|matosinhos"
@@ -2434,7 +2468,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-02T04:05:00+00:00",
+      "updatedAt": "2026-08-03T04:20:00+00:00",
       "lat": 41.164307,
       "lon": -8.639143,
       "sourceKey": "GALP|galp porto - francos|rotunda do bessa|4100-012|porto"
@@ -2536,7 +2570,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-02T04:25:00+00:00",
+      "updatedAt": "2026-08-03T04:40:00+00:00",
       "lat": 41.1403,
       "lon": -8.63289,
       "sourceKey": "GALP|galp vila nova de gaia (norte)|via 8 - santa marinha (lado rio)|4400-698|vila nova de gaia"
@@ -2587,7 +2621,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-02T04:40:00+00:00",
+      "updatedAt": "2026-08-03T05:00:00+00:00",
       "lat": 37.95935,
       "lon": -8.859145,
       "sourceKey": "GALP|galp sines|av.general humberto delgado|7520-106|sines"
@@ -2774,7 +2808,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-02T03:40:00+00:00",
+      "updatedAt": "2026-08-03T04:00:00+00:00",
       "lat": 38.77945,
       "lon": -9.12223,
       "sourceKey": "GALP|galp a.s. aeroporto (s/n)|ava marechal craveiro lopes|1700-277|lisboa"
@@ -2791,7 +2825,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-02T04:00:00+00:00",
+      "updatedAt": "2026-08-03T04:15:00+00:00",
       "lat": 38.767593,
       "lon": -9.171036,
       "sourceKey": "GALP|galp a.s. telheiras - eixo norte-sul (s/n)|rua frederico george - eixo n/s - sentido s/n|1600-468|lisboa"
@@ -2808,7 +2842,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-02T03:40:00+00:00",
+      "updatedAt": "2026-08-03T04:00:00+00:00",
       "lat": 38.779526,
       "lon": -9.123903,
       "sourceKey": "GALP|galp aeroporto (n/s)|ava marechal craveiro lopes|1700-277|lisboa"
@@ -3012,7 +3046,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:35:00+00:00",
       "lat": 40.89818,
       "lon": -8.479,
       "sourceKey": "REPSOL|e.s. s. joao madeira z.ind.|rua domingos jose oliveira, s/n|3700-317|sao joao da madeira"
@@ -3046,7 +3080,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-07-20T15:05:00+00:00",
+      "updatedAt": "2026-08-03T09:00:00+00:00",
       "lat": 38.02075,
       "lon": -7.87145,
       "sourceKey": "GALP|l. a. cameirinha , lda|rua de lisboa|7800-000|beja"
@@ -3063,7 +3097,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-07-29T09:05:00+00:00",
+      "updatedAt": "2026-08-03T09:20:00+00:00",
       "lat": 40.018032,
       "lon": -8.813965,
       "sourceKey": "GALP|galp marinha das ondas (n/s) - posicao 11674|en 109 - no 176|3090-485|figueira da foz"
@@ -3114,7 +3148,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 38.763382,
       "lon": -9.140311,
       "sourceKey": "REPSOL|es 1138 - 2a circular (norte/sul) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|2a circular sentido norte/sul avenida marechal craveiro lopes|1700-284|lisboa"
@@ -3131,7 +3165,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 38.76278,
       "lon": -9.1412,
       "sourceKey": "REPSOL|es 1169 - 2a circular (sul/norte) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|2a circular sentido sul/norte avenida marechal craveiro lopes|1700-284|lisboa"
@@ -3148,7 +3182,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 38.755417,
       "lon": -9.183167,
       "sourceKey": "REPSOL|es repsol benfica b - estadio da luz|av. eusebio da silva ferreira (estadio da luz)|1500-313|lisboa"
@@ -3165,7 +3199,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-07-28T10:00:00+00:00",
+      "updatedAt": "2026-08-03T09:55:00+00:00",
       "lat": 38.82893,
       "lon": -9.10132,
       "sourceKey": "BP|bp - vale de figueira|rua alfredo vitorino costa|2695-772|loures"
@@ -3199,7 +3233,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-02T04:40:00+00:00",
+      "updatedAt": "2026-08-03T04:55:00+00:00",
       "lat": 41.20092,
       "lon": -8.568215,
       "sourceKey": "GALP|galp a.s. aguas santas (amar/porto)|a4- a.e.amarante/porto, km 9.8|4425-547|maia"
@@ -3216,7 +3250,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-02T04:50:00+00:00",
+      "updatedAt": "2026-08-03T04:55:00+00:00",
       "lat": 41.19994,
       "lon": -8.566581,
       "sourceKey": "GALP|galp a.s. aguas santas (porto/amar)|a 4 - km 9,8 - porto/amarante|4425-547|maia"
@@ -3233,7 +3267,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-02T04:20:00+00:00",
+      "updatedAt": "2026-08-03T04:35:00+00:00",
       "lat": 41.20541,
       "lon": -8.64073,
       "sourceKey": "GALP|galp a.s. matosinhos (a/m)|a4/ip4, km 3,2 e 4,1 - scut grande porto, lanco sendim-aguas santas, sublanco sendim norte|4460-739|matosinhos"
@@ -3250,7 +3284,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-02T04:15:00+00:00",
+      "updatedAt": "2026-08-03T04:35:00+00:00",
       "lat": 41.204453,
       "lon": -8.640317,
       "sourceKey": "GALP|galp a4 a.s. matosinhos (matosinhos/amarante)|a4/ ip4 km 3,08 e 4,10 sublanco no de custoias|4460-739|matosinhos"
@@ -3267,7 +3301,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-02T04:35:00+00:00",
+      "updatedAt": "2026-08-03T04:50:00+00:00",
       "lat": 41.264493,
       "lon": -8.564415,
       "sourceKey": "GALP|galp a3 a.s. trofa (bra/por)|a3 - km 11 - lugar de vilar de lila|4785-209|trofa"
@@ -3284,7 +3318,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-02T04:35:00+00:00",
+      "updatedAt": "2026-08-03T04:50:00+00:00",
       "lat": 41.263548,
       "lon": -8.563295,
       "sourceKey": "GALP|galp a3 a.s. trofa (por/bra)|a3 - km 11 - lugar de vilar de lila|4785-209|trofa"
@@ -3386,7 +3420,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-08-02T00:00:00+00:00",
+      "updatedAt": "2026-08-03T08:55:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -3403,7 +3437,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-08-02T04:40:00+00:00",
+      "updatedAt": "2026-08-03T05:00:00+00:00",
       "lat": 37.08225,
       "lon": -8.117939,
       "sourceKey": "GALP|galp a.s. vilamoura - (albufeira/vilamoura)|av. joao pires meireles|8125-000|loule"
@@ -3437,7 +3471,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-07-27T09:20:00+00:00",
+      "updatedAt": "2026-08-03T09:50:00+00:00",
       "lat": 39.27842,
       "lon": -7.43255,
       "sourceKey": "LECLERC|e. leclerc portalegre|rua do joinal|7300-000|portalegre"
@@ -3607,7 +3641,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-31T10:20:00+00:00",
+      "updatedAt": "2026-08-03T09:55:00+00:00",
       "lat": 37.130362,
       "lon": -8.54542,
       "sourceKey": "GALP|arm soc.algarvia de comb.lda|en 124-1 (v6)|8500-000|portimao"
@@ -3624,7 +3658,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-30T18:35:00+00:00",
+      "updatedAt": "2026-08-03T08:45:00+00:00",
       "lat": 40.61075,
       "lon": -6.83067,
       "sourceKey": "REPSOL|repsol vilar formoso e0905|en 16 (av. tilias)|6355-339|almeida"
@@ -3743,7 +3777,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-02T04:35:00+00:00",
+      "updatedAt": "2026-08-03T04:50:00+00:00",
       "lat": 38.715027,
       "lon": -9.284626,
       "sourceKey": "GALP|galp a.s. oeiras (casc/lisb)|a 5 - km 9,6 - cascais/lisboa|2780-201|oeiras"
@@ -3760,7 +3794,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-02T04:35:00+00:00",
+      "updatedAt": "2026-08-03T04:50:00+00:00",
       "lat": 38.715042,
       "lon": -9.284689,
       "sourceKey": "GALP|galp a.s. oeiras (lisb/casc)|a 5 a. e. lisboa/cascais km 9.6|2780-201|oeiras"
@@ -3777,7 +3811,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:50:00+00:00",
       "lat": 38.883633333,
       "lon": -7.048736111,
       "sourceKey": "REPSOL|a.s. caia b|ip 7/a 6 km 4,5|7350-443|elvas"
@@ -3828,7 +3862,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-07-27T09:30:00+00:00",
+      "updatedAt": "2026-08-03T07:10:00+00:00",
       "lat": 41.279994,
       "lon": -8.082825,
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
@@ -3862,7 +3896,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:40:00+00:00",
+      "updatedAt": "2026-08-03T08:10:00+00:00",
       "lat": 41.18037,
       "lon": -8.568678,
       "sourceKey": "REPSOL|repsol rio tinto ii|rua de rebordoes n.o 297|4435-416|gondomar"
@@ -3879,7 +3913,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:50:00+00:00",
       "lat": 41.2611,
       "lon": -8.39889,
       "sourceKey": "REPSOL|e.s. pacos de ferreira ii|rua recta de gomil, 152|4595-144|pacos de ferreira"
@@ -3930,7 +3964,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:45:00+00:00",
       "lat": 41.1857638888889,
       "lon": -8.48685555555556,
       "sourceKey": "REPSOL|e.s. valongo|rua fonsecas dias no 291|4440-000|valongo"
@@ -4015,7 +4049,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:10:00+00:00",
+      "updatedAt": "2026-08-03T08:25:00+00:00",
       "lat": 39.477825,
       "lon": -8.623297,
       "sourceKey": "REPSOL|repsol torres novas no a1/a23|lugar da lameira grande, videla - fig da zibreira - z.i da zibreira|2350-838|torres novas"
@@ -4032,7 +4066,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:10:00+00:00",
       "lat": 38.637806,
       "lon": -9.198797,
       "sourceKey": "REPSOL|area de servico repsol almada a33|a 33 km 2,5|2825-279|almada"
@@ -4100,7 +4134,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:40:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 38.633119,
       "lon": -9.149581,
       "sourceKey": "REPSOL|e.s. sta. marta corroios|av. rui gracio|2855-577|seixal"
@@ -4185,7 +4219,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:40:00+00:00",
       "lat": 40.66386,
       "lon": -7.91913,
       "sourceKey": "REPSOL|e.s. viseu-av cap h ribeiro|av. capitao homem ribeiro|3500-000|viseu"
@@ -4253,7 +4287,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-03T00:40:00+00:00",
+      "updatedAt": "2026-08-03T08:05:00+00:00",
       "lat": 40.6516,
       "lon": -8.60898,
       "sourceKey": "REPSOL|estacao de servico de aveiro rotunda|zona industrial da taboeira qta simao sul sector ii|3800-055|aveiro"
@@ -4270,7 +4304,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-02T04:20:00+00:00",
+      "updatedAt": "2026-08-03T04:35:00+00:00",
       "lat": 40.65997,
       "lon": -8.591281,
       "sourceKey": "GALP|galp a25 aveiro - estadio (aveiro/viseu)|auto estrada a25 / itinerario principal ip5, ao km 15.200, sublanco no do estadio|3800-911|aveiro"
@@ -4287,7 +4321,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-02T04:20:00+00:00",
+      "updatedAt": "2026-08-03T04:40:00+00:00",
       "lat": 40.662167,
       "lon": -8.592444,
       "sourceKey": "GALP|galp a25 a.s. aveiro - estadio (v/av)|auto estrada a25 / itinerario principal ip5, ao km 15.200, sublanco no do estadio|3800-911|aveiro"
@@ -4304,7 +4338,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-28T11:15:00+00:00",
+      "updatedAt": "2026-08-03T09:15:00+00:00",
       "lat": 40.637491,
       "lon": -8.639779,
       "sourceKey": "BP|posto bp aveiro forca|av. francisco sa carneiro forca|3810-265|aveiro"
@@ -4372,7 +4406,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-28T09:40:00+00:00",
+      "updatedAt": "2026-08-03T09:45:00+00:00",
       "lat": 40.46377,
       "lon": -7.753826,
       "sourceKey": "GALP|galp tourais (seia)|en 231|6270-581|seia"
@@ -4389,7 +4423,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-07-27T09:30:00+00:00",
+      "updatedAt": "2026-08-03T09:15:00+00:00",
       "lat": 39.570324,
       "lon": -8.878646,
       "sourceKey": "GALP|galp cst (leiria-lisboa) - 13114|ic2(en1), km 101+100 - sentido leiria/lisboa|2460-715|alcobaca"
@@ -4491,7 +4525,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-02T04:00:00+00:00",
+      "updatedAt": "2026-08-03T04:20:00+00:00",
       "lat": 41.28921,
       "lon": -8.703153,
       "sourceKey": "GALP|galp a.s. vila do conde (porto/vila conde)|ic 1 - km 328 - modivas|4485-600|vila do conde"
@@ -4508,7 +4542,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-02T04:00:00+00:00",
+      "updatedAt": "2026-08-03T04:20:00+00:00",
       "lat": 41.289143,
       "lon": -8.704652,
       "sourceKey": "GALP|galp a.s. vila do conde (vila conde/porto)|a28 - km 12 - modivas|4485-600|vila do conde"
@@ -4667,23 +4701,6 @@
       "sourceKey": "REPSOL|e.s. guarda - mileu|av. cidade de bejar|6300-373|guarda"
     },
     {
-      "id": "repsol-e-s-guarda-sul-rotunda-guarda-6300-625",
-      "name": "E.S. GUARDA SUL ROTUNDA",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Guarda",
-      "locality": "GUARDA",
-      "address": "Av Veiga Simão, Parque Industrial da Guarda",
-      "postalCode": "6300-625",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
-      "lat": 40.53441,
-      "lon": -7.243571,
-      "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
-    },
-    {
       "id": "repsol-e-s-avelar-ansiao-3240-306",
       "name": "E.S. AVELAR",
       "brand": "REPSOL",
@@ -4695,7 +4712,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T07:20:00+00:00",
       "lat": 39.92142,
       "lon": -8.36953,
       "sourceKey": "REPSOL|e.s. avelar|rua das cinco vilas|3240-306|ansiao"
@@ -4814,7 +4831,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-08-03T00:40:00+00:00",
+      "updatedAt": "2026-08-03T08:25:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
@@ -5477,7 +5494,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-08-02T04:05:00+00:00",
+      "updatedAt": "2026-08-03T04:25:00+00:00",
       "lat": 37.13618,
       "lon": -8.110881,
       "sourceKey": "GALP|galp a.s. loule (loule/faro)|a22 km 62,500 - sublanco guia-loule 1 (loule/faro)|8100-000|loule"
@@ -5494,7 +5511,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-08-02T04:05:00+00:00",
+      "updatedAt": "2026-08-03T04:25:00+00:00",
       "lat": 37.136974,
       "lon": -8.110044,
       "sourceKey": "GALP|galp a22 loule (faro/loule)|a. e. 22 km 62.5 sublanco guia / loule_aparta|8100-000|loule"
@@ -5511,7 +5528,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-08-02T03:45:00+00:00",
+      "updatedAt": "2026-08-03T04:05:00+00:00",
       "lat": 38.72579,
       "lon": -8.98711,
       "sourceKey": "GALP|galp a12 a.s. alcochete - pte vasco da gama (n/s)|acesso ponte vasco da gama, km 13,750 n/s|2890-201|alcochete"
@@ -5528,7 +5545,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-08-02T03:45:00+00:00",
+      "updatedAt": "2026-08-03T04:05:00+00:00",
       "lat": 38.72734,
       "lon": -8.987152,
       "sourceKey": "GALP|galp a12 a.s. alcochete - pte vasco da gama (s/n)|acesso sul da ponte vasco da gama km 13.6|2890-001|alcochete"
@@ -5545,7 +5562,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-08-02T04:15:00+00:00",
+      "updatedAt": "2026-08-03T04:30:00+00:00",
       "lat": 38.585865,
       "lon": -8.929574,
       "sourceKey": "GALP|galp a2 a.s. palmela (s/n)|a2 - km 31,200|2950-137|palmela"
@@ -5562,7 +5579,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-07-27T19:15:00+00:00",
+      "updatedAt": "2026-08-03T07:10:00+00:00",
       "lat": 41.694361,
       "lon": -8.838212,
       "sourceKey": "GALP|sociedade combustiveis silva do vale, lda|av. 25 de abril|4900-496|viana do castelo"
@@ -5579,7 +5596,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T06:10:00+00:00",
       "lat": 41.30531,
       "lon": -7.72257,
       "sourceKey": "REPSOL|e.s. vila real abambres|r. gaspar sameiro, n 920|5000-261|vila real"
@@ -5681,7 +5698,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.989,
-      "updatedAt": "2026-07-31T07:00:00+00:00",
+      "updatedAt": "2026-08-03T07:05:00+00:00",
       "lat": 39.61444,
       "lon": -8.43088,
       "sourceKey": "GALP|p. comb.- venda da gaita|en 113, coca da sobreira, venda da gaita|2300-620|tomar"
@@ -5817,7 +5834,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-27T09:35:00+00:00",
+      "updatedAt": "2026-08-03T09:40:00+00:00",
       "lat": 40.785388,
       "lon": -8.566024,
       "sourceKey": "BP|bp avanca (s-n)|r. do falcao, e.n. 109 - km 44.3|3860-060|estarreja"
@@ -5834,7 +5851,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:00:00+00:00",
+      "updatedAt": "2026-08-03T04:15:00+00:00",
       "lat": 37.923733,
       "lon": -8.243193,
       "sourceKey": "GALP|galp a.s. a2 aljustrel (n/s)|a.e.2 km 148|7600-000|aljustrel"
@@ -5851,7 +5868,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T03:55:00+00:00",
+      "updatedAt": "2026-08-03T04:15:00+00:00",
       "lat": 37.92348,
       "lon": -8.241723,
       "sourceKey": "GALP|galp a.s. a2 aljustrel (s/n)|a2 - km 148 (s/n)|7600-000|aljustrel"
@@ -5936,7 +5953,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:10:00+00:00",
+      "updatedAt": "2026-08-03T04:25:00+00:00",
       "lat": 39.574207,
       "lon": -7.782874,
       "sourceKey": "GALP|galp a.s. a23 vila velha de rodao (n/s)|a23 - km 80 - fratel|6030-013|vila velha de rodao"
@@ -5953,7 +5970,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:10:00+00:00",
+      "updatedAt": "2026-08-03T04:30:00+00:00",
       "lat": 39.572548,
       "lon": -7.78226,
       "sourceKey": "GALP|galp a.s. a23 vila velha de rodao (s/n)|a23 - km 80 - fratel|6030-012|vila velha de rodao"
@@ -6055,7 +6072,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-28T08:25:00+00:00",
+      "updatedAt": "2026-08-03T08:40:00+00:00",
       "lat": 37.14381,
       "lon": -8.54823,
       "sourceKey": "BP|bp portimao raminha|avenida sao lourenco da barrosa, lote 18 alto da raminha|8500-510|portimao"
@@ -6072,7 +6089,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:30:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6123,7 +6140,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:10:00+00:00",
+      "updatedAt": "2026-08-03T04:25:00+00:00",
       "lat": 40.54398,
       "lon": -7.216512,
       "sourceKey": "GALP|galp a.s. a23 guarda (n/s)|a23 - km 213,3|6300-035|guarda"
@@ -6140,7 +6157,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:50:00+00:00",
+      "updatedAt": "2026-08-03T04:25:00+00:00",
       "lat": 40.543446,
       "lon": -7.215042,
       "sourceKey": "GALP|galp a.s. a23 guarda (s/n)|a23 - km 213,3 (s/n)|6300-000|guarda"
@@ -6191,7 +6208,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:35:00+00:00",
+      "updatedAt": "2026-08-03T04:55:00+00:00",
       "lat": 40.01513,
       "lon": -8.59995,
       "sourceKey": "GALP|galp a.s. pombal (n/s)|a1 - km 166,7 - porto/lisboa|3100-000|pombal"
@@ -6208,7 +6225,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:35:00+00:00",
+      "updatedAt": "2026-08-03T04:55:00+00:00",
       "lat": 40.01132,
       "lon": -8.600008,
       "sourceKey": "GALP|galp a.s. pombal (s/n)|a 1 - km 166,7 - lisboa/porto|3100-000|pombal"
@@ -6242,7 +6259,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:15:00+00:00",
+      "updatedAt": "2026-08-03T04:30:00+00:00",
       "lat": 39.124374,
       "lon": -8.907065,
       "sourceKey": "GALP|galp a.s. aveiras cima (n/s)|a.e.1 km 44,000|2050-071|azambuja"
@@ -6259,7 +6276,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:15:00+00:00",
+      "updatedAt": "2026-08-03T04:35:00+00:00",
       "lat": 39.122275,
       "lon": -8.907926,
       "sourceKey": "GALP|galp a.s. aveiras cima (s/n)|a1 - km 44|2050-000|azambuja"
@@ -6293,7 +6310,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T03:55:00+00:00",
+      "updatedAt": "2026-08-03T04:10:00+00:00",
       "lat": 39.15817,
       "lon": -9.226294,
       "sourceKey": "GALP|galp a8 a.s. torres vedras (n/s)|a 8 km 12.07|2565-646|torres vedras"
@@ -6310,7 +6327,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T03:55:00+00:00",
+      "updatedAt": "2026-08-03T04:10:00+00:00",
       "lat": 39.15679,
       "lon": -9.22618,
       "sourceKey": "GALP|galp a8 a.s. torres vedras (s/n)|a8 - km 12,070 - sub lanco carvalhal / campelos|2565-646|torres vedras"
@@ -6361,7 +6378,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-28T00:05:00+00:00",
+      "updatedAt": "2026-08-03T07:20:00+00:00",
       "lat": 41.27705,
       "lon": -8.35772,
       "sourceKey": "BP|bp ferreira - variante|via do poder local, n.o889|4590-901|pacos de ferreira"
@@ -6378,7 +6395,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-28T00:05:00+00:00",
+      "updatedAt": "2026-08-03T07:20:00+00:00",
       "lat": 41.27985,
       "lon": -8.371397,
       "sourceKey": "BP|bp joao xxiii (oeste)|av. joao xxiii no 192|4590-515|pacos de ferreira"
@@ -6395,7 +6412,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-27T07:40:00+00:00",
+      "updatedAt": "2026-08-03T07:35:00+00:00",
       "lat": 41.28255,
       "lon": -8.38731,
       "sourceKey": "BP|bp meixomil|av. do marco, no 197|4595-225|pacos de ferreira"
@@ -6463,7 +6480,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:15:00+00:00",
+      "updatedAt": "2026-08-03T04:30:00+00:00",
       "lat": 39.058243,
       "lon": -8.667848,
       "sourceKey": "GALP|galp a.s. salvaterra de magos (n/s)|a. e. 13 km 60.4 sublanco almeirim / salvaterra|2125-125|salvaterra de magos"
@@ -6480,7 +6497,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:15:00+00:00",
+      "updatedAt": "2026-08-03T04:30:00+00:00",
       "lat": 39.057034,
       "lon": -8.666127,
       "sourceKey": "GALP|galp a.s. salvaterra de magos (s/n)|a.13 km 60,4 sublanco almeirim / marateca|2125-125|salvaterra de magos"
@@ -6616,7 +6633,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-07-27T10:45:00+00:00",
+      "updatedAt": "2026-08-03T10:10:00+00:00",
       "lat": 41.72866,
       "lon": -7.47115,
       "sourceKey": "GALP|chamauto - sociedade transmontana de automoveis, lda (1)|en 2|5400-000|chaves"
@@ -6667,7 +6684,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:20:00+00:00",
+      "updatedAt": "2026-08-03T04:35:00+00:00",
       "lat": 40.686817,
       "lon": -8.230022,
       "sourceKey": "GALP|galp a.s. a25 vouzela (viseu/aveiro)|a25 km 53,600|3670-056|vouzela"
@@ -6684,7 +6701,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-02T04:20:00+00:00",
+      "updatedAt": "2026-08-03T04:35:00+00:00",
       "lat": 40.686275,
       "lon": -8.232481,
       "sourceKey": "GALP|galp a25 vouzela (aveiro/viseu)|a.e. a25 - ip5, km 7,90 e 8,30 do sub -lanco talhadas/vouzela - lanco nodo ic2|3670-056|vouzela"
@@ -6718,7 +6735,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-08-03T00:00:00+00:00",
+      "updatedAt": "2026-08-03T09:45:00+00:00",
       "lat": 41.186696,
       "lon": -8.155601,
       "sourceKey": "REPSOL|e.s. marco de canavezes|av. bombeiros voluntarios do marco de canavezes, 1002|4630-070|marco de canaveses"
@@ -6786,7 +6803,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:25:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 40.754807,
       "lon": -8.534985,
       "sourceKey": "REPSOL|as antua a - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1. ao km. 254 - antua|3850-909|estarreja"
@@ -6803,7 +6820,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:35:00+00:00",
+      "updatedAt": "2026-08-03T08:10:00+00:00",
       "lat": 40.75632,
       "lon": -8.537286,
       "sourceKey": "REPSOL|as antua b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1. ao km. 255 - antua|3850-909|estarreja"
@@ -6820,7 +6837,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:05:00+00:00",
       "lat": 38.858597,
       "lon": -9.161338,
       "sourceKey": "REPSOL|e.s. crel norte b a.s.|a 9 km21 sub lanco bucelas/loures|2670-901|loures"
@@ -6837,7 +6854,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:10:00+00:00",
+      "updatedAt": "2026-08-03T08:10:00+00:00",
       "lat": 41.23329,
       "lon": -8.17894,
       "sourceKey": "REPSOL|as penafiel a - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a4 sub lanco penafiel-amarante km 47.5 casteloes|4560-055|penafiel"
@@ -6854,7 +6871,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:10:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 41.23311,
       "lon": -8.17954,
       "sourceKey": "REPSOL|as penafiel b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a4 sub lanco penafiel-amarante km 47.5 casteloes|4560-055|penafiel"
@@ -6871,7 +6888,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:10:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 41.101135,
       "lon": -8.597706,
       "sourceKey": "REPSOL|a s gaia b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1 ao km 295 sul/norte|4430-129|vila nova de gaia"
@@ -6888,7 +6905,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:20:00+00:00",
       "lat": 41.101418,
       "lon": -8.599467,
       "sourceKey": "REPSOL|as gaia a - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a1 ao km 295 sul/norte|4430-129|vila nova de gaia"
@@ -6905,7 +6922,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:40:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 38.167145,
       "lon": -8.490486,
       "sourceKey": "REPSOL|repsol a2 grandola (alg/lis)|a2 km 111 sublanco grandola sul - grandola|7570-512|grandola"
@@ -6922,7 +6939,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:40:00+00:00",
+      "updatedAt": "2026-08-03T08:10:00+00:00",
       "lat": 38.16753,
       "lon": -8.492921,
       "sourceKey": "REPSOL|area de servico de grandola a norte - sul|a2 km 111,0 sublanco grandola norte / grandola sul|7570-512|grandola"
@@ -6939,7 +6956,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-03T00:20:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 38.62257,
       "lon": -8.57766,
       "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
@@ -6990,10 +7007,27 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-08-03T00:15:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
+    },
+    {
+      "id": "repsol-e-s-guarda-sul-rotunda-guarda-6300-625",
+      "name": "E.S. GUARDA SUL ROTUNDA",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Guarda",
+      "locality": "GUARDA",
+      "address": "Av Veiga Simão, Parque Industrial da Guarda",
+      "postalCode": "6300-625",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.024,
+      "updatedAt": "2026-08-03T09:35:00+00:00",
+      "lat": 40.53441,
+      "lon": -7.243571,
+      "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
     },
     {
       "id": "repsol-repsol-seia-seia-6270-485",
@@ -7024,7 +7058,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-08-03T00:10:00+00:00",
+      "updatedAt": "2026-08-03T08:05:00+00:00",
       "lat": 41.165108,
       "lon": -8.628078,
       "sourceKey": "REPSOL|es constituicao - gespost - gestao e administracao de postos de abastecimento unipessoal lda|rua da constituicao no 2570|4000-000|porto"
@@ -7058,7 +7092,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-08-03T00:35:00+00:00",
+      "updatedAt": "2026-08-03T08:15:00+00:00",
       "lat": 38.745583,
       "lon": -8.930714,
       "sourceKey": "REPSOL|es alcochete - gespost - gestao e administracao de postos de abastecimento unipessoal lda|lugar do entroncamento|2890-009|alcochete"
@@ -7126,7 +7160,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-07-28T10:50:00+00:00",
+      "updatedAt": "2026-08-03T07:00:00+00:00",
       "lat": 41.43717,
       "lon": -8.31279,
       "sourceKey": "BP|creixoauto guimaraes|rua miradouro de baixo|4835-079|guimaraes"
