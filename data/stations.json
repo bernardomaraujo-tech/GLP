@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T08:20:09.837143+00:00",
+  "generatedAt": "2026-08-06T13:46:28.416384+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-06T09:05:00+00:00",
+  "dataUpdatedAt": "2026-08-06T14:35:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -1539,6 +1539,23 @@
       "sourceKey": "AUCHAN|auchan figueira da foz|av. dr. francisco de sa carneiro, vila robim|3080-853|figueira da foz"
     },
     {
+      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
+      "name": "PA CHAMAGÁS Gala (Morraceira)",
+      "brand": "CHAMAGÁS",
+      "district": "Coimbra",
+      "municipality": "Figueira da Foz",
+      "locality": "Cova",
+      "address": "Rua Major Humberto Cruz - Morraceira",
+      "postalCode": "3090-707",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.919,
+      "updatedAt": "2026-08-06T14:35:00+00:00",
+      "lat": 40.13671,
+      "lon": -8.847939,
+      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
+    },
+    {
       "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
       "name": "PGPL CHAMAGAS Rio Maior",
       "brand": "CHAMAGÁS",
@@ -1907,7 +1924,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-08-05T09:55:00+00:00",
+      "updatedAt": "2026-08-06T09:35:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -1924,7 +1941,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-08-05T10:10:00+00:00",
+      "updatedAt": "2026-08-06T09:40:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -1962,23 +1979,6 @@
       "lat": 40.35054,
       "lon": -8.5794,
       "sourceKey": "GALP|galp cantanhede - estacao das colinas|av. prof anibal de oliveira|3060-851|cantanhede"
-    },
-    {
-      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
-      "name": "PA CHAMAGÁS Gala (Morraceira)",
-      "brand": "CHAMAGÁS",
-      "district": "Coimbra",
-      "municipality": "Figueira da Foz",
-      "locality": "Cova",
-      "address": "Rua Major Humberto Cruz - Morraceira",
-      "postalCode": "3090-707",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.939,
-      "updatedAt": "2026-08-03T17:10:00+00:00",
-      "lat": 40.13671,
-      "lon": -8.847939,
-      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
     },
     {
       "id": "auchan-auchan-lagoa-lagoa-8400-701",
@@ -3386,7 +3386,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-03T12:45:00+00:00",
+      "updatedAt": "2026-08-06T11:05:00+00:00",
       "lat": 39.237055,
       "lon": -8.703657,
       "sourceKey": "GALP|j. m. cordeiro, lda.(1)|rua o|2000-000|santarem"
@@ -3403,7 +3403,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-03T12:50:00+00:00",
+      "updatedAt": "2026-08-06T11:05:00+00:00",
       "lat": 39.23667,
       "lon": -8.7033,
       "sourceKey": "GALP|j. m. cordeiro, lda.(2)|rua o|2000-000|santarem"
@@ -5987,7 +5987,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-05T09:50:00+00:00",
+      "updatedAt": "2026-08-06T09:35:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6735,7 +6735,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-08-05T18:00:00+00:00",
+      "updatedAt": "2026-08-06T10:05:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
