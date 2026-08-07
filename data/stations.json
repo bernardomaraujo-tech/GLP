@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T02:13:59.094443+00:00",
+  "generatedAt": "2026-08-07T07:03:47.793398+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-07T01:15:00+00:00",
+  "dataUpdatedAt": "2026-08-07T07:00:00+00:00",
   "stats": {
     "totalStations": 425,
     "withCoordinates": 425,
@@ -5596,7 +5596,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.989,
-      "updatedAt": "2026-08-03T07:05:00+00:00",
+      "updatedAt": "2026-08-07T07:00:00+00:00",
       "lat": 39.61444,
       "lon": -8.43088,
       "sourceKey": "GALP|p. comb.- venda da gaita|en 113, coca da sobreira, venda da gaita|2300-620|tomar"
