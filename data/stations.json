@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T01:05:37.709563+00:00",
+  "generatedAt": "2026-08-11T06:53:47.828986+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-11T02:00:00+00:00",
+  "dataUpdatedAt": "2026-08-11T07:00:00+00:00",
   "stats": {
     "totalStations": 430,
     "withCoordinates": 430,
@@ -241,7 +241,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.869,
-      "updatedAt": "2026-08-10T07:00:00+00:00",
+      "updatedAt": "2026-08-11T07:00:00+00:00",
       "lat": 38.802612,
       "lon": -9.336308,
       "sourceKey": "INTERMARCHÉ|intermarche algueirao - mem martins|avenida capitaes de abril, lote 103|2725-037|sintra"
@@ -7177,7 +7177,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-08-03T07:00:00+00:00",
+      "updatedAt": "2026-08-11T07:00:00+00:00",
       "lat": 41.43717,
       "lon": -8.31279,
       "sourceKey": "BP|creixoauto guimaraes|rua miradouro de baixo|4835-079|guimaraes"
@@ -7279,7 +7279,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-08-10T06:00:00+00:00",
+      "updatedAt": "2026-08-11T07:00:00+00:00",
       "lat": 40.73628,
       "lon": -8.37964,
       "sourceKey": "GENÉRICO|ferreira, silva e espirito lda|zona industrial dos padroes n.o 587|3740-295|sever do vouga"
