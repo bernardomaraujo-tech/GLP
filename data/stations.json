@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-12T12:50:11.514935+00:00",
+  "generatedAt": "2026-08-12T18:53:07.713204+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-12T11:10:00+00:00",
+  "dataUpdatedAt": "2026-08-12T18:10:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -2026,7 +2026,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-08-11T12:35:00+00:00",
+      "updatedAt": "2026-08-12T14:35:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -2043,7 +2043,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-08-11T12:45:00+00:00",
+      "updatedAt": "2026-08-12T14:40:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -2876,7 +2876,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-10T17:20:00+00:00",
+      "updatedAt": "2026-08-12T18:10:00+00:00",
       "lat": 39.55952,
       "lon": -8.97807,
       "sourceKey": "GALP|sociedade automoveis cruz de cristo, lda (1)|av. general humberto delgado|2460-052|alcobaca"
@@ -3488,7 +3488,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-05T20:00:00+00:00",
+      "updatedAt": "2026-08-12T14:05:00+00:00",
       "lat": 38.529193,
       "lon": -8.875492,
       "sourceKey": "GALP|estacao de servico central|av. infante d. henrique|2910-529|setubal"
@@ -6004,7 +6004,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-11T12:30:00+00:00",
+      "updatedAt": "2026-08-12T14:30:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
