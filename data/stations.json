@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-13T07:16:35.700551+00:00",
+  "generatedAt": "2026-08-13T12:51:56.481090+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-13T08:15:00+00:00",
+  "dataUpdatedAt": "2026-08-13T13:05:00+00:00",
   "stats": {
-    "totalStations": 427,
-    "withCoordinates": 427,
-    "withPrice": 427
+    "totalStations": 429,
+    "withCoordinates": 429,
+    "withPrice": 429
   },
   "stations": [
     {
@@ -721,6 +721,23 @@
       "lat": 37.03714,
       "lon": -7.957144,
       "sourceKey": "PRIO|prio faro|en 125-10 (estrada do aeroporto)|8005-146|faro"
+    },
+    {
+      "id": "galp-galp-cruz-da-areia-leiria-leiria-2410-112",
+      "name": "Galp- Cruz da Areia (Leiria)",
+      "brand": "GALP",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Leiria",
+      "address": "Rua D. José Alves da Silva n. 12",
+      "postalCode": "2410-112",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.889,
+      "updatedAt": "2026-08-13T10:30:00+00:00",
+      "lat": 39.724262,
+      "lon": -8.806201,
+      "sourceKey": "GALP|galp- cruz da areia (leiria)|rua d. jose alves da silva n. 12|2410-112|leiria"
     },
     {
       "id": "prio-prio-alta-de-lisboa-lisboa-1750-114",
@@ -2247,7 +2264,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-12T08:15:00+00:00",
+      "updatedAt": "2026-08-13T08:20:00+00:00",
       "lat": 40.227688,
       "lon": -8.446369,
       "sourceKey": "REPSOL|es coimbra - gespost - gestao e administracao de postos de abastecimento unipessoal lda|e n 111,1 - sta cruz (junto a academia do choupal)|3000-477|coimbra"
@@ -2383,7 +2400,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-12T08:15:00+00:00",
+      "updatedAt": "2026-08-13T08:25:00+00:00",
       "lat": 38.78333,
       "lon": -9.338441,
       "sourceKey": "REPSOL|repsol mem martins b|alto do forte rua das vagens - mem martins|2725-260|sintra"
@@ -3267,7 +3284,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-12T08:10:00+00:00",
+      "updatedAt": "2026-08-13T08:20:00+00:00",
       "lat": 38.755417,
       "lon": -9.183167,
       "sourceKey": "REPSOL|es repsol benfica b - estadio da luz|av. eusebio da silva ferreira (estadio da luz)|1500-313|lisboa"
@@ -3403,7 +3420,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-10T11:15:00+00:00",
+      "updatedAt": "2026-08-13T12:20:00+00:00",
       "lat": 39.237055,
       "lon": -8.703657,
       "sourceKey": "GALP|j. m. cordeiro, lda.(1)|rua o|2000-000|santarem"
@@ -3420,7 +3437,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-08-10T11:15:00+00:00",
+      "updatedAt": "2026-08-13T12:25:00+00:00",
       "lat": 39.23667,
       "lon": -8.7033,
       "sourceKey": "GALP|j. m. cordeiro, lda.(2)|rua o|2000-000|santarem"
@@ -3828,7 +3845,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-12T11:10:00+00:00",
+      "updatedAt": "2026-08-13T12:35:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -3896,7 +3913,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-12T08:10:00+00:00",
+      "updatedAt": "2026-08-13T08:20:00+00:00",
       "lat": 41.18037,
       "lon": -8.568678,
       "sourceKey": "REPSOL|repsol rio tinto ii|rua de rebordoes n.o 297|4435-416|gondomar"
@@ -4253,7 +4270,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-12T08:20:00+00:00",
+      "updatedAt": "2026-08-13T08:20:00+00:00",
       "lat": 40.6516,
       "lon": -8.60898,
       "sourceKey": "REPSOL|estacao de servico de aveiro rotunda|zona industrial da taboeira qta simao sul sector ii|3800-055|aveiro"
@@ -4767,6 +4784,23 @@
       "lat": 41.172061,
       "lon": -8.441431,
       "sourceKey": "REPSOL|e.s. gandra paredes|en 15-3 (cruzamento da rua do negral c/ rua central da ribeira)|4440-115|paredes"
+    },
+    {
+      "id": "repsol-repsol-gandra-rotunda-oliveiras-paredes-4585-325",
+      "name": "REPSOL Gandra - Rotunda Oliveiras",
+      "brand": "REPSOL",
+      "district": "Porto",
+      "municipality": "Paredes",
+      "locality": "Gandra",
+      "address": "VIA ROTA DOS MÓVEIS, n.º 50",
+      "postalCode": "4585-325",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.974,
+      "updatedAt": "2026-08-13T10:05:00+00:00",
+      "lat": 41.196667,
+      "lon": -8.434161,
+      "sourceKey": "REPSOL|repsol gandra - rotunda oliveiras|via rota dos moveis, n.o 50|4585-325|paredes"
     },
     {
       "id": "repsol-e-s-ourem-ourem-2490-506",
@@ -6633,7 +6667,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-08-12T10:05:00+00:00",
+      "updatedAt": "2026-08-13T13:05:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -6786,7 +6820,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-08-12T08:20:00+00:00",
+      "updatedAt": "2026-08-13T08:20:00+00:00",
       "lat": 38.16753,
       "lon": -8.492921,
       "sourceKey": "REPSOL|area de servico de grandola a norte - sul|a2 km 111,0 sublanco grandola norte / grandola sul|7570-512|grandola"
@@ -6888,7 +6922,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-08-12T08:10:00+00:00",
+      "updatedAt": "2026-08-13T08:20:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
