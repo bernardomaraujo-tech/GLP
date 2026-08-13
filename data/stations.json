@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-13T12:51:56.481090+00:00",
+  "generatedAt": "2026-08-13T18:54:03.053098+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-13T13:05:00+00:00",
+  "dataUpdatedAt": "2026-08-13T17:35:00+00:00",
   "stats": {
     "totalStations": 429,
     "withCoordinates": 429,
@@ -313,6 +313,23 @@
       "lat": 38.802612,
       "lon": -9.336308,
       "sourceKey": "INTERMARCHÉ|intermarche algueirao - mem martins|avenida capitaes de abril, lote 103|2725-037|sintra"
+    },
+    {
+      "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
+      "name": "Intermarché Vialonga",
+      "brand": "INTERMARCHÉ",
+      "district": "Lisboa",
+      "municipality": "Vila Franca de Xira",
+      "locality": "Vialonga",
+      "address": "Urb. Terras Compridas, Lote 8\\nEstrada da Várzea",
+      "postalCode": "2625-716",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.869,
+      "updatedAt": "2026-08-13T15:05:00+00:00",
+      "lat": 38.86376,
+      "lon": -9.09955,
+      "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
     },
     {
       "id": "auchan-auchan-maia-maia-4470-053",
@@ -772,23 +789,6 @@
       "lat": 38.79298,
       "lon": -9.35923,
       "sourceKey": "PRIO|prio a16 - sintra - ranholas (poente)|a16 lanco lourel (ic16) / ranholas (ic19) km 9,500 lado poente|2710-738|sintra"
-    },
-    {
-      "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
-      "name": "Intermarché Vialonga",
-      "brand": "INTERMARCHÉ",
-      "district": "Lisboa",
-      "municipality": "Vila Franca de Xira",
-      "locality": "Vialonga",
-      "address": "Urb. Terras Compridas, Lote 8\\nEstrada da Várzea",
-      "postalCode": "2625-716",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.889,
-      "updatedAt": "2026-08-10T11:55:00+00:00",
-      "lat": 38.86376,
-      "lon": -9.09955,
-      "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
     },
     {
       "id": "prio-p12-prio-porto-estrada-circunvalacao-porto-4250-252",
@@ -1856,7 +1856,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.93,
-      "updatedAt": "2026-08-05T19:10:00+00:00",
+      "updatedAt": "2026-08-13T17:35:00+00:00",
       "lat": 39.68448,
       "lon": -8.96818,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis calcos martinganca|av. nossa sra. da nazare, en 242, km 21|2445-701|alcobaca"
@@ -1873,7 +1873,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.93,
-      "updatedAt": "2026-08-05T19:15:00+00:00",
+      "updatedAt": "2026-08-13T17:35:00+00:00",
       "lat": 39.750379,
       "lon": -8.904627,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis marinha grande|zona industrial da embra|2430-091|marinha grande"
