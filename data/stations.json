@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-15T12:22:41.229187+00:00",
+  "generatedAt": "2026-08-15T18:17:58.366586+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-15T09:50:00+00:00",
+  "dataUpdatedAt": "2026-08-15T18:25:00+00:00",
   "stats": {
-    "totalStations": 423,
-    "withCoordinates": 423,
-    "withPrice": 423
+    "totalStations": 424,
+    "withCoordinates": 424,
+    "withPrice": 424
   },
   "stations": [
     {
@@ -4276,6 +4276,23 @@
       "sourceKey": "REPSOL|e.s. viseu-av cap h ribeiro|av. capitao homem ribeiro|3500-000|viseu"
     },
     {
+      "id": "generico-moitasul-moita-2860-707",
+      "name": "MoitaSul",
+      "brand": "GENÉRICO",
+      "district": "Setúbal",
+      "municipality": "Moita",
+      "locality": "Moita",
+      "address": "Fazenda Do Costa - Carvalhinho",
+      "postalCode": "2860-707",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.965,
+      "updatedAt": "2026-08-15T17:20:00+00:00",
+      "lat": 38.64518,
+      "lon": -8.97844,
+      "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
+    },
+    {
       "id": "bp-aveiro-oeste-aveiro-3810-000",
       "name": "AVEIRO (OESTE)",
       "brand": "BP",
@@ -4678,7 +4695,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-10T18:50:00+00:00",
+      "updatedAt": "2026-08-15T18:25:00+00:00",
       "lat": 38.553825,
       "lon": -7.917911,
       "sourceKey": "GALP|galp- sousa & marquez (horta das figueiras- evora)|variante ao parque industrial|7005-872|evora"
