@@ -1,30 +1,13 @@
 {
-  "generatedAt": "2026-08-24T18:29:15.568228+00:00",
+  "generatedAt": "2026-08-25T00:46:58.099435+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-24T18:45:00+00:00",
+  "dataUpdatedAt": "2026-08-25T00:10:00+00:00",
   "stats": {
-    "totalStations": 431,
-    "withCoordinates": 431,
-    "withPrice": 431
+    "totalStations": 430,
+    "withCoordinates": 430,
+    "withPrice": 430
   },
   "stations": [
-    {
-      "id": "oz-energia-cl-autogas-montemor-o-velho-3140-563",
-      "name": "CL-AUTOGÁS.",
-      "brand": "OZ ENERGIA",
-      "district": "Coimbra",
-      "municipality": "Montemor-o-Velho",
-      "locality": "Tentúgal",
-      "address": "Est. Nacional 111",
-      "postalCode": "3140-563",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.849,
-      "updatedAt": "2026-08-15T00:00:00+00:00",
-      "lat": 40.217327,
-      "lon": -8.598031,
-      "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
-    },
     {
       "id": "auchan-auchan-santo-tirso-santo-tirso-4780-219",
       "name": "AUCHAN Santo Tirso",
@@ -54,7 +37,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.857,
-      "updatedAt": "2026-08-17T22:55:00+00:00",
+      "updatedAt": "2026-08-24T22:40:00+00:00",
       "lat": 40.898796,
       "lon": -8.477838,
       "sourceKey": "GENÉRICO|pa petrozona sao joao da madeira|rua domingos jose de oliveira|3700-317|sao joao da madeira"
@@ -139,7 +122,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.866,
-      "updatedAt": "2026-08-18T00:00:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 41.334717,
       "lon": -8.480655,
       "sourceKey": "REPSOL|coop. agr. de santo tirso e trofa|rua major dinis, 106|4780-200|santo tirso"
@@ -434,23 +417,6 @@
       "sourceKey": "AUCHAN|auchan coina|en 10 km 18,5|2830-411|barreiro"
     },
     {
-      "id": "generico-gasodueca-pa-generico-meas-miranda-do-corvo-3220-115",
-      "name": "Gasodueça - PA Genérico Meãs",
-      "brand": "GENÉRICO",
-      "district": "Coimbra",
-      "municipality": "Miranda do Corvo",
-      "locality": "Meãs",
-      "address": "Rua Trás das Casas 29",
-      "postalCode": "3220-115",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.874,
-      "updatedAt": "2026-08-17T22:05:00+00:00",
-      "lat": 40.083,
-      "lon": -8.318,
-      "sourceKey": "GENÉRICO|gasodueca - pa generico meas|rua tras das casas 29|3220-115|miranda do corvo"
-    },
-    {
       "id": "q8-q8-albergaria-a-velha-albergaria-a-velha-3850-273",
       "name": "Q8 Albergaria-a-Velha",
       "brand": "Q8",
@@ -530,7 +496,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.879,
-      "updatedAt": "2026-08-18T01:10:00+00:00",
+      "updatedAt": "2026-08-25T00:05:00+00:00",
       "lat": 41.42127,
       "lon": -8.4415,
       "sourceKey": "GENÉRICO|g. m. i - vermoim- v. n. de famalicao|av. joao xxi|4770-754|vila nova de famalicao"
@@ -721,6 +687,23 @@
       "lat": 41.42762,
       "lon": -8.43019,
       "sourceKey": "PRIO|prio pousada de saramagos|av. riopele 815|4770-405|vila nova de famalicao"
+    },
+    {
+      "id": "generico-gasodueca-pa-generico-meas-miranda-do-corvo-3220-115",
+      "name": "Gasodueça - PA Genérico Meãs",
+      "brand": "GENÉRICO",
+      "district": "Coimbra",
+      "municipality": "Miranda do Corvo",
+      "locality": "Meãs",
+      "address": "Rua Trás das Casas 29",
+      "postalCode": "3220-115",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.889,
+      "updatedAt": "2026-08-24T22:05:00+00:00",
+      "lat": 40.083,
+      "lon": -8.318,
+      "sourceKey": "GENÉRICO|gasodueca - pa generico meas|rua tras das casas 29|3220-115|miranda do corvo"
     },
     {
       "id": "prio-prio-faro-faro-8005-146",
@@ -938,7 +921,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.889,
-      "updatedAt": "2026-08-24T02:00:00+00:00",
+      "updatedAt": "2026-08-25T00:05:00+00:00",
       "lat": 41.414955,
       "lon": -8.648844,
       "sourceKey": "BP|vendeiro balazar nascente|rua da fabrica 343|4570-029|povoa de varzim"
@@ -1924,7 +1907,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.934,
-      "updatedAt": "2026-08-17T22:00:00+00:00",
+      "updatedAt": "2026-08-24T22:00:00+00:00",
       "lat": 41.48778,
       "lon": -8.429883,
       "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
@@ -2298,7 +2281,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -2553,7 +2536,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-24T21:25:00+00:00",
       "lat": 41.32683,
       "lon": -8.56734,
       "sourceKey": "REPSOL|e.s. trofa|rua das industrias 655|4785-624|trofa"
@@ -3488,7 +3471,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -3726,7 +3709,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-24T19:45:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -3760,7 +3743,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-24T19:50:00+00:00",
       "lat": 39.7454,
       "lon": -8.89058,
       "sourceKey": "REPSOL|e.s. albergaria|en 242 km 8,5 (av na sra nazare)|2430-011|marinha grande"
@@ -4242,23 +4225,6 @@
       "sourceKey": "REPSOL|e.s. viseu-av cap h ribeiro|av. capitao homem ribeiro|3500-000|viseu"
     },
     {
-      "id": "generico-moitasul-moita-2860-707",
-      "name": "MoitaSul",
-      "brand": "GENÉRICO",
-      "district": "Setúbal",
-      "municipality": "Moita",
-      "locality": "Moita",
-      "address": "Fazenda Do Costa - Carvalhinho",
-      "postalCode": "2860-707",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.965,
-      "updatedAt": "2026-08-15T17:20:00+00:00",
-      "lat": 38.64518,
-      "lon": -8.97844,
-      "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
-    },
-    {
       "id": "bp-aveiro-oeste-aveiro-3810-000",
       "name": "AVEIRO (OESTE)",
       "brand": "BP",
@@ -4684,23 +4650,6 @@
       "sourceKey": "GALP|galp- sousa & marquez (horta das figueiras- evora)|variante ao parque industrial|7005-872|evora"
     },
     {
-      "id": "generico-galp-ofimaq-pousos-leiria-leiria-2410-211",
-      "name": "Galp-OFIMAQ- Pousos_Leiria",
-      "brand": "GENÉRICO",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Leiria",
-      "address": "Charneca - Pousos",
-      "postalCode": "2410-211",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.97,
-      "updatedAt": "2026-08-18T00:00:00+00:00",
-      "lat": 39.735157,
-      "lon": -8.764882,
-      "sourceKey": "GENÉRICO|galp-ofimaq- pousos_leiria|charneca - pousos|2410-211|leiria"
-    },
-    {
       "id": "repsol-repsol-famalicao-sul-vila-nova-de-famalicao-4760-281",
       "name": "REPSOL Famalicao Sul",
       "brand": "REPSOL",
@@ -4767,23 +4716,6 @@
       "lat": 40.54162,
       "lon": -7.2607,
       "sourceKey": "REPSOL|e.s. guarda - mileu|av. cidade de bejar|6300-373|guarda"
-    },
-    {
-      "id": "repsol-e-s-guarda-sul-rotunda-guarda-6300-625",
-      "name": "E.S. GUARDA SUL ROTUNDA",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Guarda",
-      "locality": "GUARDA",
-      "address": "Av Veiga Simão, Parque Industrial da Guarda",
-      "postalCode": "6300-625",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.974,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
-      "lat": 40.53441,
-      "lon": -7.243571,
-      "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
     },
     {
       "id": "repsol-e-s-avelar-ansiao-3240-306",
@@ -4916,7 +4848,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-08-24T08:20:00+00:00",
+      "updatedAt": "2026-08-25T00:10:00+00:00",
       "lat": 38.566532,
       "lon": -7.902219,
       "sourceKey": "REPSOL|es repsol evora - chafariz d'el rei|e.n. 18, largo chaf.d`el rei|7000-002|evora"
@@ -5364,6 +5296,23 @@
       "sourceKey": "NOVA|combsantos pindelo de silgueiros|av. joao padeiro|3500-543|viseu"
     },
     {
+      "id": "generico-galp-ofimaq-pousos-leiria-leiria-2410-211",
+      "name": "Galp-OFIMAQ- Pousos_Leiria",
+      "brand": "GENÉRICO",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Leiria",
+      "address": "Charneca - Pousos",
+      "postalCode": "2410-211",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.98,
+      "updatedAt": "2026-08-25T00:00:00+00:00",
+      "lat": 39.735157,
+      "lon": -8.764882,
+      "sourceKey": "GENÉRICO|galp-ofimaq- pousos_leiria|charneca - pousos|2410-211|leiria"
+    },
+    {
       "id": "galp-posto-de-sobral-de-monte-agraco-sobral-de-monte-agraco-2590-001",
       "name": "Posto de Sobral de Monte Agraço",
       "brand": "GALP",
@@ -5636,6 +5585,23 @@
       "sourceKey": "GALP|galp vouzela|variante de vouzela|3670-234|vouzela"
     },
     {
+      "id": "freitas-casp-area-de-servico-portas-do-cavado-lda-barcelos-4750-754",
+      "name": "CASP - ÁREA DE SERVIÇO PORTAS DO CÁVADO, LDA.",
+      "brand": "FREITAS",
+      "district": "Braga",
+      "municipality": "Barcelos",
+      "locality": "Tamel S. Veríssimo",
+      "address": "Av. das Pontes 153, Tamel S. Veríssimo (EN 205 Km 600)",
+      "postalCode": "4750-754",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.993,
+      "updatedAt": "2026-08-25T00:00:00+00:00",
+      "lat": 41.535347,
+      "lon": -8.601057,
+      "sourceKey": "FREITAS|casp - area de servico portas do cavado, lda.|av. das pontes 153, tamel s. verissimo (en 205 km 600)|4750-754|barcelos"
+    },
+    {
       "id": "repsol-e-s-mangualde-mangualde-3530-000",
       "name": "E.S. MANGUALDE",
       "brand": "REPSOL",
@@ -5817,7 +5783,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-24T02:00:00+00:00",
+      "updatedAt": "2026-08-25T00:05:00+00:00",
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
@@ -5936,7 +5902,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-18T00:00:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 40.3619,
       "lon": -7.86059,
       "sourceKey": "PRIO|ig combustiveis|av. dr. carlos campos, n.o 3|3400-058|oliveira do hospital"
@@ -6072,7 +6038,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6089,7 +6055,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6140,7 +6106,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-17T22:00:00+00:00",
+      "updatedAt": "2026-08-24T22:00:00+00:00",
       "lat": 39.80369,
       "lon": -8.59071,
       "sourceKey": "GENÉRICO|posto de abastecimento auto albergue, lda.|r. do castelo|3100-081|pombal"
@@ -6514,7 +6480,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-24T09:05:00+00:00",
+      "updatedAt": "2026-08-25T00:00:00+00:00",
       "lat": 41.90873,
       "lon": -8.79339,
       "sourceKey": "GASOLAR|gasolar - caminha|estrada nacional 13 , 1248|4910-204|caminha"
@@ -7024,10 +6990,27 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.024,
-      "updatedAt": "2026-08-24T08:20:00+00:00",
+      "updatedAt": "2026-08-25T00:05:00+00:00",
       "lat": 37.150074,
       "lon": -8.539489,
       "sourceKey": "REPSOL|es portimao cardosas - gespost - gestao e administracao de postos de abastecimento unipessoal lda|poco seco - cardosas|8500-315|portimao"
+    },
+    {
+      "id": "repsol-e-s-guarda-sul-rotunda-guarda-6300-625",
+      "name": "E.S. GUARDA SUL ROTUNDA",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Guarda",
+      "locality": "GUARDA",
+      "address": "Av Veiga Simão, Parque Industrial da Guarda",
+      "postalCode": "6300-625",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.024,
+      "updatedAt": "2026-08-24T22:55:00+00:00",
+      "lat": 40.53441,
+      "lon": -7.243571,
+      "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
     },
     {
       "id": "repsol-repsol-seia-seia-6270-485",
