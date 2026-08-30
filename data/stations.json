@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-30T10:59:56.272373+00:00",
+  "generatedAt": "2026-08-30T15:48:15.999018+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-08-30T10:20:00+00:00",
+  "dataUpdatedAt": "2026-08-30T16:30:00+00:00",
   "stats": {
     "totalStations": 420,
     "withCoordinates": 420,
@@ -2519,7 +2519,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-30T16:30:00+00:00",
       "lat": 41.225674,
       "lon": -8.530641,
       "sourceKey": "REPSOL|nunes, alves & filhos, lda|rua sao vicente, 1194|4445-210|valongo"
@@ -2808,7 +2808,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-24T00:00:00+00:00",
+      "updatedAt": "2026-08-30T16:25:00+00:00",
       "lat": 38.762511,
       "lon": -9.163239,
       "sourceKey": "BP|bp av. padre cruz|av. padre cruz|1600-000|lisboa"
