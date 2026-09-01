@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-01T10:52:47.080858+00:00",
+  "generatedAt": "2026-09-01T15:50:47.418874+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-01T11:10:00+00:00",
+  "dataUpdatedAt": "2026-09-01T16:10:00+00:00",
   "stats": {
-    "totalStations": 425,
-    "withCoordinates": 425,
-    "withPrice": 425
+    "totalStations": 426,
+    "withCoordinates": 426,
+    "withPrice": 426
   },
   "stations": [
     {
@@ -315,6 +315,23 @@
       "sourceKey": "AUCHAN|auchan canidelo|rua do emissor, 236-238 canidelo|4400-436|vila nova de gaia"
     },
     {
+      "id": "alves-bandeira-ab-de-abrantes-abrantes-2200-233",
+      "name": "AB de Abrantes",
+      "brand": "ALVES BANDEIRA",
+      "district": "Santarém",
+      "municipality": "Abrantes",
+      "locality": "Samarra - São Vicente",
+      "address": "Rua D. João I",
+      "postalCode": "2200-233",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.869,
+      "updatedAt": "2026-09-01T14:30:00+00:00",
+      "lat": 39.46791,
+      "lon": -8.20883,
+      "sourceKey": "ALVES BANDEIRA|ab de abrantes|rua d. joao i|2200-233|abrantes"
+    },
+    {
       "id": "auchan-auchan-coina-barreiro-2830-411",
       "name": "AUCHAN Coina",
       "brand": "AUCHAN",
@@ -587,23 +604,6 @@
       "sourceKey": "ALVES BANDEIRA|alves bandeira landim|rua da est nacional 204/5, no 2035|4770-309|vila nova de famalicao"
     },
     {
-      "id": "alves-bandeira-ab-de-abrantes-abrantes-2200-233",
-      "name": "AB de Abrantes",
-      "brand": "ALVES BANDEIRA",
-      "district": "Santarém",
-      "municipality": "Abrantes",
-      "locality": "Samarra - São Vicente",
-      "address": "Rua D. João I",
-      "postalCode": "2200-233",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.884,
-      "updatedAt": "2026-08-31T15:00:00+00:00",
-      "lat": 39.46791,
-      "lon": -8.20883,
-      "sourceKey": "ALVES BANDEIRA|ab de abrantes|rua d. joao i|2200-233|abrantes"
-    },
-    {
       "id": "prio-prio-samil-oliveira-de-azemeis-3720-716",
       "name": "PRIO Samil",
       "brand": "PRIO",
@@ -700,7 +700,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.889,
-      "updatedAt": "2026-08-31T09:25:00+00:00",
+      "updatedAt": "2026-09-01T15:55:00+00:00",
       "lat": 38.96593,
       "lon": -9.40785,
       "sourceKey": "INTERMARCHÉ|intermarche ericeira|estrada nacional 116, km 1, edificio intermarche|2655-139|mafra"
@@ -1690,6 +1690,23 @@
       "lat": 39.10158,
       "lon": -9.254366,
       "sourceKey": "AUCHAN|auchan torres vedras|rua antonio alves ferreira, no 2|2560-256|torres vedras"
+    },
+    {
+      "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
+      "name": "PGPL CHAMAGAS Rio Maior",
+      "brand": "CHAMAGÁS",
+      "district": "Santarém",
+      "municipality": "Rio Maior",
+      "locality": "Alto da Serra",
+      "address": "E.N. 1 - Alto da Serra",
+      "postalCode": "2040-063",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.919,
+      "updatedAt": "2026-09-01T16:05:00+00:00",
+      "lat": 39.375793,
+      "lon": -8.962691,
+      "sourceKey": "CHAMAGÁS|pgpl chamagas rio maior|e.n. 1 - alto da serra|2040-063|rio maior"
     },
     {
       "id": "leclerc-e-leclerc-amora-seixal-2845-000",
@@ -2774,27 +2791,10 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-28T10:15:00+00:00",
+      "updatedAt": "2026-09-01T15:10:00+00:00",
       "lat": 39.938229,
       "lon": -8.628914,
       "sourceKey": "GENÉRICO|ouro negro - pombal - poente|en 1 km 159,8|3105-295|pombal"
-    },
-    {
-      "id": "generico-ouro-negro-azambuja-norte-azambuja-2050-319",
-      "name": "OURO NEGRO - Azambuja_Norte",
-      "brand": "GENÉRICO",
-      "district": "Lisboa",
-      "municipality": "Azambuja",
-      "locality": "Azambuja",
-      "address": "E.N. 3 - Km 10.250 ANTIGO CAMPO DA FEIRA",
-      "postalCode": "2050-319",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.949,
-      "updatedAt": "2026-08-28T10:20:00+00:00",
-      "lat": 39.065964,
-      "lon": -8.876442,
-      "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
     },
     {
       "id": "bp-bp-aeroporto-lisboa-1700-067",
@@ -3012,7 +3012,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-28T10:15:00+00:00",
+      "updatedAt": "2026-09-01T15:05:00+00:00",
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
@@ -4202,7 +4202,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.965,
-      "updatedAt": "2026-08-25T17:55:00+00:00",
+      "updatedAt": "2026-09-01T16:10:00+00:00",
       "lat": 38.64518,
       "lon": -8.97844,
       "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
@@ -4361,6 +4361,23 @@
       "sourceKey": "GALP|galp cst (leiria-lisboa) - 13114|ic2(en1), km 101+100 - sentido leiria/lisboa|2460-715|alcobaca"
     },
     {
+      "id": "generico-ouro-negro-azambuja-norte-azambuja-2050-319",
+      "name": "OURO NEGRO - Azambuja_Norte",
+      "brand": "GENÉRICO",
+      "district": "Lisboa",
+      "municipality": "Azambuja",
+      "locality": "Azambuja",
+      "address": "E.N. 3 - Km 10.250 ANTIGO CAMPO DA FEIRA",
+      "postalCode": "2050-319",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-09-01T15:10:00+00:00",
+      "lat": 39.065964,
+      "lon": -8.876442,
+      "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
+    },
+    {
       "id": "oz-energia-oz-energia-bobadela-gpl-auto-loures-2695-444",
       "name": "OZ ENERGIA - BOBADELA  (GPL Auto)",
       "brand": "OZ ENERGIA",
@@ -4389,7 +4406,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-08-31T00:00:00+00:00",
+      "updatedAt": "2026-09-01T14:20:00+00:00",
       "lat": 38.70222,
       "lon": -9.30844,
       "sourceKey": "BP|bp - oeiras (cacilhas )|rua do colegio militar|2780-239|oeiras"
@@ -4729,7 +4746,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.974,
-      "updatedAt": "2026-08-24T16:20:00+00:00",
+      "updatedAt": "2026-09-01T12:00:00+00:00",
       "lat": 39.66291,
       "lon": -8.57091,
       "sourceKey": "REPSOL|repsol ourem - gt petro|rua 1o de dezembro, n.o 232|2490-506|ourem"
@@ -5579,7 +5596,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-08-31T14:25:00+00:00",
+      "updatedAt": "2026-09-01T15:20:00+00:00",
       "lat": 40.61653,
       "lon": -7.75982,
       "sourceKey": "REPSOL|e.s. mangualde|ip 5|3530-000|mangualde"
@@ -5715,7 +5732,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-24T12:00:00+00:00",
+      "updatedAt": "2026-09-01T13:45:00+00:00",
       "lat": 38.00986,
       "lon": -7.87449,
       "sourceKey": "BP|bp beja (variante)|rua antonio sardinha|7800-403|beja"
@@ -5902,7 +5919,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T07:25:00+00:00",
+      "updatedAt": "2026-09-01T12:00:00+00:00",
       "lat": 37.14381,
       "lon": -8.54823,
       "sourceKey": "BP|bp portimao raminha|avenida sao lourenco da barrosa, lote 18 alto da raminha|8500-510|portimao"
