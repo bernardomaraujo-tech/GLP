@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T15:43:34.628107+00:00",
+  "generatedAt": "2026-09-02T20:21:53.362003+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-02T16:15:00+00:00",
+  "dataUpdatedAt": "2026-09-02T18:40:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -2808,7 +2808,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-08-31T16:45:00+00:00",
+      "updatedAt": "2026-09-02T18:40:00+00:00",
       "lat": 39.55952,
       "lon": -8.97807,
       "sourceKey": "GALP|sociedade automoveis cruz de cristo, lda (1)|av. general humberto delgado|2460-052|alcobaca"
@@ -5868,7 +5868,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T00:05:00+00:00",
+      "updatedAt": "2026-09-02T17:25:00+00:00",
       "lat": 40.333233,
       "lon": -8.492696,
       "sourceKey": "BP|bp a1 mealhada (este)|a1 - km 204 - enxofaes - murtede|3060-000|cantanhede"
@@ -5885,7 +5885,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T00:05:00+00:00",
+      "updatedAt": "2026-09-02T17:25:00+00:00",
       "lat": 40.334175,
       "lon": -8.495814,
       "sourceKey": "BP|bp a1 mealhada (oeste)|a1 - km 204 - enxofaes - murtede|3060-000|cantanhede"
@@ -6395,7 +6395,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T00:05:00+00:00",
+      "updatedAt": "2026-09-02T17:25:00+00:00",
       "lat": 39.391315,
       "lon": -8.637829,
       "sourceKey": "BP|bp a1 santarem (este)|a. e. 1 - km 84|2001-701|santarem"
@@ -6412,7 +6412,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T00:05:00+00:00",
+      "updatedAt": "2026-09-02T17:30:00+00:00",
       "lat": 39.393482,
       "lon": -8.640076,
       "sourceKey": "BP|bp a1 santarem (oeste)|a. e. 1 - km 84|2001-701|santarem"
@@ -6429,7 +6429,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T00:05:00+00:00",
+      "updatedAt": "2026-09-02T17:30:00+00:00",
       "lat": 38.622807,
       "lon": -9.134171,
       "sourceKey": "BP|bp a2 seixal|a. e. 2 km 12 sublanco almada - fogueteiro|2840-000|seixal"
