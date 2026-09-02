@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T10:17:28.479265+00:00",
+  "generatedAt": "2026-09-02T15:43:34.628107+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-02T11:05:00+00:00",
+  "dataUpdatedAt": "2026-09-02T16:15:00+00:00",
   "stats": {
     "totalStations": 428,
     "withCoordinates": 428,
@@ -5137,7 +5137,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-08-31T00:00:00+00:00",
+      "updatedAt": "2026-09-02T16:15:00+00:00",
       "lat": 39.857197,
       "lon": -7.459347,
       "sourceKey": "REPSOL|e.s. lanco grande|en 233 ao km 104,750|6000-067|castelo branco"
@@ -5358,7 +5358,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.98,
-      "updatedAt": "2026-08-24T14:30:00+00:00",
+      "updatedAt": "2026-09-02T12:15:00+00:00",
       "lat": 39.02191,
       "lon": -9.14838,
       "sourceKey": "GALP|posto de sobral de monte agraco|av. 1o de maio|2590-001|sobral de monte agraco"
