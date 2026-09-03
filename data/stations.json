@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-03T10:28:44.019254+00:00",
+  "generatedAt": "2026-09-03T15:33:52.636322+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-03T11:25:00+00:00",
+  "dataUpdatedAt": "2026-09-03T16:25:00+00:00",
   "stats": {
     "totalStations": 425,
     "withCoordinates": 425,
@@ -71,7 +71,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.859,
-      "updatedAt": "2026-08-31T00:00:00+00:00",
+      "updatedAt": "2026-09-03T15:55:00+00:00",
       "lat": 40.217327,
       "lon": -8.598031,
       "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
@@ -6684,7 +6684,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.014,
-      "updatedAt": "2026-09-03T08:20:00+00:00",
+      "updatedAt": "2026-09-03T16:25:00+00:00",
       "lat": 41.23311,
       "lon": -8.17954,
       "sourceKey": "REPSOL|as penafiel b - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a4 sub lanco penafiel-amarante km 47.5 casteloes|4560-055|penafiel"
@@ -6820,7 +6820,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-09-02T09:50:00+00:00",
+      "updatedAt": "2026-09-03T15:50:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
