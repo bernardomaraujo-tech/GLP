@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T10:15:59.746355+00:00",
+  "generatedAt": "2026-09-04T15:32:05.063722+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-04T10:40:00+00:00",
+  "dataUpdatedAt": "2026-09-04T13:40:00+00:00",
   "stats": {
     "totalStations": 421,
     "withCoordinates": 421,
@@ -3743,7 +3743,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.964,
-      "updatedAt": "2026-09-03T11:00:00+00:00",
+      "updatedAt": "2026-09-04T11:50:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5936,7 +5936,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-04T00:00:00+00:00",
+      "updatedAt": "2026-09-04T12:20:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6724,23 +6724,6 @@
       "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
     },
     {
-      "id": "moeve-a33-lancada-moita-montijo-montijo-2870-521",
-      "name": "A33 LANÇADA (MOITA/MONTIJO)",
-      "brand": "MOEVE",
-      "district": "Setúbal",
-      "municipality": "Montijo",
-      "locality": "Sarilhos Grandes",
-      "address": "A33 - km 30,4",
-      "postalCode": "2870-521",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.016,
-      "updatedAt": "2026-08-31T16:30:00+00:00",
-      "lat": 38.66354,
-      "lon": -8.956911,
-      "sourceKey": "MOEVE|a33 lancada (moita/montijo)|a33 - km 30,4|2870-521|montijo"
-    },
-    {
       "id": "moeve-a33-lancada-montijo-moita-montijo-2870-521",
       "name": "A33 LANÇADA (MONTIJO/MOITA)",
       "brand": "MOEVE",
@@ -7011,6 +6994,23 @@
       "lat": 41.097977,
       "lon": -7.685744,
       "sourceKey": "REPSOL|repsol armamar|lugar bica do hospital|5110-152|armamar"
+    },
+    {
+      "id": "moeve-a33-lancada-moita-montijo-montijo-2870-521",
+      "name": "A33 LANÇADA (MOITA/MONTIJO)",
+      "brand": "MOEVE",
+      "district": "Setúbal",
+      "municipality": "Montijo",
+      "locality": "Sarilhos Grandes",
+      "address": "A33 - km 30,4",
+      "postalCode": "2870-521",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.026,
+      "updatedAt": "2026-09-04T13:40:00+00:00",
+      "lat": 38.66354,
+      "lon": -8.956911,
+      "sourceKey": "MOEVE|a33 lancada (moita/montijo)|a33 - km 30,4|2870-521|montijo"
     },
     {
       "id": "bp-bp-vizela-rotunda-vizela-4815-435",
