@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-08T10:22:25.590635+00:00",
+  "generatedAt": "2026-09-08T15:45:16.501387+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-08T10:55:00+00:00",
+  "dataUpdatedAt": "2026-09-08T16:25:00+00:00",
   "stats": {
-    "totalStations": 431,
-    "withCoordinates": 431,
-    "withPrice": 431
+    "totalStations": 433,
+    "withCoordinates": 433,
+    "withPrice": 433
   },
   "stations": [
     {
@@ -802,7 +802,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.907,
-      "updatedAt": "2026-09-02T10:05:00+00:00",
+      "updatedAt": "2026-09-08T16:25:00+00:00",
       "lat": 39.58782,
       "lon": -8.875652,
       "sourceKey": "GENÉRICO|pagpl marto energias - pedreiras|estrada ladeira pires no49 azoio|2480-109|porto de mos"
@@ -2315,7 +2315,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-09-07T00:00:00+00:00",
+      "updatedAt": "2026-09-08T14:35:00+00:00",
       "lat": 40.89171,
       "lon": -8.49362,
       "sourceKey": "REPSOL|e.s. s. joao madeira ii|av. dr. renato araujo|3700-000|sao joao da madeira"
@@ -3114,7 +3114,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-01T15:10:00+00:00",
+      "updatedAt": "2026-09-08T15:35:00+00:00",
       "lat": 39.938229,
       "lon": -8.628914,
       "sourceKey": "GENÉRICO|ouro negro - pombal - poente|en 1 km 159,8|3105-295|pombal"
@@ -3454,7 +3454,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-01T15:05:00+00:00",
+      "updatedAt": "2026-09-08T12:05:00+00:00",
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
@@ -4208,6 +4208,23 @@
       "sourceKey": "REPSOL|repsol coina|estrada nacional 10|2830-411|barreiro"
     },
     {
+      "id": "galp-ultra-resistente-combustiveis-lda-satao-3560-085",
+      "name": "Ultra Resistente - Combustiveis, Ldª",
+      "brand": "GALP",
+      "district": "Viseu",
+      "municipality": "Sátão",
+      "locality": "Longra",
+      "address": "EN 229 Km 69.800",
+      "postalCode": "3560-085",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.959,
+      "updatedAt": "2026-09-08T14:30:00+00:00",
+      "lat": 40.75569,
+      "lon": -7.72737,
+      "sourceKey": "GALP|ultra resistente - combustiveis, lda|en 229 km 69.800|3560-085|satao"
+    },
+    {
       "id": "repsol-es-repsol-evora-chafariz-d-el-rei-evora-7000-002",
       "name": "ES  REPSOL Évora - Chafariz D'El Rei",
       "brand": "REPSOL",
@@ -4576,7 +4593,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-09-01T15:10:00+00:00",
+      "updatedAt": "2026-09-08T15:35:00+00:00",
       "lat": 39.065964,
       "lon": -8.876442,
       "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
@@ -4916,7 +4933,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.979,
-      "updatedAt": "2026-09-07T00:05:00+00:00",
+      "updatedAt": "2026-09-08T12:20:00+00:00",
       "lat": 38.57734,
       "lon": -8.89189,
       "sourceKey": "BP|bp palmela|e. n. 379 bombas\\r\\nlage-s.juliao|2950-302|palmela"
@@ -5103,7 +5120,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.984,
-      "updatedAt": "2026-09-05T00:10:00+00:00",
+      "updatedAt": "2026-09-08T14:55:00+00:00",
       "lat": 40.910305,
       "lon": -7.928194,
       "sourceKey": "GALP|galp castro daire - ldl combustiveis, lda|avenida maria alcina fadista, 1156|3600-199|castro daire"
@@ -5749,7 +5766,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-08-31T15:00:00+00:00",
+      "updatedAt": "2026-09-08T12:10:00+00:00",
       "lat": 41.50852,
       "lon": -7.994753,
       "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
@@ -6276,7 +6293,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-01T10:55:00+00:00",
+      "updatedAt": "2026-09-08T16:00:00+00:00",
       "lat": 41.32086,
       "lon": -8.19268,
       "sourceKey": "GENÉRICO|petrovila - combustiveis, lda|rua da liberdade, s/n|4650-092|felgueiras"
@@ -7334,6 +7351,23 @@
       "lat": 42.060314,
       "lon": -8.488322,
       "sourceKey": "GENÉRICO|pa mazedo - fg combustiveis|estrada de mazedo 2137|4950-276|moncao"
+    },
+    {
+      "id": "generico-chamazul-lourinha-lourinha-2530-000",
+      "name": "Chamazul - Lourinhã",
+      "brand": "GENÉRICO",
+      "district": "Lisboa",
+      "municipality": "Lourinhã",
+      "locality": "Lourinhã",
+      "address": "EN8, KM44",
+      "postalCode": "2530-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.19,
+      "updatedAt": "2026-09-08T15:40:00+00:00",
+      "lat": 39.22422,
+      "lon": -9.29038,
+      "sourceKey": "GENÉRICO|chamazul - lourinha|en8, km44|2530-000|lourinha"
     }
   ]
 }
