@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-10T10:20:39.048163+00:00",
+  "generatedAt": "2026-09-10T15:35:52.058042+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-10T10:10:00+00:00",
+  "dataUpdatedAt": "2026-09-10T15:55:00+00:00",
   "stats": {
-    "totalStations": 430,
-    "withCoordinates": 430,
-    "withPrice": 430
+    "totalStations": 431,
+    "withCoordinates": 431,
+    "withPrice": 431
   },
   "stations": [
     {
@@ -683,7 +683,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.9,
-      "updatedAt": "2026-09-07T07:15:00+00:00",
+      "updatedAt": "2026-09-10T15:55:00+00:00",
       "lat": 41.08775,
       "lon": -7.798573,
       "sourceKey": "LECLERC|e. leclerc lamego|quinta dos prados de baixo - lugar da rina|5100-196|lamego"
@@ -2557,6 +2557,23 @@
       "lat": 38.65323,
       "lon": -9.16733,
       "sourceKey": "OZ ENERGIA|oz energia - feijo|rua joaquim pires jorge, no19|2810-000|almada"
+    },
+    {
+      "id": "generico-eulupepneus-unipessoal-lda-torres-novas-2350-466",
+      "name": "EULUPEPNEUS-UNIPESSOAL, LDA",
+      "brand": "GENÉRICO",
+      "district": "Santarém",
+      "municipality": "Torres Novas",
+      "locality": "Ponte Nova",
+      "address": "ESTRADA NACIONAL 3 - PONTE NOVA ( JUNTO AO TORRESHOPING )",
+      "postalCode": "2350-466",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.94,
+      "updatedAt": "2026-09-10T12:00:00+00:00",
+      "lat": 39.46501,
+      "lon": -8.5258,
+      "sourceKey": "GENÉRICO|eulupepneus-unipessoal, lda|estrada nacional 3 - ponte nova ( junto ao torreshoping )|2350-466|torres novas"
     },
     {
       "id": "oz-energia-oz-energia-setubal-setubal-2900-657",
