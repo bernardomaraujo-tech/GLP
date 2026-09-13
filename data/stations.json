@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T10:52:46.614495+00:00",
+  "generatedAt": "2026-09-13T15:23:43.745604+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-13T08:20:00+00:00",
+  "dataUpdatedAt": "2026-09-13T16:10:00+00:00",
   "stats": {
     "totalStations": 425,
     "withCoordinates": 425,
@@ -6650,7 +6650,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-07T22:00:00+00:00",
+      "updatedAt": "2026-09-13T16:10:00+00:00",
       "lat": 41.859408,
       "lon": -8.42645,
       "sourceKey": "BP|bp ribeirinho|rua ponte velha, n 25ribeirinho|4970-272|arcos de valdevez"
