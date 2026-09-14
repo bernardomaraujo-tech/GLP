@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T17:20:16.739247+00:00",
+  "generatedAt": "2026-09-14T21:15:21.814253+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-14T18:15:00+00:00",
+  "dataUpdatedAt": "2026-09-14T22:05:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -54,7 +54,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.859,
-      "updatedAt": "2026-09-07T13:50:00+00:00",
+      "updatedAt": "2026-09-14T18:30:00+00:00",
       "lat": 38.9516,
       "lon": -9.33227,
       "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
@@ -887,7 +887,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.919,
-      "updatedAt": "2026-09-07T22:05:00+00:00",
+      "updatedAt": "2026-09-14T22:05:00+00:00",
       "lat": 40.083,
       "lon": -8.318,
       "sourceKey": "GENÉRICO|gasodueca - pa generico meas|rua tras das casas 29|3220-115|miranda do corvo"
@@ -1006,7 +1006,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.919,
-      "updatedAt": "2026-09-07T00:05:00+00:00",
+      "updatedAt": "2026-09-14T21:00:00+00:00",
       "lat": 38.625215,
       "lon": -9.111194,
       "sourceKey": "LECLERC|e. leclerc amora|av. marginal silva gomes|2845-000|seixal"
@@ -1380,7 +1380,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-07T13:55:00+00:00",
+      "updatedAt": "2026-09-14T20:30:00+00:00",
       "lat": 39.34556,
       "lon": -9.34062,
       "sourceKey": "INTERMARCHÉ|intermarche atouguia da baleia|en 114 km 7,600|2525-553|peniche"
@@ -1907,7 +1907,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.934,
-      "updatedAt": "2026-09-07T22:00:00+00:00",
+      "updatedAt": "2026-09-14T22:00:00+00:00",
       "lat": 41.48778,
       "lon": -8.429883,
       "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
@@ -2128,7 +2128,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-09-14T00:00:00+00:00",
+      "updatedAt": "2026-09-14T19:20:00+00:00",
       "lat": 40.89171,
       "lon": -8.49362,
       "sourceKey": "REPSOL|e.s. s. joao madeira ii|av. dr. renato araujo|3700-000|sao joao da madeira"
@@ -3981,7 +3981,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-11T18:05:00+00:00",
+      "updatedAt": "2026-09-14T19:30:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -5783,7 +5783,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-07T20:40:00+00:00",
+      "updatedAt": "2026-09-14T20:30:00+00:00",
       "lat": 41.453073,
       "lon": -8.189715,
       "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
@@ -6072,7 +6072,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-07T22:30:00+00:00",
+      "updatedAt": "2026-09-14T22:00:00+00:00",
       "lat": 39.80369,
       "lon": -8.59071,
       "sourceKey": "GENÉRICO|posto de abastecimento auto albergue, lda.|r. do castelo|3100-081|pombal"
@@ -6718,7 +6718,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-09-07T15:05:00+00:00",
+      "updatedAt": "2026-09-14T20:30:00+00:00",
       "lat": 38.38147,
       "lon": -8.514054,
       "sourceKey": "INTERMARCHÉ|intermarche alcacer do sal|cerrado das majapoas|7580-054|alcacer do sal"
