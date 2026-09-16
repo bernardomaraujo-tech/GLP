@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-16T10:34:35.001010+00:00",
+  "generatedAt": "2026-09-16T15:52:03.395972+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-16T10:40:00+00:00",
+  "dataUpdatedAt": "2026-09-16T15:50:00+00:00",
   "stats": {
     "totalStations": 437,
     "withCoordinates": 437,
@@ -2009,7 +2009,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.936,
-      "updatedAt": "2026-09-14T00:00:00+00:00",
+      "updatedAt": "2026-09-16T15:10:00+00:00",
       "lat": 40.65145,
       "lon": -8.61118,
       "sourceKey": "CEPSA|cepsa aveiro zi|rua joao francisco do casal, 122|3800-264|aveiro"
@@ -2196,7 +2196,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-16T13:00:00+00:00",
       "lat": 40.89171,
       "lon": -8.49362,
       "sourceKey": "REPSOL|e.s. s. joao madeira ii|av. dr. renato araujo|3700-000|sao joao da madeira"
@@ -3233,7 +3233,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-15T11:20:00+00:00",
+      "updatedAt": "2026-09-16T12:00:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4185,7 +4185,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-16T15:50:00+00:00",
       "lat": 41.172061,
       "lon": -8.441431,
       "sourceKey": "REPSOL|e.s. gandra paredes|en 15-3 (cruzamento da rua do negral c/ rua central da ribeira)|4440-115|paredes"
@@ -4780,7 +4780,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-16T12:30:00+00:00",
       "lat": 41.30531,
       "lon": -7.72257,
       "sourceKey": "REPSOL|e.s. vila real abambres|r. gaspar sameiro, n 920|5000-261|vila real"
