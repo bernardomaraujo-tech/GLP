@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T10:44:34.402194+00:00",
+  "generatedAt": "2026-09-17T15:58:23.890133+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-17T11:35:00+00:00",
+  "dataUpdatedAt": "2026-09-17T15:25:00+00:00",
   "stats": {
     "totalStations": 431,
     "withCoordinates": 431,
@@ -842,23 +842,6 @@
       "sourceKey": "PRIO|prio samil|gaveto da rua de samil com a rua da devesa velha - lugar das devesas|3720-716|oliveira de azemeis"
     },
     {
-      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
-      "name": "PA Feitos -Barcelos",
-      "brand": "GENÉRICO",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Feitos",
-      "address": "Rua da Estrada Nacional 103, km 12,100",
-      "postalCode": "4750-442",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.919,
-      "updatedAt": "2026-09-14T15:00:00+00:00",
-      "lat": 41.57053,
-      "lon": -8.685565,
-      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
-    },
-    {
       "id": "generico-g-m-i-vermoim-v-n-de-famalicao-vila-nova-de-famalicao-4770-754",
       "name": "G. M. I - VERMOIM- V. N. DE FAMALICÃO",
       "brand": "GENÉRICO",
@@ -1329,7 +1312,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-08T08:00:00+00:00",
+      "updatedAt": "2026-09-17T15:05:00+00:00",
       "lat": 40.01876,
       "lon": -8.37316,
       "sourceKey": "PRIO|prio penela|zona industrial de penela, lote 1|3230-292|penela"
@@ -3726,7 +3709,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-09-14T12:35:00+00:00",
+      "updatedAt": "2026-09-17T12:55:00+00:00",
       "lat": 38.02075,
       "lon": -7.87145,
       "sourceKey": "GALP|l. a. cameirinha , lda|rua de lisboa|7800-000|beja"
@@ -4514,6 +4497,23 @@
       "sourceKey": "GALP|posto rainha da feira, lda|zona industrial do roligo|4520-112|santa maria da feira"
     },
     {
+      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
+      "name": "PA Feitos -Barcelos",
+      "brand": "GENÉRICO",
+      "district": "Braga",
+      "municipality": "Barcelos",
+      "locality": "Feitos",
+      "address": "Rua da Estrada Nacional 103, km 12,100",
+      "postalCode": "4750-442",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-09-17T12:40:00+00:00",
+      "lat": 41.57053,
+      "lon": -8.685565,
+      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
+    },
+    {
       "id": "galp-posto-galp-lousa-en342-anibal-antunes-bandeira-lda-lousa-3200-133",
       "name": "Posto GALP Lousã EN342  - Anibal Antunes Bandeira, Lda",
       "brand": "GALP",
@@ -5239,7 +5239,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.989,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-17T15:25:00+00:00",
       "lat": 41.7395,
       "lon": -7.4761,
       "sourceKey": "REPSOL|e.s. chaves ii|av. santo amaro, s/n|5400-000|chaves"
@@ -7075,7 +7075,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-09-16T09:35:00+00:00",
+      "updatedAt": "2026-09-17T15:20:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
