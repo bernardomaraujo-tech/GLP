@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-18T10:20:08.327403+00:00",
+  "generatedAt": "2026-09-18T15:32:36.898991+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-18T11:00:00+00:00",
+  "dataUpdatedAt": "2026-09-18T15:10:00+00:00",
   "stats": {
-    "totalStations": 429,
-    "withCoordinates": 429,
-    "withPrice": 429
+    "totalStations": 432,
+    "withCoordinates": 432,
+    "withPrice": 432
   },
   "stations": [
     {
@@ -1284,6 +1284,23 @@
       "sourceKey": "PRIO|prio penela|zona industrial de penela, lote 1|3230-292|penela"
     },
     {
+      "id": "repsol-repsol-soure-i-soure-3130-200",
+      "name": "REPSOL SOURE I",
+      "brand": "REPSOL",
+      "district": "Coimbra",
+      "municipality": "Soure",
+      "locality": "Soure",
+      "address": "Cruz-Nova",
+      "postalCode": "3130-200",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-09-18T12:55:00+00:00",
+      "lat": 40.064014,
+      "lon": -8.618356,
+      "sourceKey": "REPSOL|repsol soure i|cruz-nova|3130-200|soure"
+    },
+    {
       "id": "prio-prio-faro-faro-8005-146",
       "name": "PRIO  Faro",
       "brand": "PRIO",
@@ -1805,7 +1822,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-18T12:50:00+00:00",
       "lat": 40.4961,
       "lon": -7.9047,
       "sourceKey": "REPSOL|e.s. canas de senhorim|rua da estacao - lugar da raposeira|3525-018|nelas"
@@ -1822,7 +1839,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-18T12:50:00+00:00",
       "lat": 40.39775,
       "lon": -8.12854,
       "sourceKey": "REPSOL|e.s. santa comba dao|r. miguel neves|3440-384|santa comba dao"
@@ -1894,6 +1911,40 @@
       "lat": 41.48778,
       "lon": -8.429883,
       "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
+    },
+    {
+      "id": "galp-controlsuper-com-de-combustiveis-lda-guimaraes-4810-910",
+      "name": "Controlsuper - Com. de Combustiveis Lda",
+      "brand": "GALP",
+      "district": "Braga",
+      "municipality": "Guimarães",
+      "locality": "Guimarães",
+      "address": "Circular Urbana Guimarães\\r\\nEN 105",
+      "postalCode": "4810-910",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.934,
+      "updatedAt": "2026-09-18T15:10:00+00:00",
+      "lat": 41.4512,
+      "lon": -8.300733,
+      "sourceKey": "GALP|controlsuper - com. de combustiveis lda|circular urbana guimaraes\\r\\nen 105|4810-910|guimaraes"
+    },
+    {
+      "id": "galp-controlsuper-com-de-combust-lda-fafe-guimaraes-guimaraes-4800-000",
+      "name": "Controlsuper-Com. de Combust, Lda- Fafe-Guimarães",
+      "brand": "GALP",
+      "district": "Braga",
+      "municipality": "Guimarães",
+      "locality": "Guimarães",
+      "address": "Circular Urbana de Guimarães - EN 105, Km 44,900",
+      "postalCode": "4800-000",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.934,
+      "updatedAt": "2026-09-18T15:10:00+00:00",
+      "lat": 41.451572,
+      "lon": -8.301094,
+      "sourceKey": "GALP|controlsuper-com. de combust, lda- fafe-guimaraes|circular urbana de guimaraes - en 105, km 44,900|4800-000|guimaraes"
     },
     {
       "id": "galp-petropostos-comercio-de-combustiveis-lda-coimbra-3000-125",
@@ -4049,7 +4100,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-15T00:00:00+00:00",
+      "updatedAt": "2026-09-18T12:20:00+00:00",
       "lat": 39.92142,
       "lon": -8.36953,
       "sourceKey": "REPSOL|e.s. avelar|rua das cinco vilas|3240-306|ansiao"
