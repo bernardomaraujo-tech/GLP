@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-19T10:02:33.874051+00:00",
+  "generatedAt": "2026-09-19T15:07:22.254963+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-19T08:35:00+00:00",
+  "dataUpdatedAt": "2026-09-19T13:00:00+00:00",
   "stats": {
     "totalStations": 430,
     "withCoordinates": 430,
@@ -2944,7 +2944,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-15T12:15:00+00:00",
+      "updatedAt": "2026-09-19T13:00:00+00:00",
       "lat": 39.64325,
       "lon": -8.843011,
       "sourceKey": "REPSOL|e.s. s. jorge batalha a|ic2, no10, casal da amieira|2440-477|batalha"
@@ -6106,7 +6106,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-19T00:00:00+00:00",
+      "updatedAt": "2026-09-19T12:45:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
