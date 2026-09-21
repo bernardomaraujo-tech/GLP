@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T17:32:45.204804+00:00",
+  "generatedAt": "2026-09-21T21:30:11.721096+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-21T18:30:00+00:00",
+  "dataUpdatedAt": "2026-09-21T22:05:00+00:00",
   "stats": {
     "totalStations": 432,
     "withCoordinates": 432,
@@ -842,23 +842,6 @@
       "sourceKey": "AUCHAN|auchan castelo branco|zona industrial castelo branco|6000-459|castelo branco"
     },
     {
-      "id": "generico-gasodueca-pa-generico-meas-miranda-do-corvo-3220-115",
-      "name": "Gasodueça - PA Genérico Meãs",
-      "brand": "GENÉRICO",
-      "district": "Coimbra",
-      "municipality": "Miranda do Corvo",
-      "locality": "Meãs",
-      "address": "Rua Trás das Casas 29",
-      "postalCode": "3220-115",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.919,
-      "updatedAt": "2026-09-14T22:05:00+00:00",
-      "lat": 40.083,
-      "lon": -8.318,
-      "sourceKey": "GENÉRICO|gasodueca - pa generico meas|rua tras das casas 29|3220-115|miranda do corvo"
-    },
-    {
       "id": "prio-prio-sto-antonio-dos-cavaleiros-loures-2660-699",
       "name": "Prio - Sto. António dos Cavaleiros",
       "brand": "PRIO",
@@ -1233,6 +1216,23 @@
       "sourceKey": "REPSOL|es coimbra - gespost - gestao e administracao de postos de abastecimento unipessoal lda|e n 111,1 - sta cruz (junto a academia do choupal)|3000-477|coimbra"
     },
     {
+      "id": "generico-gasodueca-pa-generico-meas-miranda-do-corvo-3220-115",
+      "name": "Gasodueça - PA Genérico Meãs",
+      "brand": "GENÉRICO",
+      "district": "Coimbra",
+      "municipality": "Miranda do Corvo",
+      "locality": "Meãs",
+      "address": "Rua Trás das Casas 29",
+      "postalCode": "3220-115",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.929,
+      "updatedAt": "2026-09-21T22:05:00+00:00",
+      "lat": 40.083,
+      "lon": -8.318,
+      "sourceKey": "GENÉRICO|gasodueca - pa generico meas|rua tras das casas 29|3220-115|miranda do corvo"
+    },
+    {
       "id": "prio-prio-penela-penela-3230-292",
       "name": "PRIO PENELA",
       "brand": "PRIO",
@@ -1601,7 +1601,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-21T00:00:00+00:00",
+      "updatedAt": "2026-09-21T21:25:00+00:00",
       "lat": 41.32683,
       "lon": -8.56734,
       "sourceKey": "REPSOL|e.s. trofa|rua das industrias 655|4785-624|trofa"
@@ -1890,7 +1890,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.934,
-      "updatedAt": "2026-09-14T22:00:00+00:00",
+      "updatedAt": "2026-09-21T22:00:00+00:00",
       "lat": 41.48778,
       "lon": -8.429883,
       "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
@@ -3029,7 +3029,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-21T00:00:00+00:00",
+      "updatedAt": "2026-09-21T18:50:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -3046,7 +3046,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-21T17:10:00+00:00",
+      "updatedAt": "2026-09-21T19:00:00+00:00",
       "lat": 39.67874,
       "lon": -8.90934,
       "sourceKey": "REPSOL|e.s. maceirinha|en 356 km 5,625|2405-026|leiria"
@@ -3063,7 +3063,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-21T00:00:00+00:00",
+      "updatedAt": "2026-09-21T19:00:00+00:00",
       "lat": 39.7454,
       "lon": -8.89058,
       "sourceKey": "REPSOL|e.s. albergaria|en 242 km 8,5 (av na sra nazare)|2430-011|marinha grande"
@@ -4695,7 +4695,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-09-21T15:20:00+00:00",
+      "updatedAt": "2026-09-21T19:35:00+00:00",
       "lat": 41.24876,
       "lon": -8.25595,
       "sourceKey": "BP|bp - meinedo|av. magneto, 980|4620-350|lousada"
@@ -4797,7 +4797,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.969,
-      "updatedAt": "2026-09-19T02:55:00+00:00",
+      "updatedAt": "2026-09-21T18:50:00+00:00",
       "lat": 38.553825,
       "lon": -7.917911,
       "sourceKey": "GALP|galp- sousa & marquez (horta das figueiras- evora)|variante ao parque industrial|7005-872|evora"
@@ -5715,7 +5715,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-14T14:20:00+00:00",
+      "updatedAt": "2026-09-21T19:00:00+00:00",
       "lat": 40.785388,
       "lon": -8.566024,
       "sourceKey": "BP|bp avanca (s-n)|r. do falcao, e.n. 109 - km 44.3|3860-060|estarreja"
@@ -5817,7 +5817,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-14T20:30:00+00:00",
+      "updatedAt": "2026-09-21T20:30:00+00:00",
       "lat": 41.453073,
       "lon": -8.189715,
       "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
@@ -6106,7 +6106,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-14T22:00:00+00:00",
+      "updatedAt": "2026-09-21T22:00:00+00:00",
       "lat": 39.80369,
       "lon": -8.59071,
       "sourceKey": "GENÉRICO|posto de abastecimento auto albergue, lda.|r. do castelo|3100-081|pombal"
@@ -6599,7 +6599,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-20T16:30:00+00:00",
+      "updatedAt": "2026-09-21T20:50:00+00:00",
       "lat": 41.859408,
       "lon": -8.42645,
       "sourceKey": "BP|bp ribeirinho|rua ponte velha, n 25ribeirinho|4970-272|arcos de valdevez"
