@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T10:41:01.724560+00:00",
+  "generatedAt": "2026-09-22T16:02:15.375084+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-22T11:25:00+00:00",
+  "dataUpdatedAt": "2026-09-22T16:55:00+00:00",
   "stats": {
     "totalStations": 434,
     "withCoordinates": 434,
@@ -2281,7 +2281,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-09-21T11:30:00+00:00",
+      "updatedAt": "2026-09-22T16:55:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -2298,7 +2298,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-09-21T11:35:00+00:00",
+      "updatedAt": "2026-09-22T16:55:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3675,7 +3675,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-21T00:00:00+00:00",
+      "updatedAt": "2026-09-22T14:25:00+00:00",
       "lat": 40.66386,
       "lon": -7.91913,
       "sourceKey": "REPSOL|e.s. viseu-av cap h ribeiro|av. capitao homem ribeiro|3500-000|viseu"
@@ -3760,7 +3760,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.954,
-      "updatedAt": "2026-09-21T12:00:00+00:00",
+      "updatedAt": "2026-09-22T11:45:00+00:00",
       "lat": 37.08517,
       "lon": -8.04257,
       "sourceKey": "GALP|lubriolhao, lda|estrada da fonte santa|8135-107|loule"
@@ -6089,7 +6089,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-22T00:00:00+00:00",
+      "updatedAt": "2026-09-22T12:55:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6361,7 +6361,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-14T14:50:00+00:00",
+      "updatedAt": "2026-09-22T11:55:00+00:00",
       "lat": 41.32086,
       "lon": -8.19268,
       "sourceKey": "GENÉRICO|petrovila - combustiveis, lda|rua da liberdade, s/n|4650-092|felgueiras"
@@ -7245,7 +7245,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.059,
-      "updatedAt": "2026-09-21T11:35:00+00:00",
+      "updatedAt": "2026-09-22T16:05:00+00:00",
       "lat": 41.43717,
       "lon": -8.31279,
       "sourceKey": "BP|creixoauto guimaraes|rua miradouro de baixo|4835-079|guimaraes"
