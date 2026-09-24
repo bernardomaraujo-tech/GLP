@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-24T10:50:38.455905+00:00",
+  "generatedAt": "2026-09-24T16:14:29.814559+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-24T11:50:00+00:00",
+  "dataUpdatedAt": "2026-09-24T15:15:00+00:00",
   "stats": {
-    "totalStations": 432,
-    "withCoordinates": 432,
-    "withPrice": 432
+    "totalStations": 433,
+    "withCoordinates": 433,
+    "withPrice": 433
   },
   "stations": [
     {
@@ -194,6 +194,23 @@
       "lat": 40.898796,
       "lon": -8.477838,
       "sourceKey": "GENÉRICO|pa petrozona sao joao da madeira|rua domingos jose de oliveira|3700-317|sao joao da madeira"
+    },
+    {
+      "id": "oz-energia-cl-autogas-montemor-o-velho-3140-563",
+      "name": "CL-AUTOGÁS.",
+      "brand": "OZ ENERGIA",
+      "district": "Coimbra",
+      "municipality": "Montemor-o-Velho",
+      "locality": "Tentúgal",
+      "address": "Est. Nacional 111",
+      "postalCode": "3140-563",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.889,
+      "updatedAt": "2026-09-24T15:15:00+00:00",
+      "lat": 40.217327,
+      "lon": -8.598031,
+      "sourceKey": "OZ ENERGIA|cl-autogas.|est. nacional 111|3140-563|montemor-o-velho"
     },
     {
       "id": "auchan-auchan-amadora-ubbo-amadora-2650-501",
@@ -4253,7 +4270,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-21T00:00:00+00:00",
+      "updatedAt": "2026-09-24T13:25:00+00:00",
       "lat": 38.636239,
       "lon": -9.044358,
       "sourceKey": "REPSOL|e.s. vila cha|em 510|2835-490|barreiro"
