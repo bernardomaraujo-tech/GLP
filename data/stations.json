@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T10:55:06.820774+00:00",
+  "generatedAt": "2026-09-25T16:14:40.999956+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-25T11:40:00+00:00",
+  "dataUpdatedAt": "2026-09-25T16:25:00+00:00",
   "stats": {
     "totalStations": 429,
     "withCoordinates": 429,
@@ -1312,7 +1312,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-24T00:00:00+00:00",
+      "updatedAt": "2026-09-25T12:10:00+00:00",
       "lat": 37.030327,
       "lon": -7.850788,
       "sourceKey": "REPSOL|e.s. olhao|en 125|8700-207|olhao"
@@ -3250,7 +3250,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-24T11:00:00+00:00",
+      "updatedAt": "2026-09-25T12:30:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -3420,7 +3420,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-21T16:05:00+00:00",
+      "updatedAt": "2026-09-25T16:25:00+00:00",
       "lat": 41.392284,
       "lon": -8.700511,
       "sourceKey": "ECOBRENT|ecobrent - touguinho|avenida jose ramos maia s/n, 4480-575 touguinho|4480-575|vila do conde"
@@ -4185,7 +4185,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-21T16:05:00+00:00",
+      "updatedAt": "2026-09-25T16:25:00+00:00",
       "lat": 41.29811,
       "lon": -8.70692,
       "sourceKey": "ECOBRENT|ecobrent modivas|avenida fonte cova 400|4485-592|vila do conde"
@@ -4253,7 +4253,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-25T00:00:00+00:00",
+      "updatedAt": "2026-09-25T13:35:00+00:00",
       "lat": 38.636239,
       "lon": -9.044358,
       "sourceKey": "REPSOL|e.s. vila cha|em 510|2835-490|barreiro"
