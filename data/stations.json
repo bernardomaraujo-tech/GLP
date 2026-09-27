@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T11:07:37.338910+00:00",
+  "generatedAt": "2026-09-27T16:07:42.144468+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-27T08:20:00+00:00",
+  "dataUpdatedAt": "2026-09-27T17:00:00+00:00",
   "stats": {
     "totalStations": 427,
     "withCoordinates": 427,
@@ -4667,6 +4667,23 @@
       "sourceKey": "GALP|galp tourais (seia)|en 231|6270-581|seia"
     },
     {
+      "id": "repsol-repsol-seia-seia-6270-485",
+      "name": "REPSOL Seia",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Seia",
+      "locality": "Seia",
+      "address": "Avª Terras de Sena-Quintela-Seia",
+      "postalCode": "6270-485",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-09-27T15:45:00+00:00",
+      "lat": 40.4209,
+      "lon": -7.712581,
+      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
+    },
+    {
       "id": "galp-galp-cst-leiria-lisboa-13114-alcobaca-2460-715",
       "name": "GALP CST (Leiria-Lisboa) - 13114",
       "brand": "GALP",
@@ -6089,7 +6106,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-27T00:00:00+00:00",
+      "updatedAt": "2026-09-27T17:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -6943,23 +6960,6 @@
       "lat": 39.773658,
       "lon": -8.109689,
       "sourceKey": "REPSOL|e.s. serta|estrada vila de rei|6100-732|serta"
-    },
-    {
-      "id": "repsol-repsol-seia-seia-6270-485",
-      "name": "REPSOL Seia",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Seia",
-      "locality": "Seia",
-      "address": "Avª Terras de Sena-Quintela-Seia",
-      "postalCode": "6270-485",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.009,
-      "updatedAt": "2026-09-21T00:00:00+00:00",
-      "lat": 40.4209,
-      "lon": -7.712581,
-      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
     },
     {
       "id": "repsol-e-s-ponte-de-lima-b-ponte-de-lima-4990-120",
