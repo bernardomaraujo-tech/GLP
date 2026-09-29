@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T17:22:33.000181+00:00",
+  "generatedAt": "2026-09-29T21:43:41.720206+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-29T18:20:00+00:00",
+  "dataUpdatedAt": "2026-09-29T18:50:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -2434,7 +2434,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.939,
-      "updatedAt": "2026-09-28T00:00:00+00:00",
+      "updatedAt": "2026-09-29T18:50:00+00:00",
       "lat": 38.7142,
       "lon": -9.38999,
       "sourceKey": "REPSOL|e.s. estoril|av. conde de barcelona|2775-000|cascais"
@@ -2825,7 +2825,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.944,
-      "updatedAt": "2026-09-29T04:20:00+00:00",
+      "updatedAt": "2026-09-29T18:25:00+00:00",
       "lat": 37.95935,
       "lon": -8.859145,
       "sourceKey": "GALP|galp sines|av.general humberto delgado|7520-106|sines"
