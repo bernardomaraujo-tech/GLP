@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-30T11:40:53.070509+00:00",
+  "generatedAt": "2026-09-30T17:20:28.560610+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-30T11:20:00+00:00",
+  "dataUpdatedAt": "2026-09-30T18:15:00+00:00",
   "stats": {
-    "totalStations": 434,
-    "withCoordinates": 434,
-    "withPrice": 434
+    "totalStations": 432,
+    "withCoordinates": 432,
+    "withPrice": 432
   },
   "stations": [
     {
@@ -1947,23 +1947,6 @@
       "sourceKey": "GALP|petropostos comercio de combustiveis lda|circular externa de coimbra|3000-125|coimbra"
     },
     {
-      "id": "oz-energia-oz-energia-penafiel-penafiel-4560-131",
-      "name": "OZ ENERGIA-PENAFIEL",
-      "brand": "OZ ENERGIA",
-      "district": "Porto",
-      "municipality": "Penafiel",
-      "locality": "Guilhufe",
-      "address": "Av. Central de Guilhufe, nº388",
-      "postalCode": "4560-131",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.934,
-      "updatedAt": "2026-09-28T01:30:00+00:00",
-      "lat": 41.19515,
-      "lon": -8.305677,
-      "sourceKey": "OZ ENERGIA|oz energia-penafiel|av. central de guilhufe, no388|4560-131|penafiel"
-    },
-    {
       "id": "cepsa-cepsa-aveiro-zi-aveiro-3800-264",
       "name": "CEPSA Aveiro  ZI",
       "brand": "CEPSA",
@@ -2234,23 +2217,6 @@
       "lat": 40.53712,
       "lon": -8.45097,
       "sourceKey": "REPSOL|es repsol barro|zona ind.barro|3750-351|agueda"
-    },
-    {
-      "id": "oz-energia-oz-energia-barqueiros-barcelos-4740-694",
-      "name": "OZ ENERGIA  - BARQUEIROS",
-      "brand": "OZ ENERGIA",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Barqueiros",
-      "address": "Estrada Nacional 205 - km 9",
-      "postalCode": "4740-694",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.939,
-      "updatedAt": "2026-09-28T01:30:00+00:00",
-      "lat": 41.45777,
-      "lon": -8.71975,
-      "sourceKey": "OZ ENERGIA|oz energia - barqueiros|estrada nacional 205 - km 9|4740-694|barcelos"
     },
     {
       "id": "prio-prio-perelhal-barcelos-4750-620",
@@ -2910,7 +2876,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-28T00:00:00+00:00",
+      "updatedAt": "2026-09-30T13:15:00+00:00",
       "lat": 41.530255,
       "lon": -8.76303,
       "sourceKey": "REPSOL|e.s. esposende|r. comendador rodrigo leite|4740-473|esposende"
@@ -3250,7 +3216,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-29T09:55:00+00:00",
+      "updatedAt": "2026-09-30T14:55:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -3437,7 +3403,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-28T11:05:00+00:00",
+      "updatedAt": "2026-09-30T14:35:00+00:00",
       "lat": 39.472078,
       "lon": -8.195447,
       "sourceKey": "REPSOL|e.s. abrantes|av. d. joao i 3|2200-494|abrantes"
@@ -3522,7 +3488,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-28T15:45:00+00:00",
+      "updatedAt": "2026-09-30T15:15:00+00:00",
       "lat": 39.24329,
       "lon": -8.69662,
       "sourceKey": "REPSOL|e.s. santarem|rua o|2000-630|santarem"
@@ -4004,23 +3970,6 @@
       "sourceKey": "Q8|q8 albergaria-a-velha|rua dr. quina ferreira, 74 (en 16 ao km 11.9)|3850-273|albergaria-a-velha"
     },
     {
-      "id": "galp-teixeira-martins-automoveis-lda-esposende-4740-475",
-      "name": "Teixeira & Martins, Automóveis, Lda.,",
-      "brand": "GALP",
-      "district": "Braga",
-      "municipality": "Esposende",
-      "locality": "Gandra",
-      "address": "EN 13 Km 43,15",
-      "postalCode": "4740-475",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.959,
-      "updatedAt": "2026-09-28T08:50:00+00:00",
-      "lat": 41.52204,
-      "lon": -8.7748,
-      "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
-    },
-    {
       "id": "repsol-repsol-famalicao-sul-vila-nova-de-famalicao-4760-281",
       "name": "REPSOL Famalicao Sul",
       "brand": "REPSOL",
@@ -4236,7 +4185,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-28T14:50:00+00:00",
+      "updatedAt": "2026-09-30T17:30:00+00:00",
       "lat": 39.66291,
       "lon": -8.57091,
       "sourceKey": "REPSOL|repsol ourem - gt petro|rua 1o de dezembro, n.o 232|2490-506|ourem"
@@ -7092,7 +7041,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-09-29T12:20:00+00:00",
+      "updatedAt": "2026-09-30T14:10:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -7147,6 +7096,23 @@
       "lat": 41.535347,
       "lon": -8.601057,
       "sourceKey": "FREITAS|casp - area de servico portas do cavado, lda.|av. das pontes 153, tamel s. verissimo (en 205 km 600)|4750-754|barcelos"
+    },
+    {
+      "id": "galp-teixeira-martins-automoveis-lda-esposende-4740-475",
+      "name": "Teixeira & Martins, Automóveis, Lda.,",
+      "brand": "GALP",
+      "district": "Braga",
+      "municipality": "Esposende",
+      "locality": "Gandra",
+      "address": "EN 13 Km 43,15",
+      "postalCode": "4740-475",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.029,
+      "updatedAt": "2026-09-30T18:15:00+00:00",
+      "lat": 41.52204,
+      "lon": -8.7748,
+      "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
     },
     {
       "id": "moeve-a33-lancada-moita-montijo-montijo-2870-521",
