@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-30T17:20:28.560610+00:00",
+  "generatedAt": "2026-09-30T21:44:12.129851+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-09-30T18:15:00+00:00",
+  "dataUpdatedAt": "2026-09-30T21:30:00+00:00",
   "stats": {
-    "totalStations": 432,
-    "withCoordinates": 432,
-    "withPrice": 432
+    "totalStations": 433,
+    "withCoordinates": 433,
+    "withPrice": 433
   },
   "stations": [
     {
@@ -41,23 +41,6 @@
       "lat": 41.334717,
       "lon": -8.480655,
       "sourceKey": "REPSOL|coop. agr. de santo tirso e trofa|rua major dinis, 106|4780-200|santo tirso"
-    },
-    {
-      "id": "galp-coprel-mafra-2640-410",
-      "name": "COPREL",
-      "brand": "GALP",
-      "district": "Lisboa",
-      "municipality": "Mafra",
-      "locality": "MAFRA",
-      "address": "RUA FRANCISCO AUGUSTO LEITE, 4A DA PERRA",
-      "postalCode": "2640-410",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.859,
-      "updatedAt": "2026-09-28T09:45:00+00:00",
-      "lat": 38.9516,
-      "lon": -9.33227,
-      "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
     },
     {
       "id": "auchan-auchan-sintra-sintra-2710-116",
@@ -1278,7 +1261,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-09-21T11:55:00+00:00",
+      "updatedAt": "2026-09-30T19:20:00+00:00",
       "lat": 40.01876,
       "lon": -8.37316,
       "sourceKey": "PRIO|prio penela|zona industrial de penela, lote 1|3230-292|penela"
@@ -2591,6 +2574,23 @@
       "lat": 38.547485,
       "lon": -8.883927,
       "sourceKey": "OZ ENERGIA|oz energia - setubal|estrada da varzinha|2900-657|setubal"
+    },
+    {
+      "id": "galp-coprel-mafra-2640-410",
+      "name": "COPREL",
+      "brand": "GALP",
+      "district": "Lisboa",
+      "municipality": "Mafra",
+      "locality": "MAFRA",
+      "address": "RUA FRANCISCO AUGUSTO LEITE, 4A DA PERRA",
+      "postalCode": "2640-410",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.943,
+      "updatedAt": "2026-09-30T19:25:00+00:00",
+      "lat": 38.9516,
+      "lon": -9.33227,
+      "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
     },
     {
       "id": "galp-paralelo-alternativo-comercio-de-combustiveis-lda-coimbra-3000-032",
@@ -3981,7 +3981,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-09-29T08:50:00+00:00",
+      "updatedAt": "2026-09-30T21:30:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -6756,6 +6756,23 @@
       "lat": 40.686275,
       "lon": -8.232481,
       "sourceKey": "GALP|galp a25 vouzela (aveiro/viseu)|a.e. a25 - ip5, km 7,90 e 8,30 do sub -lanco talhadas/vouzela - lanco nodo ic2|3670-056|vouzela"
+    },
+    {
+      "id": "bp-bp-estremoz-estremoz-7100-147",
+      "name": "Bp Estremoz",
+      "brand": "BP",
+      "district": "Évora",
+      "municipality": "Estremoz",
+      "locality": "Estremoz",
+      "address": "Zona Industrial de Estremoz, lote nº 63",
+      "postalCode": "7100-147",
+      "zone": "Alentejo",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-09-30T21:00:00+00:00",
+      "lat": 38.84741,
+      "lon": -7.5815,
+      "sourceKey": "BP|bp estremoz|zona industrial de estremoz, lote no 63|7100-147|estremoz"
     },
     {
       "id": "repsol-as-v-novas-norte-a-gespost-gestao-e-administracao-de-postos-de-abastecimento-unipessoal-lda-vendas-novas-7080-011",
