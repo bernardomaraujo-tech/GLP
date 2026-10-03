@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T10:53:59.437306+00:00",
+  "generatedAt": "2026-10-03T15:30:03.706309+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-03T08:25:00+00:00",
+  "dataUpdatedAt": "2026-10-03T16:20:00+00:00",
   "stats": {
     "totalStations": 422,
     "withCoordinates": 422,
@@ -1618,7 +1618,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.929,
-      "updatedAt": "2026-10-02T00:00:00+00:00",
+      "updatedAt": "2026-10-03T16:20:00+00:00",
       "lat": 38.561623,
       "lon": -8.887839,
       "sourceKey": "REPSOL|repsol aires b|en 252 km 50,460|2950-439|palmela"
@@ -2417,7 +2417,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.943,
-      "updatedAt": "2026-09-30T19:25:00+00:00",
+      "updatedAt": "2026-10-03T13:10:00+00:00",
       "lat": 38.9516,
       "lon": -9.33227,
       "sourceKey": "GALP|coprel|rua francisco augusto leite, 4a da perra|2640-410|mafra"
@@ -3012,7 +3012,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-09-30T14:35:00+00:00",
+      "updatedAt": "2026-10-03T13:05:00+00:00",
       "lat": 39.472078,
       "lon": -8.195447,
       "sourceKey": "REPSOL|e.s. abrantes|av. d. joao i 3|2200-494|abrantes"
@@ -3798,23 +3798,6 @@
       "lat": 40.01569,
       "lon": -8.370878,
       "sourceKey": "CEPSA|cepsa penela|zona industrial de penela|3230-347|penela"
-    },
-    {
-      "id": "bp-aveiro-oeste-aveiro-3810-000",
-      "name": "AVEIRO (OESTE)",
-      "brand": "BP",
-      "district": "Aveiro",
-      "municipality": "Aveiro",
-      "locality": "Aveiro",
-      "address": "EN 109 Km 57,8",
-      "postalCode": "3810-000",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.969,
-      "updatedAt": "2026-09-28T00:00:00+00:00",
-      "lat": 40.63187,
-      "lon": -8.64133,
-      "sourceKey": "BP|aveiro (oeste)|en 109 km 57,8|3810-000|aveiro"
     },
     {
       "id": "repsol-e-s-mealhada-a-mealhada-3050-000",
@@ -6229,6 +6212,23 @@
       "lat": 41.279994,
       "lon": -8.082825,
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
+    },
+    {
+      "id": "bp-aveiro-oeste-aveiro-3810-000",
+      "name": "AVEIRO (OESTE)",
+      "brand": "BP",
+      "district": "Aveiro",
+      "municipality": "Aveiro",
+      "locality": "Aveiro",
+      "address": "EN 109 Km 57,8",
+      "postalCode": "3810-000",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.049,
+      "updatedAt": "2026-10-03T16:20:00+00:00",
+      "lat": 40.63187,
+      "lon": -8.64133,
+      "sourceKey": "BP|aveiro (oeste)|en 109 km 57,8|3810-000|aveiro"
     },
     {
       "id": "galp-galp-a25-aveiro-estadio-aveiro-viseu-aveiro-3800-911",
