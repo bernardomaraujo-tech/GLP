@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T11:36:49.256354+00:00",
+  "generatedAt": "2026-10-04T16:14:45.925290+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-04T11:15:00+00:00",
+  "dataUpdatedAt": "2026-10-04T16:50:00+00:00",
   "stats": {
     "totalStations": 422,
     "withCoordinates": 422,
@@ -2729,23 +2729,6 @@
       "sourceKey": "REPSOL|e.s. porto de mos|en 243|2480-170|porto de mos"
     },
     {
-      "id": "bp-bp-av-padre-cruz-lisboa-1600-000",
-      "name": "BP AV. PADRE CRUZ",
-      "brand": "BP",
-      "district": "Lisboa",
-      "municipality": "Lisboa",
-      "locality": "Lisboa",
-      "address": "Av. Padre Cruz",
-      "postalCode": "1600-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.949,
-      "updatedAt": "2026-09-28T00:00:00+00:00",
-      "lat": 38.762511,
-      "lon": -9.163239,
-      "sourceKey": "BP|bp av. padre cruz|av. padre cruz|1600-000|lisboa"
-    },
-    {
       "id": "repsol-a-s-caia-b-elvas-7350-443",
       "name": "A.S. CAIA B",
       "brand": "REPSOL",
@@ -3832,6 +3815,23 @@
       "lat": 37.10323,
       "lon": -8.07321,
       "sourceKey": "REPSOL|e.s. cercado b|en 125-cercado|8100-287|loule"
+    },
+    {
+      "id": "repsol-repsol-seia-seia-6270-485",
+      "name": "REPSOL Seia",
+      "brand": "REPSOL",
+      "district": "Guarda",
+      "municipality": "Seia",
+      "locality": "Seia",
+      "address": "Avª Terras de Sena-Quintela-Seia",
+      "postalCode": "6270-485",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.969,
+      "updatedAt": "2026-10-04T16:00:00+00:00",
+      "lat": 40.4209,
+      "lon": -7.712581,
+      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
     },
     {
       "id": "oz-energia-oz-energia-bobadela-gpl-auto-loures-2695-444",
@@ -5205,7 +5205,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-09-27T17:20:00+00:00",
+      "updatedAt": "2026-10-04T16:25:00+00:00",
       "lat": 41.859408,
       "lon": -8.42645,
       "sourceKey": "BP|bp ribeirinho|rua ponte velha, n 25ribeirinho|4970-272|arcos de valdevez"
@@ -5449,23 +5449,6 @@
       "sourceKey": "REPSOL|e.s. guarda sul rotunda|av veiga simao, parque industrial da guarda|6300-625|guarda"
     },
     {
-      "id": "repsol-repsol-seia-seia-6270-485",
-      "name": "REPSOL Seia",
-      "brand": "REPSOL",
-      "district": "Guarda",
-      "municipality": "Seia",
-      "locality": "Seia",
-      "address": "Avª Terras de Sena-Quintela-Seia",
-      "postalCode": "6270-485",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.009,
-      "updatedAt": "2026-09-28T00:00:00+00:00",
-      "lat": 40.4209,
-      "lon": -7.712581,
-      "sourceKey": "REPSOL|repsol seia|ava terras de sena-quintela-seia|6270-485|seia"
-    },
-    {
       "id": "galp-galp-carnaxide-qta-do-minote-oeiras-2794-051",
       "name": "GALP Carnaxide (Qta. do Minote)",
       "brand": "GALP",
@@ -5668,6 +5651,23 @@
       "lat": 38.76924,
       "lon": -9.125385,
       "sourceKey": "BP|bp aeroporto|nova rotunda aeroporto de lisboa - av. de berlim|1700-067|lisboa"
+    },
+    {
+      "id": "bp-bp-av-padre-cruz-lisboa-1600-000",
+      "name": "BP AV. PADRE CRUZ",
+      "brand": "BP",
+      "district": "Lisboa",
+      "municipality": "Lisboa",
+      "locality": "Lisboa",
+      "address": "Av. Padre Cruz",
+      "postalCode": "1600-000",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.019,
+      "updatedAt": "2026-10-04T16:20:00+00:00",
+      "lat": 38.762511,
+      "lon": -9.163239,
+      "sourceKey": "BP|bp av. padre cruz|av. padre cruz|1600-000|lisboa"
     },
     {
       "id": "galp-galp-a-s-aeroporto-s-n-lisboa-1700-277",
@@ -6769,7 +6769,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-10-04T00:00:00+00:00",
+      "updatedAt": "2026-10-04T16:50:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
