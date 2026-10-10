@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T11:40:35.021598+00:00",
+  "generatedAt": "2026-10-10T16:42:05.072379+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-10T12:35:00+00:00",
+  "dataUpdatedAt": "2026-10-10T17:00:00+00:00",
   "stats": {
     "totalStations": 427,
     "withCoordinates": 427,
@@ -4548,6 +4548,23 @@
       "sourceKey": "GESTROIL ENERGY|pa gestroil belinho|avenida de belinho, no64 - e.n. 13 - km 52|4740-161|esposende"
     },
     {
+      "id": "galp-lubriolhao-lda-loule-8135-107",
+      "name": "Lubriolhão, Lda",
+      "brand": "GALP",
+      "district": "Faro",
+      "municipality": "Loulé",
+      "locality": "Barros de Almancil",
+      "address": "Estrada da Fonte Santa",
+      "postalCode": "8135-107",
+      "zone": "Algarve",
+      "fuel": "GPL Auto",
+      "price": 1.008,
+      "updatedAt": "2026-10-10T17:00:00+00:00",
+      "lat": 37.08517,
+      "lon": -8.04257,
+      "sourceKey": "GALP|lubriolhao, lda|estrada da fonte santa|8135-107|loule"
+    },
+    {
       "id": "galp-galp-sousa-marquez-horta-das-figueiras-evora-evora-7005-872",
       "name": "Galp- SOUSA & MARQUÊZ  (Horta das Figueiras- Évora)",
       "brand": "GALP",
@@ -5379,23 +5396,6 @@
       "lat": 40.018032,
       "lon": -8.813965,
       "sourceKey": "GALP|galp marinha das ondas (n/s) - posicao 11674|en 109 - no 176|3090-485|figueira da foz"
-    },
-    {
-      "id": "galp-lubriolhao-lda-loule-8135-107",
-      "name": "Lubriolhão, Lda",
-      "brand": "GALP",
-      "district": "Faro",
-      "municipality": "Loulé",
-      "locality": "Barros de Almancil",
-      "address": "Estrada da Fonte Santa",
-      "postalCode": "8135-107",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 1.034,
-      "updatedAt": "2026-10-05T11:50:00+00:00",
-      "lat": 37.08517,
-      "lon": -8.04257,
-      "sourceKey": "GALP|lubriolhao, lda|estrada da fonte santa|8135-107|loule"
     },
     {
       "id": "galp-galp-a-s-aguas-santas-amar-porto-maia-4425-547",
@@ -6650,7 +6650,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-10-10T00:00:00+00:00",
+      "updatedAt": "2026-10-10T16:50:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6667,7 +6667,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-10-10T00:00:00+00:00",
+      "updatedAt": "2026-10-10T16:50:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
