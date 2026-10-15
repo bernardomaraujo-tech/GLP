@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-15T10:38:35.145243+00:00",
+  "generatedAt": "2026-10-15T16:03:09.931455+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-15T10:45:00+00:00",
+  "dataUpdatedAt": "2026-10-15T16:40:00+00:00",
   "stats": {
-    "totalStations": 438,
-    "withCoordinates": 438,
-    "withPrice": 438
+    "totalStations": 440,
+    "withCoordinates": 440,
+    "withPrice": 440
   },
   "stations": [
     {
@@ -77,6 +77,23 @@
       "sourceKey": "LECLERC|e.leclerc caldas da rainha|quinta do salgado|2504-915|caldas da rainha"
     },
     {
+      "id": "bp-ab-fonseca-combustiveis-produtos-bp-leiria-2415-566",
+      "name": "AB Fonseca Combustiveis - Produtos BP",
+      "brand": "BP",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Leiria",
+      "address": "Estrada dos Pinheiros, 550",
+      "postalCode": "2415-566",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.898,
+      "updatedAt": "2026-10-15T12:30:00+00:00",
+      "lat": 39.76685,
+      "lon": -8.79344,
+      "sourceKey": "BP|ab fonseca combustiveis - produtos bp|estrada dos pinheiros, 550|2415-566|leiria"
+    },
+    {
       "id": "galp-coprel-mafra-2640-410",
       "name": "COPREL",
       "brand": "GALP",
@@ -143,6 +160,23 @@
       "lat": 38.778625,
       "lon": -9.345505,
       "sourceKey": "AUCHAN|auchan sintra|rua francisco lyon de castro|2710-116|sintra"
+    },
+    {
+      "id": "galp-pagpl-a-dos-rolhados-sintra-2725-056",
+      "name": "PAGPL A-Dos-Rolhados",
+      "brand": "GALP",
+      "district": "Lisboa",
+      "municipality": "Sintra",
+      "locality": "Algueirão",
+      "address": "A-DOS-ROLHADOS - RETA DA GRANJA",
+      "postalCode": "2725-056",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.899,
+      "updatedAt": "2026-10-15T16:40:00+00:00",
+      "lat": 38.82075,
+      "lon": -9.344724,
+      "sourceKey": "GALP|pagpl a-dos-rolhados|a-dos-rolhados - reta da granja|2725-056|sintra"
     },
     {
       "id": "intermarche-intermarche-vialonga-vila-franca-de-xira-2625-716",
@@ -564,7 +598,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.936,
-      "updatedAt": "2026-10-05T00:00:00+00:00",
+      "updatedAt": "2026-10-15T15:30:00+00:00",
       "lat": 37.129475,
       "lon": -8.039609,
       "sourceKey": "MOEVE|supremotiv, lda|zona industrial lt-1|8100-272|loule"
@@ -1006,7 +1040,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.949,
-      "updatedAt": "2026-10-13T11:00:00+00:00",
+      "updatedAt": "2026-10-15T12:40:00+00:00",
       "lat": 41.392284,
       "lon": -8.700511,
       "sourceKey": "ECOBRENT|ecobrent - touguinho|avenida jose ramos maia s/n, 4480-575 touguinho|4480-575|vila do conde"
@@ -2077,7 +2111,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.98,
-      "updatedAt": "2026-10-06T16:55:00+00:00",
+      "updatedAt": "2026-10-15T16:00:00+00:00",
       "lat": 39.02191,
       "lon": -9.14838,
       "sourceKey": "GALP|posto de sobral de monte agraco|av. 1o de maio|2590-001|sobral de monte agraco"
@@ -2298,7 +2332,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-10-13T17:15:00+00:00",
+      "updatedAt": "2026-10-15T12:40:00+00:00",
       "lat": 37.12776,
       "lon": -8.29955,
       "sourceKey": "ECOBRENT|ecobrent - guia|en 125, km 66,6|8200-413|albufeira"
@@ -2315,7 +2349,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-10-13T17:15:00+00:00",
+      "updatedAt": "2026-10-15T12:40:00+00:00",
       "lat": 41.29811,
       "lon": -8.70692,
       "sourceKey": "ECOBRENT|ecobrent modivas|avenida fonte cova 400|4485-592|vila do conde"
@@ -2332,7 +2366,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-10-13T17:15:00+00:00",
+      "updatedAt": "2026-10-15T12:40:00+00:00",
       "lat": 39.214977,
       "lon": -8.691306,
       "sourceKey": "ECOBRENT|ecobrent - santarem retail|santarem retail park quinta das cegonhas, lote 28|2000-471|santarem"
@@ -2349,7 +2383,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.994,
-      "updatedAt": "2026-10-13T17:15:00+00:00",
+      "updatedAt": "2026-10-15T12:40:00+00:00",
       "lat": 41.70683,
       "lon": -8.80188,
       "sourceKey": "ECOBRENT|ecobrent - viana do castelo|rua dos carregais, 106|4900-665|viana do castelo"
@@ -3182,7 +3216,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-10-12T15:50:00+00:00",
+      "updatedAt": "2026-10-15T13:45:00+00:00",
       "lat": 40.064014,
       "lon": -8.618356,
       "sourceKey": "REPSOL|repsol soure i|cruz-nova|3130-200|soure"
@@ -3471,7 +3505,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-10-13T00:00:00+00:00",
+      "updatedAt": "2026-10-15T13:45:00+00:00",
       "lat": 40.4961,
       "lon": -7.9047,
       "sourceKey": "REPSOL|e.s. canas de senhorim|rua da estacao - lugar da raposeira|3525-018|nelas"
@@ -3488,7 +3522,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-10-13T00:00:00+00:00",
+      "updatedAt": "2026-10-15T13:45:00+00:00",
       "lat": 40.39775,
       "lon": -8.12854,
       "sourceKey": "REPSOL|e.s. santa comba dao|r. miguel neves|3440-384|santa comba dao"
@@ -3930,7 +3964,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-14T09:40:00+00:00",
+      "updatedAt": "2026-10-15T12:10:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -4253,7 +4287,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-14T12:45:00+00:00",
+      "updatedAt": "2026-10-15T11:55:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -4491,7 +4525,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-13T00:00:00+00:00",
+      "updatedAt": "2026-10-15T16:30:00+00:00",
       "lat": 39.37976,
       "lon": -8.45504,
       "sourceKey": "REPSOL|e.s. ponte chamusca|ponte da chamusca|2140-000|chamusca"
@@ -4508,7 +4542,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-13T17:35:00+00:00",
+      "updatedAt": "2026-10-15T15:25:00+00:00",
       "lat": 39.24329,
       "lon": -8.69662,
       "sourceKey": "REPSOL|e.s. santarem|rua o|2000-630|santarem"
@@ -4678,7 +4712,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-13T00:00:00+00:00",
+      "updatedAt": "2026-10-15T16:30:00+00:00",
       "lat": 42.015051,
       "lon": -8.638627,
       "sourceKey": "REPSOL|e.s. valenca|en 13 km 117 favais - arao|4930-002|valenca"
@@ -4712,7 +4746,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-13T17:30:00+00:00",
+      "updatedAt": "2026-10-15T14:35:00+00:00",
       "lat": 40.66386,
       "lon": -7.91913,
       "sourceKey": "REPSOL|e.s. viseu-av cap h ribeiro|av. capitao homem ribeiro|3500-000|viseu"
