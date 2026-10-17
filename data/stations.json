@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-17T09:58:17.981629+00:00",
+  "generatedAt": "2026-10-17T14:44:43.454148+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
   "dataUpdatedAt": "2026-10-17T08:25:00+00:00",
   "stats": {
-    "totalStations": 440,
-    "withCoordinates": 440,
-    "withPrice": 440
+    "totalStations": 436,
+    "withCoordinates": 436,
+    "withPrice": 436
   },
   "stations": [
     {
@@ -2389,23 +2389,6 @@
       "sourceKey": "GENÉRICO|pvgg inforgas fundao|zona industrial fundao, lote 171|6230-483|fundao"
     },
     {
-      "id": "cepsa-cepsa-pinheiro-da-bemposta-oliveira-de-azemeis-3720-463",
-      "name": "CEPSA  Pinheiro da Bemposta",
-      "brand": "CEPSA",
-      "district": "Aveiro",
-      "municipality": "Oliveira de Azeméis",
-      "locality": "Bemposta",
-      "address": "Rua de São Paio, 564",
-      "postalCode": "3720-463",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.996,
-      "updatedAt": "2026-10-05T00:00:00+00:00",
-      "lat": 40.7847,
-      "lon": -8.491492,
-      "sourceKey": "CEPSA|cepsa pinheiro da bemposta|rua de sao paio, 564|3720-463|oliveira de azemeis"
-    },
-    {
       "id": "cepsa-cepsa-a3-barcelos-por-val-barcelos-4750-058",
       "name": "CEPSA - A3 Barcelos (POR/VAL)",
       "brand": "CEPSA",
@@ -2523,40 +2506,6 @@
       "lat": 40.190697,
       "lon": -7.486373,
       "sourceKey": "MOEVE|a23 fundao (c.b. / fundao)|a23, lanco km 18,5 teixoso alqueria|6230-198|fundao"
-    },
-    {
-      "id": "cepsa-cepsa-carvalhos-pedroso-vila-nova-de-gaia-4415-382",
-      "name": "CEPSA CARVALHOS - PEDROSO",
-      "brand": "CEPSA",
-      "district": "Porto",
-      "municipality": "Vila Nova de Gaia",
-      "locality": "Pedroso",
-      "address": "Av .Dr. Moreira de Sousa nº 2316",
-      "postalCode": "4415-382",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.996,
-      "updatedAt": "2026-10-05T00:00:00+00:00",
-      "lat": 41.056435,
-      "lon": -8.567146,
-      "sourceKey": "CEPSA|cepsa carvalhos - pedroso|av .dr. moreira de sousa no 2316|4415-382|vila nova de gaia"
-    },
-    {
-      "id": "cepsa-cepsa-gulpilhares-vila-nova-de-gaia-4405-702",
-      "name": "CEPSA Gulpilhares",
-      "brand": "CEPSA",
-      "district": "Porto",
-      "municipality": "Vila Nova de Gaia",
-      "locality": "Vila Nova de Gaia",
-      "address": "RUA SALVADOR BRANDÃO, GULPILHARES",
-      "postalCode": "4405-702",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.996,
-      "updatedAt": "2026-10-05T00:00:00+00:00",
-      "lat": 41.07038,
-      "lon": -8.625255,
-      "sourceKey": "CEPSA|cepsa gulpilhares|rua salvador brandao, gulpilhares|4405-702|vila nova de gaia"
     },
     {
       "id": "moeve-a23-abrantes-abr-lis-abrantes-2200-037",
@@ -7470,23 +7419,6 @@
       "lat": 40.7019,
       "lon": -8.245872,
       "sourceKey": "GENÉRICO|petrogravo|paredes de gravo|3680-174|oliveira de frades"
-    },
-    {
-      "id": "generico-chamazul-lourinha-lourinha-2530-000",
-      "name": "Chamazul - Lourinhã",
-      "brand": "GENÉRICO",
-      "district": "Lisboa",
-      "municipality": "Lourinhã",
-      "locality": "Lourinhã",
-      "address": "EN8, KM44",
-      "postalCode": "2530-000",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.19,
-      "updatedAt": "2026-10-05T21:50:00+00:00",
-      "lat": 39.22422,
-      "lon": -9.29038,
-      "sourceKey": "GENÉRICO|chamazul - lourinha|en8, km44|2530-000|lourinha"
     }
   ]
 }
