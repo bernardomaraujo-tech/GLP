@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T18:02:52.274980+00:00",
+  "generatedAt": "2026-10-19T22:12:46.711478+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-19T18:25:00+00:00",
+  "dataUpdatedAt": "2026-10-19T22:50:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -428,7 +428,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.934,
-      "updatedAt": "2026-10-12T22:00:00+00:00",
+      "updatedAt": "2026-10-19T22:00:00+00:00",
       "lat": 41.48778,
       "lon": -8.429883,
       "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
@@ -740,23 +740,6 @@
       "sourceKey": "GALP|vmf- raposeira|rua dr. diogo almeida pais santos|2420-003|leiria"
     },
     {
-      "id": "generico-pa-petrozona-sao-joao-da-madeira-sao-joao-da-madeira-3700-317",
-      "name": "PA PETROZONA São João da Madeira",
-      "brand": "GENÉRICO",
-      "district": "Aveiro",
-      "municipality": "São João da Madeira",
-      "locality": "São João da Madeira",
-      "address": "Rua Domingos Jose de Oliveira",
-      "postalCode": "3700-317",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.949,
-      "updatedAt": "2026-10-17T16:40:00+00:00",
-      "lat": 40.898796,
-      "lon": -8.477838,
-      "sourceKey": "GENÉRICO|pa petrozona sao joao da madeira|rua domingos jose de oliveira|3700-317|sao joao da madeira"
-    },
-    {
       "id": "alves-bandeira-alves-bandeira-landim-vila-nova-de-famalicao-4770-309",
       "name": "ALVES BANDEIRA Landim",
       "brand": "ALVES BANDEIRA",
@@ -891,6 +874,23 @@
       "lat": 38.82893,
       "lon": -9.10132,
       "sourceKey": "BP|bp - vale de figueira|rua alfredo vitorino costa|2695-772|loures"
+    },
+    {
+      "id": "generico-pa-petrozona-sao-joao-da-madeira-sao-joao-da-madeira-3700-317",
+      "name": "PA PETROZONA São João da Madeira",
+      "brand": "GENÉRICO",
+      "district": "Aveiro",
+      "municipality": "São João da Madeira",
+      "locality": "São João da Madeira",
+      "address": "Rua Domingos Jose de Oliveira",
+      "postalCode": "3700-317",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.959,
+      "updatedAt": "2026-10-19T22:50:00+00:00",
+      "lat": 40.898796,
+      "lon": -8.477838,
+      "sourceKey": "GENÉRICO|pa petrozona sao joao da madeira|rua domingos jose de oliveira|3700-317|sao joao da madeira"
     },
     {
       "id": "auchan-auchan-guimaraes-guimaraes-4835-400",
@@ -2083,23 +2083,6 @@
       "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
     },
     {
-      "id": "leclerc-e-leclerc-fafe-fafe-4820-178",
-      "name": "E.LECLERC FAFE",
-      "brand": "LECLERC",
-      "district": "Braga",
-      "municipality": "Fafe",
-      "locality": "Campo do Lameiro – Santo Ovídeo",
-      "address": "Rua Cidade de Guimarães",
-      "postalCode": "4820-178",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-10-12T20:30:00+00:00",
-      "lat": 41.453073,
-      "lon": -8.189715,
-      "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
-    },
-    {
       "id": "prio-prio-pousada-de-saramagos-vila-nova-de-famalicao-4770-405",
       "name": "PRIO Pousada de Saramagos",
       "brand": "PRIO",
@@ -2128,7 +2111,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-10-15T22:05:00+00:00",
+      "updatedAt": "2026-10-19T22:05:00+00:00",
       "lat": 40.083,
       "lon": -8.318,
       "sourceKey": "GENÉRICO|gasodueca - pa generico meas|rua tras das casas 29|3220-115|miranda do corvo"
@@ -2230,7 +2213,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.999,
-      "updatedAt": "2026-10-12T22:00:00+00:00",
+      "updatedAt": "2026-10-19T22:00:00+00:00",
       "lat": 39.80369,
       "lon": -8.59071,
       "sourceKey": "GENÉRICO|posto de abastecimento auto albergue, lda.|r. do castelo|3100-081|pombal"
@@ -4015,7 +3998,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-19T17:05:00+00:00",
+      "updatedAt": "2026-10-19T20:50:00+00:00",
       "lat": 39.67874,
       "lon": -8.90934,
       "sourceKey": "REPSOL|e.s. maceirinha|en 356 km 5,625|2405-026|leiria"
@@ -4032,7 +4015,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-19T00:00:00+00:00",
+      "updatedAt": "2026-10-19T20:45:00+00:00",
       "lat": 39.7454,
       "lon": -8.89058,
       "sourceKey": "REPSOL|e.s. albergaria|en 242 km 8,5 (av na sra nazare)|2430-011|marinha grande"
@@ -5035,7 +5018,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-10-17T01:10:00+00:00",
+      "updatedAt": "2026-10-19T22:20:00+00:00",
       "lat": 38.553825,
       "lon": -7.917911,
       "sourceKey": "GALP|galp- sousa & marquez (horta das figueiras- evora)|variante ao parque industrial|7005-872|evora"
@@ -5056,23 +5039,6 @@
       "lat": 39.31499,
       "lon": -8.92094,
       "sourceKey": "GALP|espertocar, lda.|e.n. 114, km 49,6|2040-000|rio maior"
-    },
-    {
-      "id": "galp-galp-ameixoeira-oleiros-oleiros-6160-101",
-      "name": "GALP Ameixoeira - Oleiros",
-      "brand": "GALP",
-      "district": "Castelo Branco",
-      "municipality": "Oleiros",
-      "locality": "Ameixoeira",
-      "address": "Estrada Nacional - Ameixoeira",
-      "postalCode": "6160-101",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.043,
-      "updatedAt": "2026-10-12T09:10:00+00:00",
-      "lat": 39.96004,
-      "lon": -7.828128,
-      "sourceKey": "GALP|galp ameixoeira - oleiros|estrada nacional - ameixoeira|6160-101|oleiros"
     },
     {
       "id": "repsol-e-s-lanco-grande-castelo-branco-6000-067",
@@ -5192,6 +5158,23 @@
       "lat": 41.279994,
       "lon": -8.082825,
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
+    },
+    {
+      "id": "galp-galp-ameixoeira-oleiros-oleiros-6160-101",
+      "name": "GALP Ameixoeira - Oleiros",
+      "brand": "GALP",
+      "district": "Castelo Branco",
+      "municipality": "Oleiros",
+      "locality": "Ameixoeira",
+      "address": "Estrada Nacional - Ameixoeira",
+      "postalCode": "6160-101",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.046,
+      "updatedAt": "2026-10-19T19:25:00+00:00",
+      "lat": 39.96004,
+      "lon": -7.828128,
+      "sourceKey": "GALP|galp ameixoeira - oleiros|estrada nacional - ameixoeira|6160-101|oleiros"
     },
     {
       "id": "q8-q8-albergaria-a-velha-albergaria-a-velha-3850-273",
@@ -6178,6 +6161,23 @@
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
+    },
+    {
+      "id": "leclerc-e-leclerc-fafe-fafe-4820-178",
+      "name": "E.LECLERC FAFE",
+      "brand": "LECLERC",
+      "district": "Braga",
+      "municipality": "Fafe",
+      "locality": "Campo do Lameiro – Santo Ovídeo",
+      "address": "Rua Cidade de Guimarães",
+      "postalCode": "4820-178",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.079,
+      "updatedAt": "2026-10-19T20:30:00+00:00",
+      "lat": 41.453073,
+      "lon": -8.189715,
+      "sourceKey": "LECLERC|e.leclerc fafe|rua cidade de guimaraes|4820-178|fafe"
     },
     {
       "id": "galp-galp-a-s-a23-vila-velha-de-rodao-n-s-vila-velha-de-rodao-6030-013",
