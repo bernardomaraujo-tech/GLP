@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T10:55:29.262335+00:00",
+  "generatedAt": "2026-10-21T16:23:14.261287+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-21T11:55:00+00:00",
+  "dataUpdatedAt": "2026-10-21T17:15:00+00:00",
   "stats": {
     "totalStations": 435,
     "withCoordinates": 435,
@@ -128,23 +128,6 @@
       "sourceKey": "AUCHAN|auchan santo tirso|rua das ras|4780-219|santo tirso"
     },
     {
-      "id": "intermarche-intermarche-ericeira-mafra-2655-139",
-      "name": "INTERMARCHÉ Ericeira",
-      "brand": "INTERMARCHÉ",
-      "district": "Lisboa",
-      "municipality": "Mafra",
-      "locality": "Ericeira",
-      "address": "Estrada Nacional 116, Km 1, Edifício INTERMARCHÉ",
-      "postalCode": "2655-139",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.925,
-      "updatedAt": "2026-10-19T10:30:00+00:00",
-      "lat": 38.96593,
-      "lon": -9.40785,
-      "sourceKey": "INTERMARCHÉ|intermarche ericeira|estrada nacional 116, km 1, edificio intermarche|2655-139|mafra"
-    },
-    {
       "id": "auchan-auchan-coimbra-coimbra-3030-329",
       "name": "AUCHAN Coimbra",
       "brand": "AUCHAN",
@@ -262,23 +245,6 @@
       "lat": 39.750379,
       "lon": -8.904627,
       "sourceKey": "TRANSFORPEL|transforpel combustiveis marinha grande|zona industrial da embra|2430-091|marinha grande"
-    },
-    {
-      "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
-      "name": "TFGEST São Vicente Penso",
-      "brand": "FREITAS",
-      "district": "Braga",
-      "municipality": "Braga",
-      "locality": "São Vicente de Penso",
-      "address": "Avenida do Redondelo, 51 (EN 309 - km 29,970 D)",
-      "postalCode": "4705-628",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.934,
-      "updatedAt": "2026-10-19T22:00:00+00:00",
-      "lat": 41.48778,
-      "lon": -8.429883,
-      "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
     },
     {
       "id": "repsol-coop-agr-de-santo-tirso-e-trofa-santo-tirso-4780-200",
@@ -1131,6 +1097,23 @@
       "sourceKey": "GALP|petropostos comercio de combustiveis lda|circular externa de coimbra|3000-125|coimbra"
     },
     {
+      "id": "intermarche-intermarche-ericeira-mafra-2655-139",
+      "name": "INTERMARCHÉ Ericeira",
+      "brand": "INTERMARCHÉ",
+      "district": "Lisboa",
+      "municipality": "Mafra",
+      "locality": "Ericeira",
+      "address": "Estrada Nacional 116, Km 1, Edifício INTERMARCHÉ",
+      "postalCode": "2655-139",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 0.979,
+      "updatedAt": "2026-10-21T17:15:00+00:00",
+      "lat": 38.96593,
+      "lon": -9.40785,
+      "sourceKey": "INTERMARCHÉ|intermarche ericeira|estrada nacional 116, km 1, edificio intermarche|2655-139|mafra"
+    },
+    {
       "id": "auchan-auchan-torres-vedras-torres-vedras-2560-256",
       "name": "AUCHAN Torres Vedras",
       "brand": "AUCHAN",
@@ -1945,6 +1928,23 @@
       "lat": 40.634082,
       "lon": -8.691465,
       "sourceKey": "PRIO|prio gafanha da nazare - av bacalhoeiros|av. dos bacalhoeiros|3800-000|ilhavo"
+    },
+    {
+      "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
+      "name": "TFGEST São Vicente Penso",
+      "brand": "FREITAS",
+      "district": "Braga",
+      "municipality": "Braga",
+      "locality": "São Vicente de Penso",
+      "address": "Avenida do Redondelo, 51 (EN 309 - km 29,970 D)",
+      "postalCode": "4705-628",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-10-21T12:05:00+00:00",
+      "lat": 41.48778,
+      "lon": -8.429883,
+      "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
     },
     {
       "id": "petro-basto-petro-basto-energia-cabeceira-de-basto-cabeceiras-de-basto-4860-401",
@@ -3216,7 +3216,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.01,
-      "updatedAt": "2026-10-20T09:35:00+00:00",
+      "updatedAt": "2026-10-21T15:05:00+00:00",
       "lat": 40.30859,
       "lon": -8.192012,
       "sourceKey": "GENÉRICO|pa silveirinho|en 2-3, km 3,400 - silveirinho|3360-259|penacova"
@@ -4021,21 +4021,21 @@
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
     },
     {
-      "id": "repsol-e-s-lixa-amarante-4615-013",
-      "name": "E.S. LIXA",
+      "id": "repsol-repsol-lixa-av-alto-da-lixa-no-562-amarante-4615-013",
+      "name": "Repsol- LIXA (Av. Alto da Lixa nº 562)",
       "brand": "REPSOL",
       "district": "Porto",
       "municipality": "Amarante",
-      "locality": "Lixa",
-      "address": "Av. Alto da Lixa nº 562",
+      "locality": "Alto da Lixa",
+      "address": "Av. Alto da Lixa, 562",
       "postalCode": "4615-013",
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-19T00:00:00+00:00",
-      "lat": 41.31519,
-      "lon": -8.1391,
-      "sourceKey": "REPSOL|e.s. lixa|av. alto da lixa no 562|4615-013|amarante"
+      "updatedAt": "2026-10-19T02:00:00+00:00",
+      "lat": 41.315212,
+      "lon": -8.139047,
+      "sourceKey": "REPSOL|repsol- lixa (av. alto da lixa no 562)|av. alto da lixa, 562|4615-013|amarante"
     },
     {
       "id": "repsol-e-s-felgueiras-ii-felgueiras-4610-000",
@@ -5035,7 +5035,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-10-14T15:20:00+00:00",
+      "updatedAt": "2026-10-21T15:20:00+00:00",
       "lat": 40.1424,
       "lon": -7.497109,
       "sourceKey": "REPSOL|repsol fundao a - r cidade covilha|rua da cidade da covilha, s/n|6230-346|fundao"
@@ -6055,7 +6055,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-10-12T12:50:00+00:00",
+      "updatedAt": "2026-10-21T15:30:00+00:00",
       "lat": 40.785388,
       "lon": -8.566024,
       "sourceKey": "BP|bp avanca (s-n)|r. do falcao, e.n. 109 - km 44.3|3860-060|estarreja"
