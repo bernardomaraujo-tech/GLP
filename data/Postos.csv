@@ -58,7 +58,6 @@
 "BP Arruda dos Vinhos";"Outro";"Arruda dos Vinhos";"1,089 €";"BP";"GPL Auto";"2026-10-19 00:00";"Lisboa";"Quinta da Ponte e Costa";"Arruda dos Vinhos";"2634-909";38.98681;-9.07645
 "E.S. GUARDA SUL ROTUNDA";"Outro";"Guarda";"1,039 €";"REPSOL";"GPL Auto";"2026-10-19 00:00";"Guarda";"Av Veiga Simão, Parque Industrial da Guarda";"GUARDA";"6300-625";40.53441;-7.243571
 "E.S. MURÇA";"Outro";"Murça";"1,089 €";"REPSOL";"GPL Auto";"2026-10-19 00:00";"Vila Real";"Variante à EN 15";"Murça";"5090-000";41.40636;-7.45023
-"Posto BP Aveiro Forca";"Outro";"Aveiro";"1,049 €";"BP";"GPL Auto";"2026-10-19 00:00";"Aveiro";"Av. Francisco Sá Carneiro Forca";"Aveiro";"3810-265";40.637491;-8.639779
 "CEPSA  Pinheiro da Bemposta";"Outro";"Oliveira de Azeméis";"0,996 €";"CEPSA";"GPL Auto";"2026-10-19 00:00";"Aveiro";"Rua de São Paio, 564";"Bemposta";"3720-463";40.7847;-8.491492
 "OZ ENERGIA - FEIJÓ";"Outro";"Almada";"1,069 €";"OZ Energia";"GPL Auto";"2026-10-19 00:00";"Setúbal";"Rua Joaquim Pires Jorge, nº19";"Feijó";"2810-000";38.65323;-9.16733
 "OZ ENERGIA -  SETÚBAL";"Outro";"Setúbal";"1,021 €";"OZ Energia";"GPL Auto";"2026-10-19 00:00";"Setúbal";"Estrada da Varzinha";"Setúbal";"2900-657";38.547485;-8.883927
@@ -243,8 +242,8 @@
 "J. M. CORDEIRO, LDA.(2)";"Outro";"Santarém";"1,029 €";"GALP";"GPL Auto";"2026-10-20 10:00";"Santarém";"Rua O";"Bica de São Domingos";"2000-000";39.23667;-8.7033
 "Ouro Negro - Almeirim";"Outro";"Almeirim";"1,019 €";"Genérico";"GPL Auto";"2026-10-20 10:10";"Santarém";"Zona Industrial de Almeirim, Lote 10";"Almeirim";"2080-221";39.19523;-8.62582
 "Ouro Negro - Pombal - Poente";"Outro";"Pombal";"1,019 €";"Genérico";"GPL Auto";"2026-10-20 10:10";"Leiria";"EN 1 Km 159,8";"Pelariga";"3105-295";39.938229;-8.628914
-"OURO NEGRO - Azambuja_Norte";"Outro";"Azambuja";"1,049 €";"Genérico";"GPL Auto";"2026-10-20 10:15";"Lisboa";"E.N. 3 - Km 10.250 ANTIGO CAMPO DA FEIRA";"Azambuja";"2050-319";39.065964;-8.876442
 "VENDEIRO BALAZAR NASCENTE";"Outro";"Póvoa de Varzim";"0,969 €";"BP";"GPL Auto";"2026-10-20 10:15";"Porto";"Rua da Fabrica 343";"Balazar";"4570-029";41.414955;-8.648844
+"OURO NEGRO - Azambuja_Norte";"Outro";"Azambuja";"1,049 €";"Genérico";"GPL Auto";"2026-10-20 10:15";"Lisboa";"E.N. 3 - Km 10.250 ANTIGO CAMPO DA FEIRA";"Azambuja";"2050-319";39.065964;-8.876442
 "INTERMARCHÉ MINDE";"Outro";"Alcanena";"0,935 €";"INTERMARCHÉ";"GPL Auto";"2026-10-20 10:15";"Santarém";"RUA JOAO MARTINS";"MINDE";"2395-189";39.51281;-8.68554
 "PA Mazedo - FG Combustíveis";"Outro";"Monção";"1,159 €";"Genérico";"GPL Auto";"2026-10-20 10:20";"Viana do Castelo";"Estrada de Mazedo 2137";"Mazedo";"4950-276";42.060314;-8.488322
 "ARM – Soc.Algarvia de Comb.lda";"Outro";"Portimão";"1,049 €";"GALP";"GPL Auto";"2026-10-20 10:30";"Faro";"EN 124-1 (V6)";"Alto do Quintão";"8500-000";37.130362;-8.54542
@@ -270,8 +269,8 @@
 "BP FÃO";"Outro";"Esposende";"1,079 €";"BP";"GPL Auto";"2026-10-21 00:05";"Braga";"EN 13 Km 40,5 (Av. S. Cristóvão) ";"Fão";"4740-321";41.504212;-8.762344
 "E.S. VILA CHA";"Outro";"Barreiro";"1,039 €";"REPSOL";"GPL Auto";"2026-10-21 01:10";"Setúbal";"EM 510";"Lugar Vila Chã";"2835-490";38.636239;-9.044358
 "E.S. PAREDE";"Outro";"Cascais";"1,009 €";"REPSOL";"GPL Auto";"2026-10-21 01:10";"Lisboa";"Av. Maristas";"Parede";"2775-000";38.69204;-9.34819
-"CEPSA  Vale de Cavalos";"Outro";"Chamusca";"0,936 €";"CEPSA";"GPL Auto";"2026-10-21 08:55";"Santarém";"Estrada Nacional 118, ao KM 88,345";"Vale de Cavalos";"2140-400";39.29211;-8.520625
 "REPSOL Famalicao Sul";"Outro";"Vila Nova de Famalicão";"1,039 €";"REPSOL";"GPL Auto";"2026-10-21 08:55";"Braga";"Av D Afonso Henriques EN 14 km 24500 LE";"Vila Nova de Famalicão";"4760-281";41.38188;-8.53853
+"CEPSA  Vale de Cavalos";"Outro";"Chamusca";"0,936 €";"CEPSA";"GPL Auto";"2026-10-21 08:55";"Santarém";"Estrada Nacional 118, ao KM 88,345";"Vale de Cavalos";"2140-400";39.29211;-8.520625
 "AUCHAN Paço de Arcos";"Área comercial (Hipermercados)";"Oeiras";"0,969 €";"AUCHAN";"GPL Auto";"2026-10-21 09:05";"Lisboa";"Estrada Paço de Arcos Lote 2";"Paço de Arcos";"2770-129";38.70494;-9.293772
 "AUCHAN  Vila do Conde";"Área comercial (Hipermercados)";"Vila do Conde";"0,959 €";"AUCHAN";"GPL Auto";"2026-10-21 09:05";"Porto";"Rua Aristides Sousa Mendes, Lote 2 4480-732  Vila do Conde";"Vila do Conde";"4480-732";41.36259;-8.744403
 "AUCHAN Setúbal (Alegro)";"Outro";"Setúbal";"0,969 €";"AUCHAN";"GPL Auto";"2026-10-21 09:05";"Setúbal";"Rua Nova Sintra, Lote 18, Azeda";"Setúbal";"2910-039";38.538197;-8.878284
@@ -360,62 +359,20 @@
 "P12 - PRIO Porto - Estrada Circunvalação";"Outro";"Porto";"0,999 €";"PRIO";"GPL Auto";"2026-10-22 00:35";"Porto";"Estrada Interior da Circunvalação n.º 10783 e 10853";"Porto";"4250-252";41.180435;-8.635366
 "P35 - SHELL Terrugem";"Outro";"Sintra";"1,069 €";"SHELL";"GPL Auto";"2026-10-22 00:35";"Lisboa";"EN 247 ao km 66,38 - Godigana";"Terrugem";"2705-869";38.858;-9.379323
 "P50 - PRIO Marinhais";"Outro";"Salvaterra de Magos";"1,009 €";"PRIO";"GPL Auto";"2026-10-22 00:35";"Santarém";"Estrada Nacional 367, n.º 438 ";"Marinhais";"2125-121";39.049244;-8.708553
-"GALP A.S. Aeroporto (S/N)";"Outro";"Lisboa";"1,019 €";"GALP";"GPL Auto";"2026-10-22 03:40";"Lisboa";"Avª Marechal CrAveiro Lopes";"Lisboa";"1700-277";38.77945;-9.12223
-"GALP Aeroporto (N/S)";"Outro";"Lisboa";"1,019 €";"GALP";"GPL Auto";"2026-10-22 03:40";"Lisboa";"Avª Marechal Craveiro Lopes";"Lisboa";"1700-277";38.779526;-9.123903
-"GALP A12 A.S. Alcochete - Pte Vasco da Gama (N/S)";"Auto-estrada";"Alcochete";"1,064 €";"GALP";"GPL Auto";"2026-10-22 03:40";"Setúbal";"Acesso Ponte Vasco da Gama, Km 13,750 N/S";"Samouco";"2890-201";38.72579;-8.98711
-"GALP A12 A.S. Alcochete - Pte Vasco da Gama (S/N)";"Auto-estrada";"Alcochete";"1,064 €";"GALP";"GPL Auto";"2026-10-22 03:45";"Setúbal";"Acesso Sul da Ponte Vasco da Gama Km 13.6";"Alcochete";"2890-001";38.72734;-8.987152
-"GALP-  Gondomar";"Outro";"Gondomar";"1,024 €";"GALP";"GPL Auto";"2026-10-22 03:45";"Porto";"Av.General Humberto Delgado";"Gondomar";"4420-155";41.14706;-8.531529
-"GALP A.S. A2 Aljustrel (S/N)";"Auto-estrada";"Aljustrel";"1,079 €";"GALP";"GPL Auto";"2026-10-22 03:50";"Beja";"A2 - Km 148 (S/N)";"Aljustrel";"7600-000";37.92348;-8.241723
-"GALP A8 A.S. Torres Vedras (N/S)";"Auto-estrada";"Torres Vedras";"1,079 €";"GALP";"GPL Auto";"2026-10-22 03:50";"Lisboa";"A 8 Km 12.07";"Ramalhal";"2565-646";39.15817;-9.226294
-"GALP A8 A.S. Torres Vedras (S/N)";"Auto-estrada";"Torres Vedras";"1,079 €";"GALP";"GPL Auto";"2026-10-22 03:50";"Lisboa";"A8 - km 12,070 - Sub lanço Carvalhal / Campelos";"Ramalhal";"2565-646";39.15679;-9.22618
-"GALP A.S. Vila do Conde (Vila Conde/Porto)";"Auto-estrada";"Vila do Conde";"1,049 €";"GALP";"GPL Auto";"2026-10-22 03:55";"Porto";"A28 - km 12 - Modivas";"Labruge";"4485-600";41.289143;-8.704652
-"GALP A.S. Vila do Conde (Porto/Vila Conde)";"Auto-estrada";"Vila do Conde";"1,049 €";"GALP";"GPL Auto";"2026-10-22 03:55";"Porto";"IC 1 - Km 328 - Modivas";"Labruge";"4485-600";41.28921;-8.703153
-"GALP A.S. A2 Aljustrel (N/S)";"Auto-estrada";"Aljustrel";"1,079 €";"GALP";"GPL Auto";"2026-10-22 03:55";"Beja";"A.E.2 Km 148";"Aljustrel";"7600-000";37.923733;-8.243193
-"GALP A.S. Telheiras - Eixo Norte-Sul (S/N)";"Outro";"Lisboa";"1,019 €";"GALP";"GPL Auto";"2026-10-22 03:55";"Lisboa";"Rua Frederico George - Eixo N/S - Sentido S/N";"Lisboa";"1600-468";38.767593;-9.171036
-"GALP A.S. Loulé (Loulé/Faro)";"Auto-estrada";"Loulé";"1,064 €";"GALP";"GPL Auto";"2026-10-22 04:00";"Faro";"A22 – Km 62,500 - Sublanço Guia-Loulé 1 (Loulé/Faro)";"Franqueada";"8100-000";37.13618;-8.110881
-"GALP A22 Loulé (Faro/Loulé)";"Auto-estrada";"Loulé";"1,064 €";"GALP";"GPL Auto";"2026-10-22 04:00";"Faro";"A. E. 22 Km 62.5 Sublanço Guia / Loulé_Aparta";"Loulé";"8100-000";37.136974;-8.110044
-"GALP A.S. A23 Guarda (N/S)";"Auto-estrada";"Guarda";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:00";"Guarda";"A23 - Km 213,3";"Arrifana";"6300-035";40.54398;-7.216512
-"GALP Porto - Francos";"Outro";"Porto";"1,024 €";"GALP";"GPL Auto";"2026-10-22 04:00";"Porto";"Rotunda do Bessa";"Porto";"4100-012";41.164307;-8.639143
-"GALP A.S. A23 Guarda (S/N)";"Auto-estrada";"Guarda";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:05";"Guarda";"A23 - Km 213,3 (S/N)";"Guarda";"6300-000";40.543446;-7.215042
-"GALP A2 A.S. Palmela (S/N)";"Auto-estrada";"Palmela";"1,064 €";"GALP";"GPL Auto";"2026-10-22 04:05";"Setúbal";"A2 - Km 31,200";"Vale de Touros";"2950-137";38.585865;-8.929574
-"GALP A.S. A23 Vila Velha de Rodão (N/S)";"Auto-estrada";"Vila Velha de Ródão";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:05";"Castelo Branco";"A23 - Km 80 - Fratel";"Gardete";"6030-013";39.574207;-7.782874
-"GALP A.S. A23 Vila Velha de Rodão (S/N)";"Auto-estrada";"Vila Velha de Ródão";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:05";"Castelo Branco";"A23 - Km 80 - Fratel";"Fratel";"6030-012";39.572548;-7.78226
-"GALP A.S. Salvaterra de Magos (N/S)";"Auto-estrada";"Salvaterra de Magos";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:05";"Santarém";"A. E. 13 Km 60.4  Sublanço Almeirim / Salvaterra";"Marinhais";"2125-125";39.058243;-8.667848
-"GALP A.S. Salvaterra de Magos (S/N)";"Auto-estrada";"Salvaterra de Magos";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Santarém";"A.13 Km 60,4  Sublanço Almeirim / Marateca";"Marinhais";"2125-125";39.057034;-8.666127
-"GALP A.S. A25 Vouzela (Viseu/Aveiro)";"Auto-estrada";"Vouzela";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Viseu";"A25 km 53,600";"Campia";"3670-056";40.686817;-8.230022
-"GALP A25 Vouzela (Aveiro/Viseu)";"Auto-estrada";"Vouzela";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Viseu";"A.E. A25 - IP5, Km 7,90 e 8,30 do Sub -Lanço Talhadas/Vouzela - Lanço Nódo IC2";"Campia";"3670-056";40.686275;-8.232481
-"GALP A.S. Aveiras Cima (N/S)";"Auto-estrada";"Azambuja";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Lisboa";"A.E.1 Km 44,000";"Aveiras de Cima";"2050-071";39.124374;-8.907065
-"GALP A.S. Aveiras Cima (S/N)";"Auto-estrada";"Azambuja";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Lisboa";"A1 - Km 44";"Aveiras de Cima";"2050-000";39.122275;-8.907926
-"GALP A.S. Matosinhos (A/M)";"Auto-estrada";"Matosinhos";"1,034 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Porto";"A4/IP4, Km 3,2 e 4,1 - SCUT Grande Porto, Lanço Sendim-Águas Santas, Sublanço Sendim Norte";"Custóias";"4460-739";41.20541;-8.64073
-"GALP A4 A.S. Matosinhos (Matosinhos/Amarante)";"Auto-estrada";"Matosinhos";"1,034 €";"GALP";"GPL Auto";"2026-10-22 04:10";"Porto";"A4/ IP4 Km 3,08 e 4,10 Sublanço Nó de Custóias";"Custóias";"4460-739";41.204453;-8.640317
-"GALP A25  Aveiro - Estádio (AVEIRO/VISEU)";"Auto-estrada";"Aveiro";"1,049 €";"GALP";"GPL Auto";"2026-10-22 04:15";"Aveiro";"Auto Estrada A25 / Itinerário Principal IP5, ao km 15.200, Sublanço Nó do Estádio";"Eixo";"3800-911";40.65997;-8.591281
-"GALP A25 A.S. Aveiro - Estádio (V/AV)";"Auto-estrada";"Aveiro";"1,049 €";"GALP";"GPL Auto";"2026-10-22 04:15";"Aveiro";"Auto Estrada A25 / Itinerário Principal IP5, ao km 15.200, Sublanço Nó do Estádio";"Eixo";"3800-911";40.662167;-8.592444
-"GALP Vila Nova de Gaia (Norte)";"Outro";"Vila Nova de Gaia";"1,014 €";"GALP";"GPL Auto";"2026-10-22 04:15";"Porto";"Via 8 - Santa Marinha (Lado rio)";"Vila Nova de Gaia";"4400-698";41.1403;-8.63289
-"GALP Senhora da Hora";"Outro";"Matosinhos";"1,024 €";"GALP";"GPL Auto";"2026-10-22 04:20";"Porto";"E.N. 12 – Estrada da Circunvalação – nº 12040";"Sra. Hora - Matosinhos";"4460-282";41.182222;-8.647778
-"Galp A.S. Pombal (S/N)";"Auto-estrada";"Pombal";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:25";"Leiria";"A 1 - Km 166,7 - Lisboa/Porto";"Pombal";"3100-000";40.01132;-8.600008
-"GALP A.S. Oeiras (Lisb/Casc)";"Auto-estrada";"Oeiras";"1,044 €";"GALP";"GPL Auto";"2026-10-22 04:25";"Lisboa";"A 5 A. E. Lisboa/Cascais Km 9.6";"Oeiras";"2780-201";38.715042;-9.284689
-"GALP A.S. Oeiras (Casc/Lisb)";"Auto-estrada";"Oeiras";"1,044 €";"GALP";"GPL Auto";"2026-10-22 04:25";"Lisboa";"A 5 - Km 9,6 - Cascais/Lisboa";"Oeiras";"2780-201";38.715027;-9.284626
-"GALP A3 A.S. Trofa (Por/Bra)";"Auto-estrada";"Trofa";"1,034 €";"GALP";"GPL Auto";"2026-10-22 04:25";"Porto";"A3 - Km 11 - Lugar de Vilar de Lila";"Vilar da Lila";"4785-209";41.263548;-8.563295
-"GALP A3 A.S. Trofa (Bra/Por)";"Auto-estrada";"Trofa";"1,034 €";"GALP";"GPL Auto";"2026-10-22 04:25";"Porto";"A3 - Km 11 - Lugar de Vilar de Lila";"Vilar de Lila";"4785-209";41.264493;-8.564415
-"GALP Sines";"Outro";"Sines";"1,009 €";"GALP";"GPL Auto";"2026-10-22 04:30";"Setúbal";"AV.GENERAL HUMBERTO DELGADO";"Sines";"7520-106";37.95935;-8.859145
-"GALP A.S. Águas Santas (Porto/Amar)";"Auto-estrada";"Maia";"1,034 €";"GALP";"GPL Auto";"2026-10-22 04:30";"Porto";"A 4 - Km 9,8 - Porto/Amarante";"Maia";"4425-547";41.19994;-8.566581
-"GALP A.S. Águas Santas (Amar/Porto)";"Auto-estrada";"Maia";"1,034 €";"GALP";"GPL Auto";"2026-10-22 04:30";"Porto";"A4- A.E.Amarante/Porto, Km 9.8";"Maia";"4425-547";41.20092;-8.568215
-"Galp A.S. Pombal (N/S)";"Auto-estrada";"Pombal";"1,079 €";"GALP";"GPL Auto";"2026-10-22 04:30";"Leiria";"A1 - Km 166,7 - Porto/Lisboa";"Redinha";"3100-000";40.01513;-8.59995
-"GALP A.S. Vilamoura - (Albufeira/Vilamoura)";"Outro";"Loulé";"1,039 €";"GALP";"GPL Auto";"2026-10-22 04:30";"Faro";"Av. João Pires Meireles";"Quarteira";"8125-000";37.08225;-8.117939
+"ES ROT. DA CAVALEIRA - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Sintra";"0,989 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Lisboa";"Rotunda da Cavaleira  Algueirão ";"Sintra";"2710-418";38.80345;-9.356381
+"REPSOL A2 Grândola (ALG/LIS)";"Auto-estrada";"Grândola";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Setúbal";"A2 Km 111 Sublanço Grandola Sul - Grandola";"Grândola";"7570-512";38.167145;-8.490486
 "ES ALCOCHETE - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Alcochete";"1,089 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Setúbal";"Lugar do Entroncamento";"Alcochete";"2890-009";38.745583;-8.930714
 "A S GAIA B - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Vila Nova de Gaia";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Porto";"A1 ao Km 295 Sul/Norte ";"Vila Nova de Gaia";"4430-129";41.101135;-8.597706
 "AS ANTUÃ A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Estarreja";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Aveiro";"A1.  Ao Km. 254 - Antua ";"";"3850-909";40.754807;-8.534985
 "Estação de Serviço de Aveiro Rotunda";"Outro";"Aveiro";"1,034 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Aveiro";"Zona Industrial da Taboeira Qta Simão Sul  Sector II";"Aveiro";"3800-055";40.6516;-8.60898
-"REPSOL A2 Grândola (ALG/LIS)";"Auto-estrada";"Grândola";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Setúbal";"A2 Km 111 Sublanço Grandola Sul - Grandola";"Grândola";"7570-512";38.167145;-8.490486
-"ES ROT. DA CAVALEIRA - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Sintra";"0,989 €";"REPSOL";"GPL Auto";"2026-10-22 08:10";"Lisboa";"Rotunda da Cavaleira  Algueirão ";"Sintra";"2710-418";38.80345;-9.356381
-"REPSOL Torres Novas NÓ A1/A23 ";"Outro";"Torres Novas";"1,029 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Santarém";"Lugar da Lameira Grande, Videla - Fig da Zibreira - Z.I da Zibreira ";"Zibreira";"2350-838";39.477825;-8.623297
-"Área de Serviço Repsol Almada A33";"Auto-estrada";"Almada";"1,029 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Setúbal";"A 33 Km 2,5 ";"Costa de Caparica";"2825-279";38.637806;-9.198797
 "ES  COIMBRA - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Coimbra";"1,009 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Coimbra";"E N 111,1 - Stª Cruz (Junto à Academia do Choupal)  ";"Coimbra";"3000-477";40.227688;-8.446369
 "ES  REPSOL Évora - Chafariz D'El Rei";"Outro";"Évora";"1,039 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Évora";"E.N. 18, Largo Chaf.D`El Rei ";"";"7000-002";38.566532;-7.902219
 "ES 1138 - 2A CIRCULAR (NORTE/SUL) - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Lisboa";"1,019 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Lisboa";"2ª Circular sentido Norte/Sul Avenida Marechal Craveiro Lopes  ";"Lisboa";"1700-284";38.763382;-9.140311
 "ES CASA PIA - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Outro";"Lisboa";"1,009 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Lisboa";"Rotunda Pina Manique  ";"Lisboa";"1500-462";38.739;-9.202767
 "E.S. STA. MARTA CORROIOS";"Outro";"Seixal";"1,029 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Setúbal";"Av. Rui Gracio";"Stª Marta do Pinhal";"2855-577";38.633119;-9.149581
 "REPSOL Rio Tinto II";"Outro";"Gondomar";"1,029 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Porto";"Rua de Rebordões n.º 297";"Rio Tinto";"4435-416";41.18037;-8.568678
+"REPSOL Torres Novas NÓ A1/A23 ";"Outro";"Torres Novas";"1,029 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Santarém";"Lugar da Lameira Grande, Videla - Fig da Zibreira - Z.I da Zibreira ";"Zibreira";"2350-838";39.477825;-8.623297
+"Área de Serviço Repsol Almada A33";"Auto-estrada";"Almada";"1,029 €";"REPSOL";"GPL Auto";"2026-10-22 08:15";"Setúbal";"A 33 Km 2,5 ";"Costa de Caparica";"2825-279";38.637806;-9.198797
 "AS PENAFIEL B - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Penafiel";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:20";"Porto";"A4 Sub Lanço Penafiel-Amarante Km 47.5  Castelões";"Castelões";"4560-055";41.23311;-8.17954
 "AS PENAFIEL A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Penafiel";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:20";"Porto";"A4 Sub Lanço Penafiel-Amarante Km 47.5  Castelões";"Castelões";"4560-055";41.23329;-8.17894
 "AS GAIA A - Gespost - Gestão e Administração de Postos de Abastecimento Unipessoal LDA";"Auto-estrada";"Vila Nova de Gaia";"1,079 €";"REPSOL";"GPL Auto";"2026-10-22 08:20";"Porto";"A1 ao Km 295 Sul/Norte ";"Vila Nova de Gaia";"4430-129";41.101418;-8.599467
@@ -435,3 +392,46 @@
 "PA Silveirinho";"Outro";"Penacova";"1,010 €";"Genérico";"GPL Auto";"2026-10-22 11:15";"Coimbra";"EN 2-3, km 3,400 - Silveirinho";"Silveirinho";"3360-259";40.30859;-8.192012
 "E. LECLERC PORTALEGRE";"Outro";"Portalegre";"1,019 €";"LECLERC";"GPL Auto";"2026-10-22 11:20";"Portalegre";"Rua do Joinal";"Lugar do Gaveto";"7300-000";39.27842;-7.43255
 "PAGPL Arada";"Outro";"Ovar";"0,999 €";"Genérico";"GPL Auto";"2026-10-22 14:25";"Aveiro";"ESTRADA NACIONAL 109 KM 30.8";"Arada";"3885-113";40.896202;-8.614301
+"Posto BP Aveiro Forca";"Outro";"Aveiro";"1,069 €";"BP";"GPL Auto";"2026-10-22 17:50";"Aveiro";"Av. Francisco Sá Carneiro Forca";"Aveiro";"3810-265";40.637491;-8.639779
+"GALP A.S. Aeroporto (S/N)";"Outro";"Lisboa";"1,019 €";"GALP";"GPL Auto";"2026-10-22 17:55";"Lisboa";"Avª Marechal CrAveiro Lopes";"Lisboa";"1700-277";38.77945;-9.12223
+"GALP Aeroporto (N/S)";"Outro";"Lisboa";"1,019 €";"GALP";"GPL Auto";"2026-10-22 17:55";"Lisboa";"Avª Marechal Craveiro Lopes";"Lisboa";"1700-277";38.779526;-9.123903
+"GALP-  Gondomar";"Outro";"Gondomar";"1,024 €";"GALP";"GPL Auto";"2026-10-22 18:00";"Porto";"Av.General Humberto Delgado";"Gondomar";"4420-155";41.14706;-8.531529
+"GALP A12 A.S. Alcochete - Pte Vasco da Gama (N/S)";"Auto-estrada";"Alcochete";"1,064 €";"GALP";"GPL Auto";"2026-10-22 18:00";"Setúbal";"Acesso Ponte Vasco da Gama, Km 13,750 N/S";"Samouco";"2890-201";38.72579;-8.98711
+"GALP A12 A.S. Alcochete - Pte Vasco da Gama (S/N)";"Auto-estrada";"Alcochete";"1,064 €";"GALP";"GPL Auto";"2026-10-22 18:00";"Setúbal";"Acesso Sul da Ponte Vasco da Gama Km 13.6";"Alcochete";"2890-001";38.72734;-8.987152
+"GALP A8 A.S. Torres Vedras (N/S)";"Auto-estrada";"Torres Vedras";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:05";"Lisboa";"A 8 Km 12.07";"Ramalhal";"2565-646";39.15817;-9.226294
+"GALP A8 A.S. Torres Vedras (S/N)";"Auto-estrada";"Torres Vedras";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:05";"Lisboa";"A8 - km 12,070 - Sub lanço Carvalhal / Campelos";"Ramalhal";"2565-646";39.15679;-9.22618
+"GALP A.S. A2 Aljustrel (S/N)";"Auto-estrada";"Aljustrel";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:10";"Beja";"A2 - Km 148 (S/N)";"Aljustrel";"7600-000";37.92348;-8.241723
+"GALP A.S. A2 Aljustrel (N/S)";"Auto-estrada";"Aljustrel";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:10";"Beja";"A.E.2 Km 148";"Aljustrel";"7600-000";37.923733;-8.243193
+"GALP A.S. Telheiras - Eixo Norte-Sul (S/N)";"Outro";"Lisboa";"1,019 €";"GALP";"GPL Auto";"2026-10-22 18:10";"Lisboa";"Rua Frederico George - Eixo N/S - Sentido S/N";"Lisboa";"1600-468";38.767593;-9.171036
+"GALP A.S. Vila do Conde (Vila Conde/Porto)";"Auto-estrada";"Vila do Conde";"1,049 €";"GALP";"GPL Auto";"2026-10-22 18:15";"Porto";"A28 - km 12 - Modivas";"Labruge";"4485-600";41.289143;-8.704652
+"GALP A.S. Vila do Conde (Porto/Vila Conde)";"Auto-estrada";"Vila do Conde";"1,049 €";"GALP";"GPL Auto";"2026-10-22 18:15";"Porto";"IC 1 - Km 328 - Modivas";"Labruge";"4485-600";41.28921;-8.703153
+"GALP A.S. A23 Vila Velha de Rodão (N/S)";"Auto-estrada";"Vila Velha de Ródão";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:20";"Castelo Branco";"A23 - Km 80 - Fratel";"Gardete";"6030-013";39.574207;-7.782874
+"GALP A.S. Loulé (Loulé/Faro)";"Auto-estrada";"Loulé";"1,064 €";"GALP";"GPL Auto";"2026-10-22 18:20";"Faro";"A22 – Km 62,500 - Sublanço Guia-Loulé 1 (Loulé/Faro)";"Franqueada";"8100-000";37.13618;-8.110881
+"GALP A22 Loulé (Faro/Loulé)";"Auto-estrada";"Loulé";"1,064 €";"GALP";"GPL Auto";"2026-10-22 18:20";"Faro";"A. E. 22 Km 62.5 Sublanço Guia / Loulé_Aparta";"Loulé";"8100-000";37.136974;-8.110044
+"GALP A.S. A23 Guarda (N/S)";"Auto-estrada";"Guarda";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:20";"Guarda";"A23 - Km 213,3";"Arrifana";"6300-035";40.54398;-7.216512
+"GALP A.S. A23 Guarda (S/N)";"Auto-estrada";"Guarda";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:20";"Guarda";"A23 - Km 213,3 (S/N)";"Guarda";"6300-000";40.543446;-7.215042
+"GALP Porto - Francos";"Outro";"Porto";"1,024 €";"GALP";"GPL Auto";"2026-10-22 18:20";"Porto";"Rotunda do Bessa";"Porto";"4100-012";41.164307;-8.639143
+"GALP A.S. Aveiras Cima (N/S)";"Auto-estrada";"Azambuja";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:25";"Lisboa";"A.E.1 Km 44,000";"Aveiras de Cima";"2050-071";39.124374;-8.907065
+"GALP A2 A.S. Palmela (S/N)";"Auto-estrada";"Palmela";"1,064 €";"GALP";"GPL Auto";"2026-10-22 18:25";"Setúbal";"A2 - Km 31,200";"Vale de Touros";"2950-137";38.585865;-8.929574
+"GALP A.S. A23 Vila Velha de Rodão (S/N)";"Auto-estrada";"Vila Velha de Ródão";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:25";"Castelo Branco";"A23 - Km 80 - Fratel";"Fratel";"6030-012";39.572548;-7.78226
+"GALP A.S. Salvaterra de Magos (N/S)";"Auto-estrada";"Salvaterra de Magos";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:25";"Santarém";"A. E. 13 Km 60.4  Sublanço Almeirim / Salvaterra";"Marinhais";"2125-125";39.058243;-8.667848
+"GALP A.S. Salvaterra de Magos (S/N)";"Auto-estrada";"Salvaterra de Magos";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:25";"Santarém";"A.13 Km 60,4  Sublanço Almeirim / Marateca";"Marinhais";"2125-125";39.057034;-8.666127
+"GALP A.S. A25 Vouzela (Viseu/Aveiro)";"Auto-estrada";"Vouzela";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:30";"Viseu";"A25 km 53,600";"Campia";"3670-056";40.686817;-8.230022
+"GALP A25 Vouzela (Aveiro/Viseu)";"Auto-estrada";"Vouzela";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:30";"Viseu";"A.E. A25 - IP5, Km 7,90 e 8,30 do Sub -Lanço Talhadas/Vouzela - Lanço Nódo IC2";"Campia";"3670-056";40.686275;-8.232481
+"GALP A.S. Aveiras Cima (S/N)";"Auto-estrada";"Azambuja";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:30";"Lisboa";"A1 - Km 44";"Aveiras de Cima";"2050-000";39.122275;-8.907926
+"GALP A25  Aveiro - Estádio (AVEIRO/VISEU)";"Auto-estrada";"Aveiro";"1,049 €";"GALP";"GPL Auto";"2026-10-22 18:30";"Aveiro";"Auto Estrada A25 / Itinerário Principal IP5, ao km 15.200, Sublanço Nó do Estádio";"Eixo";"3800-911";40.65997;-8.591281
+"GALP A.S. Matosinhos (A/M)";"Auto-estrada";"Matosinhos";"1,034 €";"GALP";"GPL Auto";"2026-10-22 18:30";"Porto";"A4/IP4, Km 3,2 e 4,1 - SCUT Grande Porto, Lanço Sendim-Águas Santas, Sublanço Sendim Norte";"Custóias";"4460-739";41.20541;-8.64073
+"GALP A4 A.S. Matosinhos (Matosinhos/Amarante)";"Auto-estrada";"Matosinhos";"1,034 €";"GALP";"GPL Auto";"2026-10-22 18:30";"Porto";"A4/ IP4 Km 3,08 e 4,10 Sublanço Nó de Custóias";"Custóias";"4460-739";41.204453;-8.640317
+"GALP A25 A.S. Aveiro - Estádio (V/AV)";"Auto-estrada";"Aveiro";"1,049 €";"GALP";"GPL Auto";"2026-10-22 18:35";"Aveiro";"Auto Estrada A25 / Itinerário Principal IP5, ao km 15.200, Sublanço Nó do Estádio";"Eixo";"3800-911";40.662167;-8.592444
+"GALP Vila Nova de Gaia (Norte)";"Outro";"Vila Nova de Gaia";"1,014 €";"GALP";"GPL Auto";"2026-10-22 18:35";"Porto";"Via 8 - Santa Marinha (Lado rio)";"Vila Nova de Gaia";"4400-698";41.1403;-8.63289
+"GALP Senhora da Hora";"Outro";"Matosinhos";"1,024 €";"GALP";"GPL Auto";"2026-10-22 18:40";"Porto";"E.N. 12 – Estrada da Circunvalação – nº 12040";"Sra. Hora - Matosinhos";"4460-282";41.182222;-8.647778
+"GALP A.S. Oeiras (Lisb/Casc)";"Auto-estrada";"Oeiras";"1,044 €";"GALP";"GPL Auto";"2026-10-22 18:45";"Lisboa";"A 5 A. E. Lisboa/Cascais Km 9.6";"Oeiras";"2780-201";38.715042;-9.284689
+"GALP A3 A.S. Trofa (Por/Bra)";"Auto-estrada";"Trofa";"1,034 €";"GALP";"GPL Auto";"2026-10-22 18:45";"Porto";"A3 - Km 11 - Lugar de Vilar de Lila";"Vilar da Lila";"4785-209";41.263548;-8.563295
+"GALP A3 A.S. Trofa (Bra/Por)";"Auto-estrada";"Trofa";"1,034 €";"GALP";"GPL Auto";"2026-10-22 18:45";"Porto";"A3 - Km 11 - Lugar de Vilar de Lila";"Vilar de Lila";"4785-209";41.264493;-8.564415
+"GALP A.S. Oeiras (Casc/Lisb)";"Auto-estrada";"Oeiras";"1,044 €";"GALP";"GPL Auto";"2026-10-22 18:50";"Lisboa";"A 5 - Km 9,6 - Cascais/Lisboa";"Oeiras";"2780-201";38.715027;-9.284626
+"GALP A.S. Águas Santas (Porto/Amar)";"Auto-estrada";"Maia";"1,034 €";"GALP";"GPL Auto";"2026-10-22 18:50";"Porto";"A 4 - Km 9,8 - Porto/Amarante";"Maia";"4425-547";41.19994;-8.566581
+"GALP A.S. Águas Santas (Amar/Porto)";"Auto-estrada";"Maia";"1,034 €";"GALP";"GPL Auto";"2026-10-22 18:50";"Porto";"A4- A.E.Amarante/Porto, Km 9.8";"Maia";"4425-547";41.20092;-8.568215
+"Galp A.S. Pombal (S/N)";"Auto-estrada";"Pombal";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:50";"Leiria";"A 1 - Km 166,7 - Lisboa/Porto";"Pombal";"3100-000";40.01132;-8.600008
+"Galp A.S. Pombal (N/S)";"Auto-estrada";"Pombal";"1,079 €";"GALP";"GPL Auto";"2026-10-22 18:50";"Leiria";"A1 - Km 166,7 - Porto/Lisboa";"Redinha";"3100-000";40.01513;-8.59995
+"GALP A.S. Vilamoura - (Albufeira/Vilamoura)";"Outro";"Loulé";"1,039 €";"GALP";"GPL Auto";"2026-10-22 18:55";"Faro";"Av. João Pires Meireles";"Quarteira";"8125-000";37.08225;-8.117939
+"GALP Sines";"Outro";"Sines";"1,009 €";"GALP";"GPL Auto";"2026-10-22 18:55";"Setúbal";"AV.GENERAL HUMBERTO DELGADO";"Sines";"7520-106";37.95935;-8.859145
