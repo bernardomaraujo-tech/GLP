@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-22T11:02:00.212932+00:00",
+  "generatedAt": "2026-10-22T16:24:50.258238+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-22T11:20:00+00:00",
+  "dataUpdatedAt": "2026-10-22T14:25:00+00:00",
   "stats": {
-    "totalStations": 434,
-    "withCoordinates": 434,
-    "withPrice": 434
+    "totalStations": 435,
+    "withCoordinates": 435,
+    "withPrice": 435
   },
   "stations": [
     {
@@ -1894,6 +1894,23 @@
       "lat": 38.79915,
       "lon": -7.660607,
       "sourceKey": "CEPSA|a6 estremoz (lis/elv)|a6, sublanco evora, km 23, apartado 247|7100-108|estremoz"
+    },
+    {
+      "id": "generico-pagpl-arada-ovar-3885-113",
+      "name": "PAGPL Arada",
+      "brand": "GENÉRICO",
+      "district": "Aveiro",
+      "municipality": "Ovar",
+      "locality": "Arada",
+      "address": "ESTRADA NACIONAL 109 KM 30.8",
+      "postalCode": "3885-113",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-10-22T14:25:00+00:00",
+      "lat": 40.896202,
+      "lon": -8.614301,
+      "sourceKey": "GENÉRICO|pagpl arada|estrada nacional 109 km 30.8|3885-113|ovar"
     },
     {
       "id": "prio-prio-gafanha-da-nazare-av-bacalhoeiros-ilhavo-3800-000",
