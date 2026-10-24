@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T10:03:54.719001+00:00",
+  "generatedAt": "2026-10-24T15:08:43.519871+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-24T11:00:00+00:00",
+  "dataUpdatedAt": "2026-10-24T15:10:00+00:00",
   "stats": {
     "totalStations": 433,
     "withCoordinates": 433,
@@ -5171,7 +5171,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.044,
-      "updatedAt": "2026-10-19T08:45:00+00:00",
+      "updatedAt": "2026-10-24T15:10:00+00:00",
       "lat": 41.279994,
       "lon": -8.082825,
       "sourceKey": "GALP|petromaranus - com. comb.,lda.|en 15 - lugar da rampa alta|4600-275|amarante"
