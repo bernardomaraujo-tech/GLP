@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T11:20:53.579207+00:00",
+  "generatedAt": "2026-10-27T17:07:29.072427+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-27T11:20:00+00:00",
+  "dataUpdatedAt": "2026-10-27T17:05:00+00:00",
   "stats": {
     "totalStations": 436,
     "withCoordinates": 436,
@@ -717,7 +717,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 0.959,
-      "updatedAt": "2026-10-20T15:05:00+00:00",
+      "updatedAt": "2026-10-27T14:50:00+00:00",
       "lat": 40.75569,
       "lon": -7.72737,
       "sourceKey": "GALP|ultra resistente - combustiveis, lda|en 229 km 69.800|3560-085|satao"
@@ -2247,7 +2247,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-10-26T00:00:00+00:00",
+      "updatedAt": "2026-10-27T17:05:00+00:00",
       "lat": 39.4857,
       "lon": -8.158823,
       "sourceKey": "MOEVE|a23 abrantes (abr/lis)|a 23, km 44, sub-lanco abrantes - mouriscas, apt. 70|2200-037|abrantes"
@@ -2281,7 +2281,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-10-26T16:45:00+00:00",
+      "updatedAt": "2026-10-27T14:45:00+00:00",
       "lat": 41.660305,
       "lon": -8.775702,
       "sourceKey": "CEPSA|a28 viana do castelo (por/vnc)|a28 (antigo ic 1), km 372, vila nova de anha, apt. 52|4905-999|viana do castelo"
@@ -2298,7 +2298,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-10-26T16:45:00+00:00",
+      "updatedAt": "2026-10-27T14:50:00+00:00",
       "lat": 41.660038,
       "lon": -8.777017,
       "sourceKey": "CEPSA|a28 viana do castelo (vnc/por)|a28 (antigo ic 1), km 372, vila nova de anha, apt. 52|4905-999|viana do castelo"
@@ -2417,7 +2417,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 0.998,
-      "updatedAt": "2026-10-26T10:25:00+00:00",
+      "updatedAt": "2026-10-27T12:25:00+00:00",
       "lat": 41.43241,
       "lon": -8.61615,
       "sourceKey": "ESSO|novais|r. santa eulalia, 1579|4775-193|barcelos"
@@ -2506,23 +2506,6 @@
       "lat": 41.48778,
       "lon": -8.429883,
       "sourceKey": "FREITAS|tfgest sao vicente penso|avenida do redondelo, 51 (en 309 - km 29,970 d)|4705-628|braga"
-    },
-    {
-      "id": "petro-basto-petro-basto-energia-cabeceira-de-basto-cabeceiras-de-basto-4860-401",
-      "name": "PETRO BASTO ENERGIA -  Cabeceira de Basto",
-      "brand": "PETRO BASTO",
-      "district": "Braga",
-      "municipality": "Cabeceiras de Basto",
-      "locality": "Refojos de Basto",
-      "address": "Rua Monsenhor Dr. António Tanque - PINHEIRO",
-      "postalCode": "4860-401",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-10-20T14:35:00+00:00",
-      "lat": 41.50852,
-      "lon": -7.994753,
-      "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
     },
     {
       "id": "generico-gasodueca-pa-generico-meas-miranda-do-corvo-3220-115",
@@ -2791,7 +2774,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-10-26T15:20:00+00:00",
+      "updatedAt": "2026-10-27T15:40:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -2808,7 +2791,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-10-26T15:30:00+00:00",
+      "updatedAt": "2026-10-27T16:20:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3743,7 +3726,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-20T10:10:00+00:00",
+      "updatedAt": "2026-10-27T15:10:00+00:00",
       "lat": 39.19523,
       "lon": -8.62582,
       "sourceKey": "GENÉRICO|ouro negro - almeirim|zona industrial de almeirim, lote 10|2080-221|almeirim"
@@ -5018,7 +5001,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-10-20T16:40:00+00:00",
+      "updatedAt": "2026-10-27T16:30:00+00:00",
       "lat": 38.64518,
       "lon": -8.97844,
       "sourceKey": "GENÉRICO|moitasul|fazenda do costa - carvalhinho|2860-707|moita"
@@ -5477,7 +5460,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.049,
-      "updatedAt": "2026-10-20T10:15:00+00:00",
+      "updatedAt": "2026-10-27T15:00:00+00:00",
       "lat": 39.065964,
       "lon": -8.876442,
       "sourceKey": "GENÉRICO|ouro negro - azambuja_norte|e.n. 3 - km 10.250 antigo campo da feira|2050-319|azambuja"
@@ -5821,6 +5804,23 @@
       "lat": 40.637491,
       "lon": -8.639779,
       "sourceKey": "BP|posto bp aveiro forca|av. francisco sa carneiro forca|3810-265|aveiro"
+    },
+    {
+      "id": "petro-basto-petro-basto-energia-cabeceira-de-basto-cabeceiras-de-basto-4860-401",
+      "name": "PETRO BASTO ENERGIA -  Cabeceira de Basto",
+      "brand": "PETRO BASTO",
+      "district": "Braga",
+      "municipality": "Cabeceiras de Basto",
+      "locality": "Refojos de Basto",
+      "address": "Rua Monsenhor Dr. António Tanque - PINHEIRO",
+      "postalCode": "4860-401",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 1.069,
+      "updatedAt": "2026-10-27T14:15:00+00:00",
+      "lat": 41.50852,
+      "lon": -7.994753,
+      "sourceKey": "PETRO BASTO|petro basto energia - cabeceira de basto|rua monsenhor dr. antonio tanque - pinheiro|4860-401|cabeceiras de basto"
     },
     {
       "id": "prio-ig-combustiveis-oliveira-do-hospital-3400-058",
@@ -6939,7 +6939,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-26T15:10:00+00:00",
+      "updatedAt": "2026-10-27T15:30:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
