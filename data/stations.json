@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T17:07:29.072427+00:00",
+  "generatedAt": "2026-10-27T21:40:35.963525+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-27T17:05:00+00:00",
+  "dataUpdatedAt": "2026-10-27T19:45:00+00:00",
   "stats": {
     "totalStations": 436,
     "withCoordinates": 436,
@@ -2264,7 +2264,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 0.996,
-      "updatedAt": "2026-10-26T00:00:00+00:00",
+      "updatedAt": "2026-10-27T17:10:00+00:00",
       "lat": 39.485092,
       "lon": -8.155059,
       "sourceKey": "MOEVE|a23 abrantes (lis/abr)|a 23, km 44, sub-lanco abrantes - mouriscas, apt. 70|2200-006|abrantes"
@@ -2642,23 +2642,6 @@
       "lat": 41.29811,
       "lon": -8.70692,
       "sourceKey": "ECOBRENT|ecobrent modivas|avenida fonte cova 400|4485-592|vila do conde"
-    },
-    {
-      "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
-      "name": "PGPL CHAMAGAS Rio Maior",
-      "brand": "CHAMAGÁS",
-      "district": "Santarém",
-      "municipality": "Rio Maior",
-      "locality": "Alto da Serra",
-      "address": "E.N. 1 - Alto da Serra",
-      "postalCode": "2040-063",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-10-20T08:40:00+00:00",
-      "lat": 39.375793,
-      "lon": -8.962691,
-      "sourceKey": "CHAMAGÁS|pgpl chamagas rio maior|e.n. 1 - alto da serra|2040-063|rio maior"
     },
     {
       "id": "ecobrent-ecobrent-santarem-retail-santarem-2000-471",
@@ -3743,7 +3726,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-23T11:00:00+00:00",
+      "updatedAt": "2026-10-27T18:20:00+00:00",
       "lat": 41.72606,
       "lon": -8.859825,
       "sourceKey": "GENÉRICO|nautigas, cian, lda - pa gpl auto|av. alem do rio, 744 - areosa|4900-580|viana do castelo"
@@ -4682,6 +4665,23 @@
       "lat": 38.665188,
       "lon": -8.957188,
       "sourceKey": "MOEVE|a33 lancada (montijo/moita)|a33 - km 30,4|2870-521|montijo"
+    },
+    {
+      "id": "chamagas-pgpl-chamagas-rio-maior-rio-maior-2040-063",
+      "name": "PGPL CHAMAGAS Rio Maior",
+      "brand": "CHAMAGÁS",
+      "district": "Santarém",
+      "municipality": "Rio Maior",
+      "locality": "Alto da Serra",
+      "address": "E.N. 1 - Alto da Serra",
+      "postalCode": "2040-063",
+      "zone": "Lisboa e Vale do Tejo",
+      "fuel": "GPL Auto",
+      "price": 1.037,
+      "updatedAt": "2026-10-27T19:45:00+00:00",
+      "lat": 39.375793,
+      "lon": -8.962691,
+      "sourceKey": "CHAMAGÁS|pgpl chamagas rio maior|e.n. 1 - alto da serra|2040-063|rio maior"
     },
     {
       "id": "galp-chamauto-sociedade-transmontana-de-automoveis-lda-1-chaves-5400-000",
@@ -5953,7 +5953,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.069,
-      "updatedAt": "2026-10-26T00:00:00+00:00",
+      "updatedAt": "2026-10-27T17:45:00+00:00",
       "lat": 37.95812,
       "lon": -8.86573,
       "sourceKey": "REPSOL|e.s. sines|av. general humberto delgado m-n-o|7520-000|sines"
