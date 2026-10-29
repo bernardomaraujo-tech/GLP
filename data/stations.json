@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T22:04:05.351745+00:00",
+  "generatedAt": "2026-10-29T03:41:31.350561+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-28T22:00:00+00:00",
+  "dataUpdatedAt": "2026-10-29T03:40:00+00:00",
   "stats": {
-    "totalStations": 438,
-    "withCoordinates": 438,
-    "withPrice": 438
+    "totalStations": 432,
+    "withCoordinates": 432,
+    "withPrice": 432
   },
   "stations": [
     {
@@ -262,23 +262,6 @@
       "lat": 40.24117,
       "lon": -8.48303,
       "sourceKey": "CEPSA|cepsa cidreira|e n 111 - km 35,1|3025-626|coimbra"
-    },
-    {
-      "id": "moeve-supremotiv-lda-loule-8100-272",
-      "name": "Supremotiv, Lda",
-      "brand": "MOEVE",
-      "district": "Faro",
-      "municipality": "Loulé",
-      "locality": "Loulé",
-      "address": "Zona Industrial Lt-1",
-      "postalCode": "8100-272",
-      "zone": "Algarve",
-      "fuel": "GPL Auto",
-      "price": 0.936,
-      "updatedAt": "2026-10-19T00:00:00+00:00",
-      "lat": 37.129475,
-      "lon": -8.039609,
-      "sourceKey": "MOEVE|supremotiv, lda|zona industrial lt-1|8100-272|loule"
     },
     {
       "id": "cepsa-cepsa-gueifaes-maia-4470-006",
@@ -1129,23 +1112,6 @@
       "lat": 38.547485,
       "lon": -8.883927,
       "sourceKey": "OZ ENERGIA|oz energia - setubal|estrada da varzinha|2900-657|setubal"
-    },
-    {
-      "id": "generico-pa-valverde-alcanede-santarem-2025-201",
-      "name": "PA Valverde - Alcanede",
-      "brand": "GENÉRICO",
-      "district": "Santarém",
-      "municipality": "Santarém",
-      "locality": "Valverde",
-      "address": "Estrada Nacional Nº 362 Km25.4, Valverde",
-      "postalCode": "2025-201",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 0.973,
-      "updatedAt": "2026-10-19T18:00:00+00:00",
-      "lat": 39.450424,
-      "lon": -8.849353,
-      "sourceKey": "GENÉRICO|pa valverde - alcanede|estrada nacional no 362 km25.4, valverde|2025-201|santarem"
     },
     {
       "id": "carrasquinho-filhos-carrasquinho-filhos-vale-parra-norte-albufeira-8200-427",
@@ -2610,23 +2576,6 @@
       "sourceKey": "GENÉRICO|posto de abastecimento auto albergue, lda.|r. do castelo|3100-081|pombal"
     },
     {
-      "id": "generico-petrovila-combustiveis-lda-felgueiras-4650-092",
-      "name": "Petrovila - Combustíveis, Lda",
-      "brand": "GENÉRICO",
-      "district": "Porto",
-      "municipality": "Felgueiras",
-      "locality": "Airães",
-      "address": "Rua da Liberdade, S/N",
-      "postalCode": "4650-092",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-10-19T14:25:00+00:00",
-      "lat": 41.32086,
-      "lon": -8.19268,
-      "sourceKey": "GENÉRICO|petrovila - combustiveis, lda|rua da liberdade, s/n|4650-092|felgueiras"
-    },
-    {
       "id": "generico-posto-sodimapi-felgueiras-felgueiras-4610-750",
       "name": "Posto Sodimapi Felgueiras",
       "brand": "GENÉRICO",
@@ -2978,7 +2927,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.009,
-      "updatedAt": "2026-10-28T00:00:00+00:00",
+      "updatedAt": "2026-10-29T00:00:00+00:00",
       "lat": 40.167801,
       "lon": -8.456432,
       "sourceKey": "GALP|paralelo alternativo - comercio de combustiveis, lda|ic 2 km 183,4|3000-032|coimbra"
@@ -3488,7 +3437,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-28T00:00:00+00:00",
+      "updatedAt": "2026-10-29T00:00:00+00:00",
       "lat": 40.35054,
       "lon": -8.5794,
       "sourceKey": "GALP|galp cantanhede - estacao das colinas|av. prof anibal de oliveira|3060-851|cantanhede"
@@ -3624,7 +3573,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-28T17:40:00+00:00",
+      "updatedAt": "2026-10-29T03:40:00+00:00",
       "lat": 38.77945,
       "lon": -9.12223,
       "sourceKey": "GALP|galp a.s. aeroporto (s/n)|ava marechal craveiro lopes|1700-277|lisboa"
@@ -3658,7 +3607,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-28T17:40:00+00:00",
+      "updatedAt": "2026-10-29T03:40:00+00:00",
       "lat": 38.779526,
       "lon": -9.123903,
       "sourceKey": "GALP|galp aeroporto (n/s)|ava marechal craveiro lopes|1700-277|lisboa"
@@ -3798,23 +3747,6 @@
       "lat": 41.182222,
       "lon": -8.647778,
       "sourceKey": "GALP|galp senhora da hora|e.n. 12 estrada da circunvalacao no 12040|4460-282|matosinhos"
-    },
-    {
-      "id": "galp-galp-penafiel-tenente-valadim-penafiel-4560-532",
-      "name": "GALP Penafiel - Tenente Valadim",
-      "brand": "GALP",
-      "district": "Porto",
-      "municipality": "Penafiel",
-      "locality": "Penafiel",
-      "address": "Rua Tenente Valadim E.N 15 Km 29,6 - Tapadinha",
-      "postalCode": "4560-532",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.024,
-      "updatedAt": "2026-10-19T10:40:00+00:00",
-      "lat": 41.194393,
-      "lon": -8.297167,
-      "sourceKey": "GALP|galp penafiel - tenente valadim|rua tenente valadim e.n 15 km 29,6 - tapadinha|4560-532|penafiel"
     },
     {
       "id": "galp-galp-porto-francos-porto-4100-012",
@@ -3998,7 +3930,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-28T00:00:00+00:00",
+      "updatedAt": "2026-10-29T00:00:00+00:00",
       "lat": 39.767417,
       "lon": -8.775519,
       "sourceKey": "REPSOL|e.s. cova faias b|en 1 (ic2)|2420-354|leiria"
@@ -4304,7 +4236,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-26T11:10:00+00:00",
+      "updatedAt": "2026-10-28T22:35:00+00:00",
       "lat": 39.237055,
       "lon": -8.703657,
       "sourceKey": "GALP|j. m. cordeiro, lda.(1)|rua o|2000-000|santarem"
@@ -4321,7 +4253,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-26T11:15:00+00:00",
+      "updatedAt": "2026-10-28T22:35:00+00:00",
       "lat": 39.23667,
       "lon": -8.7033,
       "sourceKey": "GALP|j. m. cordeiro, lda.(2)|rua o|2000-000|santarem"
@@ -5749,7 +5681,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-10-28T17:45:00+00:00",
+      "updatedAt": "2026-10-29T03:40:00+00:00",
       "lat": 38.72579,
       "lon": -8.98711,
       "sourceKey": "GALP|galp a12 a.s. alcochete - pte vasco da gama (n/s)|acesso ponte vasco da gama, km 13,750 n/s|2890-201|alcochete"
@@ -5766,7 +5698,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.064,
-      "updatedAt": "2026-10-28T17:45:00+00:00",
+      "updatedAt": "2026-10-29T03:40:00+00:00",
       "lat": 38.72734,
       "lon": -8.987152,
       "sourceKey": "GALP|galp a12 a.s. alcochete - pte vasco da gama (s/n)|acesso sul da ponte vasco da gama km 13.6|2890-001|alcochete"
@@ -6463,7 +6395,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-10-28T08:05:00+00:00",
+      "updatedAt": "2026-10-29T00:05:00+00:00",
       "lat": 38.167145,
       "lon": -8.490486,
       "sourceKey": "REPSOL|repsol a2 grandola (alg/lis)|a2 km 111 sublanco grandola sul - grandola|7570-512|grandola"
@@ -6480,7 +6412,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.079,
-      "updatedAt": "2026-10-28T08:15:00+00:00",
+      "updatedAt": "2026-10-29T00:05:00+00:00",
       "lat": 38.16753,
       "lon": -8.492921,
       "sourceKey": "REPSOL|area de servico de grandola a norte - sul|a2 km 111,0 sublanco grandola norte / grandola sul|7570-512|grandola"
@@ -6586,23 +6518,6 @@
       "lat": 38.62257,
       "lon": -8.57766,
       "sourceKey": "REPSOL|as v. novas norte (a) - gespost - gestao e administracao de postos de abastecimento unipessoal lda|a6 km 5,5 vendas novas|7080-011|vendas novas"
-    },
-    {
-      "id": "generico-pa-feitos-barcelos-barcelos-4750-442",
-      "name": "PA Feitos -Barcelos",
-      "brand": "GENÉRICO",
-      "district": "Braga",
-      "municipality": "Barcelos",
-      "locality": "Feitos",
-      "address": "Rua da Estrada Nacional 103, km 12,100",
-      "postalCode": "4750-442",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 1.083,
-      "updatedAt": "2026-10-19T13:50:00+00:00",
-      "lat": 41.57053,
-      "lon": -8.685565,
-      "sourceKey": "GENÉRICO|pa feitos -barcelos|rua da estrada nacional 103, km 12,100|4750-442|barcelos"
     },
     {
       "id": "repsol-e-s-mealhada-a-mealhada-3050-000",
@@ -7007,7 +6922,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-28T00:00:00+00:00",
+      "updatedAt": "2026-10-29T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -7024,7 +6939,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-28T00:00:00+00:00",
+      "updatedAt": "2026-10-29T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
@@ -7402,23 +7317,6 @@
       "lat": 41.445744,
       "lon": -8.400159,
       "sourceKey": "BP|bp- vermil|rua da portela no1005|4805-546|guimaraes"
-    },
-    {
-      "id": "q8-q8-ourem-ourem-2435-689",
-      "name": "Q8 Ourém",
-      "brand": "Q8",
-      "district": "Santarém",
-      "municipality": "Ourém",
-      "locality": "Urqueira",
-      "address": "Rua Principal, 53 - Mata",
-      "postalCode": "2435-689",
-      "zone": "Lisboa e Vale do Tejo",
-      "fuel": "GPL Auto",
-      "price": 1.199,
-      "updatedAt": "2026-10-19T16:35:00+00:00",
-      "lat": 39.722935,
-      "lon": -8.572908,
-      "sourceKey": "Q8|q8 ourem|rua principal, 53 - mata|2435-689|ourem"
     },
     {
       "id": "gestroil-energy-gestroil-ucha-barcelos-4750-767",
