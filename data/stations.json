@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-31T20:51:29.725402+00:00",
+  "generatedAt": "2026-11-01T03:30:24.354762+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-10-31T18:40:00+00:00",
+  "dataUpdatedAt": "2026-11-01T00:05:00+00:00",
   "stats": {
-    "totalStations": 430,
-    "withCoordinates": 430,
-    "withPrice": 430
+    "totalStations": 427,
+    "withCoordinates": 427,
+    "withPrice": 427
   },
   "stations": [
     {
@@ -2474,23 +2474,6 @@
       "sourceKey": "PRIO|prio avanca|e.n. 109 km 41,6 - valada - avanca|3860-000|estarreja"
     },
     {
-      "id": "generico-pagpl-arada-ovar-3885-113",
-      "name": "PAGPL Arada",
-      "brand": "GENÉRICO",
-      "district": "Aveiro",
-      "municipality": "Ovar",
-      "locality": "Arada",
-      "address": "ESTRADA NACIONAL 109 KM 30.8",
-      "postalCode": "3885-113",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.999,
-      "updatedAt": "2026-10-22T14:25:00+00:00",
-      "lat": 40.896202,
-      "lon": -8.614301,
-      "sourceKey": "GENÉRICO|pagpl arada|estrada nacional 109 km 30.8|3885-113|ovar"
-    },
-    {
       "id": "freitas-tfgest-sao-vicente-penso-braga-4705-628",
       "name": "TFGEST São Vicente Penso",
       "brand": "FREITAS",
@@ -2723,7 +2706,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-10-31T15:05:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 41.543404,
       "lon": -8.440024,
       "sourceKey": "MOEVE|cepsa orfaos - i (poente)|av. conego jorge peixoto coutinho- variante 14|4700-000|braga"
@@ -2740,7 +2723,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.004,
-      "updatedAt": "2026-10-31T15:30:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 41.59746,
       "lon": -8.428921,
       "sourceKey": "MOEVE|ilidio mota - palmeira 2|avenida cavado 268|4700-690|braga"
@@ -3437,7 +3420,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-10-31T00:00:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 40.35054,
       "lon": -8.5794,
       "sourceKey": "GALP|galp cantanhede - estacao das colinas|av. prof anibal de oliveira|3060-851|cantanhede"
@@ -3828,7 +3811,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-30T00:00:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 41.52204,
       "lon": -8.7748,
       "sourceKey": "GALP|teixeira & martins, automoveis, lda.,|en 13 km 43,15|4740-475|esposende"
@@ -4032,7 +4015,7 @@
       "zone": "Alentejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-10-31T00:00:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 39.26658,
       "lon": -7.43713,
       "sourceKey": "REPSOL|e.s. portalegre|rua mestre joao serra lt. d|7300-069|portalegre"
@@ -5056,23 +5039,6 @@
       "lat": 39.857197,
       "lon": -7.459347,
       "sourceKey": "REPSOL|e.s. lanco grande|en 233 ao km 104,750|6000-067|castelo branco"
-    },
-    {
-      "id": "repsol-repsol-fundao-a-r-cidade-covilha-fundao-6230-346",
-      "name": "REPSOL Fundão A - R Cidade Covilhã",
-      "brand": "REPSOL",
-      "district": "Castelo Branco",
-      "municipality": "Fundão",
-      "locality": "Fundão",
-      "address": "Rua da Cidade da Covilhã, s/n",
-      "postalCode": "6230-346",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.044,
-      "updatedAt": "2026-10-21T15:20:00+00:00",
-      "lat": 40.1424,
-      "lon": -7.497109,
-      "sourceKey": "REPSOL|repsol fundao a - r cidade covilha|rua da cidade da covilha, s/n|6230-346|fundao"
     },
     {
       "id": "repsol-e-s-serta-serta-6100-732",
@@ -6520,23 +6486,6 @@
       "sourceKey": "PRIO|gascomb prio tondela|en2 - lugar de naia|3460-016|tondela"
     },
     {
-      "id": "generico-a24-viseu-norte-viseu-3515-512",
-      "name": "A24 Viseu (Norte)",
-      "brand": "GENÉRICO",
-      "district": "Viseu",
-      "municipality": "Viseu",
-      "locality": "Bodiosa a Nova",
-      "address": "A24 Castro Daire Sul – Nó do IP5",
-      "postalCode": "3515-512",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 1.079,
-      "updatedAt": "2026-10-21T18:25:00+00:00",
-      "lat": 40.7075,
-      "lon": -7.943055,
-      "sourceKey": "GENÉRICO|a24 viseu (norte)|a24 castro daire sul no do ip5|3515-512|viseu"
-    },
-    {
       "id": "galp-galp-a-s-a25-vouzela-viseu-aveiro-vouzela-3670-056",
       "name": "GALP A.S. A25 Vouzela (Viseu/Aveiro)",
       "brand": "GALP",
@@ -6769,7 +6718,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-31T00:05:00+00:00",
+      "updatedAt": "2026-11-01T00:05:00+00:00",
       "lat": 41.504212,
       "lon": -8.762344,
       "sourceKey": "BP|bp fao|en 13 km 40,5 (av. s. cristovao)|4740-321|esposende"
@@ -6871,7 +6820,7 @@
       "zone": "Algarve",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-31T00:00:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 37.2299,
       "lon": -8.264495,
       "sourceKey": "BP|bp- s. bartolomeu de messines area sul/norte 1100|ic1 i.p.1c lanco messines-guia km4|8375-014|silves"
@@ -6905,7 +6854,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-31T11:00:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 39.621147,
       "lon": -8.991193,
       "sourceKey": "BP|bp a-8 nazare sentido norte/sul|a8-km 5,2 sub-lanco pataias|2445-252|alcobaca"
@@ -6922,7 +6871,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.099,
-      "updatedAt": "2026-10-31T00:00:00+00:00",
+      "updatedAt": "2026-11-01T00:00:00+00:00",
       "lat": 39.619507,
       "lon": -8.991134,
       "sourceKey": "BP|bp a-8 nazare sentido sul/norte|a8-km 5,2 sub-lanco valado|2445-252|alcobaca"
