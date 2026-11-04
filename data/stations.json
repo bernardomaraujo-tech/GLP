@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T13:33:06.892133+00:00",
+  "generatedAt": "2026-11-04T23:03:07.873160+00:00",
   "sourceSummary": "Dataset gerado automaticamente a partir de data/Postos.csv",
-  "dataUpdatedAt": "2026-11-04T13:30:00+00:00",
+  "dataUpdatedAt": "2026-11-04T18:55:00+00:00",
   "stats": {
     "totalStations": 437,
     "withCoordinates": 437,
@@ -24,23 +24,6 @@
       "lat": 38.86376,
       "lon": -9.09955,
       "sourceKey": "INTERMARCHÉ|intermarche vialonga|urb. terras compridas, lote 8\\nestrada da varzea|2625-716|vila franca de xira"
-    },
-    {
-      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
-      "name": "PA CHAMAGÁS Gala (Morraceira)",
-      "brand": "CHAMAGÁS",
-      "district": "Coimbra",
-      "municipality": "Figueira da Foz",
-      "locality": "Cova",
-      "address": "Rua Major Humberto Cruz - Morraceira",
-      "postalCode": "3090-707",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.929,
-      "updatedAt": "2026-11-02T15:00:00+00:00",
-      "lat": 40.13671,
-      "lon": -8.847939,
-      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
     },
     {
       "id": "prio-prio-penela-penela-3230-292",
@@ -502,23 +485,6 @@
       "sourceKey": "BP|ab fonseca combustiveis - produtos bp|estrada dos pinheiros, 550|2415-566|leiria"
     },
     {
-      "id": "chamagas-chamagas-leiria-leiria-2400-019",
-      "name": "CHAMAGÁS LEIRIA",
-      "brand": "CHAMAGÁS",
-      "district": "Leiria",
-      "municipality": "Leiria",
-      "locality": "Parceiros",
-      "address": "Rua de Santa Clara - Parceiros",
-      "postalCode": "2400-019",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.969,
-      "updatedAt": "2026-11-02T11:55:00+00:00",
-      "lat": 39.73963,
-      "lon": -8.82211,
-      "sourceKey": "CHAMAGÁS|chamagas leiria|rua de santa clara - parceiros|2400-019|leiria"
-    },
-    {
       "id": "oz-energia-oz-energia-bobadela-gpl-auto-loures-2695-444",
       "name": "OZ ENERGIA - BOBADELA  (GPL Auto)",
       "brand": "OZ ENERGIA",
@@ -568,23 +534,6 @@
       "lat": 41.33237,
       "lon": -8.476991,
       "sourceKey": "AUCHAN|auchan santo tirso|rua das ras|4780-219|santo tirso"
-    },
-    {
-      "id": "chamagas-pa-chamagas-pedroso-vila-nova-de-gaia-4415-207",
-      "name": "PA CHAMAGÁS Pedroso",
-      "brand": "CHAMAGÁS",
-      "district": "Porto",
-      "municipality": "Vila Nova de Gaia",
-      "locality": "Pedroso",
-      "address": "Rua Nova da Raposa, 353 - Pedroso",
-      "postalCode": "4415-207",
-      "zone": "Norte",
-      "fuel": "GPL Auto",
-      "price": 0.969,
-      "updatedAt": "2026-11-02T14:30:00+00:00",
-      "lat": 41.068367,
-      "lon": -8.575472,
-      "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
     },
     {
       "id": "generico-pa-valverde-alcanede-santarem-2025-201",
@@ -1590,23 +1539,6 @@
       "sourceKey": "MOEVE|ip3 (cbr/vis)|ip 3, lanco chamadouro - raiva (antiga en2), km 222,100|3440-070|santa comba dao"
     },
     {
-      "id": "moeve-pa-cepsa-ip3-vis-cbr-santa-comba-dao-3440-308",
-      "name": "PA CEPSA IP3 (Vis-Cbr)",
-      "brand": "MOEVE",
-      "district": "Viseu",
-      "municipality": "Santa Comba Dão",
-      "locality": "Santa Comba Dão",
-      "address": "IP 3, LANÇO CHAMADOURO - RAIVA (ANTIGA EN2), KM 222,100",
-      "postalCode": "3440-308",
-      "zone": "Centro",
-      "fuel": "GPL Auto",
-      "price": 0.996,
-      "updatedAt": "2026-11-02T00:00:00+00:00",
-      "lat": 40.349323,
-      "lon": -8.172613,
-      "sourceKey": "MOEVE|pa cepsa ip3 (vis-cbr)|ip 3, lanco chamadouro - raiva (antiga en2), km 222,100|3440-308|santa comba dao"
-    },
-    {
       "id": "cepsa-a6-estremoz-elv-lis-estremoz-7100-108",
       "name": "A6  ESTREMOZ (ELV/LIS)",
       "brand": "CEPSA",
@@ -1811,6 +1743,23 @@
       "sourceKey": "AUCHAN|auchan figueira da foz|av. dr. francisco de sa carneiro, vila robim|3080-853|figueira da foz"
     },
     {
+      "id": "chamagas-pa-chamagas-gala-morraceira-figueira-da-foz-3090-707",
+      "name": "PA CHAMAGÁS Gala (Morraceira)",
+      "brand": "CHAMAGÁS",
+      "district": "Coimbra",
+      "municipality": "Figueira da Foz",
+      "locality": "Cova",
+      "address": "Rua Major Humberto Cruz - Morraceira",
+      "postalCode": "3090-707",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-11-04T15:00:00+00:00",
+      "lat": 40.13671,
+      "lon": -8.847939,
+      "sourceKey": "CHAMAGÁS|pa chamagas gala (morraceira)|rua major humberto cruz - morraceira|3090-707|figueira da foz"
+    },
+    {
       "id": "generico-gasodueca-pa-generico-meas-miranda-do-corvo-3220-115",
       "name": "Gasodueça - PA Genérico Meãs",
       "brand": "GENÉRICO",
@@ -1843,6 +1792,23 @@
       "lat": 37.03714,
       "lon": -7.957144,
       "sourceKey": "PRIO|prio faro|en 125-10 (estrada do aeroporto)|8005-146|faro"
+    },
+    {
+      "id": "chamagas-chamagas-leiria-leiria-2400-019",
+      "name": "CHAMAGÁS LEIRIA",
+      "brand": "CHAMAGÁS",
+      "district": "Leiria",
+      "municipality": "Leiria",
+      "locality": "Parceiros",
+      "address": "Rua de Santa Clara - Parceiros",
+      "postalCode": "2400-019",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-11-04T14:35:00+00:00",
+      "lat": 39.73963,
+      "lon": -8.82211,
+      "sourceKey": "CHAMAGÁS|chamagas leiria|rua de santa clara - parceiros|2400-019|leiria"
     },
     {
       "id": "intermarche-intermarche-atouguia-da-baleia-peniche-2525-553",
@@ -2081,6 +2047,23 @@
       "lat": 41.414955,
       "lon": -8.648844,
       "sourceKey": "BP|vendeiro balazar nascente|rua da fabrica 343|4570-029|povoa de varzim"
+    },
+    {
+      "id": "chamagas-pa-chamagas-pedroso-vila-nova-de-gaia-4415-207",
+      "name": "PA CHAMAGÁS Pedroso",
+      "brand": "CHAMAGÁS",
+      "district": "Porto",
+      "municipality": "Vila Nova de Gaia",
+      "locality": "Pedroso",
+      "address": "Rua Nova da Raposa, 353 - Pedroso",
+      "postalCode": "4415-207",
+      "zone": "Norte",
+      "fuel": "GPL Auto",
+      "price": 0.999,
+      "updatedAt": "2026-11-04T14:35:00+00:00",
+      "lat": 41.068367,
+      "lon": -8.575472,
+      "sourceKey": "CHAMAGÁS|pa chamagas pedroso|rua nova da raposa, 353 - pedroso|4415-207|vila nova de gaia"
     },
     {
       "id": "prio-prio-canelas-vila-nova-de-gaia-4410-272",
@@ -2927,7 +2910,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.019,
-      "updatedAt": "2026-11-04T00:00:00+00:00",
+      "updatedAt": "2026-11-04T16:25:00+00:00",
       "lat": 40.626743,
       "lon": -8.652549,
       "sourceKey": "REPSOL|repsol aveiro - no sul a|avenida da universidade|3810-489|aveiro"
@@ -3182,7 +3165,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-11-03T09:15:00+00:00",
+      "updatedAt": "2026-11-04T15:00:00+00:00",
       "lat": 40.92149,
       "lon": -8.5633,
       "sourceKey": "REPSOL|es repsol - santa maria da feira|rua dr. crespim borges castro|4520-195|santa maria da feira"
@@ -3573,7 +3556,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-11-02T14:30:00+00:00",
+      "updatedAt": "2026-11-04T17:30:00+00:00",
       "lat": 39.472078,
       "lon": -8.195447,
       "sourceKey": "REPSOL|e.s. abrantes|av. d. joao i 3|2200-494|abrantes"
@@ -3624,7 +3607,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.029,
-      "updatedAt": "2026-11-03T19:35:00+00:00",
+      "updatedAt": "2026-11-04T18:40:00+00:00",
       "lat": 39.24329,
       "lon": -8.69662,
       "sourceKey": "REPSOL|e.s. santarem|rua o|2000-630|santarem"
@@ -3981,7 +3964,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.039,
-      "updatedAt": "2026-11-03T17:30:00+00:00",
+      "updatedAt": "2026-11-04T18:55:00+00:00",
       "lat": 41.38188,
       "lon": -8.53853,
       "sourceKey": "REPSOL|repsol famalicao sul|av d afonso henriques en 14 km 24500 le|4760-281|vila nova de famalicao"
@@ -5347,6 +5330,23 @@
       "sourceKey": "ALVES BANDEIRA|alves bandeira lourosa b (norte-sul)|e.n. 1 - av. principal, no 110|4535-090|santa maria da feira"
     },
     {
+      "id": "moeve-pa-cepsa-ip3-vis-cbr-santa-comba-dao-3440-308",
+      "name": "PA CEPSA IP3 (Vis-Cbr)",
+      "brand": "MOEVE",
+      "district": "Viseu",
+      "municipality": "Santa Comba Dão",
+      "locality": "Santa Comba Dão",
+      "address": "IP 3, LANÇO CHAMADOURO - RAIVA (ANTIGA EN2), KM 222,100",
+      "postalCode": "3440-308",
+      "zone": "Centro",
+      "fuel": "GPL Auto",
+      "price": 1.096,
+      "updatedAt": "2026-11-04T14:20:00+00:00",
+      "lat": 40.349323,
+      "lon": -8.172613,
+      "sourceKey": "MOEVE|pa cepsa ip3 (vis-cbr)|ip 3, lanco chamadouro - raiva (antiga en2), km 222,100|3440-308|santa comba dao"
+    },
+    {
       "id": "bp-bp-avanca-s-n-estarreja-3860-060",
       "name": "BP Avanca (S-N)",
       "brand": "BP",
@@ -6140,7 +6140,7 @@
       "zone": "Lisboa e Vale do Tejo",
       "fuel": "GPL Auto",
       "price": 1.134,
-      "updatedAt": "2026-11-02T17:25:00+00:00",
+      "updatedAt": "2026-11-04T17:00:00+00:00",
       "lat": 38.656499,
       "lon": -9.053564,
       "sourceKey": "GALP|galp barreiro|av. manuel dos santos cabanas|2835-000|barreiro"
@@ -6582,7 +6582,7 @@
       "zone": "Centro",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-11-03T00:05:00+00:00",
+      "updatedAt": "2026-11-04T16:55:00+00:00",
       "lat": 40.238182,
       "lon": -8.43772,
       "sourceKey": "BP|coimbra - pedrulha|rotunda da pedrulha|3020-000|coimbra"
@@ -6735,7 +6735,7 @@
       "zone": "Norte",
       "fuel": "GPL Auto",
       "price": 1.159,
-      "updatedAt": "2026-11-02T11:00:00+00:00",
+      "updatedAt": "2026-11-04T15:10:00+00:00",
       "lat": 42.060314,
       "lon": -8.488322,
       "sourceKey": "GENÉRICO|pa mazedo - fg combustiveis|estrada de mazedo 2137|4950-276|moncao"
